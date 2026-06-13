@@ -27,7 +27,7 @@
 - Create: `index.html`
 - Create: `src/styles.css`
 
-- [ ] **Step 1: Create the static app shell**
+- [x] **Step 1: Create the static app shell**
 
 Write `index.html`:
 
@@ -101,7 +101,7 @@ Write `index.html`:
 </html>
 ```
 
-- [ ] **Step 2: Add base responsive CSS**
+- [x] **Step 2: Add base responsive CSS**
 
 Write `src/styles.css`:
 
@@ -298,7 +298,7 @@ button {
 }
 ```
 
-- [ ] **Step 3: Verify static shell loads**
+- [x] **Step 3: Verify static shell loads**
 
 Run:
 
@@ -314,7 +314,7 @@ http://localhost:8000/
 
 Expected: page title, filter panel, empty comparison table area, and no console errors related to missing CSS.
 
-- [ ] **Step 4: Commit**
+- [x] **Step 4: Commit**
 
 ```bash
 git add index.html src/styles.css
