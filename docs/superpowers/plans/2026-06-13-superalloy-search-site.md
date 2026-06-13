@@ -894,7 +894,7 @@ git commit -m "feat: render alloy results"
 - Modify: `src/app.js`
 - Modify: `src/styles.css`
 
-- [ ] **Step 1: Implement app wiring and dual range controls**
+- [x] **Step 1: Implement app wiring and dual range controls**
 
 Write `src/app.js`:
 
@@ -1033,7 +1033,7 @@ renderTableHead(tableHead);
 render();
 ```
 
-- [ ] **Step 2: Add dual range styles**
+- [x] **Step 2: Add dual range styles**
 
 Append to `src/styles.css`:
 
@@ -1125,7 +1125,7 @@ Append to `src/styles.css`:
 }
 ```
 
-- [ ] **Step 3: Manual verification**
+- [x] **Step 3: Manual verification**
 
 Open:
 
@@ -1142,7 +1142,7 @@ Verify:
 - Search `N07718`; only Inconel 718 remains.
 - Uncheck `公式`; Inconel 718 is removed.
 
-- [ ] **Step 4: Commit**
+- [x] **Step 4: Commit**
 
 ```bash
 git add src/app.js src/styles.css
