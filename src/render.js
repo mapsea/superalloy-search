@@ -10,6 +10,25 @@ function escapeHtml(value) {
   })[char]);
 }
 
+function normalizeSourceType(type) {
+  return Object.prototype.hasOwnProperty.call(SOURCE_LABELS, type) ? type : "unverified";
+}
+
+function safeSourceUrl(value) {
+  try {
+    const url = new URL(String(value ?? ""));
+    return url.protocol === "http:" || url.protocol === "https:" ? url.href : "";
+  } catch {
+    return "";
+  }
+}
+
+function renderSourceTitle(source) {
+  const title = escapeHtml(source.title);
+  const url = safeSourceUrl(source.url);
+  return url ? `<a href="${escapeHtml(url)}" target="_blank" rel="noreferrer">${title}</a>` : title;
+}
+
 export function sourceRank(alloy) {
   const types = new Set((alloy.sources || []).map((source) => source.type));
   if (types.has("official")) return "official";
@@ -24,10 +43,10 @@ export function formatElement(alloy, symbol) {
 
 export function renderTableHead(container) {
   container.innerHTML = [
-    "<th>合金</th>",
-    "<th>系統</th>",
-    ...ELEMENT_COLUMNS.map((symbol) => `<th>${escapeHtml(symbol)}</th>`),
-    "<th>出典</th>"
+    '<th scope="col">合金</th>',
+    '<th scope="col">系統</th>',
+    ...ELEMENT_COLUMNS.map((symbol) => `<th scope="col">${escapeHtml(symbol)}</th>`),
+    '<th scope="col">出典</th>'
   ].join("");
 }
 
@@ -80,28 +99,35 @@ export function renderCards(container, alloys, onSelect) {
 }
 
 export function renderDetail(container, alloy) {
+  const detailMeta = [alloy.family, (alloy.aliases || []).join(", ")]
+    .filter(Boolean)
+    .join(" / ");
+
   const elementRows = ELEMENT_COLUMNS
     .filter((symbol) => alloy.elements[symbol])
     .map((symbol) => {
       const value = alloy.elements[symbol];
       const note = value.includes ? ` (${escapeHtml(value.includes)}含む)` : "";
-      return `<tr><th>${escapeHtml(symbol)}</th><td>${escapeHtml(value.display)}${note}</td></tr>`;
+      return `<tr><th scope="row">${escapeHtml(symbol)}</th><td>${escapeHtml(value.display)}${note}</td></tr>`;
     })
     .join("");
 
-  const sourceRows = (alloy.sources || []).map((source) => `
-    <li>
-      <span class="source-badge ${escapeHtml(source.type)}">${escapeHtml(SOURCE_LABELS[source.type] || source.type)}</span>
-      <a href="${escapeHtml(source.url)}" target="_blank" rel="noreferrer">${escapeHtml(source.title)}</a>
-      <p>${escapeHtml(source.company)} / 確認日: ${escapeHtml(source.checkedAt)}</p>
-      <p>${escapeHtml(source.notes)}</p>
-    </li>
-  `).join("");
+  const sourceRows = (alloy.sources || []).map((source) => {
+    const type = normalizeSourceType(source.type);
+    return `
+      <li>
+        <span class="source-badge ${type}">${escapeHtml(SOURCE_LABELS[type])}</span>
+        ${renderSourceTitle(source)}
+        <p>${escapeHtml(source.company)} / 確認日: ${escapeHtml(source.checkedAt)}</p>
+        <p>${escapeHtml(source.notes)}</p>
+      </li>
+    `;
+  }).join("");
 
   container.innerHTML = `
     <div class="detail-body">
       <h2>${escapeHtml(alloy.name)}</h2>
-      <p class="muted">${escapeHtml(alloy.family)} / ${escapeHtml((alloy.aliases || []).join(", "))}</p>
+      <p class="muted">${escapeHtml(detailMeta)}</p>
       <h3>成分</h3>
       <table class="detail-table"><tbody>${elementRows}</tbody></table>
       <h3>出典</h3>
