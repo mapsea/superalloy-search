@@ -465,7 +465,7 @@ git commit -m "feat: add seed superalloy data"
 - Create: `src/search.js`
 - Create: `tests/search-tests.html`
 
-- [ ] **Step 1: Write browser tests first**
+- [x] **Step 1: Write browser tests first**
 
 Write `tests/search-tests.html`:
 
@@ -565,7 +565,7 @@ Write `tests/search-tests.html`:
 </html>
 ```
 
-- [ ] **Step 2: Run tests and verify they fail**
+- [x] **Step 2: Run tests and verify they fail**
 
 Open:
 
@@ -575,7 +575,7 @@ http://localhost:8000/tests/search-tests.html
 
 Expected: import failure or failing tests because `src/search.js` does not exist yet.
 
-- [ ] **Step 3: Implement search functions**
+- [x] **Step 3: Implement search functions**
 
 Write `src/search.js`:
 
@@ -634,7 +634,7 @@ export function filterAlloys(alloys, criteria) {
 }
 ```
 
-- [ ] **Step 4: Run tests and verify they pass**
+- [x] **Step 4: Run tests and verify they pass**
 
 Open:
 
@@ -644,7 +644,7 @@ http://localhost:8000/tests/search-tests.html
 
 Expected: all lines begin with `PASS`.
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 
 ```bash
 git add src/search.js tests/search-tests.html
