@@ -1236,7 +1236,7 @@ git commit -m "style: polish responsive alloy search UI"
 **Files:**
 - No required source changes unless verification finds issues.
 
-- [ ] **Step 1: Run search logic tests**
+- [x] **Step 1: Run search logic tests**
 
 Open:
 
@@ -1246,7 +1246,7 @@ http://localhost:8000/tests/search-tests.html
 
 Expected: all test lines begin with `PASS`.
 
-- [ ] **Step 2: Verify app behavior**
+- [x] **Step 2: Verify app behavior**
 
 Open:
 
@@ -1264,7 +1264,7 @@ Verify:
 - Source badges display `公式` or `参考`.
 - Source links open in a new tab.
 
-- [ ] **Step 3: Capture screenshots**
+- [x] **Step 3: Capture screenshots**
 
 Capture:
 
@@ -1278,7 +1278,7 @@ mockups/final-desktop.png
 mockups/final-mobile.png
 ```
 
-- [ ] **Step 4: Check Git status**
+- [x] **Step 4: Check Git status**
 
 Run:
 
@@ -1288,7 +1288,7 @@ git status --short
 
 Expected: no unexpected uncommitted source changes. Screenshot files may be untracked if they are only deliverables.
 
-- [ ] **Step 5: Final response**
+- [x] **Step 5: Final response**
 
 Report:
 
