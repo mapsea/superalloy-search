@@ -326,7 +326,7 @@ git commit -m "feat: add responsive app shell"
 **Files:**
 - Create: `src/data/alloys.js`
 
-- [ ] **Step 1: Add initial data module**
+- [x] **Step 1: Add initial data module**
 
 Write `src/data/alloys.js`:
 
@@ -446,13 +446,13 @@ export const alloys = [
 ];
 ```
 
-- [ ] **Step 2: Verify module syntax**
+- [x] **Step 2: Verify module syntax**
 
 Open `http://localhost:8000/src/data/alloys.js` in the browser.
 
 Expected: browser displays JavaScript text without a 404.
 
-- [ ] **Step 3: Commit**
+- [x] **Step 3: Commit**
 
 ```bash
 git add src/data/alloys.js
