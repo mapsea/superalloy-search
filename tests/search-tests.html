@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>Search Logic Tests</title>
+  <style>
+    body { font-family: system-ui, sans-serif; padding: 24px; }
+    .pass { color: #0f7f7a; }
+    .fail { color: #b94c35; }
+  </style>
+</head>
+<body>
+  <h1>Search Logic Tests</h1>
+  <pre id="output"></pre>
+  <script type="module">
+    import { overlapsRange, matchesAlloy, filterAlloys } from "../src/search.js";
+
+    const output = document.querySelector("#output");
+    const lines = [];
+
+    function test(name, fn) {
+      try {
+        fn();
+        lines.push(`PASS ${name}`);
+      } catch (error) {
+        lines.push(`FAIL ${name}: ${error.message}`);
+      }
+    }
+
+    function assertEqual(actual, expected) {
+      if (actual !== expected) {
+        throw new Error(`expected ${expected}, got ${actual}`);
+      }
+    }
+
+    const alloy718 = {
+      name: "Inconel 718",
+      aliases: ["Alloy 718", "UNS N07718"],
+      family: "Ni基",
+      elements: {
+        Ni: { min: 50, max: 55, display: "50-55" },
+        Fe: { kind: "balance", display: "Bal." },
+        C: { max: 0.08, display: "0.08 max" }
+      },
+      sources: [{ type: "official" }]
+    };
+
+    test("range overlap matches intersecting ranges", () => {
+      assertEqual(overlapsRange({ min: 50, max: 55 }, { min: 54, max: 60 }), true);
+    });
+
+    test("range overlap rejects non-intersecting ranges", () => {
+      assertEqual(overlapsRange({ min: 50, max: 55 }, { min: 56, max: 60 }), false);
+    });
+
+    test("max-only value can match low range", () => {
+      assertEqual(overlapsRange({ max: 0.08 }, { min: 0, max: 0.1 }), true);
+    });
+
+    test("balance value matches element presence", () => {
+      assertEqual(overlapsRange({ kind: "balance" }, { min: 0, max: 100 }), true);
+    });
+
+    test("alloy name query matches aliases", () => {
+      assertEqual(matchesAlloy(alloy718, { query: "N07718", elementFilters: [], sourceTypes: ["official"] }), true);
+    });
+
+    test("source type filter rejects unmatched source type", () => {
+      assertEqual(matchesAlloy(alloy718, { query: "", elementFilters: [], sourceTypes: ["reference"] }), false);
+    });
+
+    test("element filter matches overlapping composition", () => {
+      assertEqual(matchesAlloy(alloy718, {
+        query: "",
+        sourceTypes: ["official"],
+        elementFilters: [{ symbol: "Ni", min: 40, max: 52 }]
+      }), true);
+    });
+
+    test("filterAlloys returns matching alloys", () => {
+      const result = filterAlloys([alloy718], {
+        query: "718",
+        sourceTypes: ["official"],
+        elementFilters: [{ symbol: "Ni", min: 50, max: 55 }]
+      });
+      assertEqual(result.length, 1);
+    });
+
+    output.textContent = lines.join("\n");
+    output.className = lines.some((line) => line.startsWith("FAIL")) ? "fail" : "pass";
+  </script>
+</body>
+</html>
