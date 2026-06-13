@@ -61,6 +61,28 @@ function renderElementFilters() {
   `).join("");
 }
 
+function syncFilterRow(index, activeKey) {
+  const filter = state.elementFilters[index];
+  const row = elementFilters.querySelector(`[data-index="${index}"]`);
+  if (!filter || !row) return;
+
+  const minInput = row.querySelector("[data-min]");
+  const maxInput = row.querySelector("[data-max]");
+  const minRange = row.querySelector("[data-min-range]");
+  const maxRange = row.querySelector("[data-max-range]");
+  const dualRange = row.querySelector(".dual-range");
+
+  minInput.value = filter.min;
+  maxInput.value = filter.max;
+  minRange.value = filter.min;
+  maxRange.value = filter.max;
+  dualRange.style.setProperty("--min", filter.min);
+  dualRange.style.setProperty("--max", filter.max);
+
+  minRange.style.zIndex = activeKey === "min" ? "4" : "2";
+  maxRange.style.zIndex = activeKey === "max" ? "4" : "3";
+}
+
 function readCriteria() {
   state.query = queryInput.value;
   state.sourceTypes = selectedSourceTypes();
@@ -76,9 +98,8 @@ function showDetail(alloyId) {
 
 function render() {
   const criteria = readCriteria();
-  const filtered = filterAlloys(alloys, criteria);
+  const filtered = criteria.sourceTypes.length === 0 ? [] : filterAlloys(alloys, criteria);
   resultCount.textContent = `${filtered.length}件`;
-  renderTableHead(tableHead);
   renderTableBody(tableBody, filtered, showDetail);
   renderCards(cardResults, filtered, showDetail);
 }
@@ -88,8 +109,7 @@ function updateFilter(index, key, value) {
   if (!filter) return;
   filter[key] = Number(value);
   clampRange(filter, key);
-  renderElementFilters();
-  bindRangeEvents();
+  syncFilterRow(index, key);
   render();
 }
 
