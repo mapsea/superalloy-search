@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>スーパーアロイ成分検索</title>
+  <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div>
+      <p class="eyebrow">Superalloy Composition Finder</p>
+      <h1>スーパーアロイ成分検索</h1>
+      <p class="lead">合金名、元素、成分レンジから特殊金属・スーパーアロイを比較できます。</p>
+    </div>
+  </header>
+
+  <main class="app-shell">
+    <section class="filters" aria-label="検索条件">
+      <label class="search-field">
+        <span>合金名・別名</span>
+        <input id="queryInput" type="search" placeholder="例: Inconel 718, UNS N07718">
+      </label>
+
+      <div class="filter-row">
+        <label>
+          <span>元素</span>
+          <select id="elementSelect"></select>
+        </label>
+        <button id="addElementFilter" type="button">元素条件を追加</button>
+      </div>
+
+      <div id="elementFilters" class="element-filters"></div>
+
+      <fieldset class="source-filter">
+        <legend>出典</legend>
+        <label><input type="checkbox" name="sourceType" value="official" checked> 公式</label>
+        <label><input type="checkbox" name="sourceType" value="reference" checked> 参考</label>
+        <label><input type="checkbox" name="sourceType" value="unverified" checked> 未確認</label>
+      </fieldset>
+    </section>
+
+    <section class="results" aria-live="polite">
+      <div class="results-header">
+        <h2>比較結果</h2>
+        <p id="resultCount">0件</p>
+      </div>
+      <div class="table-wrap">
+        <table class="comparison-table">
+          <thead>
+            <tr id="tableHead"></tr>
+          </thead>
+          <tbody id="tableBody"></tbody>
+        </table>
+      </div>
+      <div id="cardResults" class="card-results"></div>
+    </section>
+  </main>
+
+  <dialog id="alloyDialog" class="alloy-dialog">
+    <button id="closeDialog" class="dialog-close" type="button" aria-label="閉じる">×</button>
+    <div id="dialogContent"></div>
+  </dialog>
+
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>
