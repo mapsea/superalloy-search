@@ -406,11 +406,11 @@ button {
 button:focus-visible,
 input:focus-visible,
 select:focus-visible {
-  outline: 3px solid rgba(15, 127, 122, 0.28);
+  outline: 3px solid var(--accent);
   outline-offset: 2px;
 }
 
-tr:hover td {
+.comparison-table tbody tr:hover td {
   background: #fbfcfd;
 }
 
@@ -421,11 +421,6 @@ tr:hover td {
 
   .app-shell {
     padding: 14px 10px 28px;
-  }
-
-  .filters,
-  .results {
-    border-radius: 8px;
   }
 
   .results-header {
