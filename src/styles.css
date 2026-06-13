@@ -402,3 +402,50 @@ button {
 .dual-range input[type="range"]:focus-visible::-moz-range-thumb {
   box-shadow: 0 0 0 4px rgba(15, 127, 122, 0.2), 0 2px 8px rgba(0, 0, 0, 0.25);
 }
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 3px solid rgba(15, 127, 122, 0.28);
+  outline-offset: 2px;
+}
+
+tr:hover td {
+  background: #fbfcfd;
+}
+
+@media (max-width: 560px) {
+  .site-header {
+    padding: 22px 16px;
+  }
+
+  .app-shell {
+    padding: 14px 10px 28px;
+  }
+
+  .filters,
+  .results {
+    border-radius: 8px;
+  }
+
+  .results-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .range-values {
+    grid-template-columns: 1fr;
+  }
+
+  .card-title-row {
+    flex-direction: column;
+  }
+
+  .alloy-dialog {
+    width: calc(100vw - 18px);
+  }
+
+  .detail-body {
+    padding: 18px;
+  }
+}
