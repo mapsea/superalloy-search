@@ -79,7 +79,9 @@ button {
   font: inherit;
 }
 
-input,
+input[type="search"],
+input[type="text"],
+input[type="number"],
 select {
   width: 100%;
   border: 1px solid var(--line);
@@ -124,6 +126,10 @@ button {
 .results-header h2,
 .results-header p {
   margin: 0;
+}
+
+.results {
+  min-width: 0;
 }
 
 .table-wrap {
