@@ -194,3 +194,103 @@ button {
     padding: 14px;
   }
 }
+
+.link-button {
+  padding: 0;
+  background: transparent;
+  color: var(--accent);
+  text-align: left;
+}
+
+.source-badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 4px 8px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.source-badge.official {
+  background: #e7f5f3;
+  color: #0f6f6b;
+}
+
+.source-badge.reference {
+  background: #fff4d8;
+  color: #8a620d;
+}
+
+.source-badge.unverified {
+  background: #fbe8e3;
+  color: #963b29;
+}
+
+.alloy-card {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 14px;
+  background: #fff;
+}
+
+.card-title-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.alloy-card h3 {
+  margin: 0 0 4px;
+}
+
+.alloy-card p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.element-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin: 12px 0;
+}
+
+.element-pills span {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 5px 8px;
+  font-size: 12px;
+}
+
+.detail-body {
+  padding: 22px;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.detail-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 18px;
+}
+
+.detail-table th,
+.detail-table td {
+  border-bottom: 1px solid var(--line);
+  padding: 9px;
+  text-align: left;
+}
+
+.source-list {
+  display: grid;
+  gap: 14px;
+  padding-left: 18px;
+}
+
+.source-list p {
+  margin: 5px 0 0;
+  color: var(--muted);
+}
