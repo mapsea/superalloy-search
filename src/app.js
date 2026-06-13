@@ -30,13 +30,15 @@ function selectedSourceTypes() {
   return [...document.querySelectorAll("input[name='sourceType']:checked")].map((input) => input.value);
 }
 
-function clampRange(filter) {
+function clampRange(filter, updatedKey) {
   filter.min = Math.max(0, Math.min(100, Number(filter.min)));
   filter.max = Math.max(0, Math.min(100, Number(filter.max)));
   if (filter.min > filter.max) {
-    const midpoint = filter.min;
-    filter.min = filter.max;
-    filter.max = midpoint;
+    if (updatedKey === "min") {
+      filter.max = filter.min;
+    } else {
+      filter.min = filter.max;
+    }
   }
 }
 
@@ -85,7 +87,7 @@ function updateFilter(index, key, value) {
   const filter = state.elementFilters[index];
   if (!filter) return;
   filter[key] = Number(value);
-  clampRange(filter);
+  clampRange(filter, key);
   renderElementFilters();
   bindRangeEvents();
   render();
