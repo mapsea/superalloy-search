@@ -1155,7 +1155,7 @@ git commit -m "feat: add draggable element filters"
 - Modify: `src/styles.css`
 - Modify: `index.html`
 
-- [ ] **Step 1: Improve mobile layout and focus states**
+- [x] **Step 1: Improve mobile layout and focus states**
 
 Append to `src/styles.css`:
 
@@ -1208,7 +1208,7 @@ tr:hover td {
 }
 ```
 
-- [ ] **Step 2: Verify desktop and smartphone screenshots**
+- [x] **Step 2: Verify desktop and smartphone screenshots**
 
 Open desktop:
 
@@ -1224,7 +1224,7 @@ Set browser viewport to smartphone width around `390x844` and verify:
 - Slider handles are large enough to drag.
 - Text does not overlap.
 
-- [ ] **Step 3: Commit**
+- [x] **Step 3: Commit**
 
 ```bash
 git add src/styles.css index.html
