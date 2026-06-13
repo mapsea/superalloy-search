@@ -657,7 +657,7 @@ git commit -m "feat: add alloy search logic"
 - Create: `src/render.js`
 - Modify: `src/styles.css`
 
-- [ ] **Step 1: Implement rendering functions**
+- [x] **Step 1: Implement rendering functions**
 
 Write `src/render.js`:
 
@@ -775,7 +775,7 @@ export function renderDetail(container, alloy) {
 }
 ```
 
-- [ ] **Step 2: Add rendering styles**
+- [x] **Step 2: Add rendering styles**
 
 Append to `src/styles.css`:
 
@@ -881,7 +881,7 @@ Append to `src/styles.css`:
 }
 ```
 
-- [ ] **Step 3: Commit**
+- [x] **Step 3: Commit**
 
 ```bash
 git add src/render.js src/styles.css
