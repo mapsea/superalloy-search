@@ -26,7 +26,7 @@ export function renderTableHead(container) {
   container.innerHTML = [
     "<th>合金</th>",
     "<th>系統</th>",
-    ...ELEMENT_COLUMNS.map((symbol) => `<th>${symbol}</th>`),
+    ...ELEMENT_COLUMNS.map((symbol) => `<th>${escapeHtml(symbol)}</th>`),
     "<th>出典</th>"
   ].join("");
 }
@@ -40,7 +40,7 @@ export function renderTableBody(container, alloys, onSelect) {
         <td><button class="link-button" type="button" data-alloy-id="${escapeHtml(alloy.id)}">${escapeHtml(alloy.name)}</button></td>
         <td>${escapeHtml(alloy.family)}</td>
         ${cells}
-        <td><span class="source-badge ${rank}">${SOURCE_LABELS[rank]}</span></td>
+        <td><span class="source-badge ${rank}">${escapeHtml(SOURCE_LABELS[rank])}</span></td>
       </tr>
     `;
   }).join("");
@@ -56,7 +56,7 @@ export function renderCards(container, alloys, onSelect) {
     const keyElements = ELEMENT_COLUMNS
       .filter((symbol) => alloy.elements[symbol])
       .slice(0, 5)
-      .map((symbol) => `<span><strong>${symbol}</strong> ${escapeHtml(formatElement(alloy, symbol))}</span>`)
+      .map((symbol) => `<span><strong>${escapeHtml(symbol)}</strong> ${escapeHtml(formatElement(alloy, symbol))}</span>`)
       .join("");
 
     return `
@@ -66,7 +66,7 @@ export function renderCards(container, alloys, onSelect) {
             <h3>${escapeHtml(alloy.name)}</h3>
             <p>${escapeHtml(alloy.family)}</p>
           </div>
-          <span class="source-badge ${rank}">${SOURCE_LABELS[rank]}</span>
+          <span class="source-badge ${rank}">${escapeHtml(SOURCE_LABELS[rank])}</span>
         </div>
         <div class="element-pills">${keyElements}</div>
         <button type="button" data-alloy-id="${escapeHtml(alloy.id)}">詳細を見る</button>
@@ -85,7 +85,7 @@ export function renderDetail(container, alloy) {
     .map((symbol) => {
       const value = alloy.elements[symbol];
       const note = value.includes ? ` (${escapeHtml(value.includes)}含む)` : "";
-      return `<tr><th>${symbol}</th><td>${escapeHtml(value.display)}${note}</td></tr>`;
+      return `<tr><th>${escapeHtml(symbol)}</th><td>${escapeHtml(value.display)}${note}</td></tr>`;
     })
     .join("");
 
