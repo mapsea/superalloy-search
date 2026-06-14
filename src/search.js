@@ -16,16 +16,34 @@ function numericMax(composition) {
   return 100;
 }
 
+function parseRequestedValue(value) {
+  if (typeof value === "number") return Number.isFinite(value) ? value : null;
+  if (typeof value !== "string") return null;
+  const trimmed = value.trim();
+  if (!trimmed) return null;
+  const parsed = Number(trimmed);
+  return Number.isFinite(parsed) ? parsed : null;
+}
+
+function normalizeRequestedRange(requested) {
+  const requestedMin = parseRequestedValue(requested.min);
+  const requestedMax = parseRequestedValue(requested.max);
+  if (requestedMin === null || requestedMax === null) return null;
+  if (requestedMin < 0 || requestedMax > 100) return null;
+  if (requestedMin > requestedMax) return null;
+  return { min: requestedMin, max: requestedMax };
+}
+
 export function overlapsRange(composition, requested) {
   if (!composition) return false;
+  const requestedRange = normalizeRequestedRange(requested);
+  if (!requestedRange) return false;
   if (composition.kind === "balance") return true;
 
   const alloyMin = numericMin(composition);
   const alloyMax = numericMax(composition);
-  const requestedMin = typeof requested.min === "number" ? requested.min : 0;
-  const requestedMax = typeof requested.max === "number" ? requested.max : 100;
 
-  return alloyMin <= requestedMax && requestedMin <= alloyMax;
+  return alloyMin <= requestedRange.max && requestedRange.min <= alloyMax;
 }
 
 export function matchesAlloy(alloy, criteria) {

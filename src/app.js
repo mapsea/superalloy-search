@@ -1,12 +1,12 @@
-import { alloys, ELEMENT_COLUMNS } from "./data/alloys.js?v=20260614k";
-import { filterAlloys } from "./search.js?v=20260614k";
+import { alloys, ELEMENT_COLUMNS } from "./data/alloys.js?v=20260614l";
+import { filterAlloys } from "./search.js?v=20260614l";
 import {
   DEFAULT_LANGUAGE,
   SUPPORTED_LANGUAGES,
   normalizeLanguage,
   t
 } from "./i18n.js";
-import { renderCards, renderDetail, renderTableBody, renderTableHead } from "./render.js?v=20260614k";
+import { renderCards, renderDetail, renderTableBody, renderTableHead } from "./render.js?v=20260614l";
 
 function storedLanguage() {
   try {
@@ -86,16 +86,18 @@ function initElementOptions() {
     .join("");
 }
 
-function clampRange(filter, updatedKey) {
-  filter.min = Math.max(0, Math.min(100, Number(filter.min)));
-  filter.max = Math.max(0, Math.min(100, Number(filter.max)));
-  if (filter.min > filter.max) {
-    if (updatedKey === "min") {
-      filter.max = filter.min;
-    } else {
-      filter.min = filter.max;
-    }
-  }
+function sliderValue(value, fallback) {
+  const parsed = Number(value);
+  if (!Number.isFinite(parsed)) return fallback;
+  return Math.max(0, Math.min(100, parsed));
+}
+
+function escapeAttribute(value) {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("\"", "&quot;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;");
 }
 
 function renderElementFilters() {
@@ -106,12 +108,12 @@ function renderElementFilters() {
         <button type="button" data-remove="${index}">${t(state.language, "removeFilter")}</button>
       </div>
       <div class="range-values">
-        <label><span>${t(state.language, "minPercent")}</span><input type="number" min="0" max="100" step="0.1" value="${filter.min}" data-min="${index}"></label>
-        <label><span>${t(state.language, "maxPercent")}</span><input type="number" min="0" max="100" step="0.1" value="${filter.max}" data-max="${index}"></label>
+        <label><span>${t(state.language, "minPercent")}</span><input type="text" inputmode="decimal" value="${escapeAttribute(filter.min)}" data-min="${index}"></label>
+        <label><span>${t(state.language, "maxPercent")}</span><input type="text" inputmode="decimal" value="${escapeAttribute(filter.max)}" data-max="${index}"></label>
       </div>
-      <div class="dual-range" style="--min:${filter.min}; --max:${filter.max}">
-        <input type="range" min="0" max="100" step="0.1" value="${filter.min}" data-min-range="${index}" aria-label="${t(state.language, "minAria", { symbol: filter.symbol })}">
-        <input type="range" min="0" max="100" step="0.1" value="${filter.max}" data-max-range="${index}" aria-label="${t(state.language, "maxAria", { symbol: filter.symbol })}">
+      <div class="dual-range" style="--min:${sliderValue(filter.min, 0)}; --max:${sliderValue(filter.max, 100)}">
+        <input type="range" min="0" max="100" step="0.1" value="${sliderValue(filter.min, 0)}" data-min-range="${index}" aria-label="${t(state.language, "minAria", { symbol: filter.symbol })}">
+        <input type="range" min="0" max="100" step="0.1" value="${sliderValue(filter.max, 100)}" data-max-range="${index}" aria-label="${t(state.language, "maxAria", { symbol: filter.symbol })}">
       </div>
     </div>
   `).join("");
@@ -130,10 +132,12 @@ function syncFilterRow(index, activeKey) {
 
   minInput.value = filter.min;
   maxInput.value = filter.max;
-  minRange.value = filter.min;
-  maxRange.value = filter.max;
-  dualRange.style.setProperty("--min", filter.min);
-  dualRange.style.setProperty("--max", filter.max);
+  const visualMin = sliderValue(filter.min, 0);
+  const visualMax = sliderValue(filter.max, 100);
+  minRange.value = visualMin;
+  maxRange.value = visualMax;
+  dualRange.style.setProperty("--min", visualMin);
+  dualRange.style.setProperty("--max", visualMax);
 
   minRange.style.zIndex = activeKey === "min" ? "4" : "2";
   maxRange.style.zIndex = activeKey === "max" ? "4" : "3";
@@ -167,8 +171,7 @@ function render() {
 function updateFilter(index, key, value) {
   const filter = state.elementFilters[index];
   if (!filter) return;
-  filter[key] = Number(value);
-  clampRange(filter, key);
+  filter[key] = String(value);
   syncFilterRow(index, key);
   render();
 }
@@ -225,7 +228,7 @@ document.addEventListener("keydown", (event) => {
 addElementFilter.addEventListener("click", () => {
   const symbol = elementSelect.value;
   if (state.elementFilters.some((filter) => filter.symbol === symbol)) return;
-  state.elementFilters.push({ symbol, min: 0, max: 100 });
+  state.elementFilters.push({ symbol, min: "0", max: "100" });
   renderElementFilters();
   bindRangeEvents();
   render();
