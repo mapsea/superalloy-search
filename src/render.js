@@ -1,4 +1,4 @@
-import { ELEMENT_COLUMNS } from "./data/alloys.js?v=20260614j";
+import { ELEMENT_COLUMNS } from "./data/alloys.js?v=20260614k";
 import { localizedAlloy, localizedSourceNotes, sourceLabel, t } from "./i18n.js";
 
 const SOURCE_TYPES = new Set(["official", "standard", "reference", "unverified"]);

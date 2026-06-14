@@ -105,8 +105,8 @@
       assert(alloys.length > TARGET_IDS.length, `expected more than ${TARGET_IDS.length} records, got ${alloys.length}`);
     });
 
-    test("contains exactly 500 alloy records after the IGT superalloy expansion", () => {
-      assert(alloys.length === 500, `expected 500 records, got ${alloys.length}`);
+    test("contains exactly 521 alloy records after the mainstream titanium expansion", () => {
+      assert(alloys.length === 521, `expected 521 records, got ${alloys.length}`);
     });
 
     test("contains representative Co-base, Rene, and IGT superalloys", () => {
@@ -120,6 +120,24 @@
         "gtd-111",
         "fsx-414",
         "stellite-6"
+      ].forEach((id) => assert(ids.has(id), `${id} missing`));
+    });
+
+    test("contains mainstream titanium alloy grades across major families", () => {
+      const ids = new Set(alloys.map((alloy) => alloy.id));
+      [
+        "ti-grade-3",
+        "ti-grade-4",
+        "ti-grade-11",
+        "ti-grade-6",
+        "ti-6al-2sn-4zr-2mo",
+        "ti-6al-6v-2sn",
+        "ti-6al-7nb",
+        "ti-10v-2fe-3al",
+        "ti-15v-3cr-3sn-3al",
+        "ti-beta-c",
+        "ti-5553",
+        "ti-12mo-6zr-2fe"
       ].forEach((id) => assert(ids.has(id), `${id} missing`));
     });
 

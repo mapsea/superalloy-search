@@ -1,12 +1,12 @@
-import { alloys, ELEMENT_COLUMNS } from "./data/alloys.js?v=20260614j";
-import { filterAlloys } from "./search.js?v=20260614j";
+import { alloys, ELEMENT_COLUMNS } from "./data/alloys.js?v=20260614k";
+import { filterAlloys } from "./search.js?v=20260614k";
 import {
   DEFAULT_LANGUAGE,
   SUPPORTED_LANGUAGES,
   normalizeLanguage,
   t
 } from "./i18n.js";
-import { renderCards, renderDetail, renderTableBody, renderTableHead } from "./render.js?v=20260614j";
+import { renderCards, renderDetail, renderTableBody, renderTableHead } from "./render.js?v=20260614k";
 
 function storedLanguage() {
   try {
