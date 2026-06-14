@@ -25,14 +25,17 @@
 
     const output = document.querySelector("#output");
     const lines = [];
+    const pendingTests = [];
 
     function test(name, fn) {
-      try {
-        fn();
-        lines.push(`PASS ${name}`);
-      } catch (error) {
-        lines.push(`FAIL ${name}: ${error.message}`);
-      }
+      pendingTests.push(Promise.resolve()
+        .then(fn)
+        .then(() => {
+          lines.push(`PASS ${name}`);
+        })
+        .catch((error) => {
+          lines.push(`FAIL ${name}: ${error.message}`);
+        }));
     }
 
     function assertEqual(actual, expected) {
@@ -43,6 +46,14 @@
 
     function assert(condition, message) {
       if (!condition) throw new Error(message);
+    }
+
+    async function loadText(path) {
+      if (window.__TEST_FILES__?.[path]) {
+        return window.__TEST_FILES__[path];
+      }
+      const response = await fetch(path);
+      return response.text();
     }
 
     const alloy = {
@@ -230,6 +241,19 @@
       assertEqual(t("en", "resultCount", { count: 3 }), "3 results");
       assertEqual(t("en", "minAria", { symbol: "Ni" }), "Ni minimum");
     });
+
+    test("app wraps language storage access safely", async () => {
+      const appSource = await loadText("../src/app.js");
+      assert(appSource.includes("function storedLanguage()"), "storedLanguage helper missing");
+      assert(appSource.includes("function persistLanguage(language)"), "persistLanguage helper missing");
+      assert(appSource.includes("try {"), "storage helpers should catch unavailable storage");
+      assert(appSource.includes("normalizeLanguage(storedLanguage() || DEFAULT_LANGUAGE)"), "initial language should use storedLanguage");
+      assert(appSource.includes("persistLanguage(state.language)"), "language change should use persistLanguage");
+      assert(!appSource.includes("normalizeLanguage(localStorage.getItem"), "initial language should not call localStorage directly");
+      assert(!appSource.includes("localStorage.setItem(\"superalloy-language\", state.language)"), "language change should not call localStorage directly");
+    });
+
+    await Promise.all(pendingTests);
 
     output.textContent = lines.join("\n");
     output.className = lines.some((line) => line.startsWith("FAIL")) ? "fail" : "pass";

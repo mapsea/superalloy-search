@@ -9,8 +9,24 @@ import {
 } from "./i18n.js";
 import { renderCards, renderDetail, renderTableBody, renderTableHead } from "./render.js?v=20260614h";
 
+function storedLanguage() {
+  try {
+    return localStorage.getItem("superalloy-language");
+  } catch {
+    return null;
+  }
+}
+
+function persistLanguage(language) {
+  try {
+    localStorage.setItem("superalloy-language", language);
+  } catch {
+    // Language switching should still work when storage is unavailable.
+  }
+}
+
 const state = {
-  language: normalizeLanguage(localStorage.getItem("superalloy-language") || DEFAULT_LANGUAGE),
+  language: normalizeLanguage(storedLanguage() || DEFAULT_LANGUAGE),
   query: "",
   sourceTypes: ["official", "standard", "reference", "unverified"],
   elementFilters: []
@@ -184,7 +200,7 @@ document.querySelectorAll("input[name='sourceType']").forEach((input) => {
 
 languageSelect.addEventListener("change", () => {
   state.language = normalizeLanguage(languageSelect.value);
-  localStorage.setItem("superalloy-language", state.language);
+  persistLanguage(state.language);
   applyStaticTranslations();
   renderElementFilters();
   bindRangeEvents();
