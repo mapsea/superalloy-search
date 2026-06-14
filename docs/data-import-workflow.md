@@ -36,6 +36,8 @@ Every row must include the source columns:
 - `checked_at`
 - `source_notes`
 
+Every row must also include the required localized display columns listed in [必須多言語列](#必須多言語列).
+
 Every row must include the element columns supported by the importer:
 
 - `Ni`
@@ -69,6 +71,22 @@ Every row must include the element columns supported by the importer:
 
 Optional include metadata columns may be added for supported elements by using the `_includes` suffix. Current examples include `Ni_includes` and `Nb_includes`. Use these when a reported composition value includes related elements, such as nickel including cobalt or niobium including tantalum.
 
+## 必須多言語列
+
+サイトは日本語、簡体字中国語、英語を切り替えて表示します。新しい合金を追加するときは、日本語の基本列に加えて以下の列も入力します。
+
+- `name_en`, `name_zh`
+- `category_en`, `category_zh`
+- `usage_en`, `usage_zh`
+- `properties_en`, `properties_zh`
+- `representative_makers_en`, `representative_makers_zh`
+- `japanese_makers_en`, `japanese_makers_zh`
+- `source_notes_en`, `source_notes_zh`
+
+日本語の基本列は一部を推定できますが、`*_en` と `*_zh` の表示列には実際の英語・簡体字中国語の値を入力します。空欄にすると生成時に日本語または既定値へフォールバックできるため、空欄はその表示で問題ないと確認した場合だけにします。
+
+英語名として一般に使われる合金名はそのまま使います。日本語だけの名称は、英語と簡体字中国語の表示名をそれぞれ入力します。外部資料の正式タイトルは原題を維持して構いません。
+
 ## Field Formats
 
 Use `|` to separate aliases in the `aliases` column:
@@ -97,7 +115,7 @@ Use `official` for manufacturer or producer technical bulletins, `standard` for 
 Validation rules enforced by the importer:
 
 - `id` must be unique.
-- Required identity, display, and source fields cannot be blank.
+- `id`, `name`, `category`, `usage`, and source metadata fields cannot be blank. Generated display fields such as `properties`, `representative_makers`, and `japanese_makers` may be blank as documented above.
 - `checked_at` must use ISO date format, for example `2026-06-14`.
 - `source_url` must start with `http://` or `https://`.
 - Element ranges must have the smaller value first, for example `50-55`.
