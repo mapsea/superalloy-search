@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>Alloy Data Tests</title>
+  <style>
+    body { font-family: system-ui, sans-serif; padding: 24px; }
+    .pass { color: #0f7f7a; }
+    .fail { color: #b94c35; }
+  </style>
+</head>
+<body>
+  <h1>Alloy Data Tests</h1>
+  <pre id="output"></pre>
+  <script type="module">
+    import { alloys, ELEMENT_COLUMNS, SOURCE_LABELS } from "../src/data/alloys.js";
+
+    const output = document.querySelector("#output");
+    const lines = [];
+
+    const TARGET_IDS = [
+      "inconel-600",
+      "inconel-601",
+      "inconel-617",
+      "inconel-625",
+      "inconel-690",
+      "inconel-718",
+      "inconel-x-750",
+      "hastelloy-b-2",
+      "hastelloy-c-22",
+      "hastelloy-c-276",
+      "haynes-188",
+      "haynes-230",
+      "haynes-282",
+      "waspaloy",
+      "nimonic-75",
+      "nimonic-80a",
+      "nimonic-90",
+      "udimet-500",
+      "udimet-520",
+      "rene-41"
+    ];
+
+    const VALID_SOURCE_TYPES = ["official", "reference", "unverified"];
+
+    function test(name, fn) {
+      try {
+        fn();
+        lines.push(`PASS ${name}`);
+      } catch (error) {
+        lines.push(`FAIL ${name}: ${error.message}`);
+      }
+    }
+
+    function assert(condition, message) {
+      if (!condition) throw new Error(message);
+    }
+
+    function assertArrayEqual(actual, expected, label) {
+      const actualText = JSON.stringify(actual);
+      const expectedText = JSON.stringify(expected);
+      assert(actualText === expectedText, `${label}: expected ${expectedText}, got ${actualText}`);
+    }
+
+    test("exports expected constants", () => {
+      assertArrayEqual(ELEMENT_COLUMNS, ["Ni", "Cr", "Co", "Fe", "Mo", "Nb", "Ti", "Al", "W", "Ta", "C"], "ELEMENT_COLUMNS");
+      assert(SOURCE_LABELS.official === "公式", "official label missing");
+      assert(SOURCE_LABELS.reference === "参考", "reference label missing");
+      assert(SOURCE_LABELS.unverified === "未確認", "unverified label missing");
+    });
+
+    test("contains exactly the first 20 target alloy ids", () => {
+      const ids = alloys.map((alloy) => alloy.id).sort();
+      assertArrayEqual(ids, [...TARGET_IDS].sort(), "alloy ids");
+    });
+
+    test("has no duplicate ids", () => {
+      const ids = alloys.map((alloy) => alloy.id);
+      assert(new Set(ids).size === ids.length, "duplicate alloy id found");
+    });
+
+    test("all alloys have required top-level fields", () => {
+      alloys.forEach((alloy) => {
+        assert(typeof alloy.id === "string" && alloy.id.length > 0, `${alloy.name || "unknown"} id missing`);
+        assert(typeof alloy.name === "string" && alloy.name.length > 0, `${alloy.id} name missing`);
+        assert(Array.isArray(alloy.aliases), `${alloy.id} aliases must be an array`);
+        assert(typeof alloy.family === "string" && alloy.family.length > 0, `${alloy.id} family missing`);
+        assert(alloy.elements && typeof alloy.elements === "object", `${alloy.id} elements missing`);
+        assert(Array.isArray(alloy.sources) && alloy.sources.length > 0, `${alloy.id} sources missing`);
+      });
+    });
+
+    test("all element entries have display and unit or balance kind", () => {
+      alloys.forEach((alloy) => {
+        Object.entries(alloy.elements).forEach(([symbol, value]) => {
+          assert(typeof value.display === "string" && value.display.length > 0, `${alloy.id}.${symbol} display missing`);
+          assert(value.kind === "balance" || value.unit === "wt%", `${alloy.id}.${symbol} unit/kind invalid`);
+          assert(
+            value.kind === "balance" ||
+            typeof value.min === "number" ||
+            typeof value.max === "number",
+            `${alloy.id}.${symbol} needs min, max, or balance`
+          );
+        });
+      });
+    });
+
+    test("all sources have required fields and valid source types", () => {
+      alloys.forEach((alloy) => {
+        alloy.sources.forEach((source, index) => {
+          assert(VALID_SOURCE_TYPES.includes(source.type), `${alloy.id}.sources[${index}] invalid type`);
+          assert(typeof source.company === "string" && source.company.length > 0, `${alloy.id}.sources[${index}] company missing`);
+          assert(typeof source.title === "string" && source.title.length > 0, `${alloy.id}.sources[${index}] title missing`);
+          assert(typeof source.url === "string" && /^https?:\/\//.test(source.url), `${alloy.id}.sources[${index}] url invalid`);
+          assert(typeof source.checkedAt === "string" && /^2026-06-14$/.test(source.checkedAt), `${alloy.id}.sources[${index}] checkedAt must be 2026-06-14`);
+          assert(typeof source.notes === "string" && source.notes.length > 0, `${alloy.id}.sources[${index}] notes missing`);
+        });
+      });
+    });
+
+    output.textContent = lines.join("\n");
+    output.className = lines.some((line) => line.startsWith("FAIL")) ? "fail" : "pass";
+  </script>
+</body>
+</html>
