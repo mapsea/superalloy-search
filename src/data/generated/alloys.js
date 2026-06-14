@@ -26,7 +26,7 @@ export const alloys = [
         "properties": "Ni-Cr-Fe系の耐熱耐食合金。高温での耐酸化性、塩化物応力腐食割れへの抵抗、化学装置向けの汎用性が特長。",
         "representativeMakers": "Special Metals, VDM Metals, Haynes International, ATI",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Limiting chemical composition table."
+        "sourceNotes": "化学成分の限界値表。"
       },
       "zh": {
         "name": "Inconel 600",
@@ -81,7 +81,7 @@ export const alloys = [
         "title": "INCONEL alloy 600 technical bulletin",
         "url": "https://www.specialmetals.com/documents/technical-bulletins/inconel/inconel-alloy-600.pdf",
         "checkedAt": "2026-06-14",
-        "notes": "Limiting chemical composition table."
+        "notes": "化学成分の限界値表。"
       }
     ]
   },
@@ -108,7 +108,7 @@ export const alloys = [
         "properties": "高Cr-Ni系の耐酸化合金。高温酸化、浸炭、熱衝撃環境で使いやすい。",
         "representativeMakers": "Special Metals, VDM Metals, Haynes International, ATI",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Limiting chemical composition table. Balance element shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "化学成分の限界値表。余量元素は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Inconel 601",
@@ -171,7 +171,7 @@ export const alloys = [
         "title": "INCONEL alloy 601 technical bulletin",
         "url": "https://www.specialmetals.com/documents/technical-bulletins/inconel/inconel-alloy-601.pdf",
         "checkedAt": "2026-06-14",
-        "notes": "Limiting chemical composition table. Balance element shown as a reference midpoint estimate from listed major elements."
+        "notes": "化学成分の限界値表。余量元素は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -198,7 +198,7 @@ export const alloys = [
         "properties": "Ni-Cr-Co-Mo系の固溶強化合金。高温強度、酸化抵抗、ガスタービン周辺部材への適性が特長。",
         "representativeMakers": "Special Metals, VDM Metals, Haynes International, ATI",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, IHI",
-        "sourceNotes": "Limiting chemical composition table."
+        "sourceNotes": "化学成分の限界値表。"
       },
       "zh": {
         "name": "Inconel 617",
@@ -275,7 +275,7 @@ export const alloys = [
         "title": "INCONEL alloy 617 technical bulletin",
         "url": "https://www.specialmetals.com/documents/technical-bulletins/inconel/inconel-alloy-617.pdf",
         "checkedAt": "2026-06-14",
-        "notes": "Limiting chemical composition table."
+        "notes": "化学成分の限界値表。"
       }
     ]
   },
@@ -302,7 +302,7 @@ export const alloys = [
         "properties": "Mo-Nb添加Ni基耐食合金。海水、塩化物、酸性環境での耐食性と溶接性が特長。",
         "representativeMakers": "Special Metals, VDM Metals, Haynes International, ATI",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Limiting chemical composition table."
+        "sourceNotes": "化学成分の限界値表。"
       },
       "zh": {
         "name": "Inconel 625",
@@ -383,7 +383,7 @@ export const alloys = [
         "title": "INCONEL alloy 625 technical bulletin",
         "url": "https://www.specialmetals.com/documents/technical-bulletins/inconel/inconel-alloy-625.pdf",
         "checkedAt": "2026-06-14",
-        "notes": "Limiting chemical composition table."
+        "notes": "化学成分の限界値表。"
       }
     ]
   },
@@ -409,7 +409,7 @@ export const alloys = [
         "properties": "高温環境向け合金。耐酸化性、高温強度、クリープ抵抗を重視し、熱処理炉・ガスタービン・高温装置に使われる。",
         "representativeMakers": "Special Metals, VDM Metals, ATI, Carpenter Technology",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Limiting chemical composition table."
+        "sourceNotes": "化学成分の限界値表。"
       },
       "zh": {
         "name": "Inconel 690",
@@ -463,7 +463,7 @@ export const alloys = [
         "title": "INCONEL alloy 690 technical bulletin",
         "url": "https://www.specialmetals.com/documents/technical-bulletins/inconel/inconel-alloy-690.pdf",
         "checkedAt": "2026-06-14",
-        "notes": "Limiting chemical composition table."
+        "notes": "化学成分の限界値表。"
       }
     ]
   },
@@ -490,7 +490,7 @@ export const alloys = [
         "properties": "Nbを含む析出強化Ni基合金。高強度、耐クリープ性、鍛造・AM部材への適用範囲の広さが特長。",
         "representativeMakers": "Special Metals, Carpenter Technology, ATI, VDM Metals",
         "japaneseMakers": "大同特殊鋼, プロテリアル, IHI, 三菱重工業",
-        "sourceNotes": "Table 1 limiting chemical composition. Balance element shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "表1の化学成分限界値。余量元素は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Inconel 718",
@@ -577,7 +577,7 @@ export const alloys = [
         "title": "INCONEL alloy 718 technical bulletin",
         "url": "https://www.specialmetals.com/documents/technical-bulletins/inconel/inconel-alloy-718.pdf",
         "checkedAt": "2026-06-14",
-        "notes": "Table 1 limiting chemical composition. Balance element shown as a reference midpoint estimate from listed major elements."
+        "notes": "表1の化学成分限界値。余量元素は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -603,7 +603,7 @@ export const alloys = [
         "properties": "高温環境向け合金。耐酸化性、高温強度、クリープ抵抗を重視し、熱処理炉・ガスタービン・高温装置に使われる。",
         "representativeMakers": "Special Metals, ATI, VDM Metals, Carpenter Technology",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Limiting chemical composition table."
+        "sourceNotes": "化学成分の限界値表。"
       },
       "zh": {
         "name": "Inconel X-750",
@@ -676,7 +676,7 @@ export const alloys = [
         "title": "INCONEL alloy X-750 technical bulletin",
         "url": "https://www.specialmetals.com/documents/technical-bulletins/inconel/inconel-alloy-x-750.pdf",
         "checkedAt": "2026-06-14",
-        "notes": "Limiting chemical composition table."
+        "notes": "化学成分の限界値表。"
       }
     ]
   },
@@ -702,7 +702,7 @@ export const alloys = [
         "properties": "耐食性を重視した特殊合金。酸、塩化物、海水、化学プラント環境での腐食抵抗を主な特長とする。",
         "representativeMakers": "Haynes International, VDM Metals, ATI, Special Metals",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Reference composition range; official manufacturer data should replace this when confirmed. Balance element shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "参考成分範囲。確認後は公式メーカー資料へ置換が必要。余量元素は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Hastelloy B-2",
@@ -768,7 +768,7 @@ export const alloys = [
         "title": "Hastelloy composition reference",
         "url": "https://fr.wikipedia.org/wiki/Hastelloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference composition range; official manufacturer data should replace this when confirmed. Balance element shown as a reference midpoint estimate from listed major elements."
+        "notes": "参考成分範囲。確認後は公式メーカー資料へ置換が必要。余量元素は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -794,7 +794,7 @@ export const alloys = [
         "properties": "耐食性を重視した特殊合金。酸、塩化物、海水、化学プラント環境での腐食抵抗を主な特長とする。",
         "representativeMakers": "Haynes International, VDM Metals, ATI, Special Metals",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Reference composition range; official manufacturer data should replace this when confirmed. Balance element shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "参考成分範囲。確認後は公式メーカー資料へ置換が必要。余量元素は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Hastelloy C-22",
@@ -868,7 +868,7 @@ export const alloys = [
         "title": "Hastelloy composition reference",
         "url": "https://fr.wikipedia.org/wiki/Hastelloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference composition range; official manufacturer data should replace this when confirmed. Balance element shown as a reference midpoint estimate from listed major elements."
+        "notes": "参考成分範囲。確認後は公式メーカー資料へ置換が必要。余量元素は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -895,7 +895,7 @@ export const alloys = [
         "properties": "耐食性を重視した特殊合金。酸、塩化物、海水、化学プラント環境での腐食抵抗を主な特長とする。",
         "representativeMakers": "Haynes International, VDM Metals, ATI, Special Metals",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Reference composition range; official manufacturer data should replace this when confirmed. Balance element shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "参考成分範囲。確認後は公式メーカー資料へ置換が必要。余量元素は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Hastelloy C-276",
@@ -969,7 +969,7 @@ export const alloys = [
         "title": "Hastelloy composition reference",
         "url": "https://fr.wikipedia.org/wiki/Hastelloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference composition range; official manufacturer data should replace this when confirmed. Balance element shown as a reference midpoint estimate from listed major elements."
+        "notes": "参考成分範囲。確認後は公式メーカー資料へ置換が必要。余量元素は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -995,7 +995,7 @@ export const alloys = [
         "properties": "コバルト合金に分類される特殊金属材料。用途は燃焼器・高温ガス部材で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Haynes International, ATI, VDM Metals, Special Metals",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Reference composition range; official manufacturer data should replace this when confirmed. Balance element shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "参考成分範囲。確認後は公式メーカー資料へ置換が必要。余量元素は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Haynes 188",
@@ -1064,7 +1064,7 @@ export const alloys = [
         "title": "Haynes alloy reference",
         "url": "https://en.wikipedia.org/wiki/Haynes_International",
         "checkedAt": "2026-06-14",
-        "notes": "Reference composition range; official manufacturer data should replace this when confirmed. Balance element shown as a reference midpoint estimate from listed major elements."
+        "notes": "参考成分範囲。確認後は公式メーカー資料へ置換が必要。余量元素は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -1090,7 +1090,7 @@ export const alloys = [
         "properties": "高温環境向け合金。耐酸化性、高温強度、クリープ抵抗を重視し、熱処理炉・ガスタービン・高温装置に使われる。",
         "representativeMakers": "Haynes International, ATI, VDM Metals, Special Metals",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Reference composition table; official manufacturer data should replace this when confirmed."
+        "sourceNotes": "参考成分表。確認後は公式メーカー資料へ置換が必要。"
       },
       "zh": {
         "name": "Haynes 230",
@@ -1163,7 +1163,7 @@ export const alloys = [
         "title": "Alloy 230 composition reference",
         "url": "https://en.wikipedia.org/wiki/Alloy_230",
         "checkedAt": "2026-06-14",
-        "notes": "Reference composition table; official manufacturer data should replace this when confirmed."
+        "notes": "参考成分表。確認後は公式メーカー資料へ置換が必要。"
       }
     ]
   },
@@ -1189,7 +1189,7 @@ export const alloys = [
         "properties": "高温環境向け合金。耐酸化性、高温強度、クリープ抵抗を重視し、熱処理炉・ガスタービン・高温装置に使われる。",
         "representativeMakers": "Haynes International, ATI, Carpenter Technology, Special Metals",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Reference nominal composition from technical literature; official manufacturer data should replace this when confirmed. Balance element shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "技術文献に基づく名目成分の参考値。確認後は公式メーカー資料へ置換が必要。余量元素は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Haynes 282",
@@ -1270,7 +1270,7 @@ export const alloys = [
         "title": "Haynes 282 composition reference",
         "url": "https://arxiv.org/abs/2012.10114",
         "checkedAt": "2026-06-14",
-        "notes": "Reference nominal composition from technical literature; official manufacturer data should replace this when confirmed. Balance element shown as a reference midpoint estimate from listed major elements."
+        "notes": "技術文献に基づく名目成分の参考値。確認後は公式メーカー資料へ置換が必要。余量元素は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -1295,7 +1295,7 @@ export const alloys = [
         "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
         "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Reference chemistry table; official manufacturer data should replace this when confirmed. Balance element shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "参考化学成分表。確認後は公式メーカー資料へ置換が必要。余量元素は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Waspaloy",
@@ -1376,7 +1376,7 @@ export const alloys = [
         "title": "Waspaloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Waspaloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference chemistry table; official manufacturer data should replace this when confirmed. Balance element shown as a reference midpoint estimate from listed major elements."
+        "notes": "参考化学成分表。確認後は公式メーカー資料へ置換が必要。余量元素は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -1402,7 +1402,7 @@ export const alloys = [
         "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
         "representativeMakers": "Special Metals, ATI, VDM Metals, Doncasters",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Reference composition table; official manufacturer data should replace this when confirmed. Balance element shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "参考成分表。確認後は公式メーカー資料へ置換が必要。余量元素は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Nimonic 75",
@@ -1465,7 +1465,7 @@ export const alloys = [
         "title": "Nimonic composition reference",
         "url": "https://it.wikipedia.org/wiki/Nimonic",
         "checkedAt": "2026-06-14",
-        "notes": "Reference composition table; official manufacturer data should replace this when confirmed. Balance element shown as a reference midpoint estimate from listed major elements."
+        "notes": "参考成分表。確認後は公式メーカー資料へ置換が必要。余量元素は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -1492,7 +1492,7 @@ export const alloys = [
         "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
         "representativeMakers": "Special Metals, ATI, VDM Metals, Doncasters",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Reference composition table; official manufacturer data should replace this when confirmed. Balance element shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "参考成分表。確認後は公式メーカー資料へ置換が必要。余量元素は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Nimonic 80A",
@@ -1565,7 +1565,7 @@ export const alloys = [
         "title": "Nimonic composition reference",
         "url": "https://it.wikipedia.org/wiki/Nimonic",
         "checkedAt": "2026-06-14",
-        "notes": "Reference composition table; official manufacturer data should replace this when confirmed. Balance element shown as a reference midpoint estimate from listed major elements."
+        "notes": "参考成分表。確認後は公式メーカー資料へ置換が必要。余量元素は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -1592,7 +1592,7 @@ export const alloys = [
         "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
         "representativeMakers": "Special Metals, ATI, VDM Metals, Doncasters",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Reference composition description; official manufacturer data should replace this when confirmed. Balance element shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "参考成分説明。確認後は公式メーカー資料へ置換が必要。余量元素は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Nimonic 90",
@@ -1661,7 +1661,7 @@ export const alloys = [
         "title": "Nimonic composition reference",
         "url": "https://fr.wikipedia.org/wiki/Nimonic",
         "checkedAt": "2026-06-14",
-        "notes": "Reference composition description; official manufacturer data should replace this when confirmed. Balance element shown as a reference midpoint estimate from listed major elements."
+        "notes": "参考成分説明。確認後は公式メーカー資料へ置換が必要。余量元素は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -1686,7 +1686,7 @@ export const alloys = [
         "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
         "representativeMakers": "Special Metals, ATI, Howmet Aerospace, Carpenter Technology",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Reference nominal composition; official manufacturer data should replace this when confirmed."
+        "sourceNotes": "名目成分の参考値。確認後は公式メーカー資料へ置換が必要。"
       },
       "zh": {
         "name": "Udimet 500",
@@ -1759,7 +1759,7 @@ export const alloys = [
         "title": "Typical nickel-base superalloy compositions",
         "url": "https://es.wikipedia.org/wiki/Superaleaci%C3%B3n",
         "checkedAt": "2026-06-14",
-        "notes": "Reference nominal composition; official manufacturer data should replace this when confirmed."
+        "notes": "名目成分の参考値。確認後は公式メーカー資料へ置換が必要。"
       }
     ]
   },
@@ -1784,7 +1784,7 @@ export const alloys = [
         "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
         "representativeMakers": "Special Metals, ATI, Howmet Aerospace, Carpenter Technology",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Placeholder range from common secondary references; needs replacement with a verified producer or standards source. Balance element shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "一般的な二次資料に基づく仮成分範囲。検証済みの製造者または規格出典への置換が必要。余量元素は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Udimet 520",
@@ -1865,7 +1865,7 @@ export const alloys = [
         "title": "Udimet 520 composition placeholder",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Placeholder range from common secondary references; needs replacement with a verified producer or standards source. Balance element shown as a reference midpoint estimate from listed major elements."
+        "notes": "一般的な二次資料に基づく仮成分範囲。検証済みの製造者または規格出典への置換が必要。余量元素は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -1891,7 +1891,7 @@ export const alloys = [
         "properties": "Ni-Cr-Co-Mo系の析出強化高温合金。高温引張強度と酸化抵抗に優れ、航空宇宙の高温構造材に使われる。",
         "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference chemistry table; official manufacturer data should replace this when confirmed. Balance element shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "参考化学成分表。確認後は公式メーカー資料へ置換が必要。余量元素は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Rene 41",
@@ -1972,7 +1972,7 @@ export const alloys = [
         "title": "Rene 41 composition reference",
         "url": "https://en.wikipedia.org/wiki/Ren%C3%A9_41",
         "checkedAt": "2026-06-14",
-        "notes": "Reference chemistry table; official manufacturer data should replace this when confirmed. Balance element shown as a reference midpoint estimate from listed major elements."
+        "notes": "参考化学成分表。確認後は公式メーカー資料へ置換が必要。余量元素は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -1998,7 +1998,7 @@ export const alloys = [
         "properties": "軽量で比強度と耐食性に優れるチタン合金。化学装置、航空構造、医療用途に使われる。",
         "representativeMakers": "ATI, TIMET, Kobe Steel, Toho Titanium",
         "japaneseMakers": "神戸製鋼所, 大阪チタニウムテクノロジーズ, 東邦チタニウム, 日本製鉄",
-        "sourceNotes": "Public titanium grade composition reference; verify against current ASTM/JIS before procurement."
+        "sourceNotes": "公開チタン牌号成分の参考値。調達前に現行ASTM/JISで確認が必要。"
       },
       "zh": {
         "name": "Titanium Grade 1",
@@ -2063,7 +2063,7 @@ export const alloys = [
         "title": "Titanium alloys composition reference",
         "url": "https://en.wikipedia.org/wiki/Titanium_alloys",
         "checkedAt": "2026-06-14",
-        "notes": "Public titanium grade composition reference; verify against current ASTM/JIS before procurement."
+        "notes": "公開チタン牌号成分の参考値。調達前に現行ASTM/JISで確認が必要。"
       }
     ]
   },
@@ -2089,7 +2089,7 @@ export const alloys = [
         "properties": "軽量で比強度と耐食性に優れるチタン合金。化学装置、航空構造、医療用途に使われる。",
         "representativeMakers": "ATI, TIMET, Kobe Steel, Toho Titanium",
         "japaneseMakers": "神戸製鋼所, 大阪チタニウムテクノロジーズ, 東邦チタニウム, 日本製鉄",
-        "sourceNotes": "Public titanium grade composition reference; verify against current ASTM/JIS before procurement."
+        "sourceNotes": "公開チタン牌号成分の参考値。調達前に現行ASTM/JISで確認が必要。"
       },
       "zh": {
         "name": "Titanium Grade 2",
@@ -2154,7 +2154,7 @@ export const alloys = [
         "title": "Titanium alloys composition reference",
         "url": "https://en.wikipedia.org/wiki/Titanium_alloys",
         "checkedAt": "2026-06-14",
-        "notes": "Public titanium grade composition reference; verify against current ASTM/JIS before procurement."
+        "notes": "公開チタン牌号成分の参考値。調達前に現行ASTM/JISで確認が必要。"
       }
     ]
   },
@@ -2181,7 +2181,7 @@ export const alloys = [
         "properties": "軽量で比強度と耐食性に優れるチタン合金。化学装置、航空構造、医療用途に使われる。",
         "representativeMakers": "ATI, TIMET, Kobe Steel, Toho Titanium",
         "japaneseMakers": "神戸製鋼所, 大阪チタニウムテクノロジーズ, 東邦チタニウム, 日本製鉄",
-        "sourceNotes": "Chemistry table in wt%; titanium balance shown as reference estimate."
+        "sourceNotes": "wt%表示の化学成分表。Ti余量は参考推定値として表示。"
       },
       "zh": {
         "name": "Ti-6Al-4V",
@@ -2258,7 +2258,7 @@ export const alloys = [
         "title": "Ti-6Al-4V composition reference",
         "url": "https://en.wikipedia.org/wiki/Ti-6Al-4V",
         "checkedAt": "2026-06-14",
-        "notes": "Chemistry table in wt%; titanium balance shown as reference estimate."
+        "notes": "wt%表示の化学成分表。Ti余量は参考推定値として表示。"
       }
     ]
   },
@@ -2284,7 +2284,7 @@ export const alloys = [
         "properties": "軽量で比強度と耐食性に優れるチタン合金。化学装置、航空構造、医療用途に使われる。",
         "representativeMakers": "ATI, TIMET, Kobe Steel, Toho Titanium",
         "japaneseMakers": "神戸製鋼所, 大阪チタニウムテクノロジーズ, 東邦チタニウム, 日本製鉄",
-        "sourceNotes": "Public ELI titanium grade reference; titanium balance shown as reference estimate."
+        "sourceNotes": "公開ELIチタン牌号の参考値。Ti余量は参考推定値として表示。"
       },
       "zh": {
         "name": "Ti-6Al-4V ELI",
@@ -2361,7 +2361,7 @@ export const alloys = [
         "title": "Titanium alloys composition reference",
         "url": "https://en.wikipedia.org/wiki/Titanium_alloys",
         "checkedAt": "2026-06-14",
-        "notes": "Public ELI titanium grade reference; titanium balance shown as reference estimate."
+        "notes": "公開ELIチタン牌号の参考値。Ti余量は参考推定値として表示。"
       }
     ]
   },
@@ -2387,7 +2387,7 @@ export const alloys = [
         "properties": "軽量で比強度と耐食性に優れるチタン合金。化学装置、航空構造、医療用途に使われる。",
         "representativeMakers": "ATI, TIMET, Kobe Steel, Toho Titanium",
         "japaneseMakers": "神戸製鋼所, 大阪チタニウムテクノロジーズ, 東邦チタニウム, 日本製鉄",
-        "sourceNotes": "Public titanium-palladium grade reference; titanium balance shown as reference estimate."
+        "sourceNotes": "公開チタン-パラジウム牌号の参考値。Ti余量は参考推定値として表示。"
       },
       "zh": {
         "name": "Titanium Grade 7",
@@ -2458,7 +2458,7 @@ export const alloys = [
         "title": "Titanium alloys composition reference",
         "url": "https://en.wikipedia.org/wiki/Titanium_alloys",
         "checkedAt": "2026-06-14",
-        "notes": "Public titanium-palladium grade reference; titanium balance shown as reference estimate."
+        "notes": "公開チタン-パラジウム牌号の参考値。Ti余量は参考推定値として表示。"
       }
     ]
   },
@@ -2484,7 +2484,7 @@ export const alloys = [
         "properties": "軽量で比強度と耐食性に優れるチタン合金。化学装置、航空構造、医療用途に使われる。",
         "representativeMakers": "ATI, TIMET, Kobe Steel, Toho Titanium",
         "japaneseMakers": "神戸製鋼所, 大阪チタニウムテクノロジーズ, 東邦チタニウム, 日本製鉄",
-        "sourceNotes": "Public titanium grade reference; titanium balance shown as reference estimate."
+        "sourceNotes": "公開チタン牌号の参考値。Ti余量は参考推定値として表示。"
       },
       "zh": {
         "name": "Titanium Grade 9",
@@ -2561,7 +2561,7 @@ export const alloys = [
         "title": "Titanium alloys composition reference",
         "url": "https://en.wikipedia.org/wiki/Titanium_alloys",
         "checkedAt": "2026-06-14",
-        "notes": "Public titanium grade reference; titanium balance shown as reference estimate."
+        "notes": "公開チタン牌号の参考値。Ti余量は参考推定値として表示。"
       }
     ]
   },
@@ -2587,7 +2587,7 @@ export const alloys = [
         "properties": "軽量で比強度と耐食性に優れるチタン合金。化学装置、航空構造、医療用途に使われる。",
         "representativeMakers": "ATI, TIMET, Kobe Steel, Toho Titanium",
         "japaneseMakers": "神戸製鋼所, 大阪チタニウムテクノロジーズ, 東邦チタニウム, 日本製鉄",
-        "sourceNotes": "Public titanium grade reference; titanium balance shown as reference estimate."
+        "sourceNotes": "公開チタン牌号の参考値。Ti余量は参考推定値として表示。"
       },
       "zh": {
         "name": "Titanium Grade 12",
@@ -2664,7 +2664,7 @@ export const alloys = [
         "title": "Titanium alloys composition reference",
         "url": "https://en.wikipedia.org/wiki/Titanium_alloys",
         "checkedAt": "2026-06-14",
-        "notes": "Public titanium grade reference; titanium balance shown as reference estimate."
+        "notes": "公開チタン牌号の参考値。Ti余量は参考推定値として表示。"
       }
     ]
   },
@@ -2690,7 +2690,7 @@ export const alloys = [
         "properties": "軽量で比強度と耐食性に優れるチタン合金。化学装置、航空構造、医療用途に使われる。",
         "representativeMakers": "ATI, TIMET, Kobe Steel, Toho Titanium",
         "japaneseMakers": "神戸製鋼所, 大阪チタニウムテクノロジーズ, 東邦チタニウム, 日本製鉄",
-        "sourceNotes": "Public ATI 425 composition table; titanium balance shown as reference estimate."
+        "sourceNotes": "公開ATI 425成分表。Ti余量は参考推定値として表示。"
       },
       "zh": {
         "name": "ATI 425 Titanium Alloy",
@@ -2769,7 +2769,7 @@ export const alloys = [
         "title": "ATI 425 Titanium Alloy composition reference",
         "url": "https://en.wikipedia.org/wiki/ATI_425_Titanium_Alloy",
         "checkedAt": "2026-06-14",
-        "notes": "Public ATI 425 composition table; titanium balance shown as reference estimate."
+        "notes": "公開ATI 425成分表。Ti余量は参考推定値として表示。"
       }
     ]
   },
@@ -2796,7 +2796,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "ASTM-derived public composition table; iron balance shown as reference estimate."
+        "sourceNotes": "ASTM由来の公開成分表。Fe余量は参考推定値として表示。"
       },
       "zh": {
         "name": "Stainless Steel 304",
@@ -2878,7 +2878,7 @@ export const alloys = [
         "title": "SAE 304 stainless steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_304_stainless_steel",
         "checkedAt": "2026-06-14",
-        "notes": "ASTM-derived public composition table; iron balance shown as reference estimate."
+        "notes": "ASTM由来の公開成分表。Fe余量は参考推定値として表示。"
       }
     ]
   },
@@ -2904,7 +2904,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived 304L carbon variant; iron balance shown as reference estimate."
+        "sourceNotes": "規格由来の304L低炭素派生成分。Fe余量は参考推定値として表示。"
       },
       "zh": {
         "name": "Stainless Steel 304L",
@@ -2986,7 +2986,7 @@ export const alloys = [
         "title": "SAE 304 stainless steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_304_stainless_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived 304L carbon variant; iron balance shown as reference estimate."
+        "notes": "規格由来の304L低炭素派生成分。Fe余量は参考推定値として表示。"
       }
     ]
   },
@@ -3012,7 +3012,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public 316-series composition reference; iron balance shown as reference estimate."
+        "sourceNotes": "公開316系成分の参考値。Fe余量は参考推定値として表示。"
       },
       "zh": {
         "name": "Stainless Steel 316",
@@ -3100,7 +3100,7 @@ export const alloys = [
         "title": "SAE 316L stainless steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_316L_stainless_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public 316-series composition reference; iron balance shown as reference estimate."
+        "notes": "公開316系成分の参考値。Fe余量は参考推定値として表示。"
       }
     ]
   },
@@ -3126,7 +3126,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public 316L composition reference; iron balance shown as reference estimate."
+        "sourceNotes": "公開316L成分の参考値。Fe余量は参考推定値として表示。"
       },
       "zh": {
         "name": "Stainless Steel 316L",
@@ -3214,7 +3214,7 @@ export const alloys = [
         "title": "SAE 316L stainless steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_316L_stainless_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public 316L composition reference; iron balance shown as reference estimate."
+        "notes": "公開316L成分の参考値。Fe余量は参考推定値として表示。"
       }
     ]
   },
@@ -3240,7 +3240,7 @@ export const alloys = [
         "properties": "高温環境向け合金。耐酸化性、高温強度、クリープ抵抗を重視し、熱処理炉・ガスタービン・高温装置に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, IHI",
-        "sourceNotes": "Public 310S composition table; iron balance shown as reference estimate."
+        "sourceNotes": "公開310S成分表。Fe余量は参考推定値として表示。"
       },
       "zh": {
         "name": "Stainless Steel 310S",
@@ -3317,7 +3317,7 @@ export const alloys = [
         "title": "SAE 310S stainless steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_310S_stainless_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public 310S composition table; iron balance shown as reference estimate."
+        "notes": "公開310S成分表。Fe余量は参考推定値として表示。"
       }
     ]
   },
@@ -3343,7 +3343,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived public composition table; iron balance shown as reference estimate."
+        "sourceNotes": "規格由来の公開成分表。Fe余量は参考推定値として表示。"
       },
       "zh": {
         "name": "Stainless Steel 321",
@@ -3430,7 +3430,7 @@ export const alloys = [
         "title": "SAE steel grades stainless composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived public composition table; iron balance shown as reference estimate."
+        "notes": "規格由来の公開成分表。Fe余量は参考推定値として表示。"
       }
     ]
   },
@@ -3456,7 +3456,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived public composition table; iron balance shown as reference estimate."
+        "sourceNotes": "規格由来の公開成分表。Fe余量は参考推定値として表示。"
       },
       "zh": {
         "name": "Stainless Steel 347",
@@ -3545,7 +3545,7 @@ export const alloys = [
         "title": "SAE steel grades stainless composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived public composition table; iron balance shown as reference estimate."
+        "notes": "規格由来の公開成分表。Fe余量は参考推定値として表示。"
       }
     ]
   },
@@ -3572,7 +3572,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public composition table; iron balance shown as reference estimate."
+        "sourceNotes": "公開成分表。Fe余量は参考推定値として表示。"
       },
       "zh": {
         "name": "17-4 PH Stainless Steel",
@@ -3662,7 +3662,7 @@ export const alloys = [
         "title": "17-4 stainless steel composition reference",
         "url": "https://en.wikipedia.org/wiki/17-4_stainless_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public composition table; iron balance shown as reference estimate."
+        "notes": "公開成分表。Fe余量は参考推定値として表示。"
       }
     ]
   },
@@ -3688,7 +3688,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public stainless composition reference; iron balance shown as reference estimate."
+        "sourceNotes": "公開ステンレス成分の参考値。Fe余量は参考推定値として表示。"
       },
       "zh": {
         "name": "15-5 PH Stainless Steel",
@@ -3778,7 +3778,7 @@ export const alloys = [
         "title": "SAE steel grades stainless composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Public stainless composition reference; iron balance shown as reference estimate."
+        "notes": "公開ステンレス成分の参考値。Fe余量は参考推定値として表示。"
       }
     ]
   },
@@ -3804,7 +3804,7 @@ export const alloys = [
         "properties": "耐食性を重視した特殊合金。酸、塩化物、海水、化学プラント環境での腐食抵抗を主な特長とする。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived public composition table; iron balance shown as reference estimate."
+        "sourceNotes": "規格由来の公開成分表。Fe余量は参考推定値として表示。"
       },
       "zh": {
         "name": "Stainless Steel 904L",
@@ -3893,7 +3893,7 @@ export const alloys = [
         "title": "SAE steel grades stainless composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived public composition table; iron balance shown as reference estimate."
+        "notes": "規格由来の公開成分表。Fe余量は参考推定値として表示。"
       }
     ]
   },
@@ -3919,7 +3919,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "EN 10088-derived public composition table; iron balance shown as reference estimate."
+        "sourceNotes": "EN 10088由来の公開成分表。Fe余量は参考推定値として表示。"
       },
       "zh": {
         "name": "Duplex Stainless Steel 2205",
@@ -4008,7 +4008,7 @@ export const alloys = [
         "title": "Duplex stainless steel EN composition table",
         "url": "https://en.wikipedia.org/wiki/Duplex_stainless_steel",
         "checkedAt": "2026-06-14",
-        "notes": "EN 10088-derived public composition table; iron balance shown as reference estimate."
+        "notes": "EN 10088由来の公開成分表。Fe余量は参考推定値として表示。"
       }
     ]
   },
@@ -4034,7 +4034,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "EN 10088-derived public composition table; iron balance shown as reference estimate."
+        "sourceNotes": "EN 10088由来の公開成分表。Fe余量は参考推定値として表示。"
       },
       "zh": {
         "name": "Super Duplex Stainless Steel 2507",
@@ -4128,7 +4128,7 @@ export const alloys = [
         "title": "Duplex stainless steel EN composition table",
         "url": "https://en.wikipedia.org/wiki/Duplex_stainless_steel",
         "checkedAt": "2026-06-14",
-        "notes": "EN 10088-derived public composition table; iron balance shown as reference estimate."
+        "notes": "EN 10088由来の公開成分表。Fe余量は参考推定値として表示。"
       }
     ]
   },
@@ -4155,7 +4155,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public D2 composition table; iron balance shown as reference estimate."
+        "sourceNotes": "公開D2成分表。Fe余量は参考推定値として表示。"
       },
       "zh": {
         "name": "D2 Tool Steel",
@@ -4241,7 +4241,7 @@ export const alloys = [
         "title": "Tool steel D-series composition reference",
         "url": "https://en.wikipedia.org/wiki/Tool_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public D2 composition table; iron balance shown as reference estimate."
+        "notes": "公開D2成分表。Fe余量は参考推定値として表示。"
       }
     ]
   },
@@ -4268,7 +4268,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public H13 composition table; iron balance shown as reference estimate."
+        "sourceNotes": "公開H13成分表。Fe余量は参考推定値として表示。"
       },
       "zh": {
         "name": "H13 Tool Steel",
@@ -4338,7 +4338,7 @@ export const alloys = [
         "title": "Tool steel 1.2344 composition reference",
         "url": "https://en.wikipedia.org/wiki/Tool_steel_1.2344",
         "checkedAt": "2026-06-14",
-        "notes": "Public H13 composition table; iron balance shown as reference estimate."
+        "notes": "公開H13成分表。Fe余量は参考推定値として表示。"
       }
     ]
   },
@@ -4365,7 +4365,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public HSS composition table; iron balance shown as reference estimate."
+        "sourceNotes": "公開高速度工具鋼成分表。Fe余量は参考推定値として表示。"
       },
       "zh": {
         "name": "M2 High Speed Steel",
@@ -4435,7 +4435,7 @@ export const alloys = [
         "title": "High-speed steel composition reference",
         "url": "https://en.wikipedia.org/wiki/High-speed_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public HSS composition table; iron balance shown as reference estimate."
+        "notes": "公開高速度工具鋼成分表。Fe余量は参考推定値として表示。"
       }
     ]
   },
@@ -4461,7 +4461,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public HSS composition table; iron balance shown as reference estimate."
+        "sourceNotes": "公開高速度工具鋼成分表。Fe余量は参考推定値として表示。"
       },
       "zh": {
         "name": "M42 High Speed Steel",
@@ -4537,7 +4537,7 @@ export const alloys = [
         "title": "High-speed steel composition reference",
         "url": "https://en.wikipedia.org/wiki/High-speed_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public HSS composition table; iron balance shown as reference estimate."
+        "notes": "公開高速度工具鋼成分表。Fe余量は参考推定値として表示。"
       }
     ]
   },
@@ -4563,7 +4563,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public HSS composition table; iron balance shown as reference estimate."
+        "sourceNotes": "公開高速度工具鋼成分表。Fe余量は参考推定値として表示。"
       },
       "zh": {
         "name": "M35 High Speed Steel",
@@ -4645,7 +4645,7 @@ export const alloys = [
         "title": "High-speed steel composition reference",
         "url": "https://en.wikipedia.org/wiki/High-speed_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public HSS composition table; iron balance shown as reference estimate."
+        "notes": "公開高速度工具鋼成分表。Fe余量は参考推定値として表示。"
       }
     ]
   },
@@ -4671,7 +4671,7 @@ export const alloys = [
         "properties": "耐食性を重視した特殊合金。酸、塩化物、海水、化学プラント環境での腐食抵抗を主な特長とする。",
         "representativeMakers": "Mitsubishi Materials, Wieland, Materion, KME",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, IHI",
-        "sourceNotes": "Public Monel composition table."
+        "sourceNotes": "公開Monel成分表。"
       },
       "zh": {
         "name": "Monel 400",
@@ -4734,7 +4734,7 @@ export const alloys = [
         "title": "Monel alloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Monel",
         "checkedAt": "2026-06-14",
-        "notes": "Public Monel composition table."
+        "notes": "公開Monel成分表。"
       }
     ]
   },
@@ -4760,7 +4760,7 @@ export const alloys = [
         "properties": "耐食性を重視した特殊合金。酸、塩化物、海水、化学プラント環境での腐食抵抗を主な特長とする。",
         "representativeMakers": "Mitsubishi Materials, Wieland, Materion, KME",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, IHI",
-        "sourceNotes": "Public Monel composition table."
+        "sourceNotes": "公開Monel成分表。"
       },
       "zh": {
         "name": "Monel K-500",
@@ -4835,7 +4835,7 @@ export const alloys = [
         "title": "Monel alloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Monel",
         "checkedAt": "2026-06-14",
-        "notes": "Public Monel composition table."
+        "notes": "公開Monel成分表。"
       }
     ]
   },
@@ -4862,7 +4862,7 @@ export const alloys = [
         "properties": "耐食性を重視した特殊合金。酸、塩化物、海水、化学プラント環境での腐食抵抗を主な特長とする。",
         "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Public Alloy 20 composition table."
+        "sourceNotes": "公開Alloy 20成分表。"
       },
       "zh": {
         "name": "Alloy 20",
@@ -4944,7 +4944,7 @@ export const alloys = [
         "title": "Alloy 20 composition reference",
         "url": "https://en.wikipedia.org/wiki/Alloy_20",
         "checkedAt": "2026-06-14",
-        "notes": "Public Alloy 20 composition table."
+        "notes": "公開Alloy 20成分表。"
       }
     ]
   },
@@ -4970,7 +4970,7 @@ export const alloys = [
         "properties": "耐食性を重視した特殊合金。酸、塩化物、海水、化学プラント環境での腐食抵抗を主な特長とする。",
         "representativeMakers": "Special Metals, VDM Metals, ATI, Carpenter Technology",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Public Incoloy composition table."
+        "sourceNotes": "公開Incoloy成分表。"
       },
       "zh": {
         "name": "Incoloy 800",
@@ -5024,7 +5024,7 @@ export const alloys = [
         "title": "Incoloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Incoloy",
         "checkedAt": "2026-06-14",
-        "notes": "Public Incoloy composition table."
+        "notes": "公開Incoloy成分表。"
       }
     ]
   },
@@ -5050,7 +5050,7 @@ export const alloys = [
         "properties": "耐食性を重視した特殊合金。酸、塩化物、海水、化学プラント環境での腐食抵抗を主な特長とする。",
         "representativeMakers": "Special Metals, VDM Metals, ATI, Carpenter Technology",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Public Incoloy composition table."
+        "sourceNotes": "公開Incoloy成分表。"
       },
       "zh": {
         "name": "Incoloy 825",
@@ -5142,7 +5142,7 @@ export const alloys = [
         "title": "Incoloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Incoloy",
         "checkedAt": "2026-06-14",
-        "notes": "Public Incoloy composition table."
+        "notes": "公開Incoloy成分表。"
       }
     ]
   },
@@ -5168,7 +5168,7 @@ export const alloys = [
         "properties": "高温環境向け合金。耐酸化性、高温強度、クリープ抵抗を重視し、熱処理炉・ガスタービン・高温装置に使われる。",
         "representativeMakers": "Haynes International, VDM Metals, ATI, Special Metals",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Public Hastelloy composition table; nickel balance shown as reference estimate."
+        "sourceNotes": "公開Hastelloy成分表。Ni余量は参考推定値として表示。"
       },
       "zh": {
         "name": "Hastelloy X",
@@ -5250,7 +5250,7 @@ export const alloys = [
         "title": "Hastelloy composition reference",
         "url": "https://fr.wikipedia.org/wiki/Hastelloy",
         "checkedAt": "2026-06-14",
-        "notes": "Public Hastelloy composition table; nickel balance shown as reference estimate."
+        "notes": "公開Hastelloy成分表。Ni余量は参考推定値として表示。"
       }
     ]
   },
@@ -5276,7 +5276,7 @@ export const alloys = [
         "properties": "耐食性を重視した特殊合金。酸、塩化物、海水、化学プラント環境での腐食抵抗を主な特長とする。",
         "representativeMakers": "Haynes International, VDM Metals, ATI, Special Metals",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Public Hastelloy composition table; nickel balance shown as reference estimate."
+        "sourceNotes": "公開Hastelloy成分表。Ni余量は参考推定値として表示。"
       },
       "zh": {
         "name": "Hastelloy G-30",
@@ -5371,7 +5371,7 @@ export const alloys = [
         "title": "Hastelloy composition reference",
         "url": "https://fr.wikipedia.org/wiki/Hastelloy",
         "checkedAt": "2026-06-14",
-        "notes": "Public Hastelloy composition table; nickel balance shown as reference estimate."
+        "notes": "公開Hastelloy成分表。Ni余量は参考推定値として表示。"
       }
     ]
   },
@@ -5397,7 +5397,7 @@ export const alloys = [
         "properties": "高融点金属に分類される特殊金属材料。用途は電極・高温炉・放射線遮蔽で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "H.C. Starck Solutions, ATI, Plansee, AMG",
         "japaneseMakers": "A.L.M.T., JX金属, 東邦金属, 日本タングステン",
-        "sourceNotes": "Public refractory metals reference; purity grade entered as minimum tungsten."
+        "sourceNotes": "公開高融点金属の参考値。純度グレードはW最小値として入力。"
       },
       "zh": {
         "name": "Pure Tungsten",
@@ -5434,7 +5434,7 @@ export const alloys = [
         "title": "Refractory metals reference",
         "url": "https://en.wikipedia.org/wiki/Refractory_metals",
         "checkedAt": "2026-06-14",
-        "notes": "Public refractory metals reference; purity grade entered as minimum tungsten."
+        "notes": "公開高融点金属の参考値。純度グレードはW最小値として入力。"
       }
     ]
   },
@@ -5460,7 +5460,7 @@ export const alloys = [
         "properties": "高融点金属に分類される特殊金属材料。用途は高温炉部材・電極・真空部品で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "H.C. Starck Solutions, ATI, Plansee, AMG",
         "japaneseMakers": "A.L.M.T., JX金属, 東邦金属, 日本タングステン",
-        "sourceNotes": "Public molybdenum reference; purity grade entered as minimum molybdenum."
+        "sourceNotes": "公開モリブデンの参考値。純度グレードはMo最小値として入力。"
       },
       "zh": {
         "name": "Pure Molybdenum",
@@ -5497,7 +5497,7 @@ export const alloys = [
         "title": "Molybdenum reference",
         "url": "https://en.wikipedia.org/wiki/Molybdenum",
         "checkedAt": "2026-06-14",
-        "notes": "Public molybdenum reference; purity grade entered as minimum molybdenum."
+        "notes": "公開モリブデンの参考値。純度グレードはMo最小値として入力。"
       }
     ]
   },
@@ -5523,7 +5523,7 @@ export const alloys = [
         "properties": "高融点合金に分類される特殊金属材料。用途はロケットノズル・高温金型・真空炉部材で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "H.C. Starck Solutions, ATI, Plansee, AMG",
         "japaneseMakers": "A.L.M.T., JX金属, 東邦金属, 日本タングステン",
-        "sourceNotes": "Public TZM composition description; molybdenum balance shown as reference estimate."
+        "sourceNotes": "公開TZM成分説明。Mo余量は参考推定値として表示。"
       },
       "zh": {
         "name": "TZM Molybdenum Alloy",
@@ -5581,7 +5581,7 @@ export const alloys = [
         "title": "Molybdenum TZM composition reference",
         "url": "https://en.wikipedia.org/wiki/Molybdenum",
         "checkedAt": "2026-06-14",
-        "notes": "Public TZM composition description; molybdenum balance shown as reference estimate."
+        "notes": "公開TZM成分説明。Mo余量は参考推定値として表示。"
       }
     ]
   },
@@ -5607,7 +5607,7 @@ export const alloys = [
         "properties": "高融点金属に分類される特殊金属材料。用途は耐食化学装置・電子部品・医療で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "H.C. Starck Solutions, ATI, Plansee, AMG",
         "japaneseMakers": "A.L.M.T., JX金属, 東邦金属, 日本タングステン",
-        "sourceNotes": "Public refractory metals reference; purity grade entered as minimum tantalum."
+        "sourceNotes": "公開高融点金属の参考値。純度グレードはTa最小値として入力。"
       },
       "zh": {
         "name": "Pure Tantalum",
@@ -5644,7 +5644,7 @@ export const alloys = [
         "title": "Refractory metals reference",
         "url": "https://en.wikipedia.org/wiki/Refractory_metals",
         "checkedAt": "2026-06-14",
-        "notes": "Public refractory metals reference; purity grade entered as minimum tantalum."
+        "notes": "公開高融点金属の参考値。純度グレードはTa最小値として入力。"
       }
     ]
   },
@@ -5670,7 +5670,7 @@ export const alloys = [
         "properties": "高融点金属に分類される特殊金属材料。用途は超電導・化学装置・高温部材で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "H.C. Starck Solutions, ATI, Plansee, AMG",
         "japaneseMakers": "A.L.M.T., JX金属, 東邦金属, 日本タングステン",
-        "sourceNotes": "Public refractory metals reference; purity grade entered as minimum niobium."
+        "sourceNotes": "公開高融点金属の参考値。純度グレードはNb最小値として入力。"
       },
       "zh": {
         "name": "Pure Niobium",
@@ -5707,7 +5707,7 @@ export const alloys = [
         "title": "Refractory metals reference",
         "url": "https://en.wikipedia.org/wiki/Refractory_metals",
         "checkedAt": "2026-06-14",
-        "notes": "Public refractory metals reference; purity grade entered as minimum niobium."
+        "notes": "公開高融点金属の参考値。純度グレードはNb最小値として入力。"
       }
     ]
   },
@@ -5733,7 +5733,7 @@ export const alloys = [
         "properties": "ジルコニウム合金に分類される特殊金属材料。用途は原子炉燃料被覆管・構造部材で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "H.C. Starck Solutions, ATI, Plansee, AMG",
         "japaneseMakers": "A.L.M.T., JX金属, 東邦金属, 日本タングステン",
-        "sourceNotes": "Public reactor-grade zirconium alloy table; zirconium balance shown as reference estimate."
+        "sourceNotes": "公開原子炉級ジルコニウム合金表。Zr余量は参考推定値として表示。"
       },
       "zh": {
         "name": "Zircaloy-2",
@@ -5800,7 +5800,7 @@ export const alloys = [
         "title": "Zirconium alloys composition reference",
         "url": "https://en.wikipedia.org/wiki/Zirconium_alloys",
         "checkedAt": "2026-06-14",
-        "notes": "Public reactor-grade zirconium alloy table; zirconium balance shown as reference estimate."
+        "notes": "公開原子炉級ジルコニウム合金表。Zr余量は参考推定値として表示。"
       }
     ]
   },
@@ -5826,7 +5826,7 @@ export const alloys = [
         "properties": "ジルコニウム合金に分類される特殊金属材料。用途はCANDU圧力管・原子力部材で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "H.C. Starck Solutions, ATI, Plansee, AMG",
         "japaneseMakers": "A.L.M.T., JX金属, 東邦金属, 日本タングステン",
-        "sourceNotes": "Public zirconium alloy table; zirconium balance shown as reference estimate."
+        "sourceNotes": "公開ジルコニウム合金表。Zr余量は参考推定値として表示。"
       },
       "zh": {
         "name": "Zr-2.5Nb",
@@ -5878,7 +5878,7 @@ export const alloys = [
         "title": "Zirconium alloys composition reference",
         "url": "https://en.wikipedia.org/wiki/Zirconium_alloys",
         "checkedAt": "2026-06-14",
-        "notes": "Public zirconium alloy table; zirconium balance shown as reference estimate."
+        "notes": "公開ジルコニウム合金表。Zr余量は参考推定値として表示。"
       }
     ]
   },
@@ -5904,7 +5904,7 @@ export const alloys = [
         "properties": "銅合金に分類される特殊金属材料。用途はばね接点・非火花工具・精密部品で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Mitsubishi Materials, Wieland, Materion, KME",
         "japaneseMakers": "三菱マテリアル, JX金属, 古河電気工業, DOWAメタルテック",
-        "sourceNotes": "Public beryllium copper reference; copper balance shown as reference estimate."
+        "sourceNotes": "公開ベリリウム銅の参考値。Cu余量は参考推定値として表示。"
       },
       "zh": {
         "name": "C17200 Beryllium Copper",
@@ -5955,7 +5955,7 @@ export const alloys = [
         "title": "Beryllium copper composition reference",
         "url": "https://en.wikipedia.org/wiki/Beryllium_copper",
         "checkedAt": "2026-06-14",
-        "notes": "Public beryllium copper reference; copper balance shown as reference estimate."
+        "notes": "公開ベリリウム銅の参考値。Cu余量は参考推定値として表示。"
       }
     ]
   },
@@ -5980,7 +5980,7 @@ export const alloys = [
         "properties": "銅合金に分類される特殊金属材料。用途は高導電ばね・抵抗溶接電極で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Mitsubishi Materials, Wieland, Materion, KME",
         "japaneseMakers": "三菱マテリアル, JX金属, 古河電気工業, DOWAメタルテック",
-        "sourceNotes": "Public high-conductivity beryllium copper reference; copper balance shown as reference estimate."
+        "sourceNotes": "公開高導電性ベリリウム銅の参考値。Cu余量は参考推定値として表示。"
       },
       "zh": {
         "name": "C17510 Beryllium Copper",
@@ -6032,7 +6032,7 @@ export const alloys = [
         "title": "Beryllium copper composition reference",
         "url": "https://en.wikipedia.org/wiki/Beryllium_copper",
         "checkedAt": "2026-06-14",
-        "notes": "Public high-conductivity beryllium copper reference; copper balance shown as reference estimate."
+        "notes": "公開高導電性ベリリウム銅の参考値。Cu余量は参考推定値として表示。"
       }
     ]
   },
@@ -6058,7 +6058,7 @@ export const alloys = [
         "properties": "耐食性を重視した特殊合金。酸、塩化物、海水、化学プラント環境での腐食抵抗を主な特長とする。",
         "representativeMakers": "Mitsubishi Materials, Wieland, Materion, KME",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, IHI",
-        "sourceNotes": "Public cupronickel reference; composition range for 70/30 class."
+        "sourceNotes": "公開キュプロニッケルの参考値。70/30クラスの成分範囲。"
       },
       "zh": {
         "name": "C71500 Cu-Ni 70/30",
@@ -6113,7 +6113,7 @@ export const alloys = [
         "title": "Cupronickel composition reference",
         "url": "https://en.wikipedia.org/wiki/Cupronickel",
         "checkedAt": "2026-06-14",
-        "notes": "Public cupronickel reference; composition range for 70/30 class."
+        "notes": "公開キュプロニッケルの参考値。70/30クラスの成分範囲。"
       }
     ]
   },
@@ -6138,7 +6138,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "S10C",
@@ -6206,7 +6206,7 @@ export const alloys = [
         "title": "JIS carbon steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -6231,7 +6231,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "S12C",
@@ -6299,7 +6299,7 @@ export const alloys = [
         "title": "JIS carbon steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -6324,7 +6324,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "S15C",
@@ -6392,7 +6392,7 @@ export const alloys = [
         "title": "JIS carbon steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -6417,7 +6417,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "S17C",
@@ -6485,7 +6485,7 @@ export const alloys = [
         "title": "JIS carbon steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -6510,7 +6510,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "S20C",
@@ -6578,7 +6578,7 @@ export const alloys = [
         "title": "JIS carbon steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -6603,7 +6603,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "S22C",
@@ -6671,7 +6671,7 @@ export const alloys = [
         "title": "JIS carbon steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -6696,7 +6696,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "S25C",
@@ -6764,7 +6764,7 @@ export const alloys = [
         "title": "JIS carbon steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -6789,7 +6789,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "S28C",
@@ -6857,7 +6857,7 @@ export const alloys = [
         "title": "JIS carbon steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -6882,7 +6882,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "S30C",
@@ -6950,7 +6950,7 @@ export const alloys = [
         "title": "JIS carbon steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -6975,7 +6975,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "S33C",
@@ -7043,7 +7043,7 @@ export const alloys = [
         "title": "JIS carbon steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -7068,7 +7068,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "S35C",
@@ -7136,7 +7136,7 @@ export const alloys = [
         "title": "JIS carbon steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -7161,7 +7161,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "S38C",
@@ -7229,7 +7229,7 @@ export const alloys = [
         "title": "JIS carbon steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -7254,7 +7254,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "S40C",
@@ -7322,7 +7322,7 @@ export const alloys = [
         "title": "JIS carbon steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -7347,7 +7347,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "S43C",
@@ -7415,7 +7415,7 @@ export const alloys = [
         "title": "JIS carbon steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -7440,7 +7440,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "S45C",
@@ -7508,7 +7508,7 @@ export const alloys = [
         "title": "JIS carbon steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -7533,7 +7533,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "S48C",
@@ -7601,7 +7601,7 @@ export const alloys = [
         "title": "JIS carbon steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -7626,7 +7626,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "S50C",
@@ -7694,7 +7694,7 @@ export const alloys = [
         "title": "JIS carbon steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -7719,7 +7719,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "S53C",
@@ -7787,7 +7787,7 @@ export const alloys = [
         "title": "JIS carbon steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -7812,7 +7812,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "S55C",
@@ -7880,7 +7880,7 @@ export const alloys = [
         "title": "JIS carbon steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -7905,7 +7905,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "S58C",
@@ -7973,7 +7973,7 @@ export const alloys = [
         "title": "JIS carbon steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived carbon steel chemistry; confirm against JIS G 4051 for procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "規格由来の炭素鋼化学成分。調達前にJIS G 4051で確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -7998,7 +7998,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 1006",
@@ -8066,7 +8066,7 @@ export const alloys = [
         "title": "SAE carbon steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -8091,7 +8091,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 1008",
@@ -8159,7 +8159,7 @@ export const alloys = [
         "title": "SAE carbon steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -8184,7 +8184,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 1010",
@@ -8252,7 +8252,7 @@ export const alloys = [
         "title": "SAE carbon steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -8277,7 +8277,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 1012",
@@ -8345,7 +8345,7 @@ export const alloys = [
         "title": "SAE carbon steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -8370,7 +8370,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 1015",
@@ -8438,7 +8438,7 @@ export const alloys = [
         "title": "SAE carbon steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -8463,7 +8463,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 1018",
@@ -8531,7 +8531,7 @@ export const alloys = [
         "title": "SAE carbon steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -8556,7 +8556,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 1020",
@@ -8624,7 +8624,7 @@ export const alloys = [
         "title": "SAE carbon steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -8649,7 +8649,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 1022",
@@ -8717,7 +8717,7 @@ export const alloys = [
         "title": "SAE carbon steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -8742,7 +8742,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 1025",
@@ -8810,7 +8810,7 @@ export const alloys = [
         "title": "SAE carbon steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -8835,7 +8835,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 1030",
@@ -8903,7 +8903,7 @@ export const alloys = [
         "title": "SAE carbon steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -8928,7 +8928,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 1035",
@@ -8996,7 +8996,7 @@ export const alloys = [
         "title": "SAE carbon steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -9021,7 +9021,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 1040",
@@ -9089,7 +9089,7 @@ export const alloys = [
         "title": "SAE carbon steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -9114,7 +9114,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 1042",
@@ -9182,7 +9182,7 @@ export const alloys = [
         "title": "SAE carbon steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -9207,7 +9207,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 1045",
@@ -9275,7 +9275,7 @@ export const alloys = [
         "title": "SAE carbon steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -9300,7 +9300,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 1050",
@@ -9368,7 +9368,7 @@ export const alloys = [
         "title": "SAE carbon steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -9393,7 +9393,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 1055",
@@ -9461,7 +9461,7 @@ export const alloys = [
         "title": "SAE carbon steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -9486,7 +9486,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 1060",
@@ -9554,7 +9554,7 @@ export const alloys = [
         "title": "SAE carbon steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -9579,7 +9579,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 1065",
@@ -9647,7 +9647,7 @@ export const alloys = [
         "title": "SAE carbon steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -9672,7 +9672,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 1070",
@@ -9740,7 +9740,7 @@ export const alloys = [
         "title": "SAE carbon steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -9765,7 +9765,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 1075",
@@ -9833,7 +9833,7 @@ export const alloys = [
         "title": "SAE carbon steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE carbon steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE炭素鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -9858,7 +9858,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 4023",
@@ -9932,7 +9932,7 @@ export const alloys = [
         "title": "SAE alloy steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -9957,7 +9957,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 4027",
@@ -10031,7 +10031,7 @@ export const alloys = [
         "title": "SAE alloy steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -10056,7 +10056,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 4032",
@@ -10130,7 +10130,7 @@ export const alloys = [
         "title": "SAE alloy steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -10155,7 +10155,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 4042",
@@ -10229,7 +10229,7 @@ export const alloys = [
         "title": "SAE alloy steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -10254,7 +10254,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 4118",
@@ -10334,7 +10334,7 @@ export const alloys = [
         "title": "SAE alloy steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -10359,7 +10359,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 4120",
@@ -10439,7 +10439,7 @@ export const alloys = [
         "title": "SAE alloy steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -10464,7 +10464,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 4121",
@@ -10544,7 +10544,7 @@ export const alloys = [
         "title": "SAE alloy steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -10570,7 +10570,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 4130",
@@ -10650,7 +10650,7 @@ export const alloys = [
         "title": "SAE alloy steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -10675,7 +10675,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 4135",
@@ -10755,7 +10755,7 @@ export const alloys = [
         "title": "SAE alloy steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -10781,7 +10781,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 4140",
@@ -10861,7 +10861,7 @@ export const alloys = [
         "title": "SAE alloy steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -10886,7 +10886,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 4142",
@@ -10966,7 +10966,7 @@ export const alloys = [
         "title": "SAE alloy steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -10991,7 +10991,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 4145",
@@ -11071,7 +11071,7 @@ export const alloys = [
         "title": "SAE alloy steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -11096,7 +11096,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 4150",
@@ -11176,7 +11176,7 @@ export const alloys = [
         "title": "SAE alloy steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -11201,7 +11201,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 4320",
@@ -11287,7 +11287,7 @@ export const alloys = [
         "title": "SAE alloy steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -11312,7 +11312,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 4330",
@@ -11398,7 +11398,7 @@ export const alloys = [
         "title": "SAE alloy steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -11424,7 +11424,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 4340",
@@ -11510,7 +11510,7 @@ export const alloys = [
         "title": "SAE alloy steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -11535,7 +11535,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 4340M",
@@ -11627,7 +11627,7 @@ export const alloys = [
         "title": "SAE alloy steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -11653,7 +11653,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 300M",
@@ -11745,7 +11745,7 @@ export const alloys = [
         "title": "SAE alloy steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -11770,7 +11770,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 4615",
@@ -11850,7 +11850,7 @@ export const alloys = [
         "title": "SAE alloy steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -11875,7 +11875,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 4620",
@@ -11955,7 +11955,7 @@ export const alloys = [
         "title": "SAE alloy steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -11980,7 +11980,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 4626",
@@ -12060,7 +12060,7 @@ export const alloys = [
         "title": "SAE alloy steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -12085,7 +12085,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 4820",
@@ -12165,7 +12165,7 @@ export const alloys = [
         "title": "SAE alloy steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -12190,7 +12190,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 5015",
@@ -12264,7 +12264,7 @@ export const alloys = [
         "title": "SAE alloy steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -12289,7 +12289,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 5046",
@@ -12363,7 +12363,7 @@ export const alloys = [
         "title": "SAE alloy steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -12388,7 +12388,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 5115",
@@ -12462,7 +12462,7 @@ export const alloys = [
         "title": "SAE alloy steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -12487,7 +12487,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 5120",
@@ -12561,7 +12561,7 @@ export const alloys = [
         "title": "SAE alloy steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -12586,7 +12586,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 5130",
@@ -12660,7 +12660,7 @@ export const alloys = [
         "title": "SAE alloy steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -12685,7 +12685,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 5140",
@@ -12759,7 +12759,7 @@ export const alloys = [
         "title": "SAE alloy steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -12784,7 +12784,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 5150",
@@ -12858,7 +12858,7 @@ export const alloys = [
         "title": "SAE alloy steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -12883,7 +12883,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 8615",
@@ -12969,7 +12969,7 @@ export const alloys = [
         "title": "SAE alloy steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -12994,7 +12994,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 8620",
@@ -13080,7 +13080,7 @@ export const alloys = [
         "title": "SAE alloy steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -13105,7 +13105,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 8622",
@@ -13191,7 +13191,7 @@ export const alloys = [
         "title": "SAE alloy steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -13216,7 +13216,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 8625",
@@ -13302,7 +13302,7 @@ export const alloys = [
         "title": "SAE alloy steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -13327,7 +13327,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 8630",
@@ -13413,7 +13413,7 @@ export const alloys = [
         "title": "SAE alloy steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -13438,7 +13438,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 8640",
@@ -13524,7 +13524,7 @@ export const alloys = [
         "title": "SAE alloy steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -13549,7 +13549,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 8650",
@@ -13635,7 +13635,7 @@ export const alloys = [
         "title": "SAE alloy steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -13660,7 +13660,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 8720",
@@ -13746,7 +13746,7 @@ export const alloys = [
         "title": "SAE alloy steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -13771,7 +13771,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 8822",
@@ -13857,7 +13857,7 @@ export const alloys = [
         "title": "SAE alloy steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -13882,7 +13882,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 9310",
@@ -13968,7 +13968,7 @@ export const alloys = [
         "title": "SAE alloy steel grades composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE low-alloy steel family table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE低合金鋼ファミリー表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -13993,7 +13993,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived machinery steel chemistry; verify against current JIS before procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "規格由来の機械構造用鋼化学成分。調達前に現行JISで確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "SCM415",
@@ -14073,7 +14073,7 @@ export const alloys = [
         "title": "JIS machinery steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived machinery steel chemistry; verify against current JIS before procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "規格由来の機械構造用鋼化学成分。調達前に現行JISで確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -14098,7 +14098,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived machinery steel chemistry; verify against current JIS before procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "規格由来の機械構造用鋼化学成分。調達前に現行JISで確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "SCM420",
@@ -14178,7 +14178,7 @@ export const alloys = [
         "title": "JIS machinery steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived machinery steel chemistry; verify against current JIS before procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "規格由来の機械構造用鋼化学成分。調達前に現行JISで確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -14203,7 +14203,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived machinery steel chemistry; verify against current JIS before procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "規格由来の機械構造用鋼化学成分。調達前に現行JISで確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "SCM435",
@@ -14283,7 +14283,7 @@ export const alloys = [
         "title": "JIS machinery steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived machinery steel chemistry; verify against current JIS before procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "規格由来の機械構造用鋼化学成分。調達前に現行JISで確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -14309,7 +14309,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived machinery steel chemistry; verify against current JIS before procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "規格由来の機械構造用鋼化学成分。調達前に現行JISで確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "SCM440",
@@ -14389,7 +14389,7 @@ export const alloys = [
         "title": "JIS machinery steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived machinery steel chemistry; verify against current JIS before procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "規格由来の機械構造用鋼化学成分。調達前に現行JISで確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -14414,7 +14414,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived machinery steel chemistry; verify against current JIS before procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "規格由来の機械構造用鋼化学成分。調達前に現行JISで確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "SCM445",
@@ -14494,7 +14494,7 @@ export const alloys = [
         "title": "JIS machinery steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived machinery steel chemistry; verify against current JIS before procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "規格由来の機械構造用鋼化学成分。調達前に現行JISで確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -14519,7 +14519,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived machinery steel chemistry; verify against current JIS before procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "規格由来の機械構造用鋼化学成分。調達前に現行JISで確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "SNCM220",
@@ -14605,7 +14605,7 @@ export const alloys = [
         "title": "JIS machinery steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived machinery steel chemistry; verify against current JIS before procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "規格由来の機械構造用鋼化学成分。調達前に現行JISで確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -14630,7 +14630,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived machinery steel chemistry; verify against current JIS before procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "規格由来の機械構造用鋼化学成分。調達前に現行JISで確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "SNCM420",
@@ -14716,7 +14716,7 @@ export const alloys = [
         "title": "JIS machinery steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived machinery steel chemistry; verify against current JIS before procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "規格由来の機械構造用鋼化学成分。調達前に現行JISで確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -14742,7 +14742,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived machinery steel chemistry; verify against current JIS before procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "規格由来の機械構造用鋼化学成分。調達前に現行JISで確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "SNCM439",
@@ -14828,7 +14828,7 @@ export const alloys = [
         "title": "JIS machinery steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived machinery steel chemistry; verify against current JIS before procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "規格由来の機械構造用鋼化学成分。調達前に現行JISで確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -14853,7 +14853,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived machinery steel chemistry; verify against current JIS before procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "規格由来の機械構造用鋼化学成分。調達前に現行JISで確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "SCr420",
@@ -14927,7 +14927,7 @@ export const alloys = [
         "title": "JIS machinery steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived machinery steel chemistry; verify against current JIS before procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "規格由来の機械構造用鋼化学成分。調達前に現行JISで確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -14952,7 +14952,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived machinery steel chemistry; verify against current JIS before procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "規格由来の機械構造用鋼化学成分。調達前に現行JISで確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "SCr440",
@@ -15026,7 +15026,7 @@ export const alloys = [
         "title": "JIS machinery steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived machinery steel chemistry; verify against current JIS before procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "規格由来の機械構造用鋼化学成分。調達前に現行JISで確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -15051,7 +15051,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived machinery steel chemistry; verify against current JIS before procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "規格由来の機械構造用鋼化学成分。調達前に現行JISで確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "SNC631",
@@ -15131,7 +15131,7 @@ export const alloys = [
         "title": "JIS machinery steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived machinery steel chemistry; verify against current JIS before procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "規格由来の機械構造用鋼化学成分。調達前に現行JISで確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -15156,7 +15156,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived machinery steel chemistry; verify against current JIS before procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "規格由来の機械構造用鋼化学成分。調達前に現行JISで確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "SNC836",
@@ -15236,7 +15236,7 @@ export const alloys = [
         "title": "JIS machinery steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived machinery steel chemistry; verify against current JIS before procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "規格由来の機械構造用鋼化学成分。調達前に現行JISで確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -15261,7 +15261,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived machinery steel chemistry; verify against current JIS before procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "規格由来の機械構造用鋼化学成分。調達前に現行JISで確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "SACM645",
@@ -15346,7 +15346,7 @@ export const alloys = [
         "title": "JIS machinery steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived machinery steel chemistry; verify against current JIS before procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "規格由来の機械構造用鋼化学成分。調達前に現行JISで確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -15371,7 +15371,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived machinery steel chemistry; verify against current JIS before procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "規格由来の機械構造用鋼化学成分。調達前に現行JISで確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "SUM43",
@@ -15440,7 +15440,7 @@ export const alloys = [
         "title": "JIS machinery steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived machinery steel chemistry; verify against current JIS before procurement. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "規格由来の機械構造用鋼化学成分。調達前に現行JISで確認が必要。Fe余量は列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -15465,7 +15465,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 201",
@@ -15548,7 +15548,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -15573,7 +15573,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 202",
@@ -15656,7 +15656,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -15681,7 +15681,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 205",
@@ -15766,7 +15766,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -15791,7 +15791,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 254 SMO",
@@ -15886,7 +15886,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -15911,7 +15911,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 301",
@@ -15988,7 +15988,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -16013,7 +16013,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 302",
@@ -16095,7 +16095,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -16120,7 +16120,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 302B",
@@ -16198,7 +16198,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -16223,7 +16223,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 303",
@@ -16306,7 +16306,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -16331,7 +16331,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 304N",
@@ -16414,7 +16414,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -16439,7 +16439,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 305",
@@ -16516,7 +16516,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -16541,7 +16541,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 308",
@@ -16618,7 +16618,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -16643,7 +16643,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 309",
@@ -16720,7 +16720,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -16745,7 +16745,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 309S",
@@ -16822,7 +16822,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -16847,7 +16847,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 316N",
@@ -16936,7 +16936,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -16961,7 +16961,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 316Ti",
@@ -17050,7 +17050,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -17075,7 +17075,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 317",
@@ -17158,7 +17158,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -17183,7 +17183,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 317L",
@@ -17266,7 +17266,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -17291,7 +17291,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 321H",
@@ -17374,7 +17374,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -17399,7 +17399,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 347H",
@@ -17483,7 +17483,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -17508,7 +17508,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 405",
@@ -17585,7 +17585,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -17610,7 +17610,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 409",
@@ -17687,7 +17687,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -17712,7 +17712,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 410",
@@ -17784,7 +17784,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -17809,7 +17809,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 414",
@@ -17886,7 +17886,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -17911,7 +17911,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 416",
@@ -17982,7 +17982,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -18007,7 +18007,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 420",
@@ -18078,7 +18078,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -18103,7 +18103,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 422",
@@ -18189,7 +18189,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -18214,7 +18214,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 429",
@@ -18285,7 +18285,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -18310,7 +18310,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 430",
@@ -18381,7 +18381,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -18406,7 +18406,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 430F",
@@ -18477,7 +18477,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -18502,7 +18502,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 431",
@@ -18579,7 +18579,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -18604,7 +18604,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 434",
@@ -18681,7 +18681,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -18706,7 +18706,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 436",
@@ -18789,7 +18789,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -18814,7 +18814,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 439",
@@ -18891,7 +18891,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -18916,7 +18916,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 440A",
@@ -18993,7 +18993,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -19018,7 +19018,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 440B",
@@ -19095,7 +19095,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -19120,7 +19120,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 440C",
@@ -19197,7 +19197,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -19222,7 +19222,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 441",
@@ -19305,7 +19305,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -19330,7 +19330,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 442",
@@ -19401,7 +19401,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -19426,7 +19426,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 444",
@@ -19508,7 +19508,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -19533,7 +19533,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Stainless Steel 446",
@@ -19609,7 +19609,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -19635,7 +19635,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "13-8 Mo Stainless Steel",
@@ -19724,7 +19724,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -19749,7 +19749,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "17-7 PH Stainless Steel",
@@ -19832,7 +19832,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -19857,7 +19857,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Duplex Stainless Steel 2304",
@@ -19946,7 +19946,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -19971,7 +19971,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Lean Duplex Stainless Steel 2101",
@@ -20061,7 +20061,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -20086,7 +20086,7 @@ export const alloys = [
         "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Duplex Stainless Steel 255",
@@ -20181,7 +20181,7 @@ export const alloys = [
         "title": "SAE stainless steel designations composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "SAE/UNS stainless composition table; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "SAE/UNSステンレス成分表。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -20206,7 +20206,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "W1 Tool Steel",
@@ -20284,7 +20284,7 @@ export const alloys = [
         "title": "Tool steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Tool_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -20309,7 +20309,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "W2 Tool Steel",
@@ -20388,7 +20388,7 @@ export const alloys = [
         "title": "Tool steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Tool_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -20413,7 +20413,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "W5 Tool Steel",
@@ -20492,7 +20492,7 @@ export const alloys = [
         "title": "Tool steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Tool_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -20517,7 +20517,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "O1 Tool Steel",
@@ -20601,7 +20601,7 @@ export const alloys = [
         "title": "Tool steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Tool_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -20626,7 +20626,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "O2 Tool Steel",
@@ -20703,7 +20703,7 @@ export const alloys = [
         "title": "Tool steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Tool_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -20728,7 +20728,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "O6 Tool Steel",
@@ -20806,7 +20806,7 @@ export const alloys = [
         "title": "Tool steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Tool_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -20831,7 +20831,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "A2 Tool Steel",
@@ -20915,7 +20915,7 @@ export const alloys = [
         "title": "Tool steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Tool_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -20940,7 +20940,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "A6 Tool Steel",
@@ -21019,7 +21019,7 @@ export const alloys = [
         "title": "Tool steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Tool_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -21044,7 +21044,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "A7 Tool Steel",
@@ -21128,7 +21128,7 @@ export const alloys = [
         "title": "Tool steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Tool_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -21153,7 +21153,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "A8 Tool Steel",
@@ -21238,7 +21238,7 @@ export const alloys = [
         "title": "Tool steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Tool_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -21263,7 +21263,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "A10 Tool Steel",
@@ -21348,7 +21348,7 @@ export const alloys = [
         "title": "Tool steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Tool_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -21373,7 +21373,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "D3 Tool Steel",
@@ -21450,7 +21450,7 @@ export const alloys = [
         "title": "Tool steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Tool_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -21475,7 +21475,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "D4 Tool Steel",
@@ -21558,7 +21558,7 @@ export const alloys = [
         "title": "Tool steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Tool_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -21583,7 +21583,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "D5 Tool Steel",
@@ -21672,7 +21672,7 @@ export const alloys = [
         "title": "Tool steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Tool_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -21697,7 +21697,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "D7 Tool Steel",
@@ -21781,7 +21781,7 @@ export const alloys = [
         "title": "Tool steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Tool_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -21806,7 +21806,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "H10 Tool Steel",
@@ -21892,7 +21892,7 @@ export const alloys = [
         "title": "Tool steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Tool_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -21917,7 +21917,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "H11 Tool Steel",
@@ -22003,7 +22003,7 @@ export const alloys = [
         "title": "Tool steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Tool_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -22028,7 +22028,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "H12 Tool Steel",
@@ -22120,7 +22120,7 @@ export const alloys = [
         "title": "Tool steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Tool_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -22145,7 +22145,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "H14 Tool Steel",
@@ -22231,7 +22231,7 @@ export const alloys = [
         "title": "Tool steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Tool_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -22256,7 +22256,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "H19 Tool Steel",
@@ -22354,7 +22354,7 @@ export const alloys = [
         "title": "Tool steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Tool_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -22379,7 +22379,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "H21 Tool Steel",
@@ -22465,7 +22465,7 @@ export const alloys = [
         "title": "Tool steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Tool_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -22490,7 +22490,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "H26 Tool Steel",
@@ -22576,7 +22576,7 @@ export const alloys = [
         "title": "Tool steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Tool_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -22601,7 +22601,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "S1 Shock-Resisting Tool Steel",
@@ -22681,7 +22681,7 @@ export const alloys = [
         "title": "Tool steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Tool_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -22706,7 +22706,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "S2 Shock-Resisting Tool Steel",
@@ -22792,7 +22792,7 @@ export const alloys = [
         "title": "Tool steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Tool_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -22817,7 +22817,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "S5 Shock-Resisting Tool Steel",
@@ -22897,7 +22897,7 @@ export const alloys = [
         "title": "Tool steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Tool_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -22922,7 +22922,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "S7 Shock-Resisting Tool Steel",
@@ -23002,7 +23002,7 @@ export const alloys = [
         "title": "Tool steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Tool_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -23027,7 +23027,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "L2 Tool Steel",
@@ -23106,7 +23106,7 @@ export const alloys = [
         "title": "Tool steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Tool_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -23131,7 +23131,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "L6 Tool Steel",
@@ -23215,7 +23215,7 @@ export const alloys = [
         "title": "Tool steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Tool_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -23240,7 +23240,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "F1 Tool Steel",
@@ -23324,7 +23324,7 @@ export const alloys = [
         "title": "Tool steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Tool_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -23349,7 +23349,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "M1 High Speed Steel",
@@ -23439,7 +23439,7 @@ export const alloys = [
         "title": "High-speed steel composition reference",
         "url": "https://en.wikipedia.org/wiki/High-speed_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -23464,7 +23464,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "M3 High Speed Steel",
@@ -23554,7 +23554,7 @@ export const alloys = [
         "title": "High-speed steel composition reference",
         "url": "https://en.wikipedia.org/wiki/High-speed_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -23579,7 +23579,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "M4 High Speed Steel",
@@ -23669,7 +23669,7 @@ export const alloys = [
         "title": "High-speed steel composition reference",
         "url": "https://en.wikipedia.org/wiki/High-speed_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -23694,7 +23694,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "M7 High Speed Steel",
@@ -23784,7 +23784,7 @@ export const alloys = [
         "title": "High-speed steel composition reference",
         "url": "https://en.wikipedia.org/wiki/High-speed_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -23809,7 +23809,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "M10 High Speed Steel",
@@ -23899,7 +23899,7 @@ export const alloys = [
         "title": "High-speed steel composition reference",
         "url": "https://en.wikipedia.org/wiki/High-speed_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -23924,7 +23924,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "M15 High Speed Steel",
@@ -24010,7 +24010,7 @@ export const alloys = [
         "title": "High-speed steel composition reference",
         "url": "https://en.wikipedia.org/wiki/High-speed_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -24035,7 +24035,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "M30 High Speed Steel",
@@ -24121,7 +24121,7 @@ export const alloys = [
         "title": "High-speed steel composition reference",
         "url": "https://en.wikipedia.org/wiki/High-speed_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -24146,7 +24146,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "M33 High Speed Steel",
@@ -24232,7 +24232,7 @@ export const alloys = [
         "title": "High-speed steel composition reference",
         "url": "https://en.wikipedia.org/wiki/High-speed_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -24257,7 +24257,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "M34 High Speed Steel",
@@ -24343,7 +24343,7 @@ export const alloys = [
         "title": "High-speed steel composition reference",
         "url": "https://en.wikipedia.org/wiki/High-speed_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -24368,7 +24368,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "M36 High Speed Steel",
@@ -24454,7 +24454,7 @@ export const alloys = [
         "title": "High-speed steel composition reference",
         "url": "https://en.wikipedia.org/wiki/High-speed_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -24480,7 +24480,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "T1 High Speed Steel",
@@ -24564,7 +24564,7 @@ export const alloys = [
         "title": "High-speed steel composition reference",
         "url": "https://en.wikipedia.org/wiki/High-speed_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -24589,7 +24589,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "T2 High Speed Steel",
@@ -24669,7 +24669,7 @@ export const alloys = [
         "title": "High-speed steel composition reference",
         "url": "https://en.wikipedia.org/wiki/High-speed_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -24694,7 +24694,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "T4 High Speed Steel",
@@ -24774,7 +24774,7 @@ export const alloys = [
         "title": "High-speed steel composition reference",
         "url": "https://en.wikipedia.org/wiki/High-speed_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -24799,7 +24799,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "T5 High Speed Steel",
@@ -24879,7 +24879,7 @@ export const alloys = [
         "title": "High-speed steel composition reference",
         "url": "https://en.wikipedia.org/wiki/High-speed_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -24904,7 +24904,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "T8 High Speed Steel",
@@ -24984,7 +24984,7 @@ export const alloys = [
         "title": "High-speed steel composition reference",
         "url": "https://en.wikipedia.org/wiki/High-speed_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -25009,7 +25009,7 @@ export const alloys = [
         "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "T15 High Speed Steel",
@@ -25089,7 +25089,7 @@ export const alloys = [
         "title": "High-speed steel composition reference",
         "url": "https://en.wikipedia.org/wiki/High-speed_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public tool steel family composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開工具鋼ファミリー成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -25115,7 +25115,7 @@ export const alloys = [
         "properties": "軸受鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "SUJ2 Bearing Steel",
@@ -25188,7 +25188,7 @@ export const alloys = [
         "title": "Bearing steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -25213,7 +25213,7 @@ export const alloys = [
         "properties": "軸受鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "SUJ3 Bearing Steel",
@@ -25287,7 +25287,7 @@ export const alloys = [
         "title": "Bearing steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -25313,7 +25313,7 @@ export const alloys = [
         "properties": "軸受鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 52100 Bearing Steel",
@@ -25387,7 +25387,7 @@ export const alloys = [
         "title": "Bearing steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -25412,7 +25412,7 @@ export const alloys = [
         "properties": "軸受鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 51100 Bearing Steel",
@@ -25486,7 +25486,7 @@ export const alloys = [
         "title": "Bearing steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -25511,7 +25511,7 @@ export const alloys = [
         "properties": "軸受鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AISI 51200 Bearing Steel",
@@ -25585,7 +25585,7 @@ export const alloys = [
         "title": "Bearing steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -25610,7 +25610,7 @@ export const alloys = [
         "properties": "ばね鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "SUP3 Spring Steel",
@@ -25678,7 +25678,7 @@ export const alloys = [
         "title": "Spring steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Spring_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -25703,7 +25703,7 @@ export const alloys = [
         "properties": "ばね鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "SUP6 Spring Steel",
@@ -25771,7 +25771,7 @@ export const alloys = [
         "title": "Spring steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Spring_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -25796,7 +25796,7 @@ export const alloys = [
         "properties": "ばね鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "SUP7 Spring Steel",
@@ -25864,7 +25864,7 @@ export const alloys = [
         "title": "Spring steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Spring_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -25889,7 +25889,7 @@ export const alloys = [
         "properties": "ばね鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "SUP9 Spring Steel",
@@ -25963,7 +25963,7 @@ export const alloys = [
         "title": "Spring steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Spring_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -25988,7 +25988,7 @@ export const alloys = [
         "properties": "ばね鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "SUP9A Spring Steel",
@@ -26062,7 +26062,7 @@ export const alloys = [
         "title": "Spring steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Spring_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -26087,7 +26087,7 @@ export const alloys = [
         "properties": "ばね鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "SUP10 Spring Steel",
@@ -26167,7 +26167,7 @@ export const alloys = [
         "title": "Spring steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Spring_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -26192,7 +26192,7 @@ export const alloys = [
         "properties": "ばね鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "SUP11A Spring Steel",
@@ -26272,7 +26272,7 @@ export const alloys = [
         "title": "Spring steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Spring_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -26297,7 +26297,7 @@ export const alloys = [
         "properties": "ばね鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "SUP12 Spring Steel",
@@ -26371,7 +26371,7 @@ export const alloys = [
         "title": "Spring steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Spring_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -26396,7 +26396,7 @@ export const alloys = [
         "properties": "ばね鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "SUP13 Spring Steel",
@@ -26476,7 +26476,7 @@ export const alloys = [
         "title": "Spring steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Spring_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -26501,7 +26501,7 @@ export const alloys = [
         "properties": "ばね鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "SAE 5160 Spring Steel",
@@ -26575,7 +26575,7 @@ export const alloys = [
         "title": "Spring steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Spring_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -26600,7 +26600,7 @@ export const alloys = [
         "properties": "ばね鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "SAE 6150 Spring Steel",
@@ -26679,7 +26679,7 @@ export const alloys = [
         "title": "Spring steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Spring_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -26704,7 +26704,7 @@ export const alloys = [
         "properties": "ばね鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "SAE 9254 Spring Steel",
@@ -26778,7 +26778,7 @@ export const alloys = [
         "title": "Spring steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Spring_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -26803,7 +26803,7 @@ export const alloys = [
         "properties": "ばね鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "SAE 1074 Spring Steel",
@@ -26865,7 +26865,7 @@ export const alloys = [
         "title": "Spring steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Spring_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -26890,7 +26890,7 @@ export const alloys = [
         "properties": "ばね鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "SAE 1095 Spring Steel",
@@ -26952,7 +26952,7 @@ export const alloys = [
         "title": "Spring steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Spring_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -26977,7 +26977,7 @@ export const alloys = [
         "properties": "耐摩耗鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AR400 Wear Plate",
@@ -27062,7 +27062,7 @@ export const alloys = [
         "title": "Wear-resistant steel composition reference",
         "url": "https://en.wikipedia.org/wiki/High-strength_low-alloy_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -27087,7 +27087,7 @@ export const alloys = [
         "properties": "耐摩耗鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AR450 Wear Plate",
@@ -27172,7 +27172,7 @@ export const alloys = [
         "title": "Wear-resistant steel composition reference",
         "url": "https://en.wikipedia.org/wiki/High-strength_low-alloy_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -27197,7 +27197,7 @@ export const alloys = [
         "properties": "耐摩耗鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AR500 Wear Plate",
@@ -27282,7 +27282,7 @@ export const alloys = [
         "title": "Wear-resistant steel composition reference",
         "url": "https://en.wikipedia.org/wiki/High-strength_low-alloy_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -27307,7 +27307,7 @@ export const alloys = [
         "properties": "耐摩耗鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AR550 Wear Plate",
@@ -27392,7 +27392,7 @@ export const alloys = [
         "title": "Wear-resistant steel composition reference",
         "url": "https://en.wikipedia.org/wiki/High-strength_low-alloy_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -27417,7 +27417,7 @@ export const alloys = [
         "properties": "耐摩耗鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "AR600 Wear Plate",
@@ -27502,7 +27502,7 @@ export const alloys = [
         "title": "Wear-resistant steel composition reference",
         "url": "https://en.wikipedia.org/wiki/High-strength_low-alloy_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -27528,7 +27528,7 @@ export const alloys = [
         "properties": "耐摩耗鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Hadfield Manganese Steel",
@@ -27595,7 +27595,7 @@ export const alloys = [
         "title": "Wear-resistant steel composition reference",
         "url": "https://en.wikipedia.org/wiki/High-strength_low-alloy_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -27620,7 +27620,7 @@ export const alloys = [
         "properties": "耐摩耗鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "X120Mn12 Manganese Steel",
@@ -27687,7 +27687,7 @@ export const alloys = [
         "title": "Wear-resistant steel composition reference",
         "url": "https://en.wikipedia.org/wiki/High-strength_low-alloy_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -27712,7 +27712,7 @@ export const alloys = [
         "properties": "耐摩耗鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "NM400 Wear-Resistant Steel",
@@ -27797,7 +27797,7 @@ export const alloys = [
         "title": "Wear-resistant steel composition reference",
         "url": "https://en.wikipedia.org/wiki/High-strength_low-alloy_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -27822,7 +27822,7 @@ export const alloys = [
         "properties": "耐摩耗鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "NM450 Wear-Resistant Steel",
@@ -27907,7 +27907,7 @@ export const alloys = [
         "title": "Wear-resistant steel composition reference",
         "url": "https://en.wikipedia.org/wiki/High-strength_low-alloy_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -27932,7 +27932,7 @@ export const alloys = [
         "properties": "耐摩耗鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "NM500 Wear-Resistant Steel",
@@ -28017,7 +28017,7 @@ export const alloys = [
         "title": "Wear-resistant steel composition reference",
         "url": "https://en.wikipedia.org/wiki/High-strength_low-alloy_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -28042,7 +28042,7 @@ export const alloys = [
         "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
         "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
         "japaneseMakers": "三菱マテリアル, 大同特殊鋼, プロテリアル, 日本タングステン",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "Hardox 450",
@@ -28127,7 +28127,7 @@ export const alloys = [
         "title": "Wear-resistant steel composition reference",
         "url": "https://en.wikipedia.org/wiki/High-strength_low-alloy_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -28153,7 +28153,7 @@ export const alloys = [
         "properties": "高温環境向け合金。耐酸化性、高温強度、クリープ抵抗を重視し、熱処理炉・ガスタービン・高温装置に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, IHI",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "ASTM A335 P11",
@@ -28233,7 +28233,7 @@ export const alloys = [
         "title": "Heat-resistant Cr-Mo steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -28259,7 +28259,7 @@ export const alloys = [
         "properties": "高温環境向け合金。耐酸化性、高温強度、クリープ抵抗を重視し、熱処理炉・ガスタービン・高温装置に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, IHI",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "ASTM A335 P22",
@@ -28338,7 +28338,7 @@ export const alloys = [
         "title": "Heat-resistant Cr-Mo steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -28364,7 +28364,7 @@ export const alloys = [
         "properties": "高温環境向け合金。耐酸化性、高温強度、クリープ抵抗を重視し、熱処理炉・ガスタービン・高温装置に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, IHI",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "ASTM A335 P5",
@@ -28442,7 +28442,7 @@ export const alloys = [
         "title": "Heat-resistant Cr-Mo steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -28468,7 +28468,7 @@ export const alloys = [
         "properties": "高温環境向け合金。耐酸化性、高温強度、クリープ抵抗を重視し、熱処理炉・ガスタービン・高温装置に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, IHI",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "ASTM A335 P9",
@@ -28547,7 +28547,7 @@ export const alloys = [
         "title": "Heat-resistant Cr-Mo steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -28573,7 +28573,7 @@ export const alloys = [
         "properties": "高温環境向け合金。耐酸化性、高温強度、クリープ抵抗を重視し、熱処理炉・ガスタービン・高温装置に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, IHI",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "ASTM A335 P91",
@@ -28671,7 +28671,7 @@ export const alloys = [
         "title": "Heat-resistant Cr-Mo steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -28697,7 +28697,7 @@ export const alloys = [
         "properties": "高温環境向け合金。耐酸化性、高温強度、クリープ抵抗を重視し、熱処理炉・ガスタービン・高温装置に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, IHI",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "ASTM A335 P92",
@@ -28796,7 +28796,7 @@ export const alloys = [
         "title": "Heat-resistant Cr-Mo steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -28821,7 +28821,7 @@ export const alloys = [
         "properties": "高温環境向け合金。耐酸化性、高温強度、クリープ抵抗を重視し、熱処理炉・ガスタービン・高温装置に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, IHI",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "ASTM A213 T11",
@@ -28901,7 +28901,7 @@ export const alloys = [
         "title": "Heat-resistant Cr-Mo steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -28926,7 +28926,7 @@ export const alloys = [
         "properties": "高温環境向け合金。耐酸化性、高温強度、クリープ抵抗を重視し、熱処理炉・ガスタービン・高温装置に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, IHI",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "ASTM A213 T22",
@@ -29005,7 +29005,7 @@ export const alloys = [
         "title": "Heat-resistant Cr-Mo steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -29030,7 +29030,7 @@ export const alloys = [
         "properties": "高温環境向け合金。耐酸化性、高温強度、クリープ抵抗を重視し、熱処理炉・ガスタービン・高温装置に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, IHI",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "ASTM A213 T23",
@@ -29123,7 +29123,7 @@ export const alloys = [
         "title": "Heat-resistant Cr-Mo steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -29148,7 +29148,7 @@ export const alloys = [
         "properties": "高温環境向け合金。耐酸化性、高温強度、クリープ抵抗を重視し、熱処理炉・ガスタービン・高温装置に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, IHI",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "ASTM A213 T24",
@@ -29230,7 +29230,7 @@ export const alloys = [
         "title": "Heat-resistant Cr-Mo steel composition reference",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -29255,7 +29255,7 @@ export const alloys = [
         "properties": "大気腐食環境で保護性さびを形成しやすい鋼。橋梁、屋外構造物、車両部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "COR-TEN A",
@@ -29340,7 +29340,7 @@ export const alloys = [
         "title": "Weathering steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Weathering_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -29365,7 +29365,7 @@ export const alloys = [
         "properties": "大気腐食環境で保護性さびを形成しやすい鋼。橋梁、屋外構造物、車両部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "COR-TEN B",
@@ -29449,7 +29449,7 @@ export const alloys = [
         "title": "Weathering steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Weathering_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -29474,7 +29474,7 @@ export const alloys = [
         "properties": "大気腐食環境で保護性さびを形成しやすい鋼。橋梁、屋外構造物、車両部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "ASTM A588 Grade A",
@@ -29558,7 +29558,7 @@ export const alloys = [
         "title": "Weathering steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Weathering_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -29583,7 +29583,7 @@ export const alloys = [
         "properties": "大気腐食環境で保護性さびを形成しやすい鋼。橋梁、屋外構造物、車両部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "ASTM A588 Grade B",
@@ -29667,7 +29667,7 @@ export const alloys = [
         "title": "Weathering steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Weathering_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -29692,7 +29692,7 @@ export const alloys = [
         "properties": "大気腐食環境で保護性さびを形成しやすい鋼。橋梁、屋外構造物、車両部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "SPA-H Weathering Steel",
@@ -29776,7 +29776,7 @@ export const alloys = [
         "title": "Weathering steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Weathering_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -29801,7 +29801,7 @@ export const alloys = [
         "properties": "大気腐食環境で保護性さびを形成しやすい鋼。橋梁、屋外構造物、車両部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "SMA400AW Weathering Steel",
@@ -29885,7 +29885,7 @@ export const alloys = [
         "title": "Weathering steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Weathering_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -29910,7 +29910,7 @@ export const alloys = [
         "properties": "大気腐食環境で保護性さびを形成しやすい鋼。橋梁、屋外構造物、車両部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "SMA490AW Weathering Steel",
@@ -29994,7 +29994,7 @@ export const alloys = [
         "title": "Weathering steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Weathering_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -30019,7 +30019,7 @@ export const alloys = [
         "properties": "磁気特性を重視した電磁用鋼。モーター鉄心、変圧器、発電機部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "M19 Electrical Steel",
@@ -30092,7 +30092,7 @@ export const alloys = [
         "title": "Electrical steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Electrical_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -30117,7 +30117,7 @@ export const alloys = [
         "properties": "磁気特性を重視した電磁用鋼。モーター鉄心、変圧器、発電機部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "M27 Electrical Steel",
@@ -30190,7 +30190,7 @@ export const alloys = [
         "title": "Electrical steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Electrical_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -30215,7 +30215,7 @@ export const alloys = [
         "properties": "磁気特性を重視した電磁用鋼。モーター鉄心、変圧器、発電機部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "M36 Electrical Steel",
@@ -30288,7 +30288,7 @@ export const alloys = [
         "title": "Electrical steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Electrical_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -30313,7 +30313,7 @@ export const alloys = [
         "properties": "磁気特性を重視した電磁用鋼。モーター鉄心、変圧器、発電機部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "50A470 Electrical Steel",
@@ -30386,7 +30386,7 @@ export const alloys = [
         "title": "Electrical steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Electrical_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -30411,7 +30411,7 @@ export const alloys = [
         "properties": "磁気特性を重視した電磁用鋼。モーター鉄心、変圧器、発電機部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "50A600 Electrical Steel",
@@ -30484,7 +30484,7 @@ export const alloys = [
         "title": "Electrical steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Electrical_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -30509,7 +30509,7 @@ export const alloys = [
         "properties": "磁気特性を重視した電磁用鋼。モーター鉄心、変圧器、発電機部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "35A300 Electrical Steel",
@@ -30582,7 +30582,7 @@ export const alloys = [
         "title": "Electrical steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Electrical_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -30607,7 +30607,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "M3 Grain-Oriented Electrical Steel",
@@ -30680,7 +30680,7 @@ export const alloys = [
         "title": "Electrical steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Electrical_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -30705,7 +30705,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "sourceNotes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       },
       "zh": {
         "name": "M5 Grain-Oriented Electrical Steel",
@@ -30778,7 +30778,7 @@ export const alloys = [
         "title": "Electrical steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Electrical_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
+        "notes": "公開鋼種成分の参考値。検索表示用にFe余量を計算し、列挙した主要元素から参考中点推定として表示。"
       }
     ]
   },
@@ -30803,7 +30803,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived public composition range; Fe balance calculated for search display."
+        "sourceNotes": "規格由来の公開成分範囲。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "AISI 1084 Carbon Steel",
@@ -30865,7 +30865,7 @@ export const alloys = [
         "title": "SAE steel grades composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived public composition range; Fe balance calculated for search display."
+        "notes": "規格由来の公開成分範囲。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -30890,7 +30890,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived public composition range; Fe balance calculated for search display."
+        "sourceNotes": "規格由来の公開成分範囲。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "AISI 1085 Carbon Steel",
@@ -30952,7 +30952,7 @@ export const alloys = [
         "title": "SAE steel grades composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived public composition range; Fe balance calculated for search display."
+        "notes": "規格由来の公開成分範囲。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -30977,7 +30977,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived public composition range; Fe balance calculated for search display."
+        "sourceNotes": "規格由来の公開成分範囲。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "AISI 1090 Carbon Steel",
@@ -31039,7 +31039,7 @@ export const alloys = [
         "title": "SAE steel grades composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived public composition range; Fe balance calculated for search display."
+        "notes": "規格由来の公開成分範囲。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -31064,7 +31064,7 @@ export const alloys = [
         "properties": "快削鋼に分類される特殊金属材料。用途は切削加工部品・シャフト・ねじ部品で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived free-machining steel composition range; Fe balance calculated for search display."
+        "sourceNotes": "規格由来の快削鋼成分範囲。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "AISI 1117 Resulfurized Steel",
@@ -31127,7 +31127,7 @@ export const alloys = [
         "title": "SAE steel grades composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived free-machining steel composition range; Fe balance calculated for search display."
+        "notes": "規格由来の快削鋼成分範囲。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -31152,7 +31152,7 @@ export const alloys = [
         "properties": "快削鋼に分類される特殊金属材料。用途は切削加工部品・シャフト・ねじ部品で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived free-machining steel composition range; Fe balance calculated for search display."
+        "sourceNotes": "規格由来の快削鋼成分範囲。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "AISI 1118 Resulfurized Steel",
@@ -31215,7 +31215,7 @@ export const alloys = [
         "title": "SAE steel grades composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived free-machining steel composition range; Fe balance calculated for search display."
+        "notes": "規格由来の快削鋼成分範囲。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -31240,7 +31240,7 @@ export const alloys = [
         "properties": "快削鋼に分類される特殊金属材料。用途は切削加工部品・シャフト・ねじ部品で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived free-machining steel composition range; Fe balance calculated for search display."
+        "sourceNotes": "規格由来の快削鋼成分範囲。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "AISI 1137 Resulfurized Steel",
@@ -31303,7 +31303,7 @@ export const alloys = [
         "title": "SAE steel grades composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived free-machining steel composition range; Fe balance calculated for search display."
+        "notes": "規格由来の快削鋼成分範囲。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -31328,7 +31328,7 @@ export const alloys = [
         "properties": "快削鋼に分類される特殊金属材料。用途は切削加工部品・シャフト・ねじ部品で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived free-machining steel composition range; Fe balance calculated for search display."
+        "sourceNotes": "規格由来の快削鋼成分範囲。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "AISI 1141 Resulfurized Steel",
@@ -31391,7 +31391,7 @@ export const alloys = [
         "title": "SAE steel grades composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived free-machining steel composition range; Fe balance calculated for search display."
+        "notes": "規格由来の快削鋼成分範囲。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -31416,7 +31416,7 @@ export const alloys = [
         "properties": "快削鋼に分類される特殊金属材料。用途は切削加工部品・シャフト・ねじ部品で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived free-machining steel composition range; Fe balance calculated for search display."
+        "sourceNotes": "規格由来の快削鋼成分範囲。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "AISI 1144 Stressproof Steel",
@@ -31479,7 +31479,7 @@ export const alloys = [
         "title": "SAE steel grades composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived free-machining steel composition range; Fe balance calculated for search display."
+        "notes": "規格由来の快削鋼成分範囲。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -31504,7 +31504,7 @@ export const alloys = [
         "properties": "快削鋼に分類される特殊金属材料。用途は自動盤加工・小ねじ・精密切削部品で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived free-machining steel composition range; Fe balance calculated for search display."
+        "sourceNotes": "規格由来の快削鋼成分範囲。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "AISI 1211 Free-Cutting Steel",
@@ -31567,7 +31567,7 @@ export const alloys = [
         "title": "SAE steel grades composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived free-machining steel composition range; Fe balance calculated for search display."
+        "notes": "規格由来の快削鋼成分範囲。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -31592,7 +31592,7 @@ export const alloys = [
         "properties": "快削鋼に分類される特殊金属材料。用途は自動盤加工・小ねじ・精密切削部品で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived free-machining steel composition range; Fe balance calculated for search display."
+        "sourceNotes": "規格由来の快削鋼成分範囲。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "AISI 1212 Free-Cutting Steel",
@@ -31655,7 +31655,7 @@ export const alloys = [
         "title": "SAE steel grades composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived free-machining steel composition range; Fe balance calculated for search display."
+        "notes": "規格由来の快削鋼成分範囲。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -31680,7 +31680,7 @@ export const alloys = [
         "properties": "快削鋼に分類される特殊金属材料。用途は自動盤加工・小ねじ・精密切削部品で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived free-machining steel composition range; Fe balance calculated for search display."
+        "sourceNotes": "規格由来の快削鋼成分範囲。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "AISI 1213 Free-Cutting Steel",
@@ -31743,7 +31743,7 @@ export const alloys = [
         "title": "SAE steel grades composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived free-machining steel composition range; Fe balance calculated for search display."
+        "notes": "規格由来の快削鋼成分範囲。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -31768,7 +31768,7 @@ export const alloys = [
         "properties": "快削鋼に分類される特殊金属材料。用途は自動盤加工・小ねじ・精密切削部品で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived free-machining steel composition range; Fe balance calculated for search display."
+        "sourceNotes": "規格由来の快削鋼成分範囲。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "AISI 1215 Free-Cutting Steel",
@@ -31831,7 +31831,7 @@ export const alloys = [
         "title": "SAE steel grades composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived free-machining steel composition range; Fe balance calculated for search display."
+        "notes": "規格由来の快削鋼成分範囲。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -31856,7 +31856,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived public composition range; Fe balance calculated for search display."
+        "sourceNotes": "規格由来の公開成分範囲。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "AISI 1330 Manganese Steel",
@@ -31918,7 +31918,7 @@ export const alloys = [
         "title": "SAE steel grades composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived public composition range; Fe balance calculated for search display."
+        "notes": "規格由来の公開成分範囲。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -31943,7 +31943,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived public composition range; Fe balance calculated for search display."
+        "sourceNotes": "規格由来の公開成分範囲。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "AISI 1340 Manganese Steel",
@@ -32005,7 +32005,7 @@ export const alloys = [
         "title": "SAE steel grades composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived public composition range; Fe balance calculated for search display."
+        "notes": "規格由来の公開成分範囲。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -32030,7 +32030,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived public composition range; Fe balance calculated for search display."
+        "sourceNotes": "規格由来の公開成分範囲。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "AISI 1345 Manganese Steel",
@@ -32092,7 +32092,7 @@ export const alloys = [
         "title": "SAE steel grades composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived public composition range; Fe balance calculated for search display."
+        "notes": "規格由来の公開成分範囲。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -32117,7 +32117,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived public composition range; Fe balance calculated for search display."
+        "sourceNotes": "規格由来の公開成分範囲。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "AISI 3140 Nickel-Chromium Steel",
@@ -32191,7 +32191,7 @@ export const alloys = [
         "title": "SAE steel grades composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived public composition range; Fe balance calculated for search display."
+        "notes": "規格由来の公開成分範囲。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -32216,7 +32216,7 @@ export const alloys = [
         "properties": "浸炭鋼に分類される特殊金属材料。用途は浸炭歯車・シャフト・高靭性部品で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived public composition range; Fe balance calculated for search display."
+        "sourceNotes": "規格由来の公開成分範囲。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "AISI 3310 Nickel-Chromium Steel",
@@ -32290,7 +32290,7 @@ export const alloys = [
         "title": "SAE steel grades composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived public composition range; Fe balance calculated for search display."
+        "notes": "規格由来の公開成分範囲。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -32315,7 +32315,7 @@ export const alloys = [
         "properties": "浸炭鋼に分類される特殊金属材料。用途は浸炭歯車・シャフト・高靭性部品で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived public composition range; Fe balance calculated for search display."
+        "sourceNotes": "規格由来の公開成分範囲。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "AISI 3316 Nickel-Chromium Steel",
@@ -32389,7 +32389,7 @@ export const alloys = [
         "title": "SAE steel grades composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived public composition range; Fe balance calculated for search display."
+        "notes": "規格由来の公開成分範囲。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -32414,7 +32414,7 @@ export const alloys = [
         "properties": "浸炭鋼に分類される特殊金属材料。用途は浸炭歯車・シャフト・高靭性部品で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived public composition range; Fe balance calculated for search display."
+        "sourceNotes": "規格由来の公開成分範囲。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "AISI 3318 Nickel-Chromium Steel",
@@ -32488,7 +32488,7 @@ export const alloys = [
         "title": "SAE steel grades composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived public composition range; Fe balance calculated for search display."
+        "notes": "規格由来の公開成分範囲。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -32513,7 +32513,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived public composition range; Fe balance calculated for search display."
+        "sourceNotes": "規格由来の公開成分範囲。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "AISI 4037 Molybdenum Steel",
@@ -32581,7 +32581,7 @@ export const alloys = [
         "title": "SAE steel grades composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived public composition range; Fe balance calculated for search display."
+        "notes": "規格由来の公開成分範囲。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -32606,7 +32606,7 @@ export const alloys = [
         "properties": "クロムモリブデン鋼に分類される特殊金属材料。用途はボルト・シャフト・機械構造部品で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived public composition range; Fe balance calculated for search display."
+        "sourceNotes": "規格由来の公開成分範囲。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "AISI 4137 Chromium-Molybdenum Steel",
@@ -32680,7 +32680,7 @@ export const alloys = [
         "title": "SAE steel grades composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived public composition range; Fe balance calculated for search display."
+        "notes": "規格由来の公開成分範囲。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -32705,7 +32705,7 @@ export const alloys = [
         "properties": "クロムモリブデン鋼に分類される特殊金属材料。用途は高強度シャフト・工具部材・機械構造部品で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived public composition range; Fe balance calculated for search display."
+        "sourceNotes": "規格由来の公開成分範囲。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "AISI 4147 Chromium-Molybdenum Steel",
@@ -32779,7 +32779,7 @@ export const alloys = [
         "title": "SAE steel grades composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived public composition range; Fe balance calculated for search display."
+        "notes": "規格由来の公開成分範囲。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -32804,7 +32804,7 @@ export const alloys = [
         "properties": "浸炭鋼に分類される特殊金属材料。用途は浸炭歯車・高靭性機械部品で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived public composition range; Fe balance calculated for search display."
+        "sourceNotes": "規格由来の公開成分範囲。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "AISI 4317 Nickel-Chromium-Molybdenum Steel",
@@ -32884,7 +32884,7 @@ export const alloys = [
         "title": "SAE steel grades composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived public composition range; Fe balance calculated for search display."
+        "notes": "規格由来の公開成分範囲。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -32909,7 +32909,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived public composition range; Fe balance calculated for search display."
+        "sourceNotes": "規格由来の公開成分範囲。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "AISI 4815 Nickel-Molybdenum Steel",
@@ -32983,7 +32983,7 @@ export const alloys = [
         "title": "SAE steel grades composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived public composition range; Fe balance calculated for search display."
+        "notes": "規格由来の公開成分範囲。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -33008,7 +33008,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived public composition range; Fe balance calculated for search display."
+        "sourceNotes": "規格由来の公開成分範囲。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "AISI 4817 Nickel-Molybdenum Steel",
@@ -33082,7 +33082,7 @@ export const alloys = [
         "title": "SAE steel grades composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived public composition range; Fe balance calculated for search display."
+        "notes": "規格由来の公開成分範囲。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -33107,7 +33107,7 @@ export const alloys = [
         "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived public composition range; Fe balance calculated for search display."
+        "sourceNotes": "規格由来の公開成分範囲。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "AISI 4819 Nickel-Molybdenum Steel",
@@ -33181,7 +33181,7 @@ export const alloys = [
         "title": "SAE steel grades composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived public composition range; Fe balance calculated for search display."
+        "notes": "規格由来の公開成分範囲。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -33206,7 +33206,7 @@ export const alloys = [
         "properties": "軸受鋼に分類される特殊金属材料。用途は軸受・転動部品・耐摩耗部品で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived public composition range; Fe balance calculated for search display."
+        "sourceNotes": "規格由来の公開成分範囲。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "AISI 50100 Bearing Steel",
@@ -33280,7 +33280,7 @@ export const alloys = [
         "title": "SAE steel grades composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived public composition range; Fe balance calculated for search display."
+        "notes": "規格由来の公開成分範囲。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -33305,7 +33305,7 @@ export const alloys = [
         "properties": "軸受鋼に分類される特殊金属材料。用途は軸受・転動部品・耐摩耗部品で、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Standards-derived public composition range; Fe balance calculated for search display."
+        "sourceNotes": "規格由来の公開成分範囲。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "AISI 51100 Bearing Steel",
@@ -33379,7 +33379,7 @@ export const alloys = [
         "title": "SAE steel grades composition table",
         "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
         "checkedAt": "2026-06-14",
-        "notes": "Standards-derived public composition range; Fe balance calculated for search display."
+        "notes": "規格由来の公開成分範囲。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -33404,7 +33404,7 @@ export const alloys = [
         "properties": "鋳造性、減衰性、耐摩耗性を活かす鉄系鋳造材料。機械ベース、ハウジング、耐摩耗部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public cast iron composition range; Fe balance calculated for search display."
+        "sourceNotes": "公開鋳鉄成分範囲。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "Gray Cast Iron Class 20",
@@ -33472,7 +33472,7 @@ export const alloys = [
         "title": "Cast iron composition reference",
         "url": "https://en.wikipedia.org/wiki/Cast_iron",
         "checkedAt": "2026-06-14",
-        "notes": "Public cast iron composition range; Fe balance calculated for search display."
+        "notes": "公開鋳鉄成分範囲。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -33497,7 +33497,7 @@ export const alloys = [
         "properties": "鋳造性、減衰性、耐摩耗性を活かす鉄系鋳造材料。機械ベース、ハウジング、耐摩耗部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public cast iron composition range; Fe balance calculated for search display."
+        "sourceNotes": "公開鋳鉄成分範囲。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "Gray Cast Iron Class 25",
@@ -33565,7 +33565,7 @@ export const alloys = [
         "title": "Cast iron composition reference",
         "url": "https://en.wikipedia.org/wiki/Cast_iron",
         "checkedAt": "2026-06-14",
-        "notes": "Public cast iron composition range; Fe balance calculated for search display."
+        "notes": "公開鋳鉄成分範囲。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -33590,7 +33590,7 @@ export const alloys = [
         "properties": "鋳造性、減衰性、耐摩耗性を活かす鉄系鋳造材料。機械ベース、ハウジング、耐摩耗部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public cast iron composition range; Fe balance calculated for search display."
+        "sourceNotes": "公開鋳鉄成分範囲。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "Gray Cast Iron Class 30",
@@ -33658,7 +33658,7 @@ export const alloys = [
         "title": "Cast iron composition reference",
         "url": "https://en.wikipedia.org/wiki/Cast_iron",
         "checkedAt": "2026-06-14",
-        "notes": "Public cast iron composition range; Fe balance calculated for search display."
+        "notes": "公開鋳鉄成分範囲。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -33683,7 +33683,7 @@ export const alloys = [
         "properties": "鋳造性、減衰性、耐摩耗性を活かす鉄系鋳造材料。機械ベース、ハウジング、耐摩耗部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public cast iron composition range; Fe balance calculated for search display."
+        "sourceNotes": "公開鋳鉄成分範囲。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "Gray Cast Iron Class 35",
@@ -33751,7 +33751,7 @@ export const alloys = [
         "title": "Cast iron composition reference",
         "url": "https://en.wikipedia.org/wiki/Cast_iron",
         "checkedAt": "2026-06-14",
-        "notes": "Public cast iron composition range; Fe balance calculated for search display."
+        "notes": "公開鋳鉄成分範囲。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -33776,7 +33776,7 @@ export const alloys = [
         "properties": "鋳造性、減衰性、耐摩耗性を活かす鉄系鋳造材料。機械ベース、ハウジング、耐摩耗部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public cast iron composition range; Fe balance calculated for search display."
+        "sourceNotes": "公開鋳鉄成分範囲。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "Gray Cast Iron Class 40",
@@ -33844,7 +33844,7 @@ export const alloys = [
         "title": "Cast iron composition reference",
         "url": "https://en.wikipedia.org/wiki/Cast_iron",
         "checkedAt": "2026-06-14",
-        "notes": "Public cast iron composition range; Fe balance calculated for search display."
+        "notes": "公開鋳鉄成分範囲。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -33869,7 +33869,7 @@ export const alloys = [
         "properties": "鋳造性、減衰性、耐摩耗性を活かす鉄系鋳造材料。機械ベース、ハウジング、耐摩耗部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public cast iron composition range; Fe balance calculated for search display."
+        "sourceNotes": "公開鋳鉄成分範囲。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "Ductile Iron 60-40-18",
@@ -33937,7 +33937,7 @@ export const alloys = [
         "title": "Ductile iron composition reference",
         "url": "https://en.wikipedia.org/wiki/Ductile_iron",
         "checkedAt": "2026-06-14",
-        "notes": "Public cast iron composition range; Fe balance calculated for search display."
+        "notes": "公開鋳鉄成分範囲。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -33962,7 +33962,7 @@ export const alloys = [
         "properties": "鋳造性、減衰性、耐摩耗性を活かす鉄系鋳造材料。機械ベース、ハウジング、耐摩耗部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public cast iron composition range; Fe balance calculated for search display."
+        "sourceNotes": "公開鋳鉄成分範囲。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "Ductile Iron 65-45-12",
@@ -34030,7 +34030,7 @@ export const alloys = [
         "title": "Ductile iron composition reference",
         "url": "https://en.wikipedia.org/wiki/Ductile_iron",
         "checkedAt": "2026-06-14",
-        "notes": "Public cast iron composition range; Fe balance calculated for search display."
+        "notes": "公開鋳鉄成分範囲。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -34055,7 +34055,7 @@ export const alloys = [
         "properties": "鋳造性、減衰性、耐摩耗性を活かす鉄系鋳造材料。機械ベース、ハウジング、耐摩耗部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public cast iron composition range; Fe balance calculated for search display."
+        "sourceNotes": "公開鋳鉄成分範囲。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "Ductile Iron 80-55-06",
@@ -34123,7 +34123,7 @@ export const alloys = [
         "title": "Ductile iron composition reference",
         "url": "https://en.wikipedia.org/wiki/Ductile_iron",
         "checkedAt": "2026-06-14",
-        "notes": "Public cast iron composition range; Fe balance calculated for search display."
+        "notes": "公開鋳鉄成分範囲。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -34148,7 +34148,7 @@ export const alloys = [
         "properties": "鋳造性、減衰性、耐摩耗性を活かす鉄系鋳造材料。機械ベース、ハウジング、耐摩耗部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public cast iron composition range; Fe balance calculated for search display."
+        "sourceNotes": "公開鋳鉄成分範囲。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "Ductile Iron 100-70-03",
@@ -34216,7 +34216,7 @@ export const alloys = [
         "title": "Ductile iron composition reference",
         "url": "https://en.wikipedia.org/wiki/Ductile_iron",
         "checkedAt": "2026-06-14",
-        "notes": "Public cast iron composition range; Fe balance calculated for search display."
+        "notes": "公開鋳鉄成分範囲。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -34241,7 +34241,7 @@ export const alloys = [
         "properties": "鋳造性、減衰性、耐摩耗性を活かす鉄系鋳造材料。機械ベース、ハウジング、耐摩耗部材に使われる。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public cast iron composition range; Fe balance calculated for search display."
+        "sourceNotes": "公開鋳鉄成分範囲。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "White Cast Iron",
@@ -34309,7 +34309,7 @@ export const alloys = [
         "title": "Cast iron composition reference",
         "url": "https://en.wikipedia.org/wiki/Cast_iron",
         "checkedAt": "2026-06-14",
-        "notes": "Public cast iron composition range; Fe balance calculated for search display."
+        "notes": "公開鋳鉄成分範囲。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -34335,7 +34335,7 @@ export const alloys = [
         "properties": "マレージング鋼に分類される特殊金属材料。用途は航空宇宙・高強度金型・シャフトで、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public maraging steel nominal composition reference; Fe balance calculated for search display."
+        "sourceNotes": "公開マルエージング鋼名目成分の参考値。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "Maraging Steel 200",
@@ -34410,7 +34410,7 @@ export const alloys = [
         "title": "Maraging steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Maraging_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public maraging steel nominal composition reference; Fe balance calculated for search display."
+        "notes": "公開マルエージング鋼名目成分の参考値。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -34436,7 +34436,7 @@ export const alloys = [
         "properties": "マレージング鋼に分類される特殊金属材料。用途は航空宇宙・高強度金型・シャフトで、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public maraging steel nominal composition reference; Fe balance calculated for search display."
+        "sourceNotes": "公開マルエージング鋼名目成分の参考値。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "Maraging Steel 250",
@@ -34511,7 +34511,7 @@ export const alloys = [
         "title": "Maraging steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Maraging_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public maraging steel nominal composition reference; Fe balance calculated for search display."
+        "notes": "公開マルエージング鋼名目成分の参考値。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -34537,7 +34537,7 @@ export const alloys = [
         "properties": "マレージング鋼に分類される特殊金属材料。用途は航空宇宙・高強度金型・シャフトで、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public maraging steel nominal composition reference; Fe balance calculated for search display."
+        "sourceNotes": "公開マルエージング鋼名目成分の参考値。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "Maraging Steel 300",
@@ -34612,7 +34612,7 @@ export const alloys = [
         "title": "Maraging steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Maraging_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public maraging steel nominal composition reference; Fe balance calculated for search display."
+        "notes": "公開マルエージング鋼名目成分の参考値。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -34638,7 +34638,7 @@ export const alloys = [
         "properties": "マレージング鋼に分類される特殊金属材料。用途は航空宇宙・高強度金型・シャフトで、成分範囲から候補材の比較に使える。",
         "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
         "japaneseMakers": "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼",
-        "sourceNotes": "Public maraging steel nominal composition reference; Fe balance calculated for search display."
+        "sourceNotes": "公開マルエージング鋼名目成分の参考値。検索表示用にFe余量を計算。"
       },
       "zh": {
         "name": "Maraging Steel 350",
@@ -34713,7 +34713,7 @@ export const alloys = [
         "title": "Maraging steel composition reference",
         "url": "https://en.wikipedia.org/wiki/Maraging_steel",
         "checkedAt": "2026-06-14",
-        "notes": "Public maraging steel nominal composition reference; Fe balance calculated for search display."
+        "notes": "公開マルエージング鋼名目成分の参考値。検索表示用にFe余量を計算。"
       }
     ]
   },
@@ -34739,7 +34739,7 @@ export const alloys = [
         "properties": "高温環境向け合金。耐酸化性、高温強度、クリープ抵抗を重視し、熱処理炉・ガスタービン・高温装置に使われる。",
         "representativeMakers": "Special Metals, VDM Metals, ATI, Carpenter Technology",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Public alloy composition reference; balance value calculated for search display and should be replaced with producer data when confirmed."
+        "sourceNotes": "公開合金成分の参考値。検索表示用に余量値を計算しており、確認後は製造者データへ置換が必要。"
       },
       "zh": {
         "name": "Inconel 706",
@@ -34823,7 +34823,7 @@ export const alloys = [
         "title": "Inconel 706 composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Public alloy composition reference; balance value calculated for search display and should be replaced with producer data when confirmed."
+        "notes": "公開合金成分の参考値。検索表示用に余量値を計算しており、確認後は製造者データへ置換が必要。"
       }
     ]
   },
@@ -34848,7 +34848,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "Special Metals, VDM Metals, ATI, Carpenter Technology",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Public alloy composition reference; balance value calculated for search display and should be replaced with producer data when confirmed."
+        "sourceNotes": "公開合金成分の参考値。検索表示用に余量値を計算しており、確認後は製造者データへ置換が必要。"
       },
       "zh": {
         "name": "Inconel 713C",
@@ -34936,7 +34936,7 @@ export const alloys = [
         "title": "Nickel superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Public alloy composition reference; balance value calculated for search display and should be replaced with producer data when confirmed."
+        "notes": "公開合金成分の参考値。検索表示用に余量値を計算しており、確認後は製造者データへ置換が必要。"
       }
     ]
   },
@@ -34961,7 +34961,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "Special Metals, VDM Metals, ATI, Carpenter Technology",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Public alloy composition reference; balance value calculated for search display and should be replaced with producer data when confirmed."
+        "sourceNotes": "公開合金成分の参考値。検索表示用に余量値を計算しており、確認後は製造者データへ置換が必要。"
       },
       "zh": {
         "name": "Inconel 738LC",
@@ -35067,7 +35067,7 @@ export const alloys = [
         "title": "Nickel superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Public alloy composition reference; balance value calculated for search display and should be replaced with producer data when confirmed."
+        "notes": "公開合金成分の参考値。検索表示用に余量値を計算しており、確認後は製造者データへ置換が必要。"
       }
     ]
   },
@@ -35093,7 +35093,7 @@ export const alloys = [
         "properties": "高温環境向け合金。耐酸化性、高温強度、クリープ抵抗を重視し、熱処理炉・ガスタービン・高温装置に使われる。",
         "representativeMakers": "Haynes International, VDM Metals, ATI, Special Metals",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Public alloy composition reference; balance value calculated for search display and should be replaced with producer data when confirmed."
+        "sourceNotes": "公開合金成分の参考値。検索表示用に余量値を計算しており、確認後は製造者データへ置換が必要。"
       },
       "zh": {
         "name": "Haynes 556",
@@ -35187,7 +35187,7 @@ export const alloys = [
         "title": "Haynes alloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Haynes_International",
         "checkedAt": "2026-06-14",
-        "notes": "Public alloy composition reference; balance value calculated for search display and should be replaced with producer data when confirmed."
+        "notes": "公開合金成分の参考値。検索表示用に余量値を計算しており、確認後は製造者データへ置換が必要。"
       }
     ]
   },
@@ -35213,7 +35213,7 @@ export const alloys = [
         "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
         "representativeMakers": "Haynes International, VDM Metals, ATI, Special Metals",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Public alloy composition reference; balance value calculated for search display and should be replaced with producer data when confirmed."
+        "sourceNotes": "公開合金成分の参考値。検索表示用に余量値を計算しており、確認後は製造者データへ置換が必要。"
       },
       "zh": {
         "name": "Haynes 25",
@@ -35293,7 +35293,7 @@ export const alloys = [
         "title": "Haynes alloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Haynes_International",
         "checkedAt": "2026-06-14",
-        "notes": "Public alloy composition reference; balance value calculated for search display and should be replaced with producer data when confirmed."
+        "notes": "公開合金成分の参考値。検索表示用に余量値を計算しており、確認後は製造者データへ置換が必要。"
       }
     ]
   },
@@ -35319,7 +35319,7 @@ export const alloys = [
         "properties": "耐食性を重視した特殊合金。酸、塩化物、海水、化学プラント環境での腐食抵抗を主な特長とする。",
         "representativeMakers": "Haynes International, VDM Metals, ATI, Special Metals",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Public alloy composition reference; balance value calculated for search display and should be replaced with producer data when confirmed."
+        "sourceNotes": "公開合金成分の参考値。検索表示用に余量値を計算しており、確認後は製造者データへ置換が必要。"
       },
       "zh": {
         "name": "Haynes 214",
@@ -35396,7 +35396,7 @@ export const alloys = [
         "title": "Haynes alloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Haynes_International",
         "checkedAt": "2026-06-14",
-        "notes": "Public alloy composition reference; balance value calculated for search display and should be replaced with producer data when confirmed."
+        "notes": "公開合金成分の参考値。検索表示用に余量値を計算しており、確認後は製造者データへ置換が必要。"
       }
     ]
   },
@@ -35421,7 +35421,7 @@ export const alloys = [
         "properties": "耐食性を重視した特殊合金。酸、塩化物、海水、化学プラント環境での腐食抵抗を主な特長とする。",
         "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, IHI",
-        "sourceNotes": "Public alloy composition reference; balance value calculated for search display and should be replaced with producer data when confirmed."
+        "sourceNotes": "公開合金成分の参考値。検索表示用に余量値を計算しており、確認後は製造者データへ置換が必要。"
       },
       "zh": {
         "name": "Alloy 31",
@@ -35506,7 +35506,7 @@ export const alloys = [
         "title": "Nickel alloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Public alloy composition reference; balance value calculated for search display and should be replaced with producer data when confirmed."
+        "notes": "公開合金成分の参考値。検索表示用に余量値を計算しており、確認後は製造者データへ置換が必要。"
       }
     ]
   },
@@ -35531,7 +35531,7 @@ export const alloys = [
         "properties": "耐食性を重視した特殊合金。酸、塩化物、海水、化学プラント環境での腐食抵抗を主な特長とする。",
         "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, IHI",
-        "sourceNotes": "Public alloy composition reference; balance value calculated for search display and should be replaced with producer data when confirmed."
+        "sourceNotes": "公開合金成分の参考値。検索表示用に余量値を計算しており、確認後は製造者データへ置換が必要。"
       },
       "zh": {
         "name": "Alloy 59",
@@ -35608,7 +35608,7 @@ export const alloys = [
         "title": "Nickel alloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Public alloy composition reference; balance value calculated for search display and should be replaced with producer data when confirmed."
+        "notes": "公開合金成分の参考値。検索表示用に余量値を計算しており、確認後は製造者データへ置換が必要。"
       }
     ]
   },
@@ -35634,7 +35634,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "Rene 77",
@@ -35734,7 +35734,7 @@ export const alloys = [
         "title": "Rene superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -35760,7 +35760,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "Rene 80",
@@ -35860,7 +35860,7 @@ export const alloys = [
         "title": "Rene superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -35886,7 +35886,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "Rene 95",
@@ -35986,7 +35986,7 @@ export const alloys = [
         "title": "Rene superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -36012,7 +36012,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "Rene 100",
@@ -36112,7 +36112,7 @@ export const alloys = [
         "title": "Rene superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -36138,7 +36138,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "Rene 104",
@@ -36238,7 +36238,7 @@ export const alloys = [
         "title": "Rene superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -36264,7 +36264,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "Rene 108",
@@ -36364,7 +36364,7 @@ export const alloys = [
         "title": "Rene superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -36390,7 +36390,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "Rene 125",
@@ -36490,7 +36490,7 @@ export const alloys = [
         "title": "Rene superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -36516,7 +36516,7 @@ export const alloys = [
         "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
         "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "sourceNotes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       },
       "zh": {
         "name": "Rene 142",
@@ -36615,7 +36615,7 @@ export const alloys = [
         "title": "Rene superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "notes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       }
     ]
   },
@@ -36641,7 +36641,7 @@ export const alloys = [
         "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
         "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "sourceNotes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       },
       "zh": {
         "name": "Rene 195",
@@ -36740,7 +36740,7 @@ export const alloys = [
         "title": "Rene superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "notes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       }
     ]
   },
@@ -36766,7 +36766,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "Rene 220",
@@ -36866,7 +36866,7 @@ export const alloys = [
         "title": "Rene superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -36892,7 +36892,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "Rene 77DT",
@@ -36992,7 +36992,7 @@ export const alloys = [
         "title": "Rene superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -37018,7 +37018,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "Rene 88DT",
@@ -37118,7 +37118,7 @@ export const alloys = [
         "title": "Rene superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -37144,7 +37144,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "Rene 104D",
@@ -37244,7 +37244,7 @@ export const alloys = [
         "title": "Rene superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -37270,7 +37270,7 @@ export const alloys = [
         "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
         "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "sourceNotes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       },
       "zh": {
         "name": "Rene N4",
@@ -37369,7 +37369,7 @@ export const alloys = [
         "title": "Rene superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "notes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       }
     ]
   },
@@ -37395,7 +37395,7 @@ export const alloys = [
         "properties": "Reを含む単結晶Ni基スーパーアロイ。IGT・航空エンジンブレード向けの高温クリープ強度と組織安定性が特長。",
         "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "sourceNotes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       },
       "zh": {
         "name": "Rene N5",
@@ -37494,7 +37494,7 @@ export const alloys = [
         "title": "Rene superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "notes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       }
     ]
   },
@@ -37520,7 +37520,7 @@ export const alloys = [
         "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
         "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "sourceNotes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       },
       "zh": {
         "name": "Rene N6",
@@ -37619,7 +37619,7 @@ export const alloys = [
         "title": "Rene superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "notes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       }
     ]
   },
@@ -37645,7 +37645,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "Rene 5",
@@ -37745,7 +37745,7 @@ export const alloys = [
         "title": "Rene superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -37771,7 +37771,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "Rene 6",
@@ -37871,7 +37871,7 @@ export const alloys = [
         "title": "Rene superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -37897,7 +37897,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "Rene 7",
@@ -37997,7 +37997,7 @@ export const alloys = [
         "title": "Rene superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -38023,7 +38023,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "Rene 12",
@@ -38123,7 +38123,7 @@ export const alloys = [
         "title": "Rene superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -38149,7 +38149,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "Rene 16",
@@ -38249,7 +38249,7 @@ export const alloys = [
         "title": "Rene superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -38275,7 +38275,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "Rene 18",
@@ -38375,7 +38375,7 @@ export const alloys = [
         "title": "Rene superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -38401,7 +38401,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "Rene 53",
@@ -38501,7 +38501,7 @@ export const alloys = [
         "title": "Rene superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -38527,7 +38527,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "Rene 62",
@@ -38627,7 +38627,7 @@ export const alloys = [
         "title": "Rene superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -38653,7 +38653,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "Rene 65",
@@ -38753,7 +38753,7 @@ export const alloys = [
         "title": "Rene superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -38779,7 +38779,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "Rene 72",
@@ -38879,7 +38879,7 @@ export const alloys = [
         "title": "Rene superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -38905,7 +38905,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "Rene 90",
@@ -39005,7 +39005,7 @@ export const alloys = [
         "title": "Rene superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -39031,7 +39031,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "Rene 120",
@@ -39131,7 +39131,7 @@ export const alloys = [
         "title": "Rene superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -39156,7 +39156,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "MAR-M 200",
@@ -39256,7 +39256,7 @@ export const alloys = [
         "title": "Cast IGT superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -39281,7 +39281,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "MAR-M 246",
@@ -39381,7 +39381,7 @@ export const alloys = [
         "title": "Cast IGT superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -39406,7 +39406,7 @@ export const alloys = [
         "properties": "Ta、W、Al、Tiを含む鋳造Ni基スーパーアロイ。タービンブレードやベーン向けの高温強度と鋳造性が特長。",
         "representativeMakers": "Howmet Aerospace, Cannon-Muskegon, PCC Structurals, Doncasters",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "MAR-M 247",
@@ -39506,7 +39506,7 @@ export const alloys = [
         "title": "Cast IGT superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -39531,7 +39531,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "MAR-M 247 LC",
@@ -39631,7 +39631,7 @@ export const alloys = [
         "title": "Cast IGT superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -39656,7 +39656,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "MAR-M 252",
@@ -39756,7 +39756,7 @@ export const alloys = [
         "title": "Cast IGT superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -39781,7 +39781,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "MAR-M 302",
@@ -39881,7 +39881,7 @@ export const alloys = [
         "title": "Cast IGT superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -39906,7 +39906,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "MAR-M 421",
@@ -40006,7 +40006,7 @@ export const alloys = [
         "title": "Cast IGT superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -40031,7 +40031,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "MAR-M 509",
@@ -40131,7 +40131,7 @@ export const alloys = [
         "title": "Cast IGT superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -40156,7 +40156,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "MAR-M 918",
@@ -40256,7 +40256,7 @@ export const alloys = [
         "title": "Cast IGT superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -40281,7 +40281,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "IN-100",
@@ -40381,7 +40381,7 @@ export const alloys = [
         "title": "Cast IGT superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -40406,7 +40406,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "IN-102",
@@ -40506,7 +40506,7 @@ export const alloys = [
         "title": "Cast IGT superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -40531,7 +40531,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "IN-162",
@@ -40631,7 +40631,7 @@ export const alloys = [
         "title": "Cast IGT superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -40656,7 +40656,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "IN-519",
@@ -40756,7 +40756,7 @@ export const alloys = [
         "title": "Cast IGT superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -40781,7 +40781,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "IN-6203",
@@ -40881,7 +40881,7 @@ export const alloys = [
         "title": "Cast IGT superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -40906,7 +40906,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "IN-713LC",
@@ -41006,7 +41006,7 @@ export const alloys = [
         "title": "Cast IGT superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -41031,7 +41031,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "IN-738",
@@ -41131,7 +41131,7 @@ export const alloys = [
         "title": "Cast IGT superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -41156,7 +41156,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "IN-792",
@@ -41256,7 +41256,7 @@ export const alloys = [
         "title": "Cast IGT superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -41281,7 +41281,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "IN-792-5A",
@@ -41381,7 +41381,7 @@ export const alloys = [
         "title": "Cast IGT superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -41406,7 +41406,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "IN-792-Hf",
@@ -41506,7 +41506,7 @@ export const alloys = [
         "title": "Cast IGT superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -41531,7 +41531,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "IN-939",
@@ -41631,7 +41631,7 @@ export const alloys = [
         "title": "Cast IGT superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -41656,7 +41656,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "IN-939B",
@@ -41756,7 +41756,7 @@ export const alloys = [
         "title": "Cast IGT superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -41781,7 +41781,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "Pratt & Whitney, GE Aerospace, Howmet Aerospace, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "GTD-111",
@@ -41881,7 +41881,7 @@ export const alloys = [
         "title": "Cast IGT superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -41906,7 +41906,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "Pratt & Whitney, GE Aerospace, Howmet Aerospace, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "GTD-222",
@@ -42006,7 +42006,7 @@ export const alloys = [
         "title": "Cast IGT superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -42031,7 +42031,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "Pratt & Whitney, GE Aerospace, Howmet Aerospace, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "GTD-444",
@@ -42131,7 +42131,7 @@ export const alloys = [
         "title": "Cast IGT superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -42156,7 +42156,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "CM 247 LC",
@@ -42256,7 +42256,7 @@ export const alloys = [
         "title": "Cast IGT superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -42281,7 +42281,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "CM 186 LC",
@@ -42381,7 +42381,7 @@ export const alloys = [
         "title": "Cast IGT superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -42406,7 +42406,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "CM 681 LC",
@@ -42506,7 +42506,7 @@ export const alloys = [
         "title": "Cast IGT superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -42531,7 +42531,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "CM 939 Weldable",
@@ -42631,7 +42631,7 @@ export const alloys = [
         "title": "Cast IGT superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -42656,7 +42656,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "MGA 1400",
@@ -42756,7 +42756,7 @@ export const alloys = [
         "title": "Cast IGT superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -42781,7 +42781,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       },
       "zh": {
         "name": "M-002",
@@ -42881,7 +42881,7 @@ export const alloys = [
         "title": "Cast IGT superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+        "notes": "検索対象拡充用に整理したIGTスーパーアロイ化学成分の参考範囲。設計・調達前に製造者データシートまたは合金文献で確認が必要。"
       }
     ]
   },
@@ -42906,7 +42906,7 @@ export const alloys = [
         "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
         "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "sourceNotes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       },
       "zh": {
         "name": "CMSX-2",
@@ -43005,7 +43005,7 @@ export const alloys = [
         "title": "Single-crystal superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "notes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       }
     ]
   },
@@ -43030,7 +43030,7 @@ export const alloys = [
         "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
         "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "sourceNotes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       },
       "zh": {
         "name": "CMSX-3",
@@ -43129,7 +43129,7 @@ export const alloys = [
         "title": "Single-crystal superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "notes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       }
     ]
   },
@@ -43154,7 +43154,7 @@ export const alloys = [
         "properties": "Reを含む第2世代単結晶Ni基スーパーアロイ。単結晶タービンブレード向けに高温クリープ強度と耐酸化性を重視した合金。",
         "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "sourceNotes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       },
       "zh": {
         "name": "CMSX-4",
@@ -43253,7 +43253,7 @@ export const alloys = [
         "title": "Single-crystal superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "notes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       }
     ]
   },
@@ -43278,7 +43278,7 @@ export const alloys = [
         "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
         "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "sourceNotes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       },
       "zh": {
         "name": "CMSX-6",
@@ -43377,7 +43377,7 @@ export const alloys = [
         "title": "Single-crystal superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "notes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       }
     ]
   },
@@ -43402,7 +43402,7 @@ export const alloys = [
         "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
         "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "sourceNotes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       },
       "zh": {
         "name": "CMSX-10",
@@ -43501,7 +43501,7 @@ export const alloys = [
         "title": "Single-crystal superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "notes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       }
     ]
   },
@@ -43526,7 +43526,7 @@ export const alloys = [
         "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
         "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "sourceNotes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       },
       "zh": {
         "name": "CMSX-11",
@@ -43625,7 +43625,7 @@ export const alloys = [
         "title": "Single-crystal superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "notes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       }
     ]
   },
@@ -43650,7 +43650,7 @@ export const alloys = [
         "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
         "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "sourceNotes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       },
       "zh": {
         "name": "CMSX-486",
@@ -43749,7 +43749,7 @@ export const alloys = [
         "title": "Single-crystal superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "notes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       }
     ]
   },
@@ -43774,7 +43774,7 @@ export const alloys = [
         "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
         "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "sourceNotes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       },
       "zh": {
         "name": "CMSX-499",
@@ -43873,7 +43873,7 @@ export const alloys = [
         "title": "Single-crystal superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "notes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       }
     ]
   },
@@ -43898,7 +43898,7 @@ export const alloys = [
         "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
         "representativeMakers": "Pratt & Whitney, GE Aerospace, Howmet Aerospace, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "sourceNotes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       },
       "zh": {
         "name": "PWA-1422",
@@ -43997,7 +43997,7 @@ export const alloys = [
         "title": "Single-crystal superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "notes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       }
     ]
   },
@@ -44022,7 +44022,7 @@ export const alloys = [
         "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
         "representativeMakers": "Pratt & Whitney, GE Aerospace, Howmet Aerospace, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "sourceNotes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       },
       "zh": {
         "name": "PWA-1430",
@@ -44121,7 +44121,7 @@ export const alloys = [
         "title": "Single-crystal superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "notes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       }
     ]
   },
@@ -44146,7 +44146,7 @@ export const alloys = [
         "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
         "representativeMakers": "Pratt & Whitney, GE Aerospace, Howmet Aerospace, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "sourceNotes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       },
       "zh": {
         "name": "PWA-1480",
@@ -44245,7 +44245,7 @@ export const alloys = [
         "title": "Single-crystal superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "notes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       }
     ]
   },
@@ -44270,7 +44270,7 @@ export const alloys = [
         "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
         "representativeMakers": "Pratt & Whitney, GE Aerospace, Howmet Aerospace, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "sourceNotes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       },
       "zh": {
         "name": "PWA-1483",
@@ -44369,7 +44369,7 @@ export const alloys = [
         "title": "Single-crystal superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "notes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       }
     ]
   },
@@ -44394,7 +44394,7 @@ export const alloys = [
         "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
         "representativeMakers": "Pratt & Whitney, GE Aerospace, Howmet Aerospace, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "sourceNotes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       },
       "zh": {
         "name": "PWA-1484",
@@ -44493,7 +44493,7 @@ export const alloys = [
         "title": "Single-crystal superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "notes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       }
     ]
   },
@@ -44518,7 +44518,7 @@ export const alloys = [
         "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
         "representativeMakers": "Pratt & Whitney, GE Aerospace, Howmet Aerospace, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "sourceNotes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       },
       "zh": {
         "name": "PWA-1487",
@@ -44617,7 +44617,7 @@ export const alloys = [
         "title": "Single-crystal superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "notes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       }
     ]
   },
@@ -44642,7 +44642,7 @@ export const alloys = [
         "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
         "representativeMakers": "Pratt & Whitney, GE Aerospace, Howmet Aerospace, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "sourceNotes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       },
       "zh": {
         "name": "PWA-1493",
@@ -44741,7 +44741,7 @@ export const alloys = [
         "title": "Single-crystal superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "notes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       }
     ]
   },
@@ -44766,7 +44766,7 @@ export const alloys = [
         "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
         "representativeMakers": "Pratt & Whitney, GE Aerospace, Howmet Aerospace, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "sourceNotes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       },
       "zh": {
         "name": "TMS-75",
@@ -44865,7 +44865,7 @@ export const alloys = [
         "title": "Single-crystal superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "notes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       }
     ]
   },
@@ -44890,7 +44890,7 @@ export const alloys = [
         "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
         "representativeMakers": "Pratt & Whitney, GE Aerospace, Howmet Aerospace, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "sourceNotes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       },
       "zh": {
         "name": "TMS-82",
@@ -44989,7 +44989,7 @@ export const alloys = [
         "title": "Single-crystal superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "notes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       }
     ]
   },
@@ -45014,7 +45014,7 @@ export const alloys = [
         "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
         "representativeMakers": "Pratt & Whitney, GE Aerospace, Howmet Aerospace, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "sourceNotes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       },
       "zh": {
         "name": "TMS-138",
@@ -45113,7 +45113,7 @@ export const alloys = [
         "title": "Single-crystal superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "notes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       }
     ]
   },
@@ -45138,7 +45138,7 @@ export const alloys = [
         "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
         "representativeMakers": "Pratt & Whitney, GE Aerospace, Howmet Aerospace, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "sourceNotes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       },
       "zh": {
         "name": "TMS-162",
@@ -45237,7 +45237,7 @@ export const alloys = [
         "title": "Single-crystal superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "notes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       }
     ]
   },
@@ -45262,7 +45262,7 @@ export const alloys = [
         "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
         "representativeMakers": "Pratt & Whitney, GE Aerospace, Howmet Aerospace, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "sourceNotes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       },
       "zh": {
         "name": "TMS-196",
@@ -45361,7 +45361,7 @@ export const alloys = [
         "title": "Single-crystal superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "notes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       }
     ]
   },
@@ -45386,7 +45386,7 @@ export const alloys = [
         "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
         "representativeMakers": "Pratt & Whitney, GE Aerospace, Howmet Aerospace, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "sourceNotes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       },
       "zh": {
         "name": "TMS-238",
@@ -45485,7 +45485,7 @@ export const alloys = [
         "title": "Single-crystal superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "notes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       }
     ]
   },
@@ -45510,7 +45510,7 @@ export const alloys = [
         "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
         "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "sourceNotes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       },
       "zh": {
         "name": "AM1",
@@ -45609,7 +45609,7 @@ export const alloys = [
         "title": "Single-crystal superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "notes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       }
     ]
   },
@@ -45634,7 +45634,7 @@ export const alloys = [
         "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
         "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "sourceNotes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       },
       "zh": {
         "name": "AM3",
@@ -45733,7 +45733,7 @@ export const alloys = [
         "title": "Single-crystal superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "notes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       }
     ]
   },
@@ -45758,7 +45758,7 @@ export const alloys = [
         "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
         "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "sourceNotes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       },
       "zh": {
         "name": "MC2",
@@ -45857,7 +45857,7 @@ export const alloys = [
         "title": "Single-crystal superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "notes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       }
     ]
   },
@@ -45882,7 +45882,7 @@ export const alloys = [
         "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
         "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "sourceNotes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       },
       "zh": {
         "name": "SRR99",
@@ -45981,7 +45981,7 @@ export const alloys = [
         "title": "Single-crystal superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "notes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       }
     ]
   },
@@ -46006,7 +46006,7 @@ export const alloys = [
         "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
         "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "sourceNotes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       },
       "zh": {
         "name": "SRR2000",
@@ -46105,7 +46105,7 @@ export const alloys = [
         "title": "Single-crystal superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "notes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       }
     ]
   },
@@ -46130,7 +46130,7 @@ export const alloys = [
         "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
         "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "sourceNotes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       },
       "zh": {
         "name": "MX4",
@@ -46229,7 +46229,7 @@ export const alloys = [
         "title": "Single-crystal superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "notes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       }
     ]
   },
@@ -46254,7 +46254,7 @@ export const alloys = [
         "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
         "representativeMakers": "Pratt & Whitney, GE Aerospace, Howmet Aerospace, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "sourceNotes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       },
       "zh": {
         "name": "DD3",
@@ -46353,7 +46353,7 @@ export const alloys = [
         "title": "Single-crystal superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "notes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       }
     ]
   },
@@ -46378,7 +46378,7 @@ export const alloys = [
         "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
         "representativeMakers": "Pratt & Whitney, GE Aerospace, Howmet Aerospace, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "sourceNotes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       },
       "zh": {
         "name": "DD6",
@@ -46477,7 +46477,7 @@ export const alloys = [
         "title": "Single-crystal superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "notes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       }
     ]
   },
@@ -46502,7 +46502,7 @@ export const alloys = [
         "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
         "representativeMakers": "Pratt & Whitney, GE Aerospace, Howmet Aerospace, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "sourceNotes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       },
       "zh": {
         "name": "DD9",
@@ -46601,7 +46601,7 @@ export const alloys = [
         "title": "Single-crystal superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "notes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       }
     ]
   },
@@ -46626,7 +46626,7 @@ export const alloys = [
         "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
         "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "sourceNotes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       },
       "zh": {
         "name": "SC16",
@@ -46725,7 +46725,7 @@ export const alloys = [
         "title": "Single-crystal superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "notes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       }
     ]
   },
@@ -46750,7 +46750,7 @@ export const alloys = [
         "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
         "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "sourceNotes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       },
       "zh": {
         "name": "LEK94",
@@ -46849,7 +46849,7 @@ export const alloys = [
         "title": "Single-crystal superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+        "notes": "検索対象拡充用の単結晶IGTスーパーアロイ化学成分参考範囲。該当するRe含有値を含み、設計使用前に出典確認が必要。"
       }
     ]
   },
@@ -46874,7 +46874,7 @@ export const alloys = [
         "properties": "Co-Cr-Ni-W系の鋳造コバルト基スーパーアロイ。高温耐食性、熱疲労抵抗、IGTベーン用途への適性が特長。",
         "representativeMakers": "Howmet Aerospace, Doncasters, PCC Structurals, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "FSX-414",
@@ -46965,7 +46965,7 @@ export const alloys = [
         "title": "Cobalt-base superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "notes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -46990,7 +46990,7 @@ export const alloys = [
         "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
         "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
         "japaneseMakers": "三菱マテリアル, 大同特殊鋼, プロテリアル, 日本タングステン",
-        "sourceNotes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "X-40",
@@ -47069,7 +47069,7 @@ export const alloys = [
         "title": "Cobalt-base superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "notes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -47094,7 +47094,7 @@ export const alloys = [
         "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
         "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
         "japaneseMakers": "三菱マテリアル, 大同特殊鋼, プロテリアル, 日本タングステン",
-        "sourceNotes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "X-45",
@@ -47173,7 +47173,7 @@ export const alloys = [
         "title": "Cobalt-base superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "notes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -47198,7 +47198,7 @@ export const alloys = [
         "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
         "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
         "japaneseMakers": "三菱マテリアル, 大同特殊鋼, プロテリアル, 日本タングステン",
-        "sourceNotes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "WI-52",
@@ -47283,7 +47283,7 @@ export const alloys = [
         "title": "Cobalt-base superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "notes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -47308,7 +47308,7 @@ export const alloys = [
         "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
         "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
         "japaneseMakers": "三菱マテリアル, 大同特殊鋼, プロテリアル, 日本タングステン",
-        "sourceNotes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "S-816",
@@ -47393,7 +47393,7 @@ export const alloys = [
         "title": "Cobalt-base superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "notes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -47418,7 +47418,7 @@ export const alloys = [
         "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
         "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
         "japaneseMakers": "三菱マテリアル, 大同特殊鋼, プロテリアル, 日本タングステン",
-        "sourceNotes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "HS-21",
@@ -47497,7 +47497,7 @@ export const alloys = [
         "title": "Cobalt-base superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "notes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -47522,7 +47522,7 @@ export const alloys = [
         "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
         "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
         "japaneseMakers": "三菱マテリアル, 大同特殊鋼, プロテリアル, 日本タングステン",
-        "sourceNotes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "HS-31",
@@ -47607,7 +47607,7 @@ export const alloys = [
         "title": "Cobalt-base superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "notes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -47632,7 +47632,7 @@ export const alloys = [
         "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
         "representativeMakers": "Haynes International, VDM Metals, ATI, Special Metals",
         "japaneseMakers": "三菱マテリアル, 大同特殊鋼, プロテリアル, 日本タングステン",
-        "sourceNotes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Haynes 21",
@@ -47711,7 +47711,7 @@ export const alloys = [
         "title": "Cobalt-base superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "notes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -47736,7 +47736,7 @@ export const alloys = [
         "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
         "representativeMakers": "Haynes International, VDM Metals, ATI, Special Metals",
         "japaneseMakers": "三菱マテリアル, 大同特殊鋼, プロテリアル, 日本タングステン",
-        "sourceNotes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Haynes 31",
@@ -47821,7 +47821,7 @@ export const alloys = [
         "title": "Cobalt-base superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "notes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -47846,7 +47846,7 @@ export const alloys = [
         "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
         "representativeMakers": "Haynes International, VDM Metals, ATI, Special Metals",
         "japaneseMakers": "三菱マテリアル, 大同特殊鋼, プロテリアル, 日本タングステン",
-        "sourceNotes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Haynes 36",
@@ -47931,7 +47931,7 @@ export const alloys = [
         "title": "Cobalt-base superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "notes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -47956,7 +47956,7 @@ export const alloys = [
         "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
         "representativeMakers": "Haynes International, VDM Metals, ATI, Special Metals",
         "japaneseMakers": "三菱マテリアル, 大同特殊鋼, プロテリアル, 日本タングステン",
-        "sourceNotes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Haynes 150",
@@ -48035,7 +48035,7 @@ export const alloys = [
         "title": "Cobalt-base superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "notes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -48060,7 +48060,7 @@ export const alloys = [
         "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
         "representativeMakers": "Haynes International, VDM Metals, ATI, Special Metals",
         "japaneseMakers": "三菱マテリアル, 大同特殊鋼, プロテリアル, 日本タングステン",
-        "sourceNotes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Haynes 151",
@@ -48139,7 +48139,7 @@ export const alloys = [
         "title": "Cobalt-base superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "notes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -48164,7 +48164,7 @@ export const alloys = [
         "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
         "representativeMakers": "Haynes International, VDM Metals, ATI, Special Metals",
         "japaneseMakers": "三菱マテリアル, 大同特殊鋼, プロテリアル, 日本タングステン",
-        "sourceNotes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Haynes 6B",
@@ -48255,7 +48255,7 @@ export const alloys = [
         "title": "Cobalt-base superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "notes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -48280,7 +48280,7 @@ export const alloys = [
         "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
         "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
         "japaneseMakers": "三菱マテリアル, 大同特殊鋼, プロテリアル, 日本タングステン",
-        "sourceNotes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Stellite 1",
@@ -48359,7 +48359,7 @@ export const alloys = [
         "title": "Cobalt-base superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "notes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -48384,7 +48384,7 @@ export const alloys = [
         "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
         "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
         "japaneseMakers": "三菱マテリアル, 大同特殊鋼, プロテリアル, 日本タングステン",
-        "sourceNotes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Stellite 3",
@@ -48463,7 +48463,7 @@ export const alloys = [
         "title": "Cobalt-base superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "notes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -48488,7 +48488,7 @@ export const alloys = [
         "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
         "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
         "japaneseMakers": "三菱マテリアル, 大同特殊鋼, プロテリアル, 日本タングステン",
-        "sourceNotes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Stellite 4",
@@ -48573,7 +48573,7 @@ export const alloys = [
         "title": "Cobalt-base superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "notes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -48598,7 +48598,7 @@ export const alloys = [
         "properties": "Co-Cr-W-C系の耐摩耗コバルト合金。高温硬さ、かじり抵抗、耐食性を兼ねる表面・摺動部材向け合金。",
         "representativeMakers": "Kennametal Stellite, Deloro, Wall Colmonoy, Höganäs",
         "japaneseMakers": "三菱マテリアル, 大同特殊鋼, プロテリアル, 日本タングステン",
-        "sourceNotes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Stellite 6",
@@ -48683,7 +48683,7 @@ export const alloys = [
         "title": "Cobalt-base superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "notes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -48708,7 +48708,7 @@ export const alloys = [
         "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
         "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
         "japaneseMakers": "三菱マテリアル, 大同特殊鋼, プロテリアル, 日本タングステン",
-        "sourceNotes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Stellite 12",
@@ -48787,7 +48787,7 @@ export const alloys = [
         "title": "Cobalt-base superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "notes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -48812,7 +48812,7 @@ export const alloys = [
         "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
         "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
         "japaneseMakers": "三菱マテリアル, 大同特殊鋼, プロテリアル, 日本タングステン",
-        "sourceNotes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Stellite 21",
@@ -48897,7 +48897,7 @@ export const alloys = [
         "title": "Cobalt-base superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "notes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -48922,7 +48922,7 @@ export const alloys = [
         "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
         "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
         "japaneseMakers": "三菱マテリアル, 大同特殊鋼, プロテリアル, 日本タングステン",
-        "sourceNotes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Stellite 31",
@@ -49001,7 +49001,7 @@ export const alloys = [
         "title": "Cobalt-base superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "notes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -49026,7 +49026,7 @@ export const alloys = [
         "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
         "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
         "japaneseMakers": "三菱マテリアル, 大同特殊鋼, プロテリアル, 日本タングステン",
-        "sourceNotes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Stellite 190",
@@ -49111,7 +49111,7 @@ export const alloys = [
         "title": "Cobalt-base superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "notes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -49136,7 +49136,7 @@ export const alloys = [
         "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
         "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
         "japaneseMakers": "三菱マテリアル, 大同特殊鋼, プロテリアル, 日本タングステン",
-        "sourceNotes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Stellite 250",
@@ -49221,7 +49221,7 @@ export const alloys = [
         "title": "Cobalt-base superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "notes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -49246,7 +49246,7 @@ export const alloys = [
         "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
         "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
         "japaneseMakers": "三菱マテリアル, 大同特殊鋼, プロテリアル, 日本タングステン",
-        "sourceNotes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Stellite F",
@@ -49325,7 +49325,7 @@ export const alloys = [
         "title": "Cobalt-base superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "notes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -49350,7 +49350,7 @@ export const alloys = [
         "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
         "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
         "japaneseMakers": "三菱マテリアル, 大同特殊鋼, プロテリアル, 日本タングステン",
-        "sourceNotes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Star J",
@@ -49429,7 +49429,7 @@ export const alloys = [
         "title": "Cobalt-base superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "notes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -49454,7 +49454,7 @@ export const alloys = [
         "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
         "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
         "japaneseMakers": "三菱マテリアル, 大同特殊鋼, プロテリアル, 日本タングステン",
-        "sourceNotes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Tribaloy T-400",
@@ -49545,7 +49545,7 @@ export const alloys = [
         "title": "Cobalt-base superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "notes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -49570,7 +49570,7 @@ export const alloys = [
         "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
         "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
         "japaneseMakers": "三菱マテリアル, 大同特殊鋼, プロテリアル, 日本タングステン",
-        "sourceNotes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Tribaloy T-800",
@@ -49649,7 +49649,7 @@ export const alloys = [
         "title": "Cobalt-base superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "notes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -49674,7 +49674,7 @@ export const alloys = [
         "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
         "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
         "japaneseMakers": "三菱マテリアル, 大同特殊鋼, プロテリアル, 日本タングステン",
-        "sourceNotes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Tribaloy T-900",
@@ -49753,7 +49753,7 @@ export const alloys = [
         "title": "Cobalt-base superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "notes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -49778,7 +49778,7 @@ export const alloys = [
         "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
         "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
         "japaneseMakers": "三菱マテリアル, 大同特殊鋼, プロテリアル, 日本タングステン",
-        "sourceNotes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Ultimet",
@@ -49863,7 +49863,7 @@ export const alloys = [
         "title": "Cobalt-base superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "notes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -49888,7 +49888,7 @@ export const alloys = [
         "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
         "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
         "japaneseMakers": "三菱マテリアル, 大同特殊鋼, プロテリアル, 日本タングステン",
-        "sourceNotes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "MP35N",
@@ -49973,7 +49973,7 @@ export const alloys = [
         "title": "Cobalt-base superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "notes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -49998,7 +49998,7 @@ export const alloys = [
         "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
         "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
         "japaneseMakers": "三菱マテリアル, 大同特殊鋼, プロテリアル, 日本タングステン",
-        "sourceNotes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Elgiloy",
@@ -50077,7 +50077,7 @@ export const alloys = [
         "title": "Cobalt-base superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "notes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -50102,7 +50102,7 @@ export const alloys = [
         "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
         "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
         "japaneseMakers": "三菱マテリアル, 大同特殊鋼, プロテリアル, 日本タングステン",
-        "sourceNotes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "S-590",
@@ -50187,7 +50187,7 @@ export const alloys = [
         "title": "Cobalt-base superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "notes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -50212,7 +50212,7 @@ export const alloys = [
         "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
         "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
         "japaneseMakers": "三菱マテリアル, 大同特殊鋼, プロテリアル, 日本タングステン",
-        "sourceNotes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "ECY-768",
@@ -50291,7 +50291,7 @@ export const alloys = [
         "title": "Cobalt-base superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "notes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -50316,7 +50316,7 @@ export const alloys = [
         "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
         "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
         "japaneseMakers": "三菱マテリアル, 大同特殊鋼, プロテリアル, 日本タングステン",
-        "sourceNotes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Co-10Ni-20Cr",
@@ -50401,7 +50401,7 @@ export const alloys = [
         "title": "Cobalt-base superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "notes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -50426,7 +50426,7 @@ export const alloys = [
         "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
         "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
         "japaneseMakers": "三菱マテリアル, 大同特殊鋼, プロテリアル, 日本タングステン",
-        "sourceNotes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Co-20Cr-15W",
@@ -50511,7 +50511,7 @@ export const alloys = [
         "title": "Cobalt-base superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "notes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -50536,7 +50536,7 @@ export const alloys = [
         "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
         "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
         "japaneseMakers": "三菱マテリアル, 大同特殊鋼, プロテリアル, 日本タングステン",
-        "sourceNotes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "sourceNotes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Co-25Cr-10Ni",
@@ -50615,7 +50615,7 @@ export const alloys = [
         "title": "Cobalt-base superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+        "notes": "検索対象拡充用のコバルト基高温合金化学成分参考範囲。設計・調達前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -50640,7 +50640,7 @@ export const alloys = [
         "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
         "representativeMakers": "Special Metals, ATI, VDM Metals, Doncasters",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "sourceNotes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Nimonic 81",
@@ -50720,7 +50720,7 @@ export const alloys = [
         "title": "Wrought and powder superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Nimonic",
         "checkedAt": "2026-06-14",
-        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "notes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -50745,7 +50745,7 @@ export const alloys = [
         "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
         "representativeMakers": "Special Metals, ATI, VDM Metals, Doncasters",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "sourceNotes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Nimonic 86",
@@ -50825,7 +50825,7 @@ export const alloys = [
         "title": "Wrought and powder superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Nimonic",
         "checkedAt": "2026-06-14",
-        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "notes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -50850,7 +50850,7 @@ export const alloys = [
         "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
         "representativeMakers": "Special Metals, ATI, VDM Metals, Doncasters",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "sourceNotes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Nimonic 91",
@@ -50930,7 +50930,7 @@ export const alloys = [
         "title": "Wrought and powder superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Nimonic",
         "checkedAt": "2026-06-14",
-        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "notes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -50955,7 +50955,7 @@ export const alloys = [
         "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
         "representativeMakers": "Special Metals, ATI, VDM Metals, Doncasters",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "sourceNotes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Nimonic 95",
@@ -51035,7 +51035,7 @@ export const alloys = [
         "title": "Wrought and powder superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Nimonic",
         "checkedAt": "2026-06-14",
-        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "notes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -51060,7 +51060,7 @@ export const alloys = [
         "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
         "representativeMakers": "Special Metals, ATI, VDM Metals, Doncasters",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "sourceNotes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Nimonic 100",
@@ -51140,7 +51140,7 @@ export const alloys = [
         "title": "Wrought and powder superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Nimonic",
         "checkedAt": "2026-06-14",
-        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "notes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -51165,7 +51165,7 @@ export const alloys = [
         "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
         "representativeMakers": "Special Metals, ATI, VDM Metals, Doncasters",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "sourceNotes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Nimonic 105",
@@ -51245,7 +51245,7 @@ export const alloys = [
         "title": "Wrought and powder superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Nimonic",
         "checkedAt": "2026-06-14",
-        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "notes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -51270,7 +51270,7 @@ export const alloys = [
         "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
         "representativeMakers": "Special Metals, ATI, VDM Metals, Doncasters",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "sourceNotes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Nimonic 108",
@@ -51350,7 +51350,7 @@ export const alloys = [
         "title": "Wrought and powder superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Nimonic",
         "checkedAt": "2026-06-14",
-        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "notes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -51375,7 +51375,7 @@ export const alloys = [
         "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
         "representativeMakers": "Special Metals, ATI, VDM Metals, Doncasters",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "sourceNotes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Nimonic 115",
@@ -51455,7 +51455,7 @@ export const alloys = [
         "title": "Wrought and powder superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Nimonic",
         "checkedAt": "2026-06-14",
-        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "notes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -51480,7 +51480,7 @@ export const alloys = [
         "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
         "representativeMakers": "Special Metals, ATI, VDM Metals, Doncasters",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "sourceNotes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Nimonic 118",
@@ -51560,7 +51560,7 @@ export const alloys = [
         "title": "Wrought and powder superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Nimonic",
         "checkedAt": "2026-06-14",
-        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "notes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -51585,7 +51585,7 @@ export const alloys = [
         "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
         "representativeMakers": "Special Metals, ATI, VDM Metals, Doncasters",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "sourceNotes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Nimonic PE11",
@@ -51665,7 +51665,7 @@ export const alloys = [
         "title": "Wrought and powder superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Nimonic",
         "checkedAt": "2026-06-14",
-        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "notes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -51690,7 +51690,7 @@ export const alloys = [
         "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
         "representativeMakers": "Special Metals, ATI, VDM Metals, Doncasters",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "sourceNotes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Nimonic PE16",
@@ -51770,7 +51770,7 @@ export const alloys = [
         "title": "Wrought and powder superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Nimonic",
         "checkedAt": "2026-06-14",
-        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "notes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -51795,7 +51795,7 @@ export const alloys = [
         "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
         "representativeMakers": "Special Metals, ATI, Howmet Aerospace, Carpenter Technology",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "sourceNotes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Udimet 400",
@@ -51875,7 +51875,7 @@ export const alloys = [
         "title": "Wrought and powder superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "notes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -51900,7 +51900,7 @@ export const alloys = [
         "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
         "representativeMakers": "Special Metals, ATI, Howmet Aerospace, Carpenter Technology",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "sourceNotes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Udimet 600",
@@ -51980,7 +51980,7 @@ export const alloys = [
         "title": "Wrought and powder superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "notes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -52005,7 +52005,7 @@ export const alloys = [
         "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
         "representativeMakers": "Special Metals, ATI, Howmet Aerospace, Carpenter Technology",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "sourceNotes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Udimet 700",
@@ -52085,7 +52085,7 @@ export const alloys = [
         "title": "Wrought and powder superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "notes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -52110,7 +52110,7 @@ export const alloys = [
         "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
         "representativeMakers": "Special Metals, ATI, Howmet Aerospace, Carpenter Technology",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "sourceNotes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Udimet 710",
@@ -52190,7 +52190,7 @@ export const alloys = [
         "title": "Wrought and powder superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "notes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -52215,7 +52215,7 @@ export const alloys = [
         "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
         "representativeMakers": "Special Metals, ATI, Howmet Aerospace, Carpenter Technology",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "sourceNotes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Udimet 720",
@@ -52295,7 +52295,7 @@ export const alloys = [
         "title": "Wrought and powder superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "notes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -52320,7 +52320,7 @@ export const alloys = [
         "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
         "representativeMakers": "Special Metals, ATI, Howmet Aerospace, Carpenter Technology",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
-        "sourceNotes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "sourceNotes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Udimet 720Li",
@@ -52400,7 +52400,7 @@ export const alloys = [
         "title": "Wrought and powder superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "notes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -52425,7 +52425,7 @@ export const alloys = [
         "properties": "粉末冶金Ni基スーパーアロイ。高温ディスク用途に必要な高強度、疲労抵抗、組織均一性を重視した合金。",
         "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, IHI",
-        "sourceNotes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "sourceNotes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Astroloy",
@@ -52522,7 +52522,7 @@ export const alloys = [
         "title": "Wrought and powder superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "notes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -52547,7 +52547,7 @@ export const alloys = [
         "properties": "粉末冶金Ni基スーパーアロイ。高温ディスク用途に必要な高強度、疲労抵抗、組織均一性を重視した合金。",
         "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, IHI",
-        "sourceNotes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "sourceNotes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "Powder Astroloy",
@@ -52644,7 +52644,7 @@ export const alloys = [
         "title": "Wrought and powder superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "notes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -52669,7 +52669,7 @@ export const alloys = [
         "properties": "粉末冶金Ni基スーパーアロイ。高温ディスク用途に必要な高強度、疲労抵抗、組織均一性を重視した合金。",
         "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, IHI",
-        "sourceNotes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "sourceNotes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "MERL 76",
@@ -52766,7 +52766,7 @@ export const alloys = [
         "title": "Wrought and powder superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "notes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -52791,7 +52791,7 @@ export const alloys = [
         "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
         "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
         "japaneseMakers": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
-        "sourceNotes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "sourceNotes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "PM Rene 95",
@@ -52888,7 +52888,7 @@ export const alloys = [
         "title": "Wrought and powder superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "notes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -52913,7 +52913,7 @@ export const alloys = [
         "properties": "粉末冶金Ni基スーパーアロイ。高温ディスク用途に必要な高強度、疲労抵抗、組織均一性を重視した合金。",
         "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, IHI",
-        "sourceNotes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "sourceNotes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "RR1000",
@@ -53010,7 +53010,7 @@ export const alloys = [
         "title": "Wrought and powder superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "notes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -53035,7 +53035,7 @@ export const alloys = [
         "properties": "粉末冶金Ni基スーパーアロイ。高温ディスク用途に必要な高強度、疲労抵抗、組織均一性を重視した合金。",
         "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, IHI",
-        "sourceNotes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "sourceNotes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "RR2000",
@@ -53132,7 +53132,7 @@ export const alloys = [
         "title": "Wrought and powder superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "notes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -53157,7 +53157,7 @@ export const alloys = [
         "properties": "粉末冶金Ni基スーパーアロイ。高温ディスク用途に必要な高強度、疲労抵抗、組織均一性を重視した合金。",
         "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, IHI",
-        "sourceNotes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "sourceNotes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "ME3",
@@ -53254,7 +53254,7 @@ export const alloys = [
         "title": "Wrought and powder superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "notes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       }
     ]
   },
@@ -53279,7 +53279,7 @@ export const alloys = [
         "properties": "粉末冶金Ni基スーパーアロイ。高温ディスク用途に必要な高強度、疲労抵抗、組織均一性を重視した合金。",
         "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
         "japaneseMakers": "大同特殊鋼, プロテリアル, 日本冶金工業, IHI",
-        "sourceNotes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "sourceNotes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       },
       "zh": {
         "name": "LSHR",
@@ -53376,7 +53376,7 @@ export const alloys = [
         "title": "Wrought and powder superalloy composition reference",
         "url": "https://en.wikipedia.org/wiki/Superalloy",
         "checkedAt": "2026-06-14",
-        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+        "notes": "検索対象拡充用の展伸材または粉末冶金Ni基スーパーアロイ化学成分参考範囲。設計使用前に各製品の正確な限界値を確認が必要。"
       }
     ]
   }

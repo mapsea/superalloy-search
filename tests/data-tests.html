@@ -162,6 +162,18 @@
       });
     });
 
+    test("Japanese source notes are localized separately from English", () => {
+      const japaneseScriptPattern = /[\u3040-\u30ff\u3400-\u9fff]/;
+
+      alloys.forEach((alloy) => {
+        const jaNotes = alloy.localized.ja.sourceNotes;
+        const enNotes = alloy.localized.en.sourceNotes;
+
+        assert(japaneseScriptPattern.test(jaNotes), `${alloy.id}.ja.sourceNotes must contain Japanese script`);
+        assert(jaNotes !== enNotes, `${alloy.id}.ja.sourceNotes must differ from English source notes`);
+      });
+    });
+
     test("representative detail metadata is present for key alloys", () => {
       const inconel600 = alloys.find((alloy) => alloy.id === "inconel-600");
       const cmsx4 = alloys.find((alloy) => alloy.id === "cmsx-4");
