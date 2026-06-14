@@ -32,7 +32,9 @@ export function matchesAlloy(alloy, criteria) {
   const elementFilters = criteria.elementFilters || [];
 
   if (query) {
-    const haystack = [alloy.name, alloy.family, ...(alloy.aliases || [])].map(normalize).join(" ");
+    const haystack = [alloy.name, alloy.family, alloy.category, alloy.usage, ...(alloy.aliases || [])]
+      .map(normalize)
+      .join(" ");
     if (!haystack.includes(query)) return false;
   }
 

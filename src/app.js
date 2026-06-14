@@ -1,10 +1,10 @@
-import { alloys, ELEMENT_COLUMNS } from "./data/alloys.js?v=20260614a";
-import { filterAlloys } from "./search.js?v=20260614a";
-import { renderCards, renderDetail, renderTableBody, renderTableHead } from "./render.js?v=20260614a";
+import { alloys, ELEMENT_COLUMNS } from "./data/alloys.js?v=20260614b";
+import { filterAlloys } from "./search.js?v=20260614b";
+import { renderCards, renderDetail, renderTableBody, renderTableHead } from "./render.js?v=20260614b";
 
 const state = {
   query: "",
-  sourceTypes: ["official", "reference", "unverified"],
+  sourceTypes: ["official", "standard", "reference", "unverified"],
   elementFilters: []
 };
 

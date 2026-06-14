@@ -1,4 +1,4 @@
-import { ELEMENT_COLUMNS, SOURCE_LABELS } from "./data/alloys.js?v=20260614a";
+import { ELEMENT_COLUMNS, SOURCE_LABELS } from "./data/alloys.js?v=20260614b";
 
 function escapeHtml(value) {
   return String(value ?? "").replace(/[&<>"']/g, (char) => ({
@@ -32,6 +32,7 @@ function renderSourceTitle(source) {
 export function sourceRank(alloy) {
   const types = new Set((alloy.sources || []).map((source) => source.type));
   if (types.has("official")) return "official";
+  if (types.has("standard")) return "standard";
   if (types.has("reference")) return "reference";
   return "unverified";
 }
@@ -44,7 +45,7 @@ export function formatElement(alloy, symbol) {
 export function renderTableHead(container) {
   container.innerHTML = [
     '<th scope="col">合金</th>',
-    '<th scope="col">系統</th>',
+    '<th scope="col">用途</th>',
     ...ELEMENT_COLUMNS.map((symbol) => `<th scope="col">${escapeHtml(symbol)}</th>`),
     '<th scope="col">出典</th>'
   ].join("");
@@ -57,7 +58,7 @@ export function renderTableBody(container, alloys, onSelect) {
     return `
       <tr>
         <td><button class="link-button" type="button" data-alloy-id="${escapeHtml(alloy.id)}">${escapeHtml(alloy.name)}</button></td>
-        <td>${escapeHtml(alloy.family)}</td>
+        <td>${escapeHtml(alloy.usage)}</td>
         ${cells}
         <td><span class="source-badge ${rank}">${escapeHtml(SOURCE_LABELS[rank])}</span></td>
       </tr>
@@ -83,7 +84,7 @@ export function renderCards(container, alloys, onSelect) {
         <div class="card-title-row">
           <div>
             <h3>${escapeHtml(alloy.name)}</h3>
-            <p>${escapeHtml(alloy.family)}</p>
+            <p>${escapeHtml(alloy.usage)}</p>
           </div>
           <span class="source-badge ${rank}">${escapeHtml(SOURCE_LABELS[rank])}</span>
         </div>
@@ -99,7 +100,8 @@ export function renderCards(container, alloys, onSelect) {
 }
 
 export function renderDetail(container, alloy) {
-  const detailMeta = [alloy.family, (alloy.aliases || []).join(", ")]
+  const aliases = (alloy.aliases || []).join(", ");
+  const detailMeta = [alloy.usage, alloy.category, aliases]
     .filter(Boolean)
     .join(" / ");
 
