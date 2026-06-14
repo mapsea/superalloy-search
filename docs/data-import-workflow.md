@@ -143,6 +143,7 @@ Then verify the app and browser tests:
 
 - `http://localhost:8000/`
 - `http://localhost:8000/tests/data-tests.html`
+- `http://localhost:8000/tests/i18n-tests.html`
 - `http://localhost:8000/tests/search-tests.html`
 
 The test pages should show only `PASS` lines. Also search for the edited or newly added alloys in the main app and confirm the displayed source type, aliases, and composition ranges.
