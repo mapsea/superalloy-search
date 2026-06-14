@@ -63,16 +63,17 @@
     }
 
     test("exports expected constants", () => {
-      assertArrayEqual(ELEMENT_COLUMNS, ["Ni", "Cr", "Co", "Fe", "Mo", "Nb", "Ti", "Al", "W", "Ta", "C"], "ELEMENT_COLUMNS");
+      assertArrayEqual(ELEMENT_COLUMNS, ["Ni", "Cr", "Co", "Fe", "Mo", "Nb", "Ti", "Al", "W", "Ta", "C", "Mn", "Si", "Cu", "V", "Sn", "Zr", "B", "P", "S", "N", "O", "H", "Pd", "Ru", "Be", "Hf"], "ELEMENT_COLUMNS");
       assert(SOURCE_LABELS.official === "公式", "official label missing");
       assert(SOURCE_LABELS.standard === "規格", "standard label missing");
       assert(SOURCE_LABELS.reference === "参考", "reference label missing");
       assert(SOURCE_LABELS.unverified === "未確認", "unverified label missing");
     });
 
-    test("contains exactly the first 20 target alloy ids", () => {
-      const ids = alloys.map((alloy) => alloy.id).sort();
-      assertArrayEqual(ids, [...TARGET_IDS].sort(), "alloy ids");
+    test("keeps original 20 target alloy ids and allows expansion", () => {
+      const ids = alloys.map((alloy) => alloy.id);
+      TARGET_IDS.forEach((id) => assert(ids.includes(id), `${id} missing`));
+      assert(alloys.length > TARGET_IDS.length, `expected more than ${TARGET_IDS.length} records, got ${alloys.length}`);
     });
 
     test("has no duplicate ids", () => {
@@ -106,6 +107,29 @@
           );
         });
       });
+    });
+
+    test("estimated element entries are marked and documented", () => {
+      const estimatedEntries = alloys.flatMap((alloy) =>
+        Object.entries(alloy.elements)
+          .filter(([, value]) => value.estimated)
+          .map(([symbol, value]) => ({ alloy, symbol, value }))
+      );
+
+      assert(estimatedEntries.length > 0, "at least one estimated balance value should exist");
+      estimatedEntries.forEach(({ alloy, symbol, value }) => {
+        assert(value.unit === "wt%", `${alloy.id}.${symbol} estimated value must use wt%`);
+        assert(typeof value.display === "string" && value.display.startsWith("約"), `${alloy.id}.${symbol} estimated display must start with 約`);
+        assert(typeof value.estimateMethod === "string" && value.estimateMethod.length > 0, `${alloy.id}.${symbol} estimate method missing`);
+        assert(value.kind !== "balance", `${alloy.id}.${symbol} estimated value must not remain balance kind`);
+      });
+    });
+
+    test("generated data includes display-ready estimated balance markers", () => {
+      const alloy = alloys.find((item) =>
+        Object.values(item.elements).some((value) => value.estimated)
+      );
+      assert(Boolean(alloy), "estimated alloy missing");
     });
 
     test("all sources have required fields and valid source types", () => {

@@ -1,4 +1,4 @@
-import { ELEMENT_COLUMNS, SOURCE_LABELS } from "./data/alloys.js?v=20260614b";
+import { ELEMENT_COLUMNS, SOURCE_LABELS } from "./data/alloys.js?v=20260614c";
 
 function escapeHtml(value) {
   return String(value ?? "").replace(/[&<>"']/g, (char) => ({
@@ -110,7 +110,8 @@ export function renderDetail(container, alloy) {
     .map((symbol) => {
       const value = alloy.elements[symbol];
       const note = value.includes ? ` (${escapeHtml(value.includes)}含む)` : "";
-      return `<tr><th scope="row">${escapeHtml(symbol)}</th><td>${escapeHtml(value.display)}${note}</td></tr>`;
+      const estimateNote = value.estimated ? "（参考計算）" : "";
+      return `<tr><th scope="row">${escapeHtml(symbol)}</th><td>${escapeHtml(value.display)}${estimateNote}${note}</td></tr>`;
     })
     .join("");
 

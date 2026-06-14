@@ -117,6 +117,25 @@
       }), true);
     });
 
+    test("estimated numeric value matches element range filter", () => {
+      const alloy = {
+        name: "Estimated Balance Example",
+        aliases: [],
+        category: "耐熱鋼",
+        usage: "検証用",
+        elements: {
+          Fe: { min: 68.5, max: 68.5, unit: "wt%", display: "約68.5", estimated: true, estimateMethod: "balance midpoint estimate" }
+        },
+        sources: [{ type: "reference" }]
+      };
+
+      assertEqual(matchesAlloy(alloy, {
+        query: "",
+        sourceTypes: ["reference"],
+        elementFilters: [{ symbol: "Fe", min: 68, max: 69 }]
+      }), true);
+    });
+
     test("filterAlloys returns matching alloys", () => {
       const result = filterAlloys([alloy718], {
         query: "718",

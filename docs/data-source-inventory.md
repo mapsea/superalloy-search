@@ -8,9 +8,10 @@ The human-editable source of truth is `data/alloys.csv`.
 
 Run `python3 scripts/build-data.py` after editing the CSV. The script validates the rows and regenerates `src/data/generated/alloys.js`, which is committed for GitHub Pages.
 
-This file tracks the first 20 alloys in the static database. Source confidence is intentionally explicit:
+This file tracks the static database sources. Source confidence is intentionally explicit:
 
 - `official`: manufacturer or producer technical bulletin confirmed.
+- `standard`: standards-derived public composition table or standards summary.
 - `reference`: secondary public reference used as a temporary source.
 - `unverified`: placeholder data that must be replaced before relying on the record for engineering decisions.
 
@@ -38,6 +39,21 @@ This file tracks the first 20 alloys in the static database. Source confidence i
 | Udimet 500 | reference | Typical nickel-base superalloy composition table | Replace with producer or standards source when confirmed. |
 | Udimet 520 | unverified | Placeholder range from common secondary references | High priority for replacement before production-grade use. |
 | Rene 41 | reference | Public Rene 41 chemistry table | Replace with producer or standards source when confirmed. |
+
+## 2026-06-14 Special Metals Batch
+
+This batch expands the database from 20 to 62 records and broadens coverage beyond superalloys.
+
+| Group | Source type | Source examples | Notes |
+| --- | --- | --- | --- |
+| Titanium alloys | reference | Public titanium alloy and Ti-6Al-4V composition references | Titanium balance values are shown as reference midpoint estimates where the source lists Ti as balance. |
+| Stainless steels | standard/reference | SAE stainless composition pages, duplex stainless EN table references | Iron balance values are shown as reference midpoint estimates when the public table lists Fe as balance. |
+| Tool and high-speed steels | reference | Public tool steel, H13, D2, and high-speed steel composition references | Iron balance values are reference midpoint estimates. |
+| Nickel/copper corrosion-resistant alloys | reference | Public Monel, Alloy 20, Incoloy, and Hastelloy composition references | Balance values are estimated only when major listed elements make the estimate defensible. |
+| Refractory metals and alloys | reference | Public refractory metals, molybdenum, and zirconium alloy references | Purity rows use `min` values; TZM and zirconium alloy balance values are marked as reference estimates. |
+| Copper alloys | reference | Public beryllium copper and cupronickel references | Copper balance values are marked as reference estimates where applicable. |
+
+Balance estimates use the method documented in `docs/superpowers/specs/2026-06-14-special-metals-data-expansion-batch-design.md`: midpoint of listed ranges, half of `max` values, and no use of unbounded `min` values unless a practical bound is available. These values are display aids, not official chemistry limits.
 
 ## Data Quality Notes
 

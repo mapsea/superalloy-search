@@ -6,8 +6,40 @@ import sys
 from datetime import date
 from pathlib import Path
 
-ELEMENT_COLUMNS = ["Ni", "Cr", "Co", "Fe", "Mo", "Nb", "Ti", "Al", "W", "Ta", "C"]
+ELEMENT_COLUMNS = [
+    "Ni",
+    "Cr",
+    "Co",
+    "Fe",
+    "Mo",
+    "Nb",
+    "Ti",
+    "Al",
+    "W",
+    "Ta",
+    "C",
+    "Mn",
+    "Si",
+    "Cu",
+    "V",
+    "Sn",
+    "Zr",
+    "B",
+    "P",
+    "S",
+    "N",
+    "O",
+    "H",
+    "Pd",
+    "Ru",
+    "Be",
+    "Hf",
+]
 INCLUDES_COLUMN_SUFFIX = "_includes"
+ESTIMATED_COLUMN_SUFFIX = "_estimated"
+ESTIMATE_METHOD_COLUMN_SUFFIX = "_estimate_method"
+TRUTHY_VALUES = {"1", "true", "yes", "y"}
+FALSY_VALUES = {"", "0", "false", "no", "n"}
 SOURCE_LABELS = {
     "official": "公式",
     "standard": "規格",
@@ -84,6 +116,11 @@ def parse_element(value, row_id, symbol):
             fail(f"{row_id}.{symbol}: range minimum exceeds maximum: {text}")
         return {"min": min_value, "max": max_value, "unit": "wt%", "display": text}
 
+    approx_match = re.fullmatch(r"約\s*([0-9]+(?:\.[0-9]+)?)", text)
+    if approx_match:
+        value = float(approx_match.group(1))
+        return {"min": value, "max": value, "unit": "wt%", "display": f"約{approx_match.group(1)}"}
+
     min_match = re.fullmatch(r"([0-9]+(?:\.[0-9]+)?)\s+min", text, re.IGNORECASE)
     if min_match:
         return {"min": float(min_match.group(1)), "unit": "wt%", "display": text}
@@ -111,6 +148,24 @@ def discover_include_columns(fieldnames):
             fail(f"{column}: include metadata base element is not supported")
         include_columns[column] = symbol
     return include_columns
+
+
+def discover_estimate_columns(fieldnames):
+    estimate_columns = {}
+    for column in fieldnames:
+        suffix = None
+        if column.endswith(ESTIMATED_COLUMN_SUFFIX):
+            suffix = ESTIMATED_COLUMN_SUFFIX
+        elif column.endswith(ESTIMATE_METHOD_COLUMN_SUFFIX):
+            suffix = ESTIMATE_METHOD_COLUMN_SUFFIX
+        if suffix is None:
+            continue
+
+        symbol = column[: -len(suffix)]
+        if symbol not in ELEMENT_COLUMNS:
+            fail(f"{column}: estimate metadata base element is not supported")
+        estimate_columns.setdefault(symbol, {})[suffix] = column
+    return estimate_columns
 
 
 def validate_row_shape(row, row_number, fieldnames):
@@ -142,6 +197,15 @@ def validate_include_symbols(value, alloy_id, column):
             fail(f"{alloy_id}.{column}: unsupported include symbol: {token}")
 
 
+def parse_bool_metadata(value, alloy_id, column):
+    normalized = (value or "").strip().lower()
+    if normalized in TRUTHY_VALUES:
+        return True
+    if normalized in FALSY_VALUES:
+        return False
+    fail(f"{alloy_id}.{column}: expected boolean metadata value")
+
+
 def parse_aliases(value):
     text = (value or "").strip()
     if not text:
@@ -149,7 +213,7 @@ def parse_aliases(value):
     return [alias.strip() for alias in text.split("|") if alias.strip()]
 
 
-def parse_row(row, row_number, include_columns):
+def parse_row(row, row_number, include_columns, estimate_columns):
     validate_required_fields(row, row_number)
 
     alloy_id = row["id"].strip()
@@ -176,6 +240,26 @@ def parse_row(row, row_number, include_columns):
             fail(f"{alloy_id}.{column}: include metadata requires {symbol} value")
         validate_include_symbols(includes, alloy_id, column)
         elements[symbol]["includes"] = includes
+
+    for symbol, columns in estimate_columns.items():
+        estimated_column = columns.get(ESTIMATED_COLUMN_SUFFIX)
+        method_column = columns.get(ESTIMATE_METHOD_COLUMN_SUFFIX)
+        is_estimated = parse_bool_metadata(row.get(estimated_column), alloy_id, estimated_column) if estimated_column else False
+        method = (row.get(method_column) or "").strip() if method_column else ""
+
+        if not is_estimated and method:
+            fail(f"{alloy_id}.{method_column}: estimate method requires {symbol} estimated flag")
+        if not is_estimated:
+            continue
+        if symbol not in elements:
+            fail(f"{alloy_id}.{estimated_column}: estimate metadata requires {symbol} value")
+        if not method:
+            fail(f"{alloy_id}.{method_column}: estimate method is required when {symbol} is estimated")
+        if elements[symbol].get("kind") == "balance":
+            fail(f"{alloy_id}.{symbol}: estimated value must be numeric display, not Bal.")
+
+        elements[symbol]["estimated"] = True
+        elements[symbol]["estimateMethod"] = method
 
     category = row["category"].strip()
     return {
@@ -208,12 +292,13 @@ def load_alloys(csv_path):
         fieldnames = reader.fieldnames or []
         validate_columns(fieldnames)
         include_columns = discover_include_columns(fieldnames)
+        estimate_columns = discover_estimate_columns(fieldnames)
 
         seen_ids = set()
         alloys = []
         for row_number, row in enumerate(reader, start=2):
             validate_row_shape(row, row_number, fieldnames)
-            alloy = parse_row(row, row_number, include_columns)
+            alloy = parse_row(row, row_number, include_columns, estimate_columns)
             if alloy["id"] in seen_ids:
                 fail(f"duplicate id: {alloy['id']}")
             seen_ids.add(alloy["id"])

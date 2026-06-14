@@ -1,4 +1,32 @@
-export const ELEMENT_COLUMNS = ["Ni", "Cr", "Co", "Fe", "Mo", "Nb", "Ti", "Al", "W", "Ta", "C"];
+export const ELEMENT_COLUMNS = [
+  "Ni",
+  "Cr",
+  "Co",
+  "Fe",
+  "Mo",
+  "Nb",
+  "Ti",
+  "Al",
+  "W",
+  "Ta",
+  "C",
+  "Mn",
+  "Si",
+  "Cu",
+  "V",
+  "Sn",
+  "Zr",
+  "B",
+  "P",
+  "S",
+  "N",
+  "O",
+  "H",
+  "Pd",
+  "Ru",
+  "Be",
+  "Hf"
+];
 
 export const SOURCE_LABELS = {
   official: "公式",
