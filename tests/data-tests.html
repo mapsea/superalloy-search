@@ -109,6 +109,7 @@
         assert(typeof alloy.usage === "string" && alloy.usage.length > 0, `${alloy.id} usage missing`);
         assert(typeof alloy.properties === "string" && alloy.properties.length > 0, `${alloy.id} properties missing`);
         assert(typeof alloy.representativeMakers === "string" && alloy.representativeMakers.length > 0, `${alloy.id} representative makers missing`);
+        assert(typeof alloy.japaneseMakers === "string" && alloy.japaneseMakers.length > 0, `${alloy.id} Japanese makers missing`);
         assert(alloy.elements && typeof alloy.elements === "object", `${alloy.id} elements missing`);
         assert(Array.isArray(alloy.sources) && alloy.sources.length > 0, `${alloy.id} sources missing`);
       });
@@ -120,8 +121,10 @@
 
       assert(inconel600.properties.includes("耐酸化"), "Inconel 600 properties should mention oxidation resistance");
       assert(inconel600.representativeMakers.includes("Special Metals"), "Inconel 600 makers should mention Special Metals");
+      assert(inconel600.japaneseMakers.includes("大同特殊鋼"), "Inconel 600 Japanese makers should mention Daido Steel");
       assert(cmsx4.properties.includes("単結晶"), "CMSX-4 properties should mention single crystal use");
       assert(cmsx4.representativeMakers.includes("Cannon-Muskegon"), "CMSX-4 makers should mention Cannon-Muskegon");
+      assert(cmsx4.japaneseMakers.includes("IHI"), "CMSX-4 Japanese makers should mention IHI");
     });
 
     test("all element entries have display and unit or balance kind", () => {

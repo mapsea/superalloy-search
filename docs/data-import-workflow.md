@@ -23,8 +23,9 @@ Every row must include these identity and display columns:
 - `usage`
 - `properties`
 - `representative_makers`
+- `japanese_makers`
 
-`properties` and `representative_makers` may be left blank when adding rows in bulk. The generator fills safe category/family defaults for blank values. Fill these fields directly when a specific alloy has known characteristics or producer names that should override the default text.
+`properties`, `representative_makers`, and `japanese_makers` may be left blank when adding rows in bulk. The generator fills safe category/family defaults for blank values. Fill these fields directly when a specific alloy has known characteristics or producer names that should override the default text.
 
 Every row must include the source columns:
 

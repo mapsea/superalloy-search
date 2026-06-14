@@ -77,6 +77,7 @@ REQUIRED_COLUMNS = [
     "usage",
     "properties",
     "representative_makers",
+    "japanese_makers",
     "source_type",
     "source_company",
     "source_title",
@@ -130,6 +131,20 @@ MAKER_OVERRIDES = {
     "mar-m-247": "Howmet Aerospace, Cannon-Muskegon, PCC Structurals, Doncasters",
     "fsx-414": "Howmet Aerospace, Doncasters, PCC Structurals, Cannon-Muskegon",
     "stellite-6": "Kennametal Stellite, Deloro, Wall Colmonoy, Höganäs",
+}
+
+JAPANESE_MAKER_OVERRIDES = {
+    "inconel-600": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
+    "inconel-601": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
+    "inconel-617": "大同特殊鋼, プロテリアル, 日本冶金工業, IHI",
+    "inconel-625": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
+    "inconel-718": "大同特殊鋼, プロテリアル, IHI, 三菱重工業",
+    "inconel-x-750": "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル",
+    "cmsx-4": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
+    "rene-n5": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
+    "mar-m-247": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
+    "fsx-414": "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼",
+    "stellite-6": "三菱マテリアル, 大同特殊鋼, プロテリアル, 日本タングステン",
 }
 
 
@@ -320,6 +335,32 @@ def infer_representative_makers(alloy_id, name, category, source_company):
     return "Special Metals, ATI, Carpenter Technology, Haynes International"
 
 
+def infer_japanese_makers(alloy_id, name, category):
+    if alloy_id in JAPANESE_MAKER_OVERRIDES:
+        return JAPANESE_MAKER_OVERRIDES[alloy_id]
+
+    search_text = " ".join([alloy_id, name, category]).lower()
+    if any(token in search_text for token in ["cmsx", "pwa", "tms", "single crystal", "単結晶", "rene-n", "gtd", "mar-m", "鋳造スーパーアロイ"]):
+        return "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼"
+    if "rene" in search_text:
+        return "IHI, 三菱重工業, 川崎重工業, 大同特殊鋼"
+    if "コバルト基" in category or any(token in search_text for token in ["stellite", "tribaloy", "fsx", "x-40", "x-45"]):
+        return "三菱マテリアル, 大同特殊鋼, プロテリアル, 日本タングステン"
+    if any(token in search_text for token in ["inconel", "incoloy", "hastelloy", "haynes", "nimonic", "udimet", "waspaloy"]):
+        return "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル"
+    if "スーパーアロイ" in category or "耐熱" in category or "ニッケル" in category:
+        return "大同特殊鋼, プロテリアル, 日本冶金工業, IHI"
+    if "チタン" in category:
+        return "神戸製鋼所, 大阪チタニウムテクノロジーズ, 東邦チタニウム, 日本製鉄"
+    if "ステンレス" in category or "鋼" in category or "鋳鉄" in category:
+        return "日本製鉄, JFEスチール, 大同特殊鋼, 愛知製鋼"
+    if "銅" in category:
+        return "三菱マテリアル, JX金属, 古河電気工業, DOWAメタルテック"
+    if "高融点" in category or "ジルコニウム" in category:
+        return "A.L.M.T., JX金属, 東邦金属, 日本タングステン"
+    return "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル"
+
+
 def parse_row(row, row_number, include_columns, estimate_columns):
     validate_required_fields(row, row_number)
 
@@ -374,6 +415,7 @@ def parse_row(row, row_number, include_columns, estimate_columns):
     source_company = row["source_company"].strip()
     properties = (row.get("properties") or "").strip() or infer_properties(alloy_id, name, category, usage)
     representative_makers = (row.get("representative_makers") or "").strip() or infer_representative_makers(alloy_id, name, category, source_company)
+    japanese_makers = (row.get("japanese_makers") or "").strip() or infer_japanese_makers(alloy_id, name, category)
 
     return {
         "id": alloy_id,
@@ -384,6 +426,7 @@ def parse_row(row, row_number, include_columns, estimate_columns):
         "usage": usage,
         "properties": properties,
         "representativeMakers": representative_makers,
+        "japaneseMakers": japanese_makers,
         "elements": elements,
         "sources": [
             {
