@@ -2,6 +2,7 @@ export const ELEMENT_COLUMNS = ["Ni", "Cr", "Co", "Fe", "Mo", "Nb", "Ti", "Al", 
 
 export const SOURCE_LABELS = {
   official: "公式",
+  standard: "規格",
   reference: "参考",
   unverified: "未確認"
 };

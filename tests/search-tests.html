@@ -33,6 +33,10 @@
       }
     }
 
+    function assert(condition, message) {
+      if (!condition) throw new Error(message);
+    }
+
     const alloy718 = {
       name: "Inconel 718",
       aliases: ["Alloy 718", "UNS N07718"],
@@ -63,6 +67,42 @@
 
     test("alloy name query matches aliases", () => {
       assertEqual(matchesAlloy(alloy718, { query: "N07718", elementFilters: [], sourceTypes: ["official"] }), true);
+    });
+
+    test("alloy text query matches usage", () => {
+      const alloy = {
+        name: "Example Alloy",
+        aliases: [],
+        category: "チタン合金",
+        usage: "医療インプラント",
+        elements: {},
+        sources: [{ type: "official" }]
+      };
+      assert(matchesAlloy(alloy, { query: "インプラント" }), "usage should be searchable");
+    });
+
+    test("alloy text query matches category", () => {
+      const alloy = {
+        name: "Example Alloy",
+        aliases: [],
+        category: "工具鋼",
+        usage: "金型",
+        elements: {},
+        sources: [{ type: "standard" }]
+      };
+      assert(matchesAlloy(alloy, { query: "工具鋼" }), "category should be searchable");
+    });
+
+    test("source type filter accepts standard sources", () => {
+      const alloy = {
+        name: "Example Alloy",
+        aliases: [],
+        category: "耐熱鋼",
+        usage: "ボイラー",
+        elements: {},
+        sources: [{ type: "standard" }]
+      };
+      assert(matchesAlloy(alloy, { sourceTypes: ["standard"] }), "standard source should match");
     });
 
     test("source type filter rejects unmatched source type", () => {

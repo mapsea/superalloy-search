@@ -41,7 +41,7 @@
       "rene-41"
     ];
 
-    const VALID_SOURCE_TYPES = ["official", "reference", "unverified"];
+    const VALID_SOURCE_TYPES = ["official", "standard", "reference", "unverified"];
 
     function test(name, fn) {
       try {
@@ -65,6 +65,7 @@
     test("exports expected constants", () => {
       assertArrayEqual(ELEMENT_COLUMNS, ["Ni", "Cr", "Co", "Fe", "Mo", "Nb", "Ti", "Al", "W", "Ta", "C"], "ELEMENT_COLUMNS");
       assert(SOURCE_LABELS.official === "公式", "official label missing");
+      assert(SOURCE_LABELS.standard === "規格", "standard label missing");
       assert(SOURCE_LABELS.reference === "参考", "reference label missing");
       assert(SOURCE_LABELS.unverified === "未確認", "unverified label missing");
     });
@@ -85,6 +86,8 @@
         assert(typeof alloy.name === "string" && alloy.name.length > 0, `${alloy.id} name missing`);
         assert(Array.isArray(alloy.aliases), `${alloy.id} aliases must be an array`);
         assert(typeof alloy.family === "string" && alloy.family.length > 0, `${alloy.id} family missing`);
+        assert(typeof alloy.category === "string" && alloy.category.length > 0, `${alloy.id} category missing`);
+        assert(typeof alloy.usage === "string" && alloy.usage.length > 0, `${alloy.id} usage missing`);
         assert(alloy.elements && typeof alloy.elements === "object", `${alloy.id} elements missing`);
         assert(Array.isArray(alloy.sources) && alloy.sources.length > 0, `${alloy.id} sources missing`);
       });
