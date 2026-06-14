@@ -63,7 +63,7 @@
     }
 
     test("exports expected constants", () => {
-      assertArrayEqual(ELEMENT_COLUMNS, ["Ni", "Cr", "Co", "Fe", "Mo", "Nb", "Ti", "Al", "W", "Ta", "C", "Mn", "Si", "Cu", "V", "Sn", "Zr", "B", "P", "S", "N", "O", "H", "Pd", "Ru", "Be", "Hf"], "ELEMENT_COLUMNS");
+      assertArrayEqual(ELEMENT_COLUMNS, ["Ni", "Cr", "Co", "Fe", "Mo", "Nb", "Ti", "Al", "W", "Ta", "C", "Mn", "Si", "Cu", "V", "Sn", "Zr", "B", "P", "S", "N", "O", "H", "Pd", "Ru", "Re", "Be", "Hf"], "ELEMENT_COLUMNS");
       assert(SOURCE_LABELS.official === "公式", "official label missing");
       assert(SOURCE_LABELS.standard === "規格", "standard label missing");
       assert(SOURCE_LABELS.reference === "参考", "reference label missing");
@@ -76,8 +76,22 @@
       assert(alloys.length > TARGET_IDS.length, `expected more than ${TARGET_IDS.length} records, got ${alloys.length}`);
     });
 
-    test("contains exactly 300 alloy records", () => {
-      assert(alloys.length === 300, `expected 300 records, got ${alloys.length}`);
+    test("contains exactly 500 alloy records after the IGT superalloy expansion", () => {
+      assert(alloys.length === 500, `expected 500 records, got ${alloys.length}`);
+    });
+
+    test("contains representative Co-base, Rene, and IGT superalloys", () => {
+      const ids = new Set(alloys.map((alloy) => alloy.id));
+      [
+        "rene-80",
+        "rene-n5",
+        "mar-m-247",
+        "cmsx-4",
+        "pwa-1484",
+        "gtd-111",
+        "fsx-414",
+        "stellite-6"
+      ].forEach((id) => assert(ids.has(id), `${id} missing`));
     });
 
     test("has no duplicate ids", () => {

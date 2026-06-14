@@ -70,6 +70,36 @@ Most new rows use `standard` or `reference` source confidence. Balance Fe values
 | Bearing, spring, and wear-resistant steels | 30 | reference | Public bearing, spring, and wear-resistant steel references |
 | Heat-resistant, weathering, and electrical steels | 25 | reference | Public Cr-Mo, weathering steel, and electrical steel references |
 
+## 2026-06-14 Quality-First 350-Record Batch
+
+This batch expands the database from 300 to 350 total records. The user requested an attempt toward 1000 records but accepted stopping short if source-backed collection became impractical, so this batch adds a conservative 50 records rather than filling with weak placeholders.
+
+Rows are generated from `scripts/add-quality-expansion.py` into `data/imports/quality-expansion-2026-06-14.csv` and merged into `data/alloys.csv`. Balance values are still shown as `約xx.x` and marked as reference calculations.
+
+| Group | Added records | Primary source type | Source examples |
+| --- | ---: | --- | --- |
+| Carbon, manganese, and free-machining steels | 15 | standard | SAE steel grade composition tables |
+| Nickel, chromium, molybdenum, bearing, and carburizing steels | 13 | standard | SAE steel grade composition tables |
+| Gray, ductile, and white cast irons | 10 | reference | Public cast iron and ductile iron composition references |
+| Maraging steels | 4 | reference | Public maraging steel composition references |
+| Superalloys and corrosion-resistant nickel/cobalt alloys | 8 | reference | Public superalloy, Haynes, Hastelloy, and nickel alloy references |
+
+## 2026-06-14 IGT Superalloy 500-Record Batch
+
+This batch expands the database from 350 to 500 total records. The added rows focus on industrial gas turbine and aircraft-engine high-temperature alloys, especially Co-base superalloys, Rene/René alloys, MAR-M, CMSX, PWA, TMS, GTD, Udimet, Nimonic, and related powder-metallurgy nickel-base alloys.
+
+The schema now includes `Re` because rhenium is a key search element for second-generation and later single-crystal superalloys. Existing rows leave `Re` blank unless the source-backed reference range includes it.
+
+Rows are generated from `scripts/add-igt-expansion.py` into `data/imports/igt-superalloy-expansion-2026-06-14.csv` and merged into `data/alloys.csv`. These records are search aids. Source notes explicitly require checking producer datasheets or alloy literature before engineering, procurement, or life assessment decisions.
+
+| Group | Added records | Primary source type | Source examples |
+| --- | ---: | --- | --- |
+| Rene/René cast and single-crystal alloys | 28 | reference | Public superalloy and IGT alloy literature references |
+| MAR-M, IN, GTD, CM, and related cast IGT alloys | 30 | reference | Public cast superalloy composition references |
+| CMSX, PWA, TMS, AM, MC, SRR, DD, and other single-crystal alloys | 32 | reference | Public single-crystal superalloy composition references |
+| Co-base superalloys and high-temperature cobalt alloys | 35 | reference | Public cobalt-base superalloy and wear alloy references |
+| Nimonic, Udimet, RR, ME3, LSHR, and PM disk alloys | 25 | reference | Public wrought and powder-metallurgy superalloy references |
+
 ## Data Quality Notes
 
 - The app is a search and comparison aid, not a substitute for purchase specifications, AMS/ASTM standards, or mill certificates.

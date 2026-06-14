@@ -32,6 +32,7 @@ ELEMENT_COLUMNS = [
     "H",
     "Pd",
     "Ru",
+    "Re",
     "Be",
     "Hf",
 ]

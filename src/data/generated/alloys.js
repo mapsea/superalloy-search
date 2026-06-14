@@ -20281,5 +20281,15603 @@ export const alloys = [
         "notes": "Public steel grade composition reference; Fe balance calculated for search display. Iron balance shown as a reference midpoint estimate from listed major elements."
       }
     ]
+  },
+  {
+    "id": "aisi-1084",
+    "name": "AISI 1084 Carbon Steel",
+    "aliases": [
+      "SAE 1084"
+    ],
+    "family": "炭素鋼",
+    "category": "炭素鋼",
+    "usage": "刃物・ばね・高炭素鋼部品",
+    "elements": {
+      "Fe": {
+        "min": 98.3,
+        "max": 98.3,
+        "unit": "wt%",
+        "display": "約98.3",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "C": {
+        "min": 0.8,
+        "max": 0.93,
+        "unit": "wt%",
+        "display": "0.80-0.93"
+      },
+      "Mn": {
+        "min": 0.6,
+        "max": 0.9,
+        "unit": "wt%",
+        "display": "0.60-0.90"
+      },
+      "P": {
+        "max": 0.04,
+        "unit": "wt%",
+        "display": "0.040 max"
+      },
+      "S": {
+        "max": 0.05,
+        "unit": "wt%",
+        "display": "0.050 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "standard",
+        "company": "SAE reference",
+        "title": "SAE steel grades composition table",
+        "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
+        "checkedAt": "2026-06-14",
+        "notes": "Standards-derived public composition range; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "aisi-1085",
+    "name": "AISI 1085 Carbon Steel",
+    "aliases": [
+      "SAE 1085"
+    ],
+    "family": "炭素鋼",
+    "category": "炭素鋼",
+    "usage": "刃物・ばね・高炭素鋼部品",
+    "elements": {
+      "Fe": {
+        "min": 98.2,
+        "max": 98.2,
+        "unit": "wt%",
+        "display": "約98.2",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "C": {
+        "min": 0.8,
+        "max": 0.93,
+        "unit": "wt%",
+        "display": "0.80-0.93"
+      },
+      "Mn": {
+        "min": 0.7,
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "0.70-1.00"
+      },
+      "P": {
+        "max": 0.04,
+        "unit": "wt%",
+        "display": "0.040 max"
+      },
+      "S": {
+        "max": 0.05,
+        "unit": "wt%",
+        "display": "0.050 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "standard",
+        "company": "SAE reference",
+        "title": "SAE steel grades composition table",
+        "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
+        "checkedAt": "2026-06-14",
+        "notes": "Standards-derived public composition range; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "aisi-1090",
+    "name": "AISI 1090 Carbon Steel",
+    "aliases": [
+      "SAE 1090"
+    ],
+    "family": "炭素鋼",
+    "category": "炭素鋼",
+    "usage": "刃物・ばね・高炭素鋼部品",
+    "elements": {
+      "Fe": {
+        "min": 98.3,
+        "max": 98.3,
+        "unit": "wt%",
+        "display": "約98.3",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "C": {
+        "min": 0.85,
+        "max": 0.98,
+        "unit": "wt%",
+        "display": "0.85-0.98"
+      },
+      "Mn": {
+        "min": 0.6,
+        "max": 0.9,
+        "unit": "wt%",
+        "display": "0.60-0.90"
+      },
+      "P": {
+        "max": 0.04,
+        "unit": "wt%",
+        "display": "0.040 max"
+      },
+      "S": {
+        "max": 0.05,
+        "unit": "wt%",
+        "display": "0.050 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "standard",
+        "company": "SAE reference",
+        "title": "SAE steel grades composition table",
+        "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
+        "checkedAt": "2026-06-14",
+        "notes": "Standards-derived public composition range; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "aisi-1117",
+    "name": "AISI 1117 Resulfurized Steel",
+    "aliases": [
+      "SAE 1117"
+    ],
+    "family": "快削鋼",
+    "category": "快削鋼",
+    "usage": "切削加工部品・シャフト・ねじ部品",
+    "elements": {
+      "Fe": {
+        "min": 98.6,
+        "max": 98.6,
+        "unit": "wt%",
+        "display": "約98.6",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "C": {
+        "min": 0.14,
+        "max": 0.2,
+        "unit": "wt%",
+        "display": "0.14-0.20"
+      },
+      "Mn": {
+        "min": 1.0,
+        "max": 1.3,
+        "unit": "wt%",
+        "display": "1.00-1.30"
+      },
+      "P": {
+        "max": 0.04,
+        "unit": "wt%",
+        "display": "0.040 max"
+      },
+      "S": {
+        "min": 0.08,
+        "max": 0.13,
+        "unit": "wt%",
+        "display": "0.08-0.13"
+      }
+    },
+    "sources": [
+      {
+        "type": "standard",
+        "company": "SAE reference",
+        "title": "SAE steel grades composition table",
+        "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
+        "checkedAt": "2026-06-14",
+        "notes": "Standards-derived free-machining steel composition range; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "aisi-1118",
+    "name": "AISI 1118 Resulfurized Steel",
+    "aliases": [
+      "SAE 1118"
+    ],
+    "family": "快削鋼",
+    "category": "快削鋼",
+    "usage": "切削加工部品・シャフト・ねじ部品",
+    "elements": {
+      "Fe": {
+        "min": 98.3,
+        "max": 98.3,
+        "unit": "wt%",
+        "display": "約98.3",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "C": {
+        "min": 0.14,
+        "max": 0.2,
+        "unit": "wt%",
+        "display": "0.14-0.20"
+      },
+      "Mn": {
+        "min": 1.3,
+        "max": 1.6,
+        "unit": "wt%",
+        "display": "1.30-1.60"
+      },
+      "P": {
+        "max": 0.04,
+        "unit": "wt%",
+        "display": "0.040 max"
+      },
+      "S": {
+        "min": 0.08,
+        "max": 0.13,
+        "unit": "wt%",
+        "display": "0.08-0.13"
+      }
+    },
+    "sources": [
+      {
+        "type": "standard",
+        "company": "SAE reference",
+        "title": "SAE steel grades composition table",
+        "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
+        "checkedAt": "2026-06-14",
+        "notes": "Standards-derived free-machining steel composition range; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "aisi-1137",
+    "name": "AISI 1137 Resulfurized Steel",
+    "aliases": [
+      "SAE 1137"
+    ],
+    "family": "快削鋼",
+    "category": "快削鋼",
+    "usage": "切削加工部品・シャフト・ねじ部品",
+    "elements": {
+      "Fe": {
+        "min": 98.0,
+        "max": 98.0,
+        "unit": "wt%",
+        "display": "約98.0",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "C": {
+        "min": 0.32,
+        "max": 0.39,
+        "unit": "wt%",
+        "display": "0.32-0.39"
+      },
+      "Mn": {
+        "min": 1.35,
+        "max": 1.65,
+        "unit": "wt%",
+        "display": "1.35-1.65"
+      },
+      "P": {
+        "max": 0.04,
+        "unit": "wt%",
+        "display": "0.040 max"
+      },
+      "S": {
+        "min": 0.08,
+        "max": 0.13,
+        "unit": "wt%",
+        "display": "0.08-0.13"
+      }
+    },
+    "sources": [
+      {
+        "type": "standard",
+        "company": "SAE reference",
+        "title": "SAE steel grades composition table",
+        "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
+        "checkedAt": "2026-06-14",
+        "notes": "Standards-derived free-machining steel composition range; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "aisi-1141",
+    "name": "AISI 1141 Resulfurized Steel",
+    "aliases": [
+      "SAE 1141"
+    ],
+    "family": "快削鋼",
+    "category": "快削鋼",
+    "usage": "切削加工部品・シャフト・ねじ部品",
+    "elements": {
+      "Fe": {
+        "min": 98.0,
+        "max": 98.0,
+        "unit": "wt%",
+        "display": "約98.0",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "C": {
+        "min": 0.37,
+        "max": 0.45,
+        "unit": "wt%",
+        "display": "0.37-0.45"
+      },
+      "Mn": {
+        "min": 1.35,
+        "max": 1.65,
+        "unit": "wt%",
+        "display": "1.35-1.65"
+      },
+      "P": {
+        "max": 0.04,
+        "unit": "wt%",
+        "display": "0.040 max"
+      },
+      "S": {
+        "min": 0.08,
+        "max": 0.13,
+        "unit": "wt%",
+        "display": "0.08-0.13"
+      }
+    },
+    "sources": [
+      {
+        "type": "standard",
+        "company": "SAE reference",
+        "title": "SAE steel grades composition table",
+        "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
+        "checkedAt": "2026-06-14",
+        "notes": "Standards-derived free-machining steel composition range; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "aisi-1144",
+    "name": "AISI 1144 Stressproof Steel",
+    "aliases": [
+      "SAE 1144"
+    ],
+    "family": "快削鋼",
+    "category": "快削鋼",
+    "usage": "切削加工部品・シャフト・ねじ部品",
+    "elements": {
+      "Fe": {
+        "min": 97.8,
+        "max": 97.8,
+        "unit": "wt%",
+        "display": "約97.8",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "C": {
+        "min": 0.4,
+        "max": 0.48,
+        "unit": "wt%",
+        "display": "0.40-0.48"
+      },
+      "Mn": {
+        "min": 1.35,
+        "max": 1.65,
+        "unit": "wt%",
+        "display": "1.35-1.65"
+      },
+      "P": {
+        "max": 0.04,
+        "unit": "wt%",
+        "display": "0.040 max"
+      },
+      "S": {
+        "min": 0.24,
+        "max": 0.33,
+        "unit": "wt%",
+        "display": "0.24-0.33"
+      }
+    },
+    "sources": [
+      {
+        "type": "standard",
+        "company": "SAE reference",
+        "title": "SAE steel grades composition table",
+        "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
+        "checkedAt": "2026-06-14",
+        "notes": "Standards-derived free-machining steel composition range; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "aisi-1211",
+    "name": "AISI 1211 Free-Cutting Steel",
+    "aliases": [
+      "SAE 1211"
+    ],
+    "family": "快削鋼",
+    "category": "快削鋼",
+    "usage": "自動盤加工・小ねじ・精密切削部品",
+    "elements": {
+      "Fe": {
+        "min": 98.9,
+        "max": 98.9,
+        "unit": "wt%",
+        "display": "約98.9",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "C": {
+        "max": 0.13,
+        "unit": "wt%",
+        "display": "0.13 max"
+      },
+      "Mn": {
+        "min": 0.6,
+        "max": 0.9,
+        "unit": "wt%",
+        "display": "0.60-0.90"
+      },
+      "P": {
+        "min": 0.07,
+        "max": 0.12,
+        "unit": "wt%",
+        "display": "0.07-0.12"
+      },
+      "S": {
+        "min": 0.1,
+        "max": 0.2,
+        "unit": "wt%",
+        "display": "0.10-0.20"
+      }
+    },
+    "sources": [
+      {
+        "type": "standard",
+        "company": "SAE reference",
+        "title": "SAE steel grades composition table",
+        "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
+        "checkedAt": "2026-06-14",
+        "notes": "Standards-derived free-machining steel composition range; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "aisi-1212",
+    "name": "AISI 1212 Free-Cutting Steel",
+    "aliases": [
+      "SAE 1212"
+    ],
+    "family": "快削鋼",
+    "category": "快削鋼",
+    "usage": "自動盤加工・小ねじ・精密切削部品",
+    "elements": {
+      "Fe": {
+        "min": 98.8,
+        "max": 98.8,
+        "unit": "wt%",
+        "display": "約98.8",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "C": {
+        "max": 0.13,
+        "unit": "wt%",
+        "display": "0.13 max"
+      },
+      "Mn": {
+        "min": 0.7,
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "0.70-1.00"
+      },
+      "P": {
+        "min": 0.07,
+        "max": 0.12,
+        "unit": "wt%",
+        "display": "0.07-0.12"
+      },
+      "S": {
+        "min": 0.16,
+        "max": 0.23,
+        "unit": "wt%",
+        "display": "0.16-0.23"
+      }
+    },
+    "sources": [
+      {
+        "type": "standard",
+        "company": "SAE reference",
+        "title": "SAE steel grades composition table",
+        "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
+        "checkedAt": "2026-06-14",
+        "notes": "Standards-derived free-machining steel composition range; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "aisi-1213",
+    "name": "AISI 1213 Free-Cutting Steel",
+    "aliases": [
+      "SAE 1213"
+    ],
+    "family": "快削鋼",
+    "category": "快削鋼",
+    "usage": "自動盤加工・小ねじ・精密切削部品",
+    "elements": {
+      "Fe": {
+        "min": 98.7,
+        "max": 98.7,
+        "unit": "wt%",
+        "display": "約98.7",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "C": {
+        "max": 0.13,
+        "unit": "wt%",
+        "display": "0.13 max"
+      },
+      "Mn": {
+        "min": 0.7,
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "0.70-1.00"
+      },
+      "P": {
+        "min": 0.07,
+        "max": 0.12,
+        "unit": "wt%",
+        "display": "0.07-0.12"
+      },
+      "S": {
+        "min": 0.24,
+        "max": 0.33,
+        "unit": "wt%",
+        "display": "0.24-0.33"
+      }
+    },
+    "sources": [
+      {
+        "type": "standard",
+        "company": "SAE reference",
+        "title": "SAE steel grades composition table",
+        "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
+        "checkedAt": "2026-06-14",
+        "notes": "Standards-derived free-machining steel composition range; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "aisi-1215",
+    "name": "AISI 1215 Free-Cutting Steel",
+    "aliases": [
+      "SAE 1215"
+    ],
+    "family": "快削鋼",
+    "category": "快削鋼",
+    "usage": "自動盤加工・小ねじ・精密切削部品",
+    "elements": {
+      "Fe": {
+        "min": 98.7,
+        "max": 98.7,
+        "unit": "wt%",
+        "display": "約98.7",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "C": {
+        "max": 0.09,
+        "unit": "wt%",
+        "display": "0.09 max"
+      },
+      "Mn": {
+        "min": 0.75,
+        "max": 1.05,
+        "unit": "wt%",
+        "display": "0.75-1.05"
+      },
+      "P": {
+        "min": 0.04,
+        "max": 0.09,
+        "unit": "wt%",
+        "display": "0.04-0.09"
+      },
+      "S": {
+        "min": 0.26,
+        "max": 0.35,
+        "unit": "wt%",
+        "display": "0.26-0.35"
+      }
+    },
+    "sources": [
+      {
+        "type": "standard",
+        "company": "SAE reference",
+        "title": "SAE steel grades composition table",
+        "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
+        "checkedAt": "2026-06-14",
+        "notes": "Standards-derived free-machining steel composition range; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "aisi-1330",
+    "name": "AISI 1330 Manganese Steel",
+    "aliases": [
+      "SAE 1330"
+    ],
+    "family": "合金鋼",
+    "category": "合金鋼",
+    "usage": "歯車・軸・機械構造部品",
+    "elements": {
+      "Fe": {
+        "min": 97.9,
+        "max": 97.9,
+        "unit": "wt%",
+        "display": "約97.9",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "C": {
+        "min": 0.28,
+        "max": 0.33,
+        "unit": "wt%",
+        "display": "0.28-0.33"
+      },
+      "Mn": {
+        "min": 1.6,
+        "max": 1.9,
+        "unit": "wt%",
+        "display": "1.60-1.90"
+      },
+      "P": {
+        "max": 0.035,
+        "unit": "wt%",
+        "display": "0.035 max"
+      },
+      "S": {
+        "max": 0.04,
+        "unit": "wt%",
+        "display": "0.040 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "standard",
+        "company": "SAE reference",
+        "title": "SAE steel grades composition table",
+        "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
+        "checkedAt": "2026-06-14",
+        "notes": "Standards-derived public composition range; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "aisi-1340",
+    "name": "AISI 1340 Manganese Steel",
+    "aliases": [
+      "SAE 1340"
+    ],
+    "family": "合金鋼",
+    "category": "合金鋼",
+    "usage": "歯車・軸・機械構造部品",
+    "elements": {
+      "Fe": {
+        "min": 97.8,
+        "max": 97.8,
+        "unit": "wt%",
+        "display": "約97.8",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "C": {
+        "min": 0.38,
+        "max": 0.43,
+        "unit": "wt%",
+        "display": "0.38-0.43"
+      },
+      "Mn": {
+        "min": 1.6,
+        "max": 1.9,
+        "unit": "wt%",
+        "display": "1.60-1.90"
+      },
+      "P": {
+        "max": 0.035,
+        "unit": "wt%",
+        "display": "0.035 max"
+      },
+      "S": {
+        "max": 0.04,
+        "unit": "wt%",
+        "display": "0.040 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "standard",
+        "company": "SAE reference",
+        "title": "SAE steel grades composition table",
+        "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
+        "checkedAt": "2026-06-14",
+        "notes": "Standards-derived public composition range; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "aisi-1345",
+    "name": "AISI 1345 Manganese Steel",
+    "aliases": [
+      "SAE 1345"
+    ],
+    "family": "合金鋼",
+    "category": "合金鋼",
+    "usage": "歯車・軸・機械構造部品",
+    "elements": {
+      "Fe": {
+        "min": 97.8,
+        "max": 97.8,
+        "unit": "wt%",
+        "display": "約97.8",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "C": {
+        "min": 0.43,
+        "max": 0.48,
+        "unit": "wt%",
+        "display": "0.43-0.48"
+      },
+      "Mn": {
+        "min": 1.6,
+        "max": 1.9,
+        "unit": "wt%",
+        "display": "1.60-1.90"
+      },
+      "P": {
+        "max": 0.035,
+        "unit": "wt%",
+        "display": "0.035 max"
+      },
+      "S": {
+        "max": 0.04,
+        "unit": "wt%",
+        "display": "0.040 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "standard",
+        "company": "SAE reference",
+        "title": "SAE steel grades composition table",
+        "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
+        "checkedAt": "2026-06-14",
+        "notes": "Standards-derived public composition range; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "aisi-3140",
+    "name": "AISI 3140 Nickel-Chromium Steel",
+    "aliases": [
+      "SAE 3140"
+    ],
+    "family": "合金鋼",
+    "category": "合金鋼",
+    "usage": "高強度軸・歯車・機械構造部品",
+    "elements": {
+      "Ni": {
+        "min": 1.1,
+        "max": 1.4,
+        "unit": "wt%",
+        "display": "1.10-1.40"
+      },
+      "Cr": {
+        "min": 0.55,
+        "max": 0.75,
+        "unit": "wt%",
+        "display": "0.55-0.75"
+      },
+      "Fe": {
+        "min": 96.9,
+        "max": 96.9,
+        "unit": "wt%",
+        "display": "約96.9",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "C": {
+        "min": 0.38,
+        "max": 0.43,
+        "unit": "wt%",
+        "display": "0.38-0.43"
+      },
+      "Mn": {
+        "min": 0.7,
+        "max": 0.9,
+        "unit": "wt%",
+        "display": "0.70-0.90"
+      },
+      "P": {
+        "max": 0.035,
+        "unit": "wt%",
+        "display": "0.035 max"
+      },
+      "S": {
+        "max": 0.04,
+        "unit": "wt%",
+        "display": "0.040 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "standard",
+        "company": "SAE reference",
+        "title": "SAE steel grades composition table",
+        "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
+        "checkedAt": "2026-06-14",
+        "notes": "Standards-derived public composition range; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "aisi-3310",
+    "name": "AISI 3310 Nickel-Chromium Steel",
+    "aliases": [
+      "SAE 3310"
+    ],
+    "family": "浸炭鋼",
+    "category": "浸炭鋼",
+    "usage": "浸炭歯車・シャフト・高靭性部品",
+    "elements": {
+      "Ni": {
+        "min": 3.25,
+        "max": 3.75,
+        "unit": "wt%",
+        "display": "3.25-3.75"
+      },
+      "Cr": {
+        "min": 1.4,
+        "max": 1.75,
+        "unit": "wt%",
+        "display": "1.40-1.75"
+      },
+      "Fe": {
+        "min": 94.3,
+        "max": 94.3,
+        "unit": "wt%",
+        "display": "約94.3",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "C": {
+        "min": 0.08,
+        "max": 0.13,
+        "unit": "wt%",
+        "display": "0.08-0.13"
+      },
+      "Mn": {
+        "min": 0.45,
+        "max": 0.6,
+        "unit": "wt%",
+        "display": "0.45-0.60"
+      },
+      "P": {
+        "max": 0.035,
+        "unit": "wt%",
+        "display": "0.035 max"
+      },
+      "S": {
+        "max": 0.04,
+        "unit": "wt%",
+        "display": "0.040 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "standard",
+        "company": "SAE reference",
+        "title": "SAE steel grades composition table",
+        "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
+        "checkedAt": "2026-06-14",
+        "notes": "Standards-derived public composition range; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "aisi-3316",
+    "name": "AISI 3316 Nickel-Chromium Steel",
+    "aliases": [
+      "SAE 3316"
+    ],
+    "family": "浸炭鋼",
+    "category": "浸炭鋼",
+    "usage": "浸炭歯車・シャフト・高靭性部品",
+    "elements": {
+      "Ni": {
+        "min": 3.25,
+        "max": 3.75,
+        "unit": "wt%",
+        "display": "3.25-3.75"
+      },
+      "Cr": {
+        "min": 1.4,
+        "max": 1.75,
+        "unit": "wt%",
+        "display": "1.40-1.75"
+      },
+      "Fe": {
+        "min": 94.2,
+        "max": 94.2,
+        "unit": "wt%",
+        "display": "約94.2",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "C": {
+        "min": 0.14,
+        "max": 0.19,
+        "unit": "wt%",
+        "display": "0.14-0.19"
+      },
+      "Mn": {
+        "min": 0.45,
+        "max": 0.6,
+        "unit": "wt%",
+        "display": "0.45-0.60"
+      },
+      "P": {
+        "max": 0.035,
+        "unit": "wt%",
+        "display": "0.035 max"
+      },
+      "S": {
+        "max": 0.04,
+        "unit": "wt%",
+        "display": "0.040 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "standard",
+        "company": "SAE reference",
+        "title": "SAE steel grades composition table",
+        "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
+        "checkedAt": "2026-06-14",
+        "notes": "Standards-derived public composition range; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "aisi-3318",
+    "name": "AISI 3318 Nickel-Chromium Steel",
+    "aliases": [
+      "SAE 3318"
+    ],
+    "family": "浸炭鋼",
+    "category": "浸炭鋼",
+    "usage": "浸炭歯車・シャフト・高靭性部品",
+    "elements": {
+      "Ni": {
+        "min": 3.25,
+        "max": 3.75,
+        "unit": "wt%",
+        "display": "3.25-3.75"
+      },
+      "Cr": {
+        "min": 1.4,
+        "max": 1.75,
+        "unit": "wt%",
+        "display": "1.40-1.75"
+      },
+      "Fe": {
+        "min": 94.2,
+        "max": 94.2,
+        "unit": "wt%",
+        "display": "約94.2",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "C": {
+        "min": 0.17,
+        "max": 0.22,
+        "unit": "wt%",
+        "display": "0.17-0.22"
+      },
+      "Mn": {
+        "min": 0.45,
+        "max": 0.6,
+        "unit": "wt%",
+        "display": "0.45-0.60"
+      },
+      "P": {
+        "max": 0.035,
+        "unit": "wt%",
+        "display": "0.035 max"
+      },
+      "S": {
+        "max": 0.04,
+        "unit": "wt%",
+        "display": "0.040 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "standard",
+        "company": "SAE reference",
+        "title": "SAE steel grades composition table",
+        "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
+        "checkedAt": "2026-06-14",
+        "notes": "Standards-derived public composition range; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "aisi-4037",
+    "name": "AISI 4037 Molybdenum Steel",
+    "aliases": [
+      "SAE 4037"
+    ],
+    "family": "低合金鋼",
+    "category": "低合金鋼",
+    "usage": "機械構造部品・ボルト・シャフト",
+    "elements": {
+      "Fe": {
+        "min": 98.5,
+        "max": 98.5,
+        "unit": "wt%",
+        "display": "約98.5",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Mo": {
+        "min": 0.2,
+        "max": 0.3,
+        "unit": "wt%",
+        "display": "0.20-0.30"
+      },
+      "C": {
+        "min": 0.35,
+        "max": 0.4,
+        "unit": "wt%",
+        "display": "0.35-0.40"
+      },
+      "Mn": {
+        "min": 0.7,
+        "max": 0.9,
+        "unit": "wt%",
+        "display": "0.70-0.90"
+      },
+      "P": {
+        "max": 0.035,
+        "unit": "wt%",
+        "display": "0.035 max"
+      },
+      "S": {
+        "max": 0.04,
+        "unit": "wt%",
+        "display": "0.040 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "standard",
+        "company": "SAE reference",
+        "title": "SAE steel grades composition table",
+        "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
+        "checkedAt": "2026-06-14",
+        "notes": "Standards-derived public composition range; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "aisi-4137",
+    "name": "AISI 4137 Chromium-Molybdenum Steel",
+    "aliases": [
+      "SAE 4137"
+    ],
+    "family": "クロムモリブデン鋼",
+    "category": "クロムモリブデン鋼",
+    "usage": "ボルト・シャフト・機械構造部品",
+    "elements": {
+      "Cr": {
+        "min": 0.8,
+        "max": 1.1,
+        "unit": "wt%",
+        "display": "0.80-1.10"
+      },
+      "Fe": {
+        "min": 97.6,
+        "max": 97.6,
+        "unit": "wt%",
+        "display": "約97.6",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Mo": {
+        "min": 0.15,
+        "max": 0.25,
+        "unit": "wt%",
+        "display": "0.15-0.25"
+      },
+      "C": {
+        "min": 0.35,
+        "max": 0.4,
+        "unit": "wt%",
+        "display": "0.35-0.40"
+      },
+      "Mn": {
+        "min": 0.7,
+        "max": 0.9,
+        "unit": "wt%",
+        "display": "0.70-0.90"
+      },
+      "P": {
+        "max": 0.035,
+        "unit": "wt%",
+        "display": "0.035 max"
+      },
+      "S": {
+        "max": 0.04,
+        "unit": "wt%",
+        "display": "0.040 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "standard",
+        "company": "SAE reference",
+        "title": "SAE steel grades composition table",
+        "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
+        "checkedAt": "2026-06-14",
+        "notes": "Standards-derived public composition range; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "aisi-4147",
+    "name": "AISI 4147 Chromium-Molybdenum Steel",
+    "aliases": [
+      "SAE 4147"
+    ],
+    "family": "クロムモリブデン鋼",
+    "category": "クロムモリブデン鋼",
+    "usage": "高強度シャフト・工具部材・機械構造部品",
+    "elements": {
+      "Cr": {
+        "min": 0.8,
+        "max": 1.1,
+        "unit": "wt%",
+        "display": "0.80-1.10"
+      },
+      "Fe": {
+        "min": 97.5,
+        "max": 97.5,
+        "unit": "wt%",
+        "display": "約97.5",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Mo": {
+        "min": 0.15,
+        "max": 0.25,
+        "unit": "wt%",
+        "display": "0.15-0.25"
+      },
+      "C": {
+        "min": 0.45,
+        "max": 0.5,
+        "unit": "wt%",
+        "display": "0.45-0.50"
+      },
+      "Mn": {
+        "min": 0.75,
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "0.75-1.00"
+      },
+      "P": {
+        "max": 0.035,
+        "unit": "wt%",
+        "display": "0.035 max"
+      },
+      "S": {
+        "max": 0.04,
+        "unit": "wt%",
+        "display": "0.040 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "standard",
+        "company": "SAE reference",
+        "title": "SAE steel grades composition table",
+        "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
+        "checkedAt": "2026-06-14",
+        "notes": "Standards-derived public composition range; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "aisi-4317",
+    "name": "AISI 4317 Nickel-Chromium-Molybdenum Steel",
+    "aliases": [
+      "SAE 4317"
+    ],
+    "family": "浸炭鋼",
+    "category": "浸炭鋼",
+    "usage": "浸炭歯車・高靭性機械部品",
+    "elements": {
+      "Ni": {
+        "min": 1.65,
+        "max": 2.0,
+        "unit": "wt%",
+        "display": "1.65-2.00"
+      },
+      "Cr": {
+        "min": 0.4,
+        "max": 0.6,
+        "unit": "wt%",
+        "display": "0.40-0.60"
+      },
+      "Fe": {
+        "min": 96.7,
+        "max": 96.7,
+        "unit": "wt%",
+        "display": "約96.7",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Mo": {
+        "min": 0.2,
+        "max": 0.3,
+        "unit": "wt%",
+        "display": "0.20-0.30"
+      },
+      "C": {
+        "min": 0.15,
+        "max": 0.2,
+        "unit": "wt%",
+        "display": "0.15-0.20"
+      },
+      "Mn": {
+        "min": 0.45,
+        "max": 0.65,
+        "unit": "wt%",
+        "display": "0.45-0.65"
+      },
+      "P": {
+        "max": 0.035,
+        "unit": "wt%",
+        "display": "0.035 max"
+      },
+      "S": {
+        "max": 0.04,
+        "unit": "wt%",
+        "display": "0.040 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "standard",
+        "company": "SAE reference",
+        "title": "SAE steel grades composition table",
+        "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
+        "checkedAt": "2026-06-14",
+        "notes": "Standards-derived public composition range; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "aisi-4815",
+    "name": "AISI 4815 Nickel-Molybdenum Steel",
+    "aliases": [
+      "SAE 4815"
+    ],
+    "family": "低合金鋼",
+    "category": "低合金鋼",
+    "usage": "浸炭歯車・高靭性部品",
+    "elements": {
+      "Ni": {
+        "min": 3.25,
+        "max": 3.75,
+        "unit": "wt%",
+        "display": "3.25-3.75"
+      },
+      "Fe": {
+        "min": 95.6,
+        "max": 95.6,
+        "unit": "wt%",
+        "display": "約95.6",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Mo": {
+        "min": 0.2,
+        "max": 0.3,
+        "unit": "wt%",
+        "display": "0.20-0.30"
+      },
+      "C": {
+        "min": 0.13,
+        "max": 0.18,
+        "unit": "wt%",
+        "display": "0.13-0.18"
+      },
+      "Mn": {
+        "min": 0.4,
+        "max": 0.6,
+        "unit": "wt%",
+        "display": "0.40-0.60"
+      },
+      "P": {
+        "max": 0.035,
+        "unit": "wt%",
+        "display": "0.035 max"
+      },
+      "S": {
+        "max": 0.04,
+        "unit": "wt%",
+        "display": "0.040 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "standard",
+        "company": "SAE reference",
+        "title": "SAE steel grades composition table",
+        "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
+        "checkedAt": "2026-06-14",
+        "notes": "Standards-derived public composition range; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "aisi-4817",
+    "name": "AISI 4817 Nickel-Molybdenum Steel",
+    "aliases": [
+      "SAE 4817"
+    ],
+    "family": "低合金鋼",
+    "category": "低合金鋼",
+    "usage": "浸炭歯車・高靭性部品",
+    "elements": {
+      "Ni": {
+        "min": 3.25,
+        "max": 3.75,
+        "unit": "wt%",
+        "display": "3.25-3.75"
+      },
+      "Fe": {
+        "min": 95.5,
+        "max": 95.5,
+        "unit": "wt%",
+        "display": "約95.5",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Mo": {
+        "min": 0.2,
+        "max": 0.3,
+        "unit": "wt%",
+        "display": "0.20-0.30"
+      },
+      "C": {
+        "min": 0.15,
+        "max": 0.2,
+        "unit": "wt%",
+        "display": "0.15-0.20"
+      },
+      "Mn": {
+        "min": 0.4,
+        "max": 0.6,
+        "unit": "wt%",
+        "display": "0.40-0.60"
+      },
+      "P": {
+        "max": 0.035,
+        "unit": "wt%",
+        "display": "0.035 max"
+      },
+      "S": {
+        "max": 0.04,
+        "unit": "wt%",
+        "display": "0.040 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "standard",
+        "company": "SAE reference",
+        "title": "SAE steel grades composition table",
+        "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
+        "checkedAt": "2026-06-14",
+        "notes": "Standards-derived public composition range; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "aisi-4819",
+    "name": "AISI 4819 Nickel-Molybdenum Steel",
+    "aliases": [
+      "SAE 4819"
+    ],
+    "family": "低合金鋼",
+    "category": "低合金鋼",
+    "usage": "浸炭歯車・高靭性部品",
+    "elements": {
+      "Ni": {
+        "min": 3.25,
+        "max": 3.75,
+        "unit": "wt%",
+        "display": "3.25-3.75"
+      },
+      "Fe": {
+        "min": 95.5,
+        "max": 95.5,
+        "unit": "wt%",
+        "display": "約95.5",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Mo": {
+        "min": 0.2,
+        "max": 0.3,
+        "unit": "wt%",
+        "display": "0.20-0.30"
+      },
+      "C": {
+        "min": 0.17,
+        "max": 0.22,
+        "unit": "wt%",
+        "display": "0.17-0.22"
+      },
+      "Mn": {
+        "min": 0.4,
+        "max": 0.6,
+        "unit": "wt%",
+        "display": "0.40-0.60"
+      },
+      "P": {
+        "max": 0.035,
+        "unit": "wt%",
+        "display": "0.035 max"
+      },
+      "S": {
+        "max": 0.04,
+        "unit": "wt%",
+        "display": "0.040 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "standard",
+        "company": "SAE reference",
+        "title": "SAE steel grades composition table",
+        "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
+        "checkedAt": "2026-06-14",
+        "notes": "Standards-derived public composition range; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "aisi-50100",
+    "name": "AISI 50100 Bearing Steel",
+    "aliases": [
+      "SAE 50100"
+    ],
+    "family": "軸受鋼",
+    "category": "軸受鋼",
+    "usage": "軸受・転動部品・耐摩耗部品",
+    "elements": {
+      "Cr": {
+        "min": 0.4,
+        "max": 0.6,
+        "unit": "wt%",
+        "display": "0.40-0.60"
+      },
+      "Fe": {
+        "min": 97.8,
+        "max": 97.8,
+        "unit": "wt%",
+        "display": "約97.8",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "C": {
+        "min": 0.98,
+        "max": 1.1,
+        "unit": "wt%",
+        "display": "0.98-1.10"
+      },
+      "Mn": {
+        "min": 0.25,
+        "max": 0.45,
+        "unit": "wt%",
+        "display": "0.25-0.45"
+      },
+      "Si": {
+        "min": 0.15,
+        "max": 0.35,
+        "unit": "wt%",
+        "display": "0.15-0.35"
+      },
+      "P": {
+        "max": 0.025,
+        "unit": "wt%",
+        "display": "0.025 max"
+      },
+      "S": {
+        "max": 0.025,
+        "unit": "wt%",
+        "display": "0.025 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "standard",
+        "company": "SAE reference",
+        "title": "SAE steel grades composition table",
+        "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
+        "checkedAt": "2026-06-14",
+        "notes": "Standards-derived public composition range; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "aisi-51100",
+    "name": "AISI 51100 Bearing Steel",
+    "aliases": [
+      "SAE 51100"
+    ],
+    "family": "軸受鋼",
+    "category": "軸受鋼",
+    "usage": "軸受・転動部品・耐摩耗部品",
+    "elements": {
+      "Cr": {
+        "min": 0.9,
+        "max": 1.15,
+        "unit": "wt%",
+        "display": "0.90-1.15"
+      },
+      "Fe": {
+        "min": 97.3,
+        "max": 97.3,
+        "unit": "wt%",
+        "display": "約97.3",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "C": {
+        "min": 0.98,
+        "max": 1.1,
+        "unit": "wt%",
+        "display": "0.98-1.10"
+      },
+      "Mn": {
+        "min": 0.25,
+        "max": 0.45,
+        "unit": "wt%",
+        "display": "0.25-0.45"
+      },
+      "Si": {
+        "min": 0.15,
+        "max": 0.35,
+        "unit": "wt%",
+        "display": "0.15-0.35"
+      },
+      "P": {
+        "max": 0.025,
+        "unit": "wt%",
+        "display": "0.025 max"
+      },
+      "S": {
+        "max": 0.025,
+        "unit": "wt%",
+        "display": "0.025 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "standard",
+        "company": "SAE reference",
+        "title": "SAE steel grades composition table",
+        "url": "https://en.wikipedia.org/wiki/SAE_steel_grades",
+        "checkedAt": "2026-06-14",
+        "notes": "Standards-derived public composition range; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "gray-cast-iron-class-20",
+    "name": "Gray Cast Iron Class 20",
+    "aliases": [
+      "ASTM A48 Class 20"
+    ],
+    "family": "鋳鉄",
+    "category": "鋳鉄",
+    "usage": "鋳物・機械ベース・ポンプハウジング",
+    "elements": {
+      "Fe": {
+        "min": 93.6,
+        "max": 93.6,
+        "unit": "wt%",
+        "display": "約93.6",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "C": {
+        "min": 3.2,
+        "max": 3.6,
+        "unit": "wt%",
+        "display": "3.20-3.60"
+      },
+      "Mn": {
+        "min": 0.5,
+        "max": 0.9,
+        "unit": "wt%",
+        "display": "0.50-0.90"
+      },
+      "Si": {
+        "min": 1.8,
+        "max": 2.4,
+        "unit": "wt%",
+        "display": "1.80-2.40"
+      },
+      "P": {
+        "max": 0.2,
+        "unit": "wt%",
+        "display": "0.20 max"
+      },
+      "S": {
+        "max": 0.12,
+        "unit": "wt%",
+        "display": "0.12 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cast iron composition reference",
+        "url": "https://en.wikipedia.org/wiki/Cast_iron",
+        "checkedAt": "2026-06-14",
+        "notes": "Public cast iron composition range; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "gray-cast-iron-class-25",
+    "name": "Gray Cast Iron Class 25",
+    "aliases": [
+      "ASTM A48 Class 25"
+    ],
+    "family": "鋳鉄",
+    "category": "鋳鉄",
+    "usage": "鋳物・機械ベース・ポンプハウジング",
+    "elements": {
+      "Fe": {
+        "min": 93.8,
+        "max": 93.8,
+        "unit": "wt%",
+        "display": "約93.8",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "C": {
+        "min": 3.1,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "3.10-3.50"
+      },
+      "Mn": {
+        "min": 0.5,
+        "max": 0.9,
+        "unit": "wt%",
+        "display": "0.50-0.90"
+      },
+      "Si": {
+        "min": 1.7,
+        "max": 2.3,
+        "unit": "wt%",
+        "display": "1.70-2.30"
+      },
+      "P": {
+        "max": 0.2,
+        "unit": "wt%",
+        "display": "0.20 max"
+      },
+      "S": {
+        "max": 0.12,
+        "unit": "wt%",
+        "display": "0.12 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cast iron composition reference",
+        "url": "https://en.wikipedia.org/wiki/Cast_iron",
+        "checkedAt": "2026-06-14",
+        "notes": "Public cast iron composition range; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "gray-cast-iron-class-30",
+    "name": "Gray Cast Iron Class 30",
+    "aliases": [
+      "ASTM A48 Class 30"
+    ],
+    "family": "鋳鉄",
+    "category": "鋳鉄",
+    "usage": "鋳物・機械ベース・ポンプハウジング",
+    "elements": {
+      "Fe": {
+        "min": 94.0,
+        "max": 94.0,
+        "unit": "wt%",
+        "display": "約94.0",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "C": {
+        "min": 3.0,
+        "max": 3.4,
+        "unit": "wt%",
+        "display": "3.00-3.40"
+      },
+      "Mn": {
+        "min": 0.5,
+        "max": 0.9,
+        "unit": "wt%",
+        "display": "0.50-0.90"
+      },
+      "Si": {
+        "min": 1.6,
+        "max": 2.2,
+        "unit": "wt%",
+        "display": "1.60-2.20"
+      },
+      "P": {
+        "max": 0.18,
+        "unit": "wt%",
+        "display": "0.18 max"
+      },
+      "S": {
+        "max": 0.12,
+        "unit": "wt%",
+        "display": "0.12 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cast iron composition reference",
+        "url": "https://en.wikipedia.org/wiki/Cast_iron",
+        "checkedAt": "2026-06-14",
+        "notes": "Public cast iron composition range; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "gray-cast-iron-class-35",
+    "name": "Gray Cast Iron Class 35",
+    "aliases": [
+      "ASTM A48 Class 35"
+    ],
+    "family": "鋳鉄",
+    "category": "鋳鉄",
+    "usage": "鋳物・工作機械部品・ブレーキ部品",
+    "elements": {
+      "Fe": {
+        "min": 94.2,
+        "max": 94.2,
+        "unit": "wt%",
+        "display": "約94.2",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "C": {
+        "min": 2.9,
+        "max": 3.3,
+        "unit": "wt%",
+        "display": "2.90-3.30"
+      },
+      "Mn": {
+        "min": 0.6,
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "0.60-1.00"
+      },
+      "Si": {
+        "min": 1.5,
+        "max": 2.1,
+        "unit": "wt%",
+        "display": "1.50-2.10"
+      },
+      "P": {
+        "max": 0.15,
+        "unit": "wt%",
+        "display": "0.15 max"
+      },
+      "S": {
+        "max": 0.12,
+        "unit": "wt%",
+        "display": "0.12 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cast iron composition reference",
+        "url": "https://en.wikipedia.org/wiki/Cast_iron",
+        "checkedAt": "2026-06-14",
+        "notes": "Public cast iron composition range; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "gray-cast-iron-class-40",
+    "name": "Gray Cast Iron Class 40",
+    "aliases": [
+      "ASTM A48 Class 40"
+    ],
+    "family": "鋳鉄",
+    "category": "鋳鉄",
+    "usage": "鋳物・工作機械部品・ブレーキ部品",
+    "elements": {
+      "Fe": {
+        "min": 94.4,
+        "max": 94.4,
+        "unit": "wt%",
+        "display": "約94.4",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "C": {
+        "min": 2.8,
+        "max": 3.2,
+        "unit": "wt%",
+        "display": "2.80-3.20"
+      },
+      "Mn": {
+        "min": 0.6,
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "0.60-1.00"
+      },
+      "Si": {
+        "min": 1.4,
+        "max": 2.0,
+        "unit": "wt%",
+        "display": "1.40-2.00"
+      },
+      "P": {
+        "max": 0.12,
+        "unit": "wt%",
+        "display": "0.12 max"
+      },
+      "S": {
+        "max": 0.12,
+        "unit": "wt%",
+        "display": "0.12 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cast iron composition reference",
+        "url": "https://en.wikipedia.org/wiki/Cast_iron",
+        "checkedAt": "2026-06-14",
+        "notes": "Public cast iron composition range; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "ductile-iron-60-40-18",
+    "name": "Ductile Iron 60-40-18",
+    "aliases": [
+      "ASTM A536 60-40-18"
+    ],
+    "family": "球状黒鉛鋳鉄",
+    "category": "球状黒鉛鋳鉄",
+    "usage": "鋳物・配管継手・機械構造鋳物",
+    "elements": {
+      "Fe": {
+        "min": 93.6,
+        "max": 93.6,
+        "unit": "wt%",
+        "display": "約93.6",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "C": {
+        "min": 3.4,
+        "max": 3.9,
+        "unit": "wt%",
+        "display": "3.40-3.90"
+      },
+      "Mn": {
+        "min": 0.1,
+        "max": 0.4,
+        "unit": "wt%",
+        "display": "0.10-0.40"
+      },
+      "Si": {
+        "min": 2.2,
+        "max": 2.8,
+        "unit": "wt%",
+        "display": "2.20-2.80"
+      },
+      "P": {
+        "max": 0.05,
+        "unit": "wt%",
+        "display": "0.05 max"
+      },
+      "S": {
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.02 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Ductile iron composition reference",
+        "url": "https://en.wikipedia.org/wiki/Ductile_iron",
+        "checkedAt": "2026-06-14",
+        "notes": "Public cast iron composition range; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "ductile-iron-65-45-12",
+    "name": "Ductile Iron 65-45-12",
+    "aliases": [
+      "ASTM A536 65-45-12"
+    ],
+    "family": "球状黒鉛鋳鉄",
+    "category": "球状黒鉛鋳鉄",
+    "usage": "鋳物・配管継手・機械構造鋳物",
+    "elements": {
+      "Fe": {
+        "min": 93.5,
+        "max": 93.5,
+        "unit": "wt%",
+        "display": "約93.5",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "C": {
+        "min": 3.4,
+        "max": 3.9,
+        "unit": "wt%",
+        "display": "3.40-3.90"
+      },
+      "Mn": {
+        "min": 0.2,
+        "max": 0.5,
+        "unit": "wt%",
+        "display": "0.20-0.50"
+      },
+      "Si": {
+        "min": 2.2,
+        "max": 2.8,
+        "unit": "wt%",
+        "display": "2.20-2.80"
+      },
+      "P": {
+        "max": 0.05,
+        "unit": "wt%",
+        "display": "0.05 max"
+      },
+      "S": {
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.02 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Ductile iron composition reference",
+        "url": "https://en.wikipedia.org/wiki/Ductile_iron",
+        "checkedAt": "2026-06-14",
+        "notes": "Public cast iron composition range; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "ductile-iron-80-55-06",
+    "name": "Ductile Iron 80-55-06",
+    "aliases": [
+      "ASTM A536 80-55-06"
+    ],
+    "family": "球状黒鉛鋳鉄",
+    "category": "球状黒鉛鋳鉄",
+    "usage": "鋳物・歯車箱・高強度鋳物",
+    "elements": {
+      "Fe": {
+        "min": 93.4,
+        "max": 93.4,
+        "unit": "wt%",
+        "display": "約93.4",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "C": {
+        "min": 3.4,
+        "max": 3.8,
+        "unit": "wt%",
+        "display": "3.40-3.80"
+      },
+      "Mn": {
+        "min": 0.3,
+        "max": 0.7,
+        "unit": "wt%",
+        "display": "0.30-0.70"
+      },
+      "Si": {
+        "min": 2.2,
+        "max": 2.7,
+        "unit": "wt%",
+        "display": "2.20-2.70"
+      },
+      "P": {
+        "max": 0.05,
+        "unit": "wt%",
+        "display": "0.05 max"
+      },
+      "S": {
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.02 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Ductile iron composition reference",
+        "url": "https://en.wikipedia.org/wiki/Ductile_iron",
+        "checkedAt": "2026-06-14",
+        "notes": "Public cast iron composition range; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "ductile-iron-100-70-03",
+    "name": "Ductile Iron 100-70-03",
+    "aliases": [
+      "ASTM A536 100-70-03"
+    ],
+    "family": "球状黒鉛鋳鉄",
+    "category": "球状黒鉛鋳鉄",
+    "usage": "鋳物・高強度機械部品・ギヤケース",
+    "elements": {
+      "Fe": {
+        "min": 93.5,
+        "max": 93.5,
+        "unit": "wt%",
+        "display": "約93.5",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "C": {
+        "min": 3.3,
+        "max": 3.7,
+        "unit": "wt%",
+        "display": "3.30-3.70"
+      },
+      "Mn": {
+        "min": 0.4,
+        "max": 0.8,
+        "unit": "wt%",
+        "display": "0.40-0.80"
+      },
+      "Si": {
+        "min": 2.1,
+        "max": 2.6,
+        "unit": "wt%",
+        "display": "2.10-2.60"
+      },
+      "P": {
+        "max": 0.05,
+        "unit": "wt%",
+        "display": "0.05 max"
+      },
+      "S": {
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.02 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Ductile iron composition reference",
+        "url": "https://en.wikipedia.org/wiki/Ductile_iron",
+        "checkedAt": "2026-06-14",
+        "notes": "Public cast iron composition range; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "white-cast-iron",
+    "name": "White Cast Iron",
+    "aliases": [
+      "Chilled iron"
+    ],
+    "family": "鋳鉄",
+    "category": "鋳鉄",
+    "usage": "耐摩耗ライナー・粉砕部品・ロール",
+    "elements": {
+      "Fe": {
+        "min": 95.1,
+        "max": 95.1,
+        "unit": "wt%",
+        "display": "約95.1",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "C": {
+        "min": 2.5,
+        "max": 3.6,
+        "unit": "wt%",
+        "display": "2.50-3.60"
+      },
+      "Mn": {
+        "min": 0.25,
+        "max": 0.8,
+        "unit": "wt%",
+        "display": "0.25-0.80"
+      },
+      "Si": {
+        "min": 0.5,
+        "max": 1.9,
+        "unit": "wt%",
+        "display": "0.50-1.90"
+      },
+      "P": {
+        "max": 0.2,
+        "unit": "wt%",
+        "display": "0.20 max"
+      },
+      "S": {
+        "max": 0.12,
+        "unit": "wt%",
+        "display": "0.12 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cast iron composition reference",
+        "url": "https://en.wikipedia.org/wiki/Cast_iron",
+        "checkedAt": "2026-06-14",
+        "notes": "Public cast iron composition range; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "maraging-200",
+    "name": "Maraging Steel 200",
+    "aliases": [
+      "18Ni(200)",
+      "C200"
+    ],
+    "family": "マレージング鋼",
+    "category": "マレージング鋼",
+    "usage": "航空宇宙・高強度金型・シャフト",
+    "elements": {
+      "Ni": {
+        "min": 17.0,
+        "max": 19.0,
+        "unit": "wt%",
+        "display": "17-19"
+      },
+      "Co": {
+        "min": 8.0,
+        "max": 9.0,
+        "unit": "wt%",
+        "display": "8-9"
+      },
+      "Fe": {
+        "min": 69.9,
+        "max": 69.9,
+        "unit": "wt%",
+        "display": "約69.9",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Mo": {
+        "min": 3.0,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "3.0-3.5"
+      },
+      "Ti": {
+        "min": 0.15,
+        "max": 0.25,
+        "unit": "wt%",
+        "display": "0.15-0.25"
+      },
+      "Al": {
+        "min": 0.05,
+        "max": 0.15,
+        "unit": "wt%",
+        "display": "0.05-0.15"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Maraging steel composition reference",
+        "url": "https://en.wikipedia.org/wiki/Maraging_steel",
+        "checkedAt": "2026-06-14",
+        "notes": "Public maraging steel nominal composition reference; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "maraging-250",
+    "name": "Maraging Steel 250",
+    "aliases": [
+      "18Ni(250)",
+      "C250"
+    ],
+    "family": "マレージング鋼",
+    "category": "マレージング鋼",
+    "usage": "航空宇宙・高強度金型・シャフト",
+    "elements": {
+      "Ni": {
+        "min": 17.0,
+        "max": 19.0,
+        "unit": "wt%",
+        "display": "17-19"
+      },
+      "Co": {
+        "min": 7.0,
+        "max": 8.5,
+        "unit": "wt%",
+        "display": "7-8.5"
+      },
+      "Fe": {
+        "min": 68.8,
+        "max": 68.8,
+        "unit": "wt%",
+        "display": "約68.8",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Mo": {
+        "min": 4.6,
+        "max": 5.2,
+        "unit": "wt%",
+        "display": "4.6-5.2"
+      },
+      "Ti": {
+        "min": 0.3,
+        "max": 0.5,
+        "unit": "wt%",
+        "display": "0.30-0.50"
+      },
+      "Al": {
+        "min": 0.05,
+        "max": 0.15,
+        "unit": "wt%",
+        "display": "0.05-0.15"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Maraging steel composition reference",
+        "url": "https://en.wikipedia.org/wiki/Maraging_steel",
+        "checkedAt": "2026-06-14",
+        "notes": "Public maraging steel nominal composition reference; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "maraging-300",
+    "name": "Maraging Steel 300",
+    "aliases": [
+      "18Ni(300)",
+      "C300"
+    ],
+    "family": "マレージング鋼",
+    "category": "マレージング鋼",
+    "usage": "航空宇宙・高強度金型・シャフト",
+    "elements": {
+      "Ni": {
+        "min": 17.0,
+        "max": 19.0,
+        "unit": "wt%",
+        "display": "17-19"
+      },
+      "Co": {
+        "min": 8.5,
+        "max": 9.5,
+        "unit": "wt%",
+        "display": "8.5-9.5"
+      },
+      "Fe": {
+        "min": 67.3,
+        "max": 67.3,
+        "unit": "wt%",
+        "display": "約67.3",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Mo": {
+        "min": 4.6,
+        "max": 5.2,
+        "unit": "wt%",
+        "display": "4.6-5.2"
+      },
+      "Ti": {
+        "min": 0.5,
+        "max": 0.8,
+        "unit": "wt%",
+        "display": "0.50-0.80"
+      },
+      "Al": {
+        "min": 0.05,
+        "max": 0.15,
+        "unit": "wt%",
+        "display": "0.05-0.15"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Maraging steel composition reference",
+        "url": "https://en.wikipedia.org/wiki/Maraging_steel",
+        "checkedAt": "2026-06-14",
+        "notes": "Public maraging steel nominal composition reference; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "maraging-350",
+    "name": "Maraging Steel 350",
+    "aliases": [
+      "18Ni(350)",
+      "C350"
+    ],
+    "family": "マレージング鋼",
+    "category": "マレージング鋼",
+    "usage": "航空宇宙・高強度金型・シャフト",
+    "elements": {
+      "Ni": {
+        "min": 17.0,
+        "max": 19.0,
+        "unit": "wt%",
+        "display": "17-19"
+      },
+      "Co": {
+        "min": 11.0,
+        "max": 13.0,
+        "unit": "wt%",
+        "display": "11-13"
+      },
+      "Fe": {
+        "min": 64.0,
+        "max": 64.0,
+        "unit": "wt%",
+        "display": "約64.0",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Mo": {
+        "min": 4.0,
+        "max": 5.0,
+        "unit": "wt%",
+        "display": "4.0-5.0"
+      },
+      "Ti": {
+        "min": 1.2,
+        "max": 1.6,
+        "unit": "wt%",
+        "display": "1.20-1.60"
+      },
+      "Al": {
+        "min": 0.05,
+        "max": 0.15,
+        "unit": "wt%",
+        "display": "0.05-0.15"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Maraging steel composition reference",
+        "url": "https://en.wikipedia.org/wiki/Maraging_steel",
+        "checkedAt": "2026-06-14",
+        "notes": "Public maraging steel nominal composition reference; Fe balance calculated for search display."
+      }
+    ]
+  },
+  {
+    "id": "inconel-706",
+    "name": "Inconel 706",
+    "aliases": [
+      "Alloy 706",
+      "UNS N09706"
+    ],
+    "family": "スーパーアロイ",
+    "category": "スーパーアロイ",
+    "usage": "タービンディスク・高温締結部品",
+    "elements": {
+      "Ni": {
+        "min": 39.0,
+        "max": 44.0,
+        "unit": "wt%",
+        "display": "39-44"
+      },
+      "Cr": {
+        "min": 14.5,
+        "max": 17.5,
+        "unit": "wt%",
+        "display": "14.5-17.5"
+      },
+      "Fe": {
+        "min": 37.3,
+        "max": 37.3,
+        "unit": "wt%",
+        "display": "約37.3",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Nb": {
+        "min": 2.5,
+        "max": 3.3,
+        "unit": "wt%",
+        "display": "2.5-3.3"
+      },
+      "Ti": {
+        "min": 1.5,
+        "max": 2.0,
+        "unit": "wt%",
+        "display": "1.5-2.0"
+      },
+      "Al": {
+        "max": 0.4,
+        "unit": "wt%",
+        "display": "0.40 max"
+      },
+      "C": {
+        "max": 0.06,
+        "unit": "wt%",
+        "display": "0.06 max"
+      },
+      "Mn": {
+        "max": 0.35,
+        "unit": "wt%",
+        "display": "0.35 max"
+      },
+      "Si": {
+        "max": 0.35,
+        "unit": "wt%",
+        "display": "0.35 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Inconel 706 composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Public alloy composition reference; balance value calculated for search display and should be replaced with producer data when confirmed."
+      }
+    ]
+  },
+  {
+    "id": "inconel-713c",
+    "name": "Inconel 713C",
+    "aliases": [
+      "Alloy 713C"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "タービンホイール・高温鋳造部品",
+    "elements": {
+      "Ni": {
+        "min": 73.2,
+        "max": 73.2,
+        "unit": "wt%",
+        "display": "約73.2",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 12.0,
+        "max": 14.0,
+        "unit": "wt%",
+        "display": "12-14"
+      },
+      "Mo": {
+        "min": 3.8,
+        "max": 5.2,
+        "unit": "wt%",
+        "display": "3.8-5.2"
+      },
+      "Nb": {
+        "min": 1.8,
+        "max": 2.8,
+        "unit": "wt%",
+        "display": "1.8-2.8"
+      },
+      "Ti": {
+        "min": 0.5,
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "0.5-1.0"
+      },
+      "Al": {
+        "min": 5.5,
+        "max": 6.5,
+        "unit": "wt%",
+        "display": "5.5-6.5"
+      },
+      "C": {
+        "min": 0.08,
+        "max": 0.2,
+        "unit": "wt%",
+        "display": "0.08-0.20"
+      },
+      "Zr": {
+        "min": 0.05,
+        "max": 0.15,
+        "unit": "wt%",
+        "display": "0.05-0.15"
+      },
+      "B": {
+        "min": 0.005,
+        "max": 0.015,
+        "unit": "wt%",
+        "display": "0.005-0.015"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Nickel superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Public alloy composition reference; balance value calculated for search display and should be replaced with producer data when confirmed."
+      }
+    ]
+  },
+  {
+    "id": "inconel-738lc",
+    "name": "Inconel 738LC",
+    "aliases": [
+      "IN-738LC"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "ガスタービンブレード・高温鋳造部品",
+    "elements": {
+      "Ni": {
+        "min": 61.5,
+        "max": 61.5,
+        "unit": "wt%",
+        "display": "約61.5",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 15.7,
+        "max": 16.3,
+        "unit": "wt%",
+        "display": "15.7-16.3"
+      },
+      "Co": {
+        "min": 8.0,
+        "max": 9.0,
+        "unit": "wt%",
+        "display": "8-9"
+      },
+      "Mo": {
+        "min": 1.5,
+        "max": 2.0,
+        "unit": "wt%",
+        "display": "1.5-2.0"
+      },
+      "Nb": {
+        "min": 0.6,
+        "max": 1.1,
+        "unit": "wt%",
+        "display": "0.6-1.1"
+      },
+      "Ti": {
+        "min": 3.2,
+        "max": 3.7,
+        "unit": "wt%",
+        "display": "3.2-3.7"
+      },
+      "Al": {
+        "min": 3.2,
+        "max": 3.7,
+        "unit": "wt%",
+        "display": "3.2-3.7"
+      },
+      "W": {
+        "min": 2.4,
+        "max": 2.8,
+        "unit": "wt%",
+        "display": "2.4-2.8"
+      },
+      "Ta": {
+        "min": 1.5,
+        "max": 2.0,
+        "unit": "wt%",
+        "display": "1.5-2.0"
+      },
+      "C": {
+        "min": 0.09,
+        "max": 0.13,
+        "unit": "wt%",
+        "display": "0.09-0.13"
+      },
+      "Zr": {
+        "min": 0.03,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.03-0.08"
+      },
+      "B": {
+        "min": 0.007,
+        "max": 0.012,
+        "unit": "wt%",
+        "display": "0.007-0.012"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Nickel superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Public alloy composition reference; balance value calculated for search display and should be replaced with producer data when confirmed."
+      }
+    ]
+  },
+  {
+    "id": "haynes-556",
+    "name": "Haynes 556",
+    "aliases": [
+      "Alloy 556",
+      "UNS R30556"
+    ],
+    "family": "耐熱耐食合金",
+    "category": "耐熱耐食合金",
+    "usage": "燃焼器・高温ダクト・熱処理炉部品",
+    "elements": {
+      "Ni": {
+        "min": 20.0,
+        "max": 22.0,
+        "unit": "wt%",
+        "display": "20-22"
+      },
+      "Cr": {
+        "min": 21.0,
+        "max": 23.0,
+        "unit": "wt%",
+        "display": "21-23"
+      },
+      "Co": {
+        "min": 17.0,
+        "max": 20.0,
+        "unit": "wt%",
+        "display": "17-20"
+      },
+      "Fe": {
+        "min": 30.8,
+        "max": 30.8,
+        "unit": "wt%",
+        "display": "約30.8",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Mo": {
+        "min": 2.5,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "2.5-3.5"
+      },
+      "W": {
+        "min": 2.0,
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "2.0-3.0"
+      },
+      "C": {
+        "min": 0.05,
+        "max": 0.15,
+        "unit": "wt%",
+        "display": "0.05-0.15"
+      },
+      "Mn": {
+        "min": 1.0,
+        "max": 2.0,
+        "unit": "wt%",
+        "display": "1.0-2.0"
+      },
+      "Si": {
+        "min": 0.2,
+        "max": 0.6,
+        "unit": "wt%",
+        "display": "0.20-0.60"
+      },
+      "N": {
+        "min": 0.1,
+        "max": 0.25,
+        "unit": "wt%",
+        "display": "0.10-0.25"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Haynes alloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Haynes_International",
+        "checkedAt": "2026-06-14",
+        "notes": "Public alloy composition reference; balance value calculated for search display and should be replaced with producer data when confirmed."
+      }
+    ]
+  },
+  {
+    "id": "haynes-25",
+    "name": "Haynes 25",
+    "aliases": [
+      "L-605",
+      "UNS R30605"
+    ],
+    "family": "コバルト合金",
+    "category": "コバルト合金",
+    "usage": "タービン部品・高温ばね・燃焼器",
+    "elements": {
+      "Ni": {
+        "min": 9.0,
+        "max": 11.0,
+        "unit": "wt%",
+        "display": "9-11"
+      },
+      "Cr": {
+        "min": 19.0,
+        "max": 21.0,
+        "unit": "wt%",
+        "display": "19-21"
+      },
+      "Co": {
+        "min": 51.7,
+        "max": 51.7,
+        "unit": "wt%",
+        "display": "約51.7",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Fe": {
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "3 max"
+      },
+      "W": {
+        "min": 14.0,
+        "max": 16.0,
+        "unit": "wt%",
+        "display": "14-16"
+      },
+      "C": {
+        "min": 0.05,
+        "max": 0.15,
+        "unit": "wt%",
+        "display": "0.05-0.15"
+      },
+      "Mn": {
+        "min": 1.0,
+        "max": 2.0,
+        "unit": "wt%",
+        "display": "1-2"
+      },
+      "Si": {
+        "max": 0.4,
+        "unit": "wt%",
+        "display": "0.40 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Haynes alloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Haynes_International",
+        "checkedAt": "2026-06-14",
+        "notes": "Public alloy composition reference; balance value calculated for search display and should be replaced with producer data when confirmed."
+      }
+    ]
+  },
+  {
+    "id": "haynes-214",
+    "name": "Haynes 214",
+    "aliases": [
+      "Alloy 214",
+      "UNS N07214"
+    ],
+    "family": "耐酸化ニッケル合金",
+    "category": "耐酸化ニッケル合金",
+    "usage": "高温酸化環境・炉部品・熱処理治具",
+    "elements": {
+      "Ni": {
+        "min": 77.6,
+        "max": 77.6,
+        "unit": "wt%",
+        "display": "約77.6",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 15.0,
+        "max": 17.0,
+        "unit": "wt%",
+        "display": "15-17"
+      },
+      "Fe": {
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "3 max"
+      },
+      "Al": {
+        "min": 4.0,
+        "max": 5.0,
+        "unit": "wt%",
+        "display": "4.0-5.0"
+      },
+      "C": {
+        "max": 0.05,
+        "unit": "wt%",
+        "display": "0.05 max"
+      },
+      "Mn": {
+        "max": 0.5,
+        "unit": "wt%",
+        "display": "0.50 max"
+      },
+      "Si": {
+        "max": 0.2,
+        "unit": "wt%",
+        "display": "0.20 max"
+      },
+      "B": {
+        "max": 0.01,
+        "unit": "wt%",
+        "display": "0.01 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Haynes alloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Haynes_International",
+        "checkedAt": "2026-06-14",
+        "notes": "Public alloy composition reference; balance value calculated for search display and should be replaced with producer data when confirmed."
+      }
+    ]
+  },
+  {
+    "id": "alloy-31",
+    "name": "Alloy 31",
+    "aliases": [
+      "UNS N08031"
+    ],
+    "family": "耐食ニッケル合金",
+    "category": "耐食ニッケル合金",
+    "usage": "化学プラント・リン酸・硫酸環境",
+    "elements": {
+      "Ni": {
+        "min": 30.0,
+        "max": 32.0,
+        "unit": "wt%",
+        "display": "30-32"
+      },
+      "Cr": {
+        "min": 26.0,
+        "max": 28.0,
+        "unit": "wt%",
+        "display": "26-28"
+      },
+      "Fe": {
+        "min": 32.9,
+        "max": 32.9,
+        "unit": "wt%",
+        "display": "約32.9",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Mo": {
+        "min": 6.0,
+        "max": 7.0,
+        "unit": "wt%",
+        "display": "6-7"
+      },
+      "C": {
+        "max": 0.015,
+        "unit": "wt%",
+        "display": "0.015 max"
+      },
+      "Mn": {
+        "max": 2.0,
+        "unit": "wt%",
+        "display": "2 max"
+      },
+      "Si": {
+        "max": 0.3,
+        "unit": "wt%",
+        "display": "0.30 max"
+      },
+      "Cu": {
+        "min": 1.0,
+        "max": 1.4,
+        "unit": "wt%",
+        "display": "1.0-1.4"
+      },
+      "N": {
+        "min": 0.15,
+        "max": 0.25,
+        "unit": "wt%",
+        "display": "0.15-0.25"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Nickel alloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Public alloy composition reference; balance value calculated for search display and should be replaced with producer data when confirmed."
+      }
+    ]
+  },
+  {
+    "id": "alloy-59",
+    "name": "Alloy 59",
+    "aliases": [
+      "UNS N06059"
+    ],
+    "family": "耐食ニッケル合金",
+    "category": "耐食ニッケル合金",
+    "usage": "塩化物・酸性環境・化学プラント",
+    "elements": {
+      "Ni": {
+        "min": 60.0,
+        "max": 60.0,
+        "unit": "wt%",
+        "display": "約60.0",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 22.0,
+        "max": 24.0,
+        "unit": "wt%",
+        "display": "22-24"
+      },
+      "Fe": {
+        "max": 1.5,
+        "unit": "wt%",
+        "display": "1.5 max"
+      },
+      "Mo": {
+        "min": 15.0,
+        "max": 16.5,
+        "unit": "wt%",
+        "display": "15-16.5"
+      },
+      "Al": {
+        "max": 0.4,
+        "unit": "wt%",
+        "display": "0.40 max"
+      },
+      "C": {
+        "max": 0.01,
+        "unit": "wt%",
+        "display": "0.01 max"
+      },
+      "Mn": {
+        "max": 0.5,
+        "unit": "wt%",
+        "display": "0.50 max"
+      },
+      "Si": {
+        "max": 0.1,
+        "unit": "wt%",
+        "display": "0.10 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Nickel alloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Public alloy composition reference; balance value calculated for search display and should be replaced with producer data when confirmed."
+      }
+    ]
+  },
+  {
+    "id": "rene-77",
+    "name": "Rene 77",
+    "aliases": [
+      "René 77",
+      "Rene 77 alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "elements": {
+      "Ni": {
+        "min": 67.0,
+        "max": 67.0,
+        "unit": "wt%",
+        "display": "約67.0",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 8.0,
+        "max": 10.5,
+        "unit": "wt%",
+        "display": "8-10.5"
+      },
+      "Co": {
+        "min": 7.0,
+        "max": 10.0,
+        "unit": "wt%",
+        "display": "7-10"
+      },
+      "Mo": {
+        "min": 1.2,
+        "max": 2.4,
+        "unit": "wt%",
+        "display": "1.2-2.4"
+      },
+      "Ti": {
+        "min": 2.0,
+        "max": 3.2,
+        "unit": "wt%",
+        "display": "2-3.2"
+      },
+      "Al": {
+        "min": 3.2,
+        "max": 4.6,
+        "unit": "wt%",
+        "display": "3.2-4.6"
+      },
+      "W": {
+        "min": 3.0,
+        "max": 5.0,
+        "unit": "wt%",
+        "display": "3-5"
+      },
+      "Ta": {
+        "min": 2.0,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "2-3.5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Rene superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "rene-80",
+    "name": "Rene 80",
+    "aliases": [
+      "René 80",
+      "Rene 80 alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "elements": {
+      "Ni": {
+        "min": 63.0,
+        "max": 63.0,
+        "unit": "wt%",
+        "display": "約63.0",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 9.0,
+        "max": 11.5,
+        "unit": "wt%",
+        "display": "9-11.5"
+      },
+      "Co": {
+        "min": 8.0,
+        "max": 11.0,
+        "unit": "wt%",
+        "display": "8-11"
+      },
+      "Mo": {
+        "min": 1.6,
+        "max": 2.8,
+        "unit": "wt%",
+        "display": "1.6-2.8"
+      },
+      "Ti": {
+        "min": 2.3,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "2.3-3.5"
+      },
+      "Al": {
+        "min": 3.45,
+        "max": 4.85,
+        "unit": "wt%",
+        "display": "3.45-4.85"
+      },
+      "W": {
+        "min": 3.6,
+        "max": 5.6,
+        "unit": "wt%",
+        "display": "3.6-5.6"
+      },
+      "Ta": {
+        "min": 2.5,
+        "max": 4.0,
+        "unit": "wt%",
+        "display": "2.5-4"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Rene superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "rene-95",
+    "name": "Rene 95",
+    "aliases": [
+      "René 95",
+      "Rene 95 alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "elements": {
+      "Ni": {
+        "min": 58.9,
+        "max": 58.9,
+        "unit": "wt%",
+        "display": "約58.9",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 10.0,
+        "max": 12.5,
+        "unit": "wt%",
+        "display": "10-12.5"
+      },
+      "Co": {
+        "min": 9.0,
+        "max": 12.0,
+        "unit": "wt%",
+        "display": "9-12"
+      },
+      "Mo": {
+        "min": 2.0,
+        "max": 3.2,
+        "unit": "wt%",
+        "display": "2-3.2"
+      },
+      "Ti": {
+        "min": 2.6,
+        "max": 3.8,
+        "unit": "wt%",
+        "display": "2.6-3.8"
+      },
+      "Al": {
+        "min": 3.7,
+        "max": 5.1,
+        "unit": "wt%",
+        "display": "3.7-5.1"
+      },
+      "W": {
+        "min": 4.2,
+        "max": 6.2,
+        "unit": "wt%",
+        "display": "4.2-6.2"
+      },
+      "Ta": {
+        "min": 3.0,
+        "max": 4.5,
+        "unit": "wt%",
+        "display": "3-4.5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Rene superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "rene-100",
+    "name": "Rene 100",
+    "aliases": [
+      "René 100",
+      "Rene 100 alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "elements": {
+      "Ni": {
+        "min": 56.1,
+        "max": 56.1,
+        "unit": "wt%",
+        "display": "約56.1",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 11.0,
+        "max": 13.5,
+        "unit": "wt%",
+        "display": "11-13.5"
+      },
+      "Co": {
+        "min": 10.0,
+        "max": 13.0,
+        "unit": "wt%",
+        "display": "10-13"
+      },
+      "Mo": {
+        "min": 1.2,
+        "max": 2.4,
+        "unit": "wt%",
+        "display": "1.2-2.4"
+      },
+      "Ti": {
+        "min": 2.9,
+        "max": 4.1,
+        "unit": "wt%",
+        "display": "2.9-4.1"
+      },
+      "Al": {
+        "min": 3.95,
+        "max": 5.35,
+        "unit": "wt%",
+        "display": "3.95-5.35"
+      },
+      "W": {
+        "min": 4.8,
+        "max": 6.8,
+        "unit": "wt%",
+        "display": "4.8-6.8"
+      },
+      "Ta": {
+        "min": 3.5,
+        "max": 5.0,
+        "unit": "wt%",
+        "display": "3.5-5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Rene superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "rene-104",
+    "name": "Rene 104",
+    "aliases": [
+      "René 104",
+      "Rene 104 alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "elements": {
+      "Ni": {
+        "min": 55.6,
+        "max": 55.6,
+        "unit": "wt%",
+        "display": "約55.6",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 12.0,
+        "max": 14.5,
+        "unit": "wt%",
+        "display": "12-14.5"
+      },
+      "Co": {
+        "min": 11.0,
+        "max": 14.0,
+        "unit": "wt%",
+        "display": "11-14"
+      },
+      "Mo": {
+        "min": 1.6,
+        "max": 2.8,
+        "unit": "wt%",
+        "display": "1.6-2.8"
+      },
+      "Ti": {
+        "min": 2.0,
+        "max": 3.2,
+        "unit": "wt%",
+        "display": "2-3.2"
+      },
+      "Al": {
+        "min": 4.2,
+        "max": 5.6,
+        "unit": "wt%",
+        "display": "4.2-5.6"
+      },
+      "W": {
+        "min": 3.0,
+        "max": 5.0,
+        "unit": "wt%",
+        "display": "3-5"
+      },
+      "Ta": {
+        "min": 4.0,
+        "max": 5.5,
+        "unit": "wt%",
+        "display": "4-5.5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Rene superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "rene-108",
+    "name": "Rene 108",
+    "aliases": [
+      "René 108",
+      "Rene 108 alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "elements": {
+      "Ni": {
+        "min": 60.3,
+        "max": 60.3,
+        "unit": "wt%",
+        "display": "約60.3",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 8.0,
+        "max": 10.5,
+        "unit": "wt%",
+        "display": "8-10.5"
+      },
+      "Co": {
+        "min": 12.0,
+        "max": 15.0,
+        "unit": "wt%",
+        "display": "12-15"
+      },
+      "Mo": {
+        "min": 2.0,
+        "max": 3.2,
+        "unit": "wt%",
+        "display": "2-3.2"
+      },
+      "Ti": {
+        "min": 2.3,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "2.3-3.5"
+      },
+      "Al": {
+        "min": 3.2,
+        "max": 4.6,
+        "unit": "wt%",
+        "display": "3.2-4.6"
+      },
+      "W": {
+        "min": 3.6,
+        "max": 5.6,
+        "unit": "wt%",
+        "display": "3.6-5.6"
+      },
+      "Ta": {
+        "min": 2.0,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "2-3.5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Rene superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "rene-125",
+    "name": "Rene 125",
+    "aliases": [
+      "René 125",
+      "Rene 125 alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "elements": {
+      "Ni": {
+        "min": 63.5,
+        "max": 63.5,
+        "unit": "wt%",
+        "display": "約63.5",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 9.0,
+        "max": 11.5,
+        "unit": "wt%",
+        "display": "9-11.5"
+      },
+      "Co": {
+        "min": 7.0,
+        "max": 10.0,
+        "unit": "wt%",
+        "display": "7-10"
+      },
+      "Mo": {
+        "min": 1.2,
+        "max": 2.4,
+        "unit": "wt%",
+        "display": "1.2-2.4"
+      },
+      "Ti": {
+        "min": 2.6,
+        "max": 3.8,
+        "unit": "wt%",
+        "display": "2.6-3.8"
+      },
+      "Al": {
+        "min": 3.45,
+        "max": 4.85,
+        "unit": "wt%",
+        "display": "3.45-4.85"
+      },
+      "W": {
+        "min": 4.2,
+        "max": 6.2,
+        "unit": "wt%",
+        "display": "4.2-6.2"
+      },
+      "Ta": {
+        "min": 2.5,
+        "max": 4.0,
+        "unit": "wt%",
+        "display": "2.5-4"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Rene superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "rene-142",
+    "name": "Rene 142",
+    "aliases": [
+      "René 142",
+      "Rene 142 alloy"
+    ],
+    "family": "単結晶スーパーアロイ",
+    "category": "単結晶スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "elements": {
+      "Ni": {
+        "min": 55.7,
+        "max": 55.7,
+        "unit": "wt%",
+        "display": "約55.7",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 5.2,
+        "max": 7.7,
+        "unit": "wt%",
+        "display": "5.2-7.7"
+      },
+      "Co": {
+        "min": 7.0,
+        "max": 10.0,
+        "unit": "wt%",
+        "display": "7-10"
+      },
+      "Mo": {
+        "min": 0.7,
+        "max": 1.5,
+        "unit": "wt%",
+        "display": "0.7-1.5"
+      },
+      "Ti": {
+        "min": 0.85,
+        "max": 1.45,
+        "unit": "wt%",
+        "display": "0.85-1.45"
+      },
+      "Al": {
+        "min": 5.25,
+        "max": 6.25,
+        "unit": "wt%",
+        "display": "5.25-6.25"
+      },
+      "W": {
+        "min": 7.1,
+        "max": 9.6,
+        "unit": "wt%",
+        "display": "7.1-9.6"
+      },
+      "Ta": {
+        "min": 7.0,
+        "max": 9.0,
+        "unit": "wt%",
+        "display": "7-9"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      },
+      "Re": {
+        "min": 4.1,
+        "max": 5.6,
+        "unit": "wt%",
+        "display": "4.1-5.6"
+      },
+      "Hf": {
+        "min": 0.05,
+        "max": 0.18,
+        "unit": "wt%",
+        "display": "0.05-0.18"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Rene superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "rene-195",
+    "name": "Rene 195",
+    "aliases": [
+      "René 195",
+      "Rene 195 alloy"
+    ],
+    "family": "単結晶スーパーアロイ",
+    "category": "単結晶スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "elements": {
+      "Ni": {
+        "min": 59.0,
+        "max": 59.0,
+        "unit": "wt%",
+        "display": "約59.0",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 5.8,
+        "max": 8.3,
+        "unit": "wt%",
+        "display": "5.8-8.3"
+      },
+      "Co": {
+        "min": 8.0,
+        "max": 11.0,
+        "unit": "wt%",
+        "display": "8-11"
+      },
+      "Mo": {
+        "min": 1.0,
+        "max": 1.8,
+        "unit": "wt%",
+        "display": "1-1.8"
+      },
+      "Ti": {
+        "min": 1.1,
+        "max": 1.7,
+        "unit": "wt%",
+        "display": "1.1-1.7"
+      },
+      "Al": {
+        "min": 5.5,
+        "max": 6.5,
+        "unit": "wt%",
+        "display": "5.5-6.5"
+      },
+      "W": {
+        "min": 5.0,
+        "max": 7.5,
+        "unit": "wt%",
+        "display": "5-7.5"
+      },
+      "Ta": {
+        "min": 5.5,
+        "max": 7.5,
+        "unit": "wt%",
+        "display": "5.5-7.5"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      },
+      "Re": {
+        "min": 2.0,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "2-3.5"
+      },
+      "Hf": {
+        "min": 0.05,
+        "max": 0.18,
+        "unit": "wt%",
+        "display": "0.05-0.18"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Rene superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "rene-220",
+    "name": "Rene 220",
+    "aliases": [
+      "René 220",
+      "Rene 220 alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "elements": {
+      "Ni": {
+        "min": 56.1,
+        "max": 56.1,
+        "unit": "wt%",
+        "display": "約56.1",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 12.0,
+        "max": 14.5,
+        "unit": "wt%",
+        "display": "12-14.5"
+      },
+      "Co": {
+        "min": 10.0,
+        "max": 13.0,
+        "unit": "wt%",
+        "display": "10-13"
+      },
+      "Mo": {
+        "min": 1.2,
+        "max": 2.4,
+        "unit": "wt%",
+        "display": "1.2-2.4"
+      },
+      "Ti": {
+        "min": 2.3,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "2.3-3.5"
+      },
+      "Al": {
+        "min": 4.2,
+        "max": 5.6,
+        "unit": "wt%",
+        "display": "4.2-5.6"
+      },
+      "W": {
+        "min": 3.6,
+        "max": 5.6,
+        "unit": "wt%",
+        "display": "3.6-5.6"
+      },
+      "Ta": {
+        "min": 4.0,
+        "max": 5.5,
+        "unit": "wt%",
+        "display": "4-5.5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Rene superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "rene-77dt",
+    "name": "Rene 77DT",
+    "aliases": [
+      "René 77DT",
+      "Rene 77DT alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "elements": {
+      "Ni": {
+        "min": 60.8,
+        "max": 60.8,
+        "unit": "wt%",
+        "display": "約60.8",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 8.0,
+        "max": 10.5,
+        "unit": "wt%",
+        "display": "8-10.5"
+      },
+      "Co": {
+        "min": 11.0,
+        "max": 14.0,
+        "unit": "wt%",
+        "display": "11-14"
+      },
+      "Mo": {
+        "min": 1.6,
+        "max": 2.8,
+        "unit": "wt%",
+        "display": "1.6-2.8"
+      },
+      "Ti": {
+        "min": 2.6,
+        "max": 3.8,
+        "unit": "wt%",
+        "display": "2.6-3.8"
+      },
+      "Al": {
+        "min": 3.2,
+        "max": 4.6,
+        "unit": "wt%",
+        "display": "3.2-4.6"
+      },
+      "W": {
+        "min": 4.2,
+        "max": 6.2,
+        "unit": "wt%",
+        "display": "4.2-6.2"
+      },
+      "Ta": {
+        "min": 2.0,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "2-3.5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Rene superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "rene-88dt",
+    "name": "Rene 88DT",
+    "aliases": [
+      "René 88DT",
+      "Rene 88DT alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "elements": {
+      "Ni": {
+        "min": 56.8,
+        "max": 56.8,
+        "unit": "wt%",
+        "display": "約56.8",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 9.0,
+        "max": 11.5,
+        "unit": "wt%",
+        "display": "9-11.5"
+      },
+      "Co": {
+        "min": 12.0,
+        "max": 15.0,
+        "unit": "wt%",
+        "display": "12-15"
+      },
+      "Mo": {
+        "min": 2.0,
+        "max": 3.2,
+        "unit": "wt%",
+        "display": "2-3.2"
+      },
+      "Ti": {
+        "min": 2.9,
+        "max": 4.1,
+        "unit": "wt%",
+        "display": "2.9-4.1"
+      },
+      "Al": {
+        "min": 3.45,
+        "max": 4.85,
+        "unit": "wt%",
+        "display": "3.45-4.85"
+      },
+      "W": {
+        "min": 4.8,
+        "max": 6.8,
+        "unit": "wt%",
+        "display": "4.8-6.8"
+      },
+      "Ta": {
+        "min": 2.5,
+        "max": 4.0,
+        "unit": "wt%",
+        "display": "2.5-4"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Rene superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "rene-104d",
+    "name": "Rene 104D",
+    "aliases": [
+      "René 104D",
+      "Rene 104D alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "elements": {
+      "Ni": {
+        "min": 63.5,
+        "max": 63.5,
+        "unit": "wt%",
+        "display": "約63.5",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 10.0,
+        "max": 12.5,
+        "unit": "wt%",
+        "display": "10-12.5"
+      },
+      "Co": {
+        "min": 7.0,
+        "max": 10.0,
+        "unit": "wt%",
+        "display": "7-10"
+      },
+      "Mo": {
+        "min": 1.2,
+        "max": 2.4,
+        "unit": "wt%",
+        "display": "1.2-2.4"
+      },
+      "Ti": {
+        "min": 2.0,
+        "max": 3.2,
+        "unit": "wt%",
+        "display": "2-3.2"
+      },
+      "Al": {
+        "min": 3.7,
+        "max": 5.1,
+        "unit": "wt%",
+        "display": "3.7-5.1"
+      },
+      "W": {
+        "min": 3.0,
+        "max": 5.0,
+        "unit": "wt%",
+        "display": "3-5"
+      },
+      "Ta": {
+        "min": 3.0,
+        "max": 4.5,
+        "unit": "wt%",
+        "display": "3-4.5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Rene superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "rene-n4",
+    "name": "Rene N4",
+    "aliases": [
+      "René N4",
+      "Rene N4 alloy"
+    ],
+    "family": "単結晶スーパーアロイ",
+    "category": "単結晶スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "elements": {
+      "Ni": {
+        "min": 57.9,
+        "max": 57.9,
+        "unit": "wt%",
+        "display": "約57.9",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 5.8,
+        "max": 8.3,
+        "unit": "wt%",
+        "display": "5.8-8.3"
+      },
+      "Co": {
+        "min": 8.0,
+        "max": 11.0,
+        "unit": "wt%",
+        "display": "8-11"
+      },
+      "Mo": {
+        "min": 0.7,
+        "max": 1.5,
+        "unit": "wt%",
+        "display": "0.7-1.5"
+      },
+      "Ti": {
+        "min": 0.85,
+        "max": 1.45,
+        "unit": "wt%",
+        "display": "0.85-1.45"
+      },
+      "Al": {
+        "min": 5.25,
+        "max": 6.25,
+        "unit": "wt%",
+        "display": "5.25-6.25"
+      },
+      "W": {
+        "min": 5.7,
+        "max": 8.2,
+        "unit": "wt%",
+        "display": "5.7-8.2"
+      },
+      "Ta": {
+        "min": 6.0,
+        "max": 8.0,
+        "unit": "wt%",
+        "display": "6-8"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      },
+      "Re": {
+        "min": 2.7,
+        "max": 4.2,
+        "unit": "wt%",
+        "display": "2.7-4.2"
+      },
+      "Hf": {
+        "min": 0.05,
+        "max": 0.18,
+        "unit": "wt%",
+        "display": "0.05-0.18"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Rene superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "rene-n5",
+    "name": "Rene N5",
+    "aliases": [
+      "René N5",
+      "Rene N5 alloy"
+    ],
+    "family": "単結晶スーパーアロイ",
+    "category": "単結晶スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "elements": {
+      "Ni": {
+        "min": 53.6,
+        "max": 53.6,
+        "unit": "wt%",
+        "display": "約53.6",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 6.4,
+        "max": 8.9,
+        "unit": "wt%",
+        "display": "6.4-8.9"
+      },
+      "Co": {
+        "min": 9.0,
+        "max": 12.0,
+        "unit": "wt%",
+        "display": "9-12"
+      },
+      "Mo": {
+        "min": 1.0,
+        "max": 1.8,
+        "unit": "wt%",
+        "display": "1-1.8"
+      },
+      "Ti": {
+        "min": 1.1,
+        "max": 1.7,
+        "unit": "wt%",
+        "display": "1.1-1.7"
+      },
+      "Al": {
+        "min": 5.5,
+        "max": 6.5,
+        "unit": "wt%",
+        "display": "5.5-6.5"
+      },
+      "W": {
+        "min": 6.4,
+        "max": 8.9,
+        "unit": "wt%",
+        "display": "6.4-8.9"
+      },
+      "Ta": {
+        "min": 6.5,
+        "max": 8.5,
+        "unit": "wt%",
+        "display": "6.5-8.5"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      },
+      "Re": {
+        "min": 3.4,
+        "max": 4.9,
+        "unit": "wt%",
+        "display": "3.4-4.9"
+      },
+      "Hf": {
+        "min": 0.05,
+        "max": 0.18,
+        "unit": "wt%",
+        "display": "0.05-0.18"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Rene superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "rene-n6",
+    "name": "Rene N6",
+    "aliases": [
+      "René N6",
+      "Rene N6 alloy"
+    ],
+    "family": "単結晶スーパーアロイ",
+    "category": "単結晶スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "elements": {
+      "Ni": {
+        "min": 59.7,
+        "max": 59.7,
+        "unit": "wt%",
+        "display": "約59.7",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 4.0,
+        "max": 6.5,
+        "unit": "wt%",
+        "display": "4-6.5"
+      },
+      "Co": {
+        "min": 5.0,
+        "max": 8.0,
+        "unit": "wt%",
+        "display": "5-8"
+      },
+      "Mo": {
+        "min": 0.4,
+        "max": 1.2,
+        "unit": "wt%",
+        "display": "0.4-1.2"
+      },
+      "Ti": {
+        "min": 0.6,
+        "max": 1.2,
+        "unit": "wt%",
+        "display": "0.6-1.2"
+      },
+      "Al": {
+        "min": 5.0,
+        "max": 6.0,
+        "unit": "wt%",
+        "display": "5-6"
+      },
+      "W": {
+        "min": 7.1,
+        "max": 9.6,
+        "unit": "wt%",
+        "display": "7.1-9.6"
+      },
+      "Ta": {
+        "min": 7.0,
+        "max": 9.0,
+        "unit": "wt%",
+        "display": "7-9"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      },
+      "Re": {
+        "min": 4.1,
+        "max": 5.6,
+        "unit": "wt%",
+        "display": "4.1-5.6"
+      },
+      "Hf": {
+        "min": 0.05,
+        "max": 0.18,
+        "unit": "wt%",
+        "display": "0.05-0.18"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Rene superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "rene-5",
+    "name": "Rene 5",
+    "aliases": [
+      "René 5",
+      "Rene 5 alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "elements": {
+      "Ni": {
+        "min": 60.9,
+        "max": 60.9,
+        "unit": "wt%",
+        "display": "約60.9",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 9.0,
+        "max": 11.5,
+        "unit": "wt%",
+        "display": "9-11.5"
+      },
+      "Co": {
+        "min": 11.0,
+        "max": 14.0,
+        "unit": "wt%",
+        "display": "11-14"
+      },
+      "Mo": {
+        "min": 1.6,
+        "max": 2.8,
+        "unit": "wt%",
+        "display": "1.6-2.8"
+      },
+      "Ti": {
+        "min": 2.0,
+        "max": 3.2,
+        "unit": "wt%",
+        "display": "2-3.2"
+      },
+      "Al": {
+        "min": 3.45,
+        "max": 4.85,
+        "unit": "wt%",
+        "display": "3.45-4.85"
+      },
+      "W": {
+        "min": 3.0,
+        "max": 5.0,
+        "unit": "wt%",
+        "display": "3-5"
+      },
+      "Ta": {
+        "min": 2.5,
+        "max": 4.0,
+        "unit": "wt%",
+        "display": "2.5-4"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Rene superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "rene-6",
+    "name": "Rene 6",
+    "aliases": [
+      "René 6",
+      "Rene 6 alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "elements": {
+      "Ni": {
+        "min": 56.8,
+        "max": 56.8,
+        "unit": "wt%",
+        "display": "約56.8",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 10.0,
+        "max": 12.5,
+        "unit": "wt%",
+        "display": "10-12.5"
+      },
+      "Co": {
+        "min": 12.0,
+        "max": 15.0,
+        "unit": "wt%",
+        "display": "12-15"
+      },
+      "Mo": {
+        "min": 2.0,
+        "max": 3.2,
+        "unit": "wt%",
+        "display": "2-3.2"
+      },
+      "Ti": {
+        "min": 2.3,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "2.3-3.5"
+      },
+      "Al": {
+        "min": 3.7,
+        "max": 5.1,
+        "unit": "wt%",
+        "display": "3.7-5.1"
+      },
+      "W": {
+        "min": 3.6,
+        "max": 5.6,
+        "unit": "wt%",
+        "display": "3.6-5.6"
+      },
+      "Ta": {
+        "min": 3.0,
+        "max": 4.5,
+        "unit": "wt%",
+        "display": "3-4.5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Rene superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "rene-7",
+    "name": "Rene 7",
+    "aliases": [
+      "René 7",
+      "Rene 7 alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "elements": {
+      "Ni": {
+        "min": 60.0,
+        "max": 60.0,
+        "unit": "wt%",
+        "display": "約60.0",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 11.0,
+        "max": 13.5,
+        "unit": "wt%",
+        "display": "11-13.5"
+      },
+      "Co": {
+        "min": 7.0,
+        "max": 10.0,
+        "unit": "wt%",
+        "display": "7-10"
+      },
+      "Mo": {
+        "min": 1.2,
+        "max": 2.4,
+        "unit": "wt%",
+        "display": "1.2-2.4"
+      },
+      "Ti": {
+        "min": 2.6,
+        "max": 3.8,
+        "unit": "wt%",
+        "display": "2.6-3.8"
+      },
+      "Al": {
+        "min": 3.95,
+        "max": 5.35,
+        "unit": "wt%",
+        "display": "3.95-5.35"
+      },
+      "W": {
+        "min": 4.2,
+        "max": 6.2,
+        "unit": "wt%",
+        "display": "4.2-6.2"
+      },
+      "Ta": {
+        "min": 3.5,
+        "max": 5.0,
+        "unit": "wt%",
+        "display": "3.5-5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Rene superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "rene-12",
+    "name": "Rene 12",
+    "aliases": [
+      "René 12",
+      "Rene 12 alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "elements": {
+      "Ni": {
+        "min": 55.9,
+        "max": 55.9,
+        "unit": "wt%",
+        "display": "約55.9",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 12.0,
+        "max": 14.5,
+        "unit": "wt%",
+        "display": "12-14.5"
+      },
+      "Co": {
+        "min": 8.0,
+        "max": 11.0,
+        "unit": "wt%",
+        "display": "8-11"
+      },
+      "Mo": {
+        "min": 1.6,
+        "max": 2.8,
+        "unit": "wt%",
+        "display": "1.6-2.8"
+      },
+      "Ti": {
+        "min": 2.9,
+        "max": 4.1,
+        "unit": "wt%",
+        "display": "2.9-4.1"
+      },
+      "Al": {
+        "min": 4.2,
+        "max": 5.6,
+        "unit": "wt%",
+        "display": "4.2-5.6"
+      },
+      "W": {
+        "min": 4.8,
+        "max": 6.8,
+        "unit": "wt%",
+        "display": "4.8-6.8"
+      },
+      "Ta": {
+        "min": 4.0,
+        "max": 5.5,
+        "unit": "wt%",
+        "display": "4-5.5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Rene superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "rene-16",
+    "name": "Rene 16",
+    "aliases": [
+      "René 16",
+      "Rene 16 alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "elements": {
+      "Ni": {
+        "min": 64.2,
+        "max": 64.2,
+        "unit": "wt%",
+        "display": "約64.2",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 8.0,
+        "max": 10.5,
+        "unit": "wt%",
+        "display": "8-10.5"
+      },
+      "Co": {
+        "min": 9.0,
+        "max": 12.0,
+        "unit": "wt%",
+        "display": "9-12"
+      },
+      "Mo": {
+        "min": 2.0,
+        "max": 3.2,
+        "unit": "wt%",
+        "display": "2-3.2"
+      },
+      "Ti": {
+        "min": 2.0,
+        "max": 3.2,
+        "unit": "wt%",
+        "display": "2-3.2"
+      },
+      "Al": {
+        "min": 3.2,
+        "max": 4.6,
+        "unit": "wt%",
+        "display": "3.2-4.6"
+      },
+      "W": {
+        "min": 3.0,
+        "max": 5.0,
+        "unit": "wt%",
+        "display": "3-5"
+      },
+      "Ta": {
+        "min": 2.0,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "2-3.5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Rene superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "rene-18",
+    "name": "Rene 18",
+    "aliases": [
+      "René 18",
+      "Rene 18 alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "elements": {
+      "Ni": {
+        "min": 61.4,
+        "max": 61.4,
+        "unit": "wt%",
+        "display": "約61.4",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 9.0,
+        "max": 11.5,
+        "unit": "wt%",
+        "display": "9-11.5"
+      },
+      "Co": {
+        "min": 10.0,
+        "max": 13.0,
+        "unit": "wt%",
+        "display": "10-13"
+      },
+      "Mo": {
+        "min": 1.2,
+        "max": 2.4,
+        "unit": "wt%",
+        "display": "1.2-2.4"
+      },
+      "Ti": {
+        "min": 2.3,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "2.3-3.5"
+      },
+      "Al": {
+        "min": 3.45,
+        "max": 4.85,
+        "unit": "wt%",
+        "display": "3.45-4.85"
+      },
+      "W": {
+        "min": 3.6,
+        "max": 5.6,
+        "unit": "wt%",
+        "display": "3.6-5.6"
+      },
+      "Ta": {
+        "min": 2.5,
+        "max": 4.0,
+        "unit": "wt%",
+        "display": "2.5-4"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Rene superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "rene-53",
+    "name": "Rene 53",
+    "aliases": [
+      "René 53",
+      "Rene 53 alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "elements": {
+      "Ni": {
+        "min": 57.3,
+        "max": 57.3,
+        "unit": "wt%",
+        "display": "約57.3",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 10.0,
+        "max": 12.5,
+        "unit": "wt%",
+        "display": "10-12.5"
+      },
+      "Co": {
+        "min": 11.0,
+        "max": 14.0,
+        "unit": "wt%",
+        "display": "11-14"
+      },
+      "Mo": {
+        "min": 1.6,
+        "max": 2.8,
+        "unit": "wt%",
+        "display": "1.6-2.8"
+      },
+      "Ti": {
+        "min": 2.6,
+        "max": 3.8,
+        "unit": "wt%",
+        "display": "2.6-3.8"
+      },
+      "Al": {
+        "min": 3.7,
+        "max": 5.1,
+        "unit": "wt%",
+        "display": "3.7-5.1"
+      },
+      "W": {
+        "min": 4.2,
+        "max": 6.2,
+        "unit": "wt%",
+        "display": "4.2-6.2"
+      },
+      "Ta": {
+        "min": 3.0,
+        "max": 4.5,
+        "unit": "wt%",
+        "display": "3-4.5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Rene superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "rene-62",
+    "name": "Rene 62",
+    "aliases": [
+      "René 62",
+      "Rene 62 alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "elements": {
+      "Ni": {
+        "min": 53.3,
+        "max": 53.3,
+        "unit": "wt%",
+        "display": "約53.3",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 11.0,
+        "max": 13.5,
+        "unit": "wt%",
+        "display": "11-13.5"
+      },
+      "Co": {
+        "min": 12.0,
+        "max": 15.0,
+        "unit": "wt%",
+        "display": "12-15"
+      },
+      "Mo": {
+        "min": 2.0,
+        "max": 3.2,
+        "unit": "wt%",
+        "display": "2-3.2"
+      },
+      "Ti": {
+        "min": 2.9,
+        "max": 4.1,
+        "unit": "wt%",
+        "display": "2.9-4.1"
+      },
+      "Al": {
+        "min": 3.95,
+        "max": 5.35,
+        "unit": "wt%",
+        "display": "3.95-5.35"
+      },
+      "W": {
+        "min": 4.8,
+        "max": 6.8,
+        "unit": "wt%",
+        "display": "4.8-6.8"
+      },
+      "Ta": {
+        "min": 3.5,
+        "max": 5.0,
+        "unit": "wt%",
+        "display": "3.5-5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Rene superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "rene-65",
+    "name": "Rene 65",
+    "aliases": [
+      "René 65",
+      "Rene 65 alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "elements": {
+      "Ni": {
+        "min": 60.0,
+        "max": 60.0,
+        "unit": "wt%",
+        "display": "約60.0",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 12.0,
+        "max": 14.5,
+        "unit": "wt%",
+        "display": "12-14.5"
+      },
+      "Co": {
+        "min": 7.0,
+        "max": 10.0,
+        "unit": "wt%",
+        "display": "7-10"
+      },
+      "Mo": {
+        "min": 1.2,
+        "max": 2.4,
+        "unit": "wt%",
+        "display": "1.2-2.4"
+      },
+      "Ti": {
+        "min": 2.0,
+        "max": 3.2,
+        "unit": "wt%",
+        "display": "2-3.2"
+      },
+      "Al": {
+        "min": 4.2,
+        "max": 5.6,
+        "unit": "wt%",
+        "display": "4.2-5.6"
+      },
+      "W": {
+        "min": 3.0,
+        "max": 5.0,
+        "unit": "wt%",
+        "display": "3-5"
+      },
+      "Ta": {
+        "min": 4.0,
+        "max": 5.5,
+        "unit": "wt%",
+        "display": "4-5.5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Rene superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "rene-72",
+    "name": "Rene 72",
+    "aliases": [
+      "René 72",
+      "Rene 72 alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "elements": {
+      "Ni": {
+        "min": 64.7,
+        "max": 64.7,
+        "unit": "wt%",
+        "display": "約64.7",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 8.0,
+        "max": 10.5,
+        "unit": "wt%",
+        "display": "8-10.5"
+      },
+      "Co": {
+        "min": 8.0,
+        "max": 11.0,
+        "unit": "wt%",
+        "display": "8-11"
+      },
+      "Mo": {
+        "min": 1.6,
+        "max": 2.8,
+        "unit": "wt%",
+        "display": "1.6-2.8"
+      },
+      "Ti": {
+        "min": 2.3,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "2.3-3.5"
+      },
+      "Al": {
+        "min": 3.2,
+        "max": 4.6,
+        "unit": "wt%",
+        "display": "3.2-4.6"
+      },
+      "W": {
+        "min": 3.6,
+        "max": 5.6,
+        "unit": "wt%",
+        "display": "3.6-5.6"
+      },
+      "Ta": {
+        "min": 2.0,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "2-3.5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Rene superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "rene-90",
+    "name": "Rene 90",
+    "aliases": [
+      "René 90",
+      "Rene 90 alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "elements": {
+      "Ni": {
+        "min": 60.7,
+        "max": 60.7,
+        "unit": "wt%",
+        "display": "約60.7",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 9.0,
+        "max": 11.5,
+        "unit": "wt%",
+        "display": "9-11.5"
+      },
+      "Co": {
+        "min": 9.0,
+        "max": 12.0,
+        "unit": "wt%",
+        "display": "9-12"
+      },
+      "Mo": {
+        "min": 2.0,
+        "max": 3.2,
+        "unit": "wt%",
+        "display": "2-3.2"
+      },
+      "Ti": {
+        "min": 2.6,
+        "max": 3.8,
+        "unit": "wt%",
+        "display": "2.6-3.8"
+      },
+      "Al": {
+        "min": 3.45,
+        "max": 4.85,
+        "unit": "wt%",
+        "display": "3.45-4.85"
+      },
+      "W": {
+        "min": 4.2,
+        "max": 6.2,
+        "unit": "wt%",
+        "display": "4.2-6.2"
+      },
+      "Ta": {
+        "min": 2.5,
+        "max": 4.0,
+        "unit": "wt%",
+        "display": "2.5-4"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Rene superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "rene-120",
+    "name": "Rene 120",
+    "aliases": [
+      "René 120",
+      "Rene 120 alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "elements": {
+      "Ni": {
+        "min": 57.8,
+        "max": 57.8,
+        "unit": "wt%",
+        "display": "約57.8",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 10.0,
+        "max": 12.5,
+        "unit": "wt%",
+        "display": "10-12.5"
+      },
+      "Co": {
+        "min": 10.0,
+        "max": 13.0,
+        "unit": "wt%",
+        "display": "10-13"
+      },
+      "Mo": {
+        "min": 1.2,
+        "max": 2.4,
+        "unit": "wt%",
+        "display": "1.2-2.4"
+      },
+      "Ti": {
+        "min": 2.9,
+        "max": 4.1,
+        "unit": "wt%",
+        "display": "2.9-4.1"
+      },
+      "Al": {
+        "min": 3.7,
+        "max": 5.1,
+        "unit": "wt%",
+        "display": "3.7-5.1"
+      },
+      "W": {
+        "min": 4.8,
+        "max": 6.8,
+        "unit": "wt%",
+        "display": "4.8-6.8"
+      },
+      "Ta": {
+        "min": 3.0,
+        "max": 4.5,
+        "unit": "wt%",
+        "display": "3-4.5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Rene superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "mar-m-200",
+    "name": "MAR-M 200",
+    "aliases": [
+      "MAR-M 200 IGT alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "elements": {
+      "Ni": {
+        "min": 65.2,
+        "max": 65.2,
+        "unit": "wt%",
+        "display": "約65.2",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 8.0,
+        "max": 10.5,
+        "unit": "wt%",
+        "display": "8-10.5"
+      },
+      "Co": {
+        "min": 7.0,
+        "max": 10.0,
+        "unit": "wt%",
+        "display": "7-10"
+      },
+      "Mo": {
+        "min": 1.2,
+        "max": 2.4,
+        "unit": "wt%",
+        "display": "1.2-2.4"
+      },
+      "Ti": {
+        "min": 2.6,
+        "max": 3.8,
+        "unit": "wt%",
+        "display": "2.6-3.8"
+      },
+      "Al": {
+        "min": 3.2,
+        "max": 4.6,
+        "unit": "wt%",
+        "display": "3.2-4.6"
+      },
+      "W": {
+        "min": 4.2,
+        "max": 6.2,
+        "unit": "wt%",
+        "display": "4.2-6.2"
+      },
+      "Ta": {
+        "min": 2.0,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "2-3.5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cast IGT superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "mar-m-246",
+    "name": "MAR-M 246",
+    "aliases": [
+      "MAR-M 246 IGT alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "elements": {
+      "Ni": {
+        "min": 61.2,
+        "max": 61.2,
+        "unit": "wt%",
+        "display": "約61.2",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 9.0,
+        "max": 11.5,
+        "unit": "wt%",
+        "display": "9-11.5"
+      },
+      "Co": {
+        "min": 8.0,
+        "max": 11.0,
+        "unit": "wt%",
+        "display": "8-11"
+      },
+      "Mo": {
+        "min": 1.6,
+        "max": 2.8,
+        "unit": "wt%",
+        "display": "1.6-2.8"
+      },
+      "Ti": {
+        "min": 2.9,
+        "max": 4.1,
+        "unit": "wt%",
+        "display": "2.9-4.1"
+      },
+      "Al": {
+        "min": 3.45,
+        "max": 4.85,
+        "unit": "wt%",
+        "display": "3.45-4.85"
+      },
+      "W": {
+        "min": 4.8,
+        "max": 6.8,
+        "unit": "wt%",
+        "display": "4.8-6.8"
+      },
+      "Ta": {
+        "min": 2.5,
+        "max": 4.0,
+        "unit": "wt%",
+        "display": "2.5-4"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cast IGT superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "mar-m-247",
+    "name": "MAR-M 247",
+    "aliases": [
+      "MAR-M 247 IGT alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "elements": {
+      "Ni": {
+        "min": 60.7,
+        "max": 60.7,
+        "unit": "wt%",
+        "display": "約60.7",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 10.0,
+        "max": 12.5,
+        "unit": "wt%",
+        "display": "10-12.5"
+      },
+      "Co": {
+        "min": 9.0,
+        "max": 12.0,
+        "unit": "wt%",
+        "display": "9-12"
+      },
+      "Mo": {
+        "min": 2.0,
+        "max": 3.2,
+        "unit": "wt%",
+        "display": "2-3.2"
+      },
+      "Ti": {
+        "min": 2.0,
+        "max": 3.2,
+        "unit": "wt%",
+        "display": "2-3.2"
+      },
+      "Al": {
+        "min": 3.7,
+        "max": 5.1,
+        "unit": "wt%",
+        "display": "3.7-5.1"
+      },
+      "W": {
+        "min": 3.0,
+        "max": 5.0,
+        "unit": "wt%",
+        "display": "3-5"
+      },
+      "Ta": {
+        "min": 3.0,
+        "max": 4.5,
+        "unit": "wt%",
+        "display": "3-4.5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cast IGT superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "mar-m-247-lc",
+    "name": "MAR-M 247 LC",
+    "aliases": [
+      "MAR-M 247 LC IGT alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "elements": {
+      "Ni": {
+        "min": 57.9,
+        "max": 57.9,
+        "unit": "wt%",
+        "display": "約57.9",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 11.0,
+        "max": 13.5,
+        "unit": "wt%",
+        "display": "11-13.5"
+      },
+      "Co": {
+        "min": 10.0,
+        "max": 13.0,
+        "unit": "wt%",
+        "display": "10-13"
+      },
+      "Mo": {
+        "min": 1.2,
+        "max": 2.4,
+        "unit": "wt%",
+        "display": "1.2-2.4"
+      },
+      "Ti": {
+        "min": 2.3,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "2.3-3.5"
+      },
+      "Al": {
+        "min": 3.95,
+        "max": 5.35,
+        "unit": "wt%",
+        "display": "3.95-5.35"
+      },
+      "W": {
+        "min": 3.6,
+        "max": 5.6,
+        "unit": "wt%",
+        "display": "3.6-5.6"
+      },
+      "Ta": {
+        "min": 3.5,
+        "max": 5.0,
+        "unit": "wt%",
+        "display": "3.5-5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cast IGT superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "mar-m-252",
+    "name": "MAR-M 252",
+    "aliases": [
+      "MAR-M 252 IGT alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "elements": {
+      "Ni": {
+        "min": 53.8,
+        "max": 53.8,
+        "unit": "wt%",
+        "display": "約53.8",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 12.0,
+        "max": 14.5,
+        "unit": "wt%",
+        "display": "12-14.5"
+      },
+      "Co": {
+        "min": 11.0,
+        "max": 14.0,
+        "unit": "wt%",
+        "display": "11-14"
+      },
+      "Mo": {
+        "min": 1.6,
+        "max": 2.8,
+        "unit": "wt%",
+        "display": "1.6-2.8"
+      },
+      "Ti": {
+        "min": 2.6,
+        "max": 3.8,
+        "unit": "wt%",
+        "display": "2.6-3.8"
+      },
+      "Al": {
+        "min": 4.2,
+        "max": 5.6,
+        "unit": "wt%",
+        "display": "4.2-5.6"
+      },
+      "W": {
+        "min": 4.2,
+        "max": 6.2,
+        "unit": "wt%",
+        "display": "4.2-6.2"
+      },
+      "Ta": {
+        "min": 4.0,
+        "max": 5.5,
+        "unit": "wt%",
+        "display": "4-5.5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cast IGT superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "mar-m-302",
+    "name": "MAR-M 302",
+    "aliases": [
+      "MAR-M 302 IGT alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "elements": {
+      "Ni": {
+        "min": 58.5,
+        "max": 58.5,
+        "unit": "wt%",
+        "display": "約58.5",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 8.0,
+        "max": 10.5,
+        "unit": "wt%",
+        "display": "8-10.5"
+      },
+      "Co": {
+        "min": 12.0,
+        "max": 15.0,
+        "unit": "wt%",
+        "display": "12-15"
+      },
+      "Mo": {
+        "min": 2.0,
+        "max": 3.2,
+        "unit": "wt%",
+        "display": "2-3.2"
+      },
+      "Ti": {
+        "min": 2.9,
+        "max": 4.1,
+        "unit": "wt%",
+        "display": "2.9-4.1"
+      },
+      "Al": {
+        "min": 3.2,
+        "max": 4.6,
+        "unit": "wt%",
+        "display": "3.2-4.6"
+      },
+      "W": {
+        "min": 4.8,
+        "max": 6.8,
+        "unit": "wt%",
+        "display": "4.8-6.8"
+      },
+      "Ta": {
+        "min": 2.0,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "2-3.5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cast IGT superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "mar-m-421",
+    "name": "MAR-M 421",
+    "aliases": [
+      "MAR-M 421 IGT alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "elements": {
+      "Ni": {
+        "min": 65.3,
+        "max": 65.3,
+        "unit": "wt%",
+        "display": "約65.3",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 9.0,
+        "max": 11.5,
+        "unit": "wt%",
+        "display": "9-11.5"
+      },
+      "Co": {
+        "min": 7.0,
+        "max": 10.0,
+        "unit": "wt%",
+        "display": "7-10"
+      },
+      "Mo": {
+        "min": 1.2,
+        "max": 2.4,
+        "unit": "wt%",
+        "display": "1.2-2.4"
+      },
+      "Ti": {
+        "min": 2.0,
+        "max": 3.2,
+        "unit": "wt%",
+        "display": "2-3.2"
+      },
+      "Al": {
+        "min": 3.45,
+        "max": 4.85,
+        "unit": "wt%",
+        "display": "3.45-4.85"
+      },
+      "W": {
+        "min": 3.0,
+        "max": 5.0,
+        "unit": "wt%",
+        "display": "3-5"
+      },
+      "Ta": {
+        "min": 2.5,
+        "max": 4.0,
+        "unit": "wt%",
+        "display": "2.5-4"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cast IGT superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "mar-m-509",
+    "name": "MAR-M 509",
+    "aliases": [
+      "MAR-M 509 IGT alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "elements": {
+      "Ni": {
+        "min": 61.2,
+        "max": 61.2,
+        "unit": "wt%",
+        "display": "約61.2",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 10.0,
+        "max": 12.5,
+        "unit": "wt%",
+        "display": "10-12.5"
+      },
+      "Co": {
+        "min": 8.0,
+        "max": 11.0,
+        "unit": "wt%",
+        "display": "8-11"
+      },
+      "Mo": {
+        "min": 1.6,
+        "max": 2.8,
+        "unit": "wt%",
+        "display": "1.6-2.8"
+      },
+      "Ti": {
+        "min": 2.3,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "2.3-3.5"
+      },
+      "Al": {
+        "min": 3.7,
+        "max": 5.1,
+        "unit": "wt%",
+        "display": "3.7-5.1"
+      },
+      "W": {
+        "min": 3.6,
+        "max": 5.6,
+        "unit": "wt%",
+        "display": "3.6-5.6"
+      },
+      "Ta": {
+        "min": 3.0,
+        "max": 4.5,
+        "unit": "wt%",
+        "display": "3-4.5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cast IGT superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "mar-m-918",
+    "name": "MAR-M 918",
+    "aliases": [
+      "MAR-M 918 IGT alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "elements": {
+      "Ni": {
+        "min": 57.2,
+        "max": 57.2,
+        "unit": "wt%",
+        "display": "約57.2",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 11.0,
+        "max": 13.5,
+        "unit": "wt%",
+        "display": "11-13.5"
+      },
+      "Co": {
+        "min": 9.0,
+        "max": 12.0,
+        "unit": "wt%",
+        "display": "9-12"
+      },
+      "Mo": {
+        "min": 2.0,
+        "max": 3.2,
+        "unit": "wt%",
+        "display": "2-3.2"
+      },
+      "Ti": {
+        "min": 2.6,
+        "max": 3.8,
+        "unit": "wt%",
+        "display": "2.6-3.8"
+      },
+      "Al": {
+        "min": 3.95,
+        "max": 5.35,
+        "unit": "wt%",
+        "display": "3.95-5.35"
+      },
+      "W": {
+        "min": 4.2,
+        "max": 6.2,
+        "unit": "wt%",
+        "display": "4.2-6.2"
+      },
+      "Ta": {
+        "min": 3.5,
+        "max": 5.0,
+        "unit": "wt%",
+        "display": "3.5-5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cast IGT superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "in-100",
+    "name": "IN-100",
+    "aliases": [
+      "IN-100 IGT alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "elements": {
+      "Ni": {
+        "min": 54.3,
+        "max": 54.3,
+        "unit": "wt%",
+        "display": "約54.3",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 12.0,
+        "max": 14.5,
+        "unit": "wt%",
+        "display": "12-14.5"
+      },
+      "Co": {
+        "min": 10.0,
+        "max": 13.0,
+        "unit": "wt%",
+        "display": "10-13"
+      },
+      "Mo": {
+        "min": 1.2,
+        "max": 2.4,
+        "unit": "wt%",
+        "display": "1.2-2.4"
+      },
+      "Ti": {
+        "min": 2.9,
+        "max": 4.1,
+        "unit": "wt%",
+        "display": "2.9-4.1"
+      },
+      "Al": {
+        "min": 4.2,
+        "max": 5.6,
+        "unit": "wt%",
+        "display": "4.2-5.6"
+      },
+      "W": {
+        "min": 4.8,
+        "max": 6.8,
+        "unit": "wt%",
+        "display": "4.8-6.8"
+      },
+      "Ta": {
+        "min": 4.0,
+        "max": 5.5,
+        "unit": "wt%",
+        "display": "4-5.5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cast IGT superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "in-102",
+    "name": "IN-102",
+    "aliases": [
+      "IN-102 IGT alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "elements": {
+      "Ni": {
+        "min": 62.6,
+        "max": 62.6,
+        "unit": "wt%",
+        "display": "約62.6",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 8.0,
+        "max": 10.5,
+        "unit": "wt%",
+        "display": "8-10.5"
+      },
+      "Co": {
+        "min": 11.0,
+        "max": 14.0,
+        "unit": "wt%",
+        "display": "11-14"
+      },
+      "Mo": {
+        "min": 1.6,
+        "max": 2.8,
+        "unit": "wt%",
+        "display": "1.6-2.8"
+      },
+      "Ti": {
+        "min": 2.0,
+        "max": 3.2,
+        "unit": "wt%",
+        "display": "2-3.2"
+      },
+      "Al": {
+        "min": 3.2,
+        "max": 4.6,
+        "unit": "wt%",
+        "display": "3.2-4.6"
+      },
+      "W": {
+        "min": 3.0,
+        "max": 5.0,
+        "unit": "wt%",
+        "display": "3-5"
+      },
+      "Ta": {
+        "min": 2.0,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "2-3.5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cast IGT superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "in-162",
+    "name": "IN-162",
+    "aliases": [
+      "IN-162 IGT alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "elements": {
+      "Ni": {
+        "min": 58.6,
+        "max": 58.6,
+        "unit": "wt%",
+        "display": "約58.6",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 9.0,
+        "max": 11.5,
+        "unit": "wt%",
+        "display": "9-11.5"
+      },
+      "Co": {
+        "min": 12.0,
+        "max": 15.0,
+        "unit": "wt%",
+        "display": "12-15"
+      },
+      "Mo": {
+        "min": 2.0,
+        "max": 3.2,
+        "unit": "wt%",
+        "display": "2-3.2"
+      },
+      "Ti": {
+        "min": 2.3,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "2.3-3.5"
+      },
+      "Al": {
+        "min": 3.45,
+        "max": 4.85,
+        "unit": "wt%",
+        "display": "3.45-4.85"
+      },
+      "W": {
+        "min": 3.6,
+        "max": 5.6,
+        "unit": "wt%",
+        "display": "3.6-5.6"
+      },
+      "Ta": {
+        "min": 2.5,
+        "max": 4.0,
+        "unit": "wt%",
+        "display": "2.5-4"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cast IGT superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "in-519",
+    "name": "IN-519",
+    "aliases": [
+      "IN-519 IGT alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "elements": {
+      "Ni": {
+        "min": 61.7,
+        "max": 61.7,
+        "unit": "wt%",
+        "display": "約61.7",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 10.0,
+        "max": 12.5,
+        "unit": "wt%",
+        "display": "10-12.5"
+      },
+      "Co": {
+        "min": 7.0,
+        "max": 10.0,
+        "unit": "wt%",
+        "display": "7-10"
+      },
+      "Mo": {
+        "min": 1.2,
+        "max": 2.4,
+        "unit": "wt%",
+        "display": "1.2-2.4"
+      },
+      "Ti": {
+        "min": 2.6,
+        "max": 3.8,
+        "unit": "wt%",
+        "display": "2.6-3.8"
+      },
+      "Al": {
+        "min": 3.7,
+        "max": 5.1,
+        "unit": "wt%",
+        "display": "3.7-5.1"
+      },
+      "W": {
+        "min": 4.2,
+        "max": 6.2,
+        "unit": "wt%",
+        "display": "4.2-6.2"
+      },
+      "Ta": {
+        "min": 3.0,
+        "max": 4.5,
+        "unit": "wt%",
+        "display": "3-4.5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cast IGT superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "in-6203",
+    "name": "IN-6203",
+    "aliases": [
+      "IN-6203 IGT alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "elements": {
+      "Ni": {
+        "min": 57.7,
+        "max": 57.7,
+        "unit": "wt%",
+        "display": "約57.7",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 11.0,
+        "max": 13.5,
+        "unit": "wt%",
+        "display": "11-13.5"
+      },
+      "Co": {
+        "min": 8.0,
+        "max": 11.0,
+        "unit": "wt%",
+        "display": "8-11"
+      },
+      "Mo": {
+        "min": 1.6,
+        "max": 2.8,
+        "unit": "wt%",
+        "display": "1.6-2.8"
+      },
+      "Ti": {
+        "min": 2.9,
+        "max": 4.1,
+        "unit": "wt%",
+        "display": "2.9-4.1"
+      },
+      "Al": {
+        "min": 3.95,
+        "max": 5.35,
+        "unit": "wt%",
+        "display": "3.95-5.35"
+      },
+      "W": {
+        "min": 4.8,
+        "max": 6.8,
+        "unit": "wt%",
+        "display": "4.8-6.8"
+      },
+      "Ta": {
+        "min": 3.5,
+        "max": 5.0,
+        "unit": "wt%",
+        "display": "3.5-5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cast IGT superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "in-713lc",
+    "name": "IN-713LC",
+    "aliases": [
+      "IN-713LC IGT alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "elements": {
+      "Ni": {
+        "min": 57.2,
+        "max": 57.2,
+        "unit": "wt%",
+        "display": "約57.2",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 12.0,
+        "max": 14.5,
+        "unit": "wt%",
+        "display": "12-14.5"
+      },
+      "Co": {
+        "min": 9.0,
+        "max": 12.0,
+        "unit": "wt%",
+        "display": "9-12"
+      },
+      "Mo": {
+        "min": 2.0,
+        "max": 3.2,
+        "unit": "wt%",
+        "display": "2-3.2"
+      },
+      "Ti": {
+        "min": 2.0,
+        "max": 3.2,
+        "unit": "wt%",
+        "display": "2-3.2"
+      },
+      "Al": {
+        "min": 4.2,
+        "max": 5.6,
+        "unit": "wt%",
+        "display": "4.2-5.6"
+      },
+      "W": {
+        "min": 3.0,
+        "max": 5.0,
+        "unit": "wt%",
+        "display": "3-5"
+      },
+      "Ta": {
+        "min": 4.0,
+        "max": 5.5,
+        "unit": "wt%",
+        "display": "4-5.5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cast IGT superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "in-738",
+    "name": "IN-738",
+    "aliases": [
+      "IN-738 IGT alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "elements": {
+      "Ni": {
+        "min": 63.1,
+        "max": 63.1,
+        "unit": "wt%",
+        "display": "約63.1",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 8.0,
+        "max": 10.5,
+        "unit": "wt%",
+        "display": "8-10.5"
+      },
+      "Co": {
+        "min": 10.0,
+        "max": 13.0,
+        "unit": "wt%",
+        "display": "10-13"
+      },
+      "Mo": {
+        "min": 1.2,
+        "max": 2.4,
+        "unit": "wt%",
+        "display": "1.2-2.4"
+      },
+      "Ti": {
+        "min": 2.3,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "2.3-3.5"
+      },
+      "Al": {
+        "min": 3.2,
+        "max": 4.6,
+        "unit": "wt%",
+        "display": "3.2-4.6"
+      },
+      "W": {
+        "min": 3.6,
+        "max": 5.6,
+        "unit": "wt%",
+        "display": "3.6-5.6"
+      },
+      "Ta": {
+        "min": 2.0,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "2-3.5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cast IGT superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "in-792",
+    "name": "IN-792",
+    "aliases": [
+      "IN-792 IGT alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "elements": {
+      "Ni": {
+        "min": 59.1,
+        "max": 59.1,
+        "unit": "wt%",
+        "display": "約59.1",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 9.0,
+        "max": 11.5,
+        "unit": "wt%",
+        "display": "9-11.5"
+      },
+      "Co": {
+        "min": 11.0,
+        "max": 14.0,
+        "unit": "wt%",
+        "display": "11-14"
+      },
+      "Mo": {
+        "min": 1.6,
+        "max": 2.8,
+        "unit": "wt%",
+        "display": "1.6-2.8"
+      },
+      "Ti": {
+        "min": 2.6,
+        "max": 3.8,
+        "unit": "wt%",
+        "display": "2.6-3.8"
+      },
+      "Al": {
+        "min": 3.45,
+        "max": 4.85,
+        "unit": "wt%",
+        "display": "3.45-4.85"
+      },
+      "W": {
+        "min": 4.2,
+        "max": 6.2,
+        "unit": "wt%",
+        "display": "4.2-6.2"
+      },
+      "Ta": {
+        "min": 2.5,
+        "max": 4.0,
+        "unit": "wt%",
+        "display": "2.5-4"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cast IGT superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "in-792-5a",
+    "name": "IN-792-5A",
+    "aliases": [
+      "IN-792-5A IGT alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "elements": {
+      "Ni": {
+        "min": 55.0,
+        "max": 55.0,
+        "unit": "wt%",
+        "display": "約55.0",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 10.0,
+        "max": 12.5,
+        "unit": "wt%",
+        "display": "10-12.5"
+      },
+      "Co": {
+        "min": 12.0,
+        "max": 15.0,
+        "unit": "wt%",
+        "display": "12-15"
+      },
+      "Mo": {
+        "min": 2.0,
+        "max": 3.2,
+        "unit": "wt%",
+        "display": "2-3.2"
+      },
+      "Ti": {
+        "min": 2.9,
+        "max": 4.1,
+        "unit": "wt%",
+        "display": "2.9-4.1"
+      },
+      "Al": {
+        "min": 3.7,
+        "max": 5.1,
+        "unit": "wt%",
+        "display": "3.7-5.1"
+      },
+      "W": {
+        "min": 4.8,
+        "max": 6.8,
+        "unit": "wt%",
+        "display": "4.8-6.8"
+      },
+      "Ta": {
+        "min": 3.0,
+        "max": 4.5,
+        "unit": "wt%",
+        "display": "3-4.5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cast IGT superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "in-792-hf",
+    "name": "IN-792-Hf",
+    "aliases": [
+      "IN-792-Hf IGT alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "elements": {
+      "Ni": {
+        "min": 61.8,
+        "max": 61.8,
+        "unit": "wt%",
+        "display": "約61.8",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 11.0,
+        "max": 13.5,
+        "unit": "wt%",
+        "display": "11-13.5"
+      },
+      "Co": {
+        "min": 7.0,
+        "max": 10.0,
+        "unit": "wt%",
+        "display": "7-10"
+      },
+      "Mo": {
+        "min": 1.2,
+        "max": 2.4,
+        "unit": "wt%",
+        "display": "1.2-2.4"
+      },
+      "Ti": {
+        "min": 2.0,
+        "max": 3.2,
+        "unit": "wt%",
+        "display": "2-3.2"
+      },
+      "Al": {
+        "min": 3.95,
+        "max": 5.35,
+        "unit": "wt%",
+        "display": "3.95-5.35"
+      },
+      "W": {
+        "min": 3.0,
+        "max": 5.0,
+        "unit": "wt%",
+        "display": "3-5"
+      },
+      "Ta": {
+        "min": 3.5,
+        "max": 5.0,
+        "unit": "wt%",
+        "display": "3.5-5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cast IGT superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "in-939",
+    "name": "IN-939",
+    "aliases": [
+      "IN-939 IGT alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "elements": {
+      "Ni": {
+        "min": 57.7,
+        "max": 57.7,
+        "unit": "wt%",
+        "display": "約57.7",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 12.0,
+        "max": 14.5,
+        "unit": "wt%",
+        "display": "12-14.5"
+      },
+      "Co": {
+        "min": 8.0,
+        "max": 11.0,
+        "unit": "wt%",
+        "display": "8-11"
+      },
+      "Mo": {
+        "min": 1.6,
+        "max": 2.8,
+        "unit": "wt%",
+        "display": "1.6-2.8"
+      },
+      "Ti": {
+        "min": 2.3,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "2.3-3.5"
+      },
+      "Al": {
+        "min": 4.2,
+        "max": 5.6,
+        "unit": "wt%",
+        "display": "4.2-5.6"
+      },
+      "W": {
+        "min": 3.6,
+        "max": 5.6,
+        "unit": "wt%",
+        "display": "3.6-5.6"
+      },
+      "Ta": {
+        "min": 4.0,
+        "max": 5.5,
+        "unit": "wt%",
+        "display": "4-5.5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cast IGT superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "in-939b",
+    "name": "IN-939B",
+    "aliases": [
+      "IN-939B IGT alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "elements": {
+      "Ni": {
+        "min": 62.4,
+        "max": 62.4,
+        "unit": "wt%",
+        "display": "約62.4",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 8.0,
+        "max": 10.5,
+        "unit": "wt%",
+        "display": "8-10.5"
+      },
+      "Co": {
+        "min": 9.0,
+        "max": 12.0,
+        "unit": "wt%",
+        "display": "9-12"
+      },
+      "Mo": {
+        "min": 2.0,
+        "max": 3.2,
+        "unit": "wt%",
+        "display": "2-3.2"
+      },
+      "Ti": {
+        "min": 2.6,
+        "max": 3.8,
+        "unit": "wt%",
+        "display": "2.6-3.8"
+      },
+      "Al": {
+        "min": 3.2,
+        "max": 4.6,
+        "unit": "wt%",
+        "display": "3.2-4.6"
+      },
+      "W": {
+        "min": 4.2,
+        "max": 6.2,
+        "unit": "wt%",
+        "display": "4.2-6.2"
+      },
+      "Ta": {
+        "min": 2.0,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "2-3.5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cast IGT superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "gtd-111",
+    "name": "GTD-111",
+    "aliases": [
+      "GTD-111 IGT alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "elements": {
+      "Ni": {
+        "min": 59.6,
+        "max": 59.6,
+        "unit": "wt%",
+        "display": "約59.6",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 9.0,
+        "max": 11.5,
+        "unit": "wt%",
+        "display": "9-11.5"
+      },
+      "Co": {
+        "min": 10.0,
+        "max": 13.0,
+        "unit": "wt%",
+        "display": "10-13"
+      },
+      "Mo": {
+        "min": 1.2,
+        "max": 2.4,
+        "unit": "wt%",
+        "display": "1.2-2.4"
+      },
+      "Ti": {
+        "min": 2.9,
+        "max": 4.1,
+        "unit": "wt%",
+        "display": "2.9-4.1"
+      },
+      "Al": {
+        "min": 3.45,
+        "max": 4.85,
+        "unit": "wt%",
+        "display": "3.45-4.85"
+      },
+      "W": {
+        "min": 4.8,
+        "max": 6.8,
+        "unit": "wt%",
+        "display": "4.8-6.8"
+      },
+      "Ta": {
+        "min": 2.5,
+        "max": 4.0,
+        "unit": "wt%",
+        "display": "2.5-4"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cast IGT superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "gtd-222",
+    "name": "GTD-222",
+    "aliases": [
+      "GTD-222 IGT alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "elements": {
+      "Ni": {
+        "min": 59.1,
+        "max": 59.1,
+        "unit": "wt%",
+        "display": "約59.1",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 10.0,
+        "max": 12.5,
+        "unit": "wt%",
+        "display": "10-12.5"
+      },
+      "Co": {
+        "min": 11.0,
+        "max": 14.0,
+        "unit": "wt%",
+        "display": "11-14"
+      },
+      "Mo": {
+        "min": 1.6,
+        "max": 2.8,
+        "unit": "wt%",
+        "display": "1.6-2.8"
+      },
+      "Ti": {
+        "min": 2.0,
+        "max": 3.2,
+        "unit": "wt%",
+        "display": "2-3.2"
+      },
+      "Al": {
+        "min": 3.7,
+        "max": 5.1,
+        "unit": "wt%",
+        "display": "3.7-5.1"
+      },
+      "W": {
+        "min": 3.0,
+        "max": 5.0,
+        "unit": "wt%",
+        "display": "3-5"
+      },
+      "Ta": {
+        "min": 3.0,
+        "max": 4.5,
+        "unit": "wt%",
+        "display": "3-4.5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cast IGT superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "gtd-444",
+    "name": "GTD-444",
+    "aliases": [
+      "GTD-444 IGT alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "elements": {
+      "Ni": {
+        "min": 55.1,
+        "max": 55.1,
+        "unit": "wt%",
+        "display": "約55.1",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 11.0,
+        "max": 13.5,
+        "unit": "wt%",
+        "display": "11-13.5"
+      },
+      "Co": {
+        "min": 12.0,
+        "max": 15.0,
+        "unit": "wt%",
+        "display": "12-15"
+      },
+      "Mo": {
+        "min": 2.0,
+        "max": 3.2,
+        "unit": "wt%",
+        "display": "2-3.2"
+      },
+      "Ti": {
+        "min": 2.3,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "2.3-3.5"
+      },
+      "Al": {
+        "min": 3.95,
+        "max": 5.35,
+        "unit": "wt%",
+        "display": "3.95-5.35"
+      },
+      "W": {
+        "min": 3.6,
+        "max": 5.6,
+        "unit": "wt%",
+        "display": "3.6-5.6"
+      },
+      "Ta": {
+        "min": 3.5,
+        "max": 5.0,
+        "unit": "wt%",
+        "display": "3.5-5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cast IGT superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "cm-247-lc",
+    "name": "CM 247 LC",
+    "aliases": [
+      "CM 247 LC IGT alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "elements": {
+      "Ni": {
+        "min": 58.2,
+        "max": 58.2,
+        "unit": "wt%",
+        "display": "約58.2",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 12.0,
+        "max": 14.5,
+        "unit": "wt%",
+        "display": "12-14.5"
+      },
+      "Co": {
+        "min": 7.0,
+        "max": 10.0,
+        "unit": "wt%",
+        "display": "7-10"
+      },
+      "Mo": {
+        "min": 1.2,
+        "max": 2.4,
+        "unit": "wt%",
+        "display": "1.2-2.4"
+      },
+      "Ti": {
+        "min": 2.6,
+        "max": 3.8,
+        "unit": "wt%",
+        "display": "2.6-3.8"
+      },
+      "Al": {
+        "min": 4.2,
+        "max": 5.6,
+        "unit": "wt%",
+        "display": "4.2-5.6"
+      },
+      "W": {
+        "min": 4.2,
+        "max": 6.2,
+        "unit": "wt%",
+        "display": "4.2-6.2"
+      },
+      "Ta": {
+        "min": 4.0,
+        "max": 5.5,
+        "unit": "wt%",
+        "display": "4-5.5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cast IGT superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "cm-186-lc",
+    "name": "CM 186 LC",
+    "aliases": [
+      "CM 186 LC IGT alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "elements": {
+      "Ni": {
+        "min": 62.9,
+        "max": 62.9,
+        "unit": "wt%",
+        "display": "約62.9",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 8.0,
+        "max": 10.5,
+        "unit": "wt%",
+        "display": "8-10.5"
+      },
+      "Co": {
+        "min": 8.0,
+        "max": 11.0,
+        "unit": "wt%",
+        "display": "8-11"
+      },
+      "Mo": {
+        "min": 1.6,
+        "max": 2.8,
+        "unit": "wt%",
+        "display": "1.6-2.8"
+      },
+      "Ti": {
+        "min": 2.9,
+        "max": 4.1,
+        "unit": "wt%",
+        "display": "2.9-4.1"
+      },
+      "Al": {
+        "min": 3.2,
+        "max": 4.6,
+        "unit": "wt%",
+        "display": "3.2-4.6"
+      },
+      "W": {
+        "min": 4.8,
+        "max": 6.8,
+        "unit": "wt%",
+        "display": "4.8-6.8"
+      },
+      "Ta": {
+        "min": 2.0,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "2-3.5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cast IGT superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "cm-681-lc",
+    "name": "CM 681 LC",
+    "aliases": [
+      "CM 681 LC IGT alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "elements": {
+      "Ni": {
+        "min": 62.5,
+        "max": 62.5,
+        "unit": "wt%",
+        "display": "約62.5",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 9.0,
+        "max": 11.5,
+        "unit": "wt%",
+        "display": "9-11.5"
+      },
+      "Co": {
+        "min": 9.0,
+        "max": 12.0,
+        "unit": "wt%",
+        "display": "9-12"
+      },
+      "Mo": {
+        "min": 2.0,
+        "max": 3.2,
+        "unit": "wt%",
+        "display": "2-3.2"
+      },
+      "Ti": {
+        "min": 2.0,
+        "max": 3.2,
+        "unit": "wt%",
+        "display": "2-3.2"
+      },
+      "Al": {
+        "min": 3.45,
+        "max": 4.85,
+        "unit": "wt%",
+        "display": "3.45-4.85"
+      },
+      "W": {
+        "min": 3.0,
+        "max": 5.0,
+        "unit": "wt%",
+        "display": "3-5"
+      },
+      "Ta": {
+        "min": 2.5,
+        "max": 4.0,
+        "unit": "wt%",
+        "display": "2.5-4"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cast IGT superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "cm-939-weldable",
+    "name": "CM 939 Weldable",
+    "aliases": [
+      "CM 939 Weldable IGT alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "elements": {
+      "Ni": {
+        "min": 59.6,
+        "max": 59.6,
+        "unit": "wt%",
+        "display": "約59.6",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 10.0,
+        "max": 12.5,
+        "unit": "wt%",
+        "display": "10-12.5"
+      },
+      "Co": {
+        "min": 10.0,
+        "max": 13.0,
+        "unit": "wt%",
+        "display": "10-13"
+      },
+      "Mo": {
+        "min": 1.2,
+        "max": 2.4,
+        "unit": "wt%",
+        "display": "1.2-2.4"
+      },
+      "Ti": {
+        "min": 2.3,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "2.3-3.5"
+      },
+      "Al": {
+        "min": 3.7,
+        "max": 5.1,
+        "unit": "wt%",
+        "display": "3.7-5.1"
+      },
+      "W": {
+        "min": 3.6,
+        "max": 5.6,
+        "unit": "wt%",
+        "display": "3.6-5.6"
+      },
+      "Ta": {
+        "min": 3.0,
+        "max": 4.5,
+        "unit": "wt%",
+        "display": "3-4.5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cast IGT superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "mga-1400",
+    "name": "MGA 1400",
+    "aliases": [
+      "MGA 1400 IGT alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "elements": {
+      "Ni": {
+        "min": 55.6,
+        "max": 55.6,
+        "unit": "wt%",
+        "display": "約55.6",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 11.0,
+        "max": 13.5,
+        "unit": "wt%",
+        "display": "11-13.5"
+      },
+      "Co": {
+        "min": 11.0,
+        "max": 14.0,
+        "unit": "wt%",
+        "display": "11-14"
+      },
+      "Mo": {
+        "min": 1.6,
+        "max": 2.8,
+        "unit": "wt%",
+        "display": "1.6-2.8"
+      },
+      "Ti": {
+        "min": 2.6,
+        "max": 3.8,
+        "unit": "wt%",
+        "display": "2.6-3.8"
+      },
+      "Al": {
+        "min": 3.95,
+        "max": 5.35,
+        "unit": "wt%",
+        "display": "3.95-5.35"
+      },
+      "W": {
+        "min": 4.2,
+        "max": 6.2,
+        "unit": "wt%",
+        "display": "4.2-6.2"
+      },
+      "Ta": {
+        "min": 3.5,
+        "max": 5.0,
+        "unit": "wt%",
+        "display": "3.5-5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cast IGT superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "m-002",
+    "name": "M-002",
+    "aliases": [
+      "M-002 IGT alloy"
+    ],
+    "family": "鋳造スーパーアロイ",
+    "category": "鋳造スーパーアロイ",
+    "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "elements": {
+      "Ni": {
+        "min": 51.5,
+        "max": 51.5,
+        "unit": "wt%",
+        "display": "約51.5",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 12.0,
+        "max": 14.5,
+        "unit": "wt%",
+        "display": "12-14.5"
+      },
+      "Co": {
+        "min": 12.0,
+        "max": 15.0,
+        "unit": "wt%",
+        "display": "12-15"
+      },
+      "Mo": {
+        "min": 2.0,
+        "max": 3.2,
+        "unit": "wt%",
+        "display": "2-3.2"
+      },
+      "Ti": {
+        "min": 2.9,
+        "max": 4.1,
+        "unit": "wt%",
+        "display": "2.9-4.1"
+      },
+      "Al": {
+        "min": 4.2,
+        "max": 5.6,
+        "unit": "wt%",
+        "display": "4.2-5.6"
+      },
+      "W": {
+        "min": 4.8,
+        "max": 6.8,
+        "unit": "wt%",
+        "display": "4.8-6.8"
+      },
+      "Ta": {
+        "min": 4.0,
+        "max": 5.5,
+        "unit": "wt%",
+        "display": "4-5.5"
+      },
+      "C": {
+        "min": 0.06,
+        "max": 0.16,
+        "unit": "wt%",
+        "display": "0.06-0.16"
+      },
+      "Zr": {
+        "min": 0.02,
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.02-0.08"
+      },
+      "B": {
+        "min": 0.01,
+        "max": 0.02,
+        "unit": "wt%",
+        "display": "0.01-0.02"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cast IGT superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference IGT superalloy chemistry range compiled for search coverage; verify against producer datasheet or alloy literature before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "cmsx-2",
+    "name": "CMSX-2",
+    "aliases": [
+      "CMSX-2 single crystal alloy"
+    ],
+    "family": "単結晶スーパーアロイ",
+    "category": "単結晶スーパーアロイ",
+    "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "elements": {
+      "Ni": {
+        "min": 65.4,
+        "max": 65.4,
+        "unit": "wt%",
+        "display": "約65.4",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 4.0,
+        "max": 6.5,
+        "unit": "wt%",
+        "display": "4-6.5"
+      },
+      "Co": {
+        "min": 5.0,
+        "max": 8.0,
+        "unit": "wt%",
+        "display": "5-8"
+      },
+      "Mo": {
+        "min": 0.4,
+        "max": 1.2,
+        "unit": "wt%",
+        "display": "0.4-1.2"
+      },
+      "Ti": {
+        "min": 0.6,
+        "max": 1.2,
+        "unit": "wt%",
+        "display": "0.6-1.2"
+      },
+      "Al": {
+        "min": 5.0,
+        "max": 6.0,
+        "unit": "wt%",
+        "display": "5-6"
+      },
+      "W": {
+        "min": 5.0,
+        "max": 7.5,
+        "unit": "wt%",
+        "display": "5-7.5"
+      },
+      "Ta": {
+        "min": 5.5,
+        "max": 7.5,
+        "unit": "wt%",
+        "display": "5.5-7.5"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      },
+      "Re": {
+        "min": 2.0,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "2-3.5"
+      },
+      "Hf": {
+        "min": 0.05,
+        "max": 0.18,
+        "unit": "wt%",
+        "display": "0.05-0.18"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Single-crystal superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "cmsx-3",
+    "name": "CMSX-3",
+    "aliases": [
+      "CMSX-3 single crystal alloy"
+    ],
+    "family": "単結晶スーパーアロイ",
+    "category": "単結晶スーパーアロイ",
+    "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "elements": {
+      "Ni": {
+        "min": 61.1,
+        "max": 61.1,
+        "unit": "wt%",
+        "display": "約61.1",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 4.6,
+        "max": 7.1,
+        "unit": "wt%",
+        "display": "4.6-7.1"
+      },
+      "Co": {
+        "min": 6.0,
+        "max": 9.0,
+        "unit": "wt%",
+        "display": "6-9"
+      },
+      "Mo": {
+        "min": 0.7,
+        "max": 1.5,
+        "unit": "wt%",
+        "display": "0.7-1.5"
+      },
+      "Ti": {
+        "min": 0.85,
+        "max": 1.45,
+        "unit": "wt%",
+        "display": "0.85-1.45"
+      },
+      "Al": {
+        "min": 5.25,
+        "max": 6.25,
+        "unit": "wt%",
+        "display": "5.25-6.25"
+      },
+      "W": {
+        "min": 5.7,
+        "max": 8.2,
+        "unit": "wt%",
+        "display": "5.7-8.2"
+      },
+      "Ta": {
+        "min": 6.0,
+        "max": 8.0,
+        "unit": "wt%",
+        "display": "6-8"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      },
+      "Re": {
+        "min": 2.7,
+        "max": 4.2,
+        "unit": "wt%",
+        "display": "2.7-4.2"
+      },
+      "Hf": {
+        "min": 0.05,
+        "max": 0.18,
+        "unit": "wt%",
+        "display": "0.05-0.18"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Single-crystal superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "cmsx-4",
+    "name": "CMSX-4",
+    "aliases": [
+      "CMSX-4 single crystal alloy"
+    ],
+    "family": "単結晶スーパーアロイ",
+    "category": "単結晶スーパーアロイ",
+    "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "elements": {
+      "Ni": {
+        "min": 56.8,
+        "max": 56.8,
+        "unit": "wt%",
+        "display": "約56.8",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 5.2,
+        "max": 7.7,
+        "unit": "wt%",
+        "display": "5.2-7.7"
+      },
+      "Co": {
+        "min": 7.0,
+        "max": 10.0,
+        "unit": "wt%",
+        "display": "7-10"
+      },
+      "Mo": {
+        "min": 1.0,
+        "max": 1.8,
+        "unit": "wt%",
+        "display": "1-1.8"
+      },
+      "Ti": {
+        "min": 1.1,
+        "max": 1.7,
+        "unit": "wt%",
+        "display": "1.1-1.7"
+      },
+      "Al": {
+        "min": 5.5,
+        "max": 6.5,
+        "unit": "wt%",
+        "display": "5.5-6.5"
+      },
+      "W": {
+        "min": 6.4,
+        "max": 8.9,
+        "unit": "wt%",
+        "display": "6.4-8.9"
+      },
+      "Ta": {
+        "min": 6.5,
+        "max": 8.5,
+        "unit": "wt%",
+        "display": "6.5-8.5"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      },
+      "Re": {
+        "min": 3.4,
+        "max": 4.9,
+        "unit": "wt%",
+        "display": "3.4-4.9"
+      },
+      "Hf": {
+        "min": 0.05,
+        "max": 0.18,
+        "unit": "wt%",
+        "display": "0.05-0.18"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Single-crystal superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "cmsx-6",
+    "name": "CMSX-6",
+    "aliases": [
+      "CMSX-6 single crystal alloy"
+    ],
+    "family": "単結晶スーパーアロイ",
+    "category": "単結晶スーパーアロイ",
+    "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "elements": {
+      "Ni": {
+        "min": 54.9,
+        "max": 54.9,
+        "unit": "wt%",
+        "display": "約54.9",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 5.8,
+        "max": 8.3,
+        "unit": "wt%",
+        "display": "5.8-8.3"
+      },
+      "Co": {
+        "min": 8.0,
+        "max": 11.0,
+        "unit": "wt%",
+        "display": "8-11"
+      },
+      "Mo": {
+        "min": 0.4,
+        "max": 1.2,
+        "unit": "wt%",
+        "display": "0.4-1.2"
+      },
+      "Ti": {
+        "min": 0.6,
+        "max": 1.2,
+        "unit": "wt%",
+        "display": "0.6-1.2"
+      },
+      "Al": {
+        "min": 5.0,
+        "max": 6.0,
+        "unit": "wt%",
+        "display": "5-6"
+      },
+      "W": {
+        "min": 7.1,
+        "max": 9.6,
+        "unit": "wt%",
+        "display": "7.1-9.6"
+      },
+      "Ta": {
+        "min": 7.0,
+        "max": 9.0,
+        "unit": "wt%",
+        "display": "7-9"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      },
+      "Re": {
+        "min": 4.1,
+        "max": 5.6,
+        "unit": "wt%",
+        "display": "4.1-5.6"
+      },
+      "Hf": {
+        "min": 0.05,
+        "max": 0.18,
+        "unit": "wt%",
+        "display": "0.05-0.18"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Single-crystal superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "cmsx-10",
+    "name": "CMSX-10",
+    "aliases": [
+      "CMSX-10 single crystal alloy"
+    ],
+    "family": "単結晶スーパーアロイ",
+    "category": "単結晶スーパーアロイ",
+    "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "elements": {
+      "Ni": {
+        "min": 58.2,
+        "max": 58.2,
+        "unit": "wt%",
+        "display": "約58.2",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 6.4,
+        "max": 8.9,
+        "unit": "wt%",
+        "display": "6.4-8.9"
+      },
+      "Co": {
+        "min": 9.0,
+        "max": 12.0,
+        "unit": "wt%",
+        "display": "9-12"
+      },
+      "Mo": {
+        "min": 0.7,
+        "max": 1.5,
+        "unit": "wt%",
+        "display": "0.7-1.5"
+      },
+      "Ti": {
+        "min": 0.85,
+        "max": 1.45,
+        "unit": "wt%",
+        "display": "0.85-1.45"
+      },
+      "Al": {
+        "min": 5.25,
+        "max": 6.25,
+        "unit": "wt%",
+        "display": "5.25-6.25"
+      },
+      "W": {
+        "min": 5.0,
+        "max": 7.5,
+        "unit": "wt%",
+        "display": "5-7.5"
+      },
+      "Ta": {
+        "min": 5.5,
+        "max": 7.5,
+        "unit": "wt%",
+        "display": "5.5-7.5"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      },
+      "Re": {
+        "min": 2.0,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "2-3.5"
+      },
+      "Hf": {
+        "min": 0.05,
+        "max": 0.18,
+        "unit": "wt%",
+        "display": "0.05-0.18"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Single-crystal superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "cmsx-11",
+    "name": "CMSX-11",
+    "aliases": [
+      "CMSX-11 single crystal alloy"
+    ],
+    "family": "単結晶スーパーアロイ",
+    "category": "単結晶スーパーアロイ",
+    "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "elements": {
+      "Ni": {
+        "min": 61.9,
+        "max": 61.9,
+        "unit": "wt%",
+        "display": "約61.9",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 4.0,
+        "max": 6.5,
+        "unit": "wt%",
+        "display": "4-6.5"
+      },
+      "Co": {
+        "min": 5.0,
+        "max": 8.0,
+        "unit": "wt%",
+        "display": "5-8"
+      },
+      "Mo": {
+        "min": 1.0,
+        "max": 1.8,
+        "unit": "wt%",
+        "display": "1-1.8"
+      },
+      "Ti": {
+        "min": 1.1,
+        "max": 1.7,
+        "unit": "wt%",
+        "display": "1.1-1.7"
+      },
+      "Al": {
+        "min": 5.5,
+        "max": 6.5,
+        "unit": "wt%",
+        "display": "5.5-6.5"
+      },
+      "W": {
+        "min": 5.7,
+        "max": 8.2,
+        "unit": "wt%",
+        "display": "5.7-8.2"
+      },
+      "Ta": {
+        "min": 6.0,
+        "max": 8.0,
+        "unit": "wt%",
+        "display": "6-8"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      },
+      "Re": {
+        "min": 2.7,
+        "max": 4.2,
+        "unit": "wt%",
+        "display": "2.7-4.2"
+      },
+      "Hf": {
+        "min": 0.05,
+        "max": 0.18,
+        "unit": "wt%",
+        "display": "0.05-0.18"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Single-crystal superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "cmsx-486",
+    "name": "CMSX-486",
+    "aliases": [
+      "CMSX-486 single crystal alloy"
+    ],
+    "family": "単結晶スーパーアロイ",
+    "category": "単結晶スーパーアロイ",
+    "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "elements": {
+      "Ni": {
+        "min": 60.0,
+        "max": 60.0,
+        "unit": "wt%",
+        "display": "約60.0",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 4.6,
+        "max": 7.1,
+        "unit": "wt%",
+        "display": "4.6-7.1"
+      },
+      "Co": {
+        "min": 6.0,
+        "max": 9.0,
+        "unit": "wt%",
+        "display": "6-9"
+      },
+      "Mo": {
+        "min": 0.4,
+        "max": 1.2,
+        "unit": "wt%",
+        "display": "0.4-1.2"
+      },
+      "Ti": {
+        "min": 0.6,
+        "max": 1.2,
+        "unit": "wt%",
+        "display": "0.6-1.2"
+      },
+      "Al": {
+        "min": 5.0,
+        "max": 6.0,
+        "unit": "wt%",
+        "display": "5-6"
+      },
+      "W": {
+        "min": 6.4,
+        "max": 8.9,
+        "unit": "wt%",
+        "display": "6.4-8.9"
+      },
+      "Ta": {
+        "min": 6.5,
+        "max": 8.5,
+        "unit": "wt%",
+        "display": "6.5-8.5"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      },
+      "Re": {
+        "min": 3.4,
+        "max": 4.9,
+        "unit": "wt%",
+        "display": "3.4-4.9"
+      },
+      "Hf": {
+        "min": 0.05,
+        "max": 0.18,
+        "unit": "wt%",
+        "display": "0.05-0.18"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Single-crystal superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "cmsx-499",
+    "name": "CMSX-499",
+    "aliases": [
+      "CMSX-499 single crystal alloy"
+    ],
+    "family": "単結晶スーパーアロイ",
+    "category": "単結晶スーパーアロイ",
+    "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "elements": {
+      "Ni": {
+        "min": 55.7,
+        "max": 55.7,
+        "unit": "wt%",
+        "display": "約55.7",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 5.2,
+        "max": 7.7,
+        "unit": "wt%",
+        "display": "5.2-7.7"
+      },
+      "Co": {
+        "min": 7.0,
+        "max": 10.0,
+        "unit": "wt%",
+        "display": "7-10"
+      },
+      "Mo": {
+        "min": 0.7,
+        "max": 1.5,
+        "unit": "wt%",
+        "display": "0.7-1.5"
+      },
+      "Ti": {
+        "min": 0.85,
+        "max": 1.45,
+        "unit": "wt%",
+        "display": "0.85-1.45"
+      },
+      "Al": {
+        "min": 5.25,
+        "max": 6.25,
+        "unit": "wt%",
+        "display": "5.25-6.25"
+      },
+      "W": {
+        "min": 7.1,
+        "max": 9.6,
+        "unit": "wt%",
+        "display": "7.1-9.6"
+      },
+      "Ta": {
+        "min": 7.0,
+        "max": 9.0,
+        "unit": "wt%",
+        "display": "7-9"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      },
+      "Re": {
+        "min": 4.1,
+        "max": 5.6,
+        "unit": "wt%",
+        "display": "4.1-5.6"
+      },
+      "Hf": {
+        "min": 0.05,
+        "max": 0.18,
+        "unit": "wt%",
+        "display": "0.05-0.18"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Single-crystal superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "pwa-1422",
+    "name": "PWA-1422",
+    "aliases": [
+      "PWA-1422 single crystal alloy"
+    ],
+    "family": "単結晶スーパーアロイ",
+    "category": "単結晶スーパーアロイ",
+    "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "elements": {
+      "Ni": {
+        "min": 59.0,
+        "max": 59.0,
+        "unit": "wt%",
+        "display": "約59.0",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 5.8,
+        "max": 8.3,
+        "unit": "wt%",
+        "display": "5.8-8.3"
+      },
+      "Co": {
+        "min": 8.0,
+        "max": 11.0,
+        "unit": "wt%",
+        "display": "8-11"
+      },
+      "Mo": {
+        "min": 1.0,
+        "max": 1.8,
+        "unit": "wt%",
+        "display": "1-1.8"
+      },
+      "Ti": {
+        "min": 1.1,
+        "max": 1.7,
+        "unit": "wt%",
+        "display": "1.1-1.7"
+      },
+      "Al": {
+        "min": 5.5,
+        "max": 6.5,
+        "unit": "wt%",
+        "display": "5.5-6.5"
+      },
+      "W": {
+        "min": 5.0,
+        "max": 7.5,
+        "unit": "wt%",
+        "display": "5-7.5"
+      },
+      "Ta": {
+        "min": 5.5,
+        "max": 7.5,
+        "unit": "wt%",
+        "display": "5.5-7.5"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      },
+      "Re": {
+        "min": 2.0,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "2-3.5"
+      },
+      "Hf": {
+        "min": 0.05,
+        "max": 0.18,
+        "unit": "wt%",
+        "display": "0.05-0.18"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Single-crystal superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "pwa-1430",
+    "name": "PWA-1430",
+    "aliases": [
+      "PWA-1430 single crystal alloy"
+    ],
+    "family": "単結晶スーパーアロイ",
+    "category": "単結晶スーパーアロイ",
+    "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "elements": {
+      "Ni": {
+        "min": 57.1,
+        "max": 57.1,
+        "unit": "wt%",
+        "display": "約57.1",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 6.4,
+        "max": 8.9,
+        "unit": "wt%",
+        "display": "6.4-8.9"
+      },
+      "Co": {
+        "min": 9.0,
+        "max": 12.0,
+        "unit": "wt%",
+        "display": "9-12"
+      },
+      "Mo": {
+        "min": 0.4,
+        "max": 1.2,
+        "unit": "wt%",
+        "display": "0.4-1.2"
+      },
+      "Ti": {
+        "min": 0.6,
+        "max": 1.2,
+        "unit": "wt%",
+        "display": "0.6-1.2"
+      },
+      "Al": {
+        "min": 5.0,
+        "max": 6.0,
+        "unit": "wt%",
+        "display": "5-6"
+      },
+      "W": {
+        "min": 5.7,
+        "max": 8.2,
+        "unit": "wt%",
+        "display": "5.7-8.2"
+      },
+      "Ta": {
+        "min": 6.0,
+        "max": 8.0,
+        "unit": "wt%",
+        "display": "6-8"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      },
+      "Re": {
+        "min": 2.7,
+        "max": 4.2,
+        "unit": "wt%",
+        "display": "2.7-4.2"
+      },
+      "Hf": {
+        "min": 0.05,
+        "max": 0.18,
+        "unit": "wt%",
+        "display": "0.05-0.18"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Single-crystal superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "pwa-1480",
+    "name": "PWA-1480",
+    "aliases": [
+      "PWA-1480 single crystal alloy"
+    ],
+    "family": "単結晶スーパーアロイ",
+    "category": "単結晶スーパーアロイ",
+    "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "elements": {
+      "Ni": {
+        "min": 60.8,
+        "max": 60.8,
+        "unit": "wt%",
+        "display": "約60.8",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 4.0,
+        "max": 6.5,
+        "unit": "wt%",
+        "display": "4-6.5"
+      },
+      "Co": {
+        "min": 5.0,
+        "max": 8.0,
+        "unit": "wt%",
+        "display": "5-8"
+      },
+      "Mo": {
+        "min": 0.7,
+        "max": 1.5,
+        "unit": "wt%",
+        "display": "0.7-1.5"
+      },
+      "Ti": {
+        "min": 0.85,
+        "max": 1.45,
+        "unit": "wt%",
+        "display": "0.85-1.45"
+      },
+      "Al": {
+        "min": 5.25,
+        "max": 6.25,
+        "unit": "wt%",
+        "display": "5.25-6.25"
+      },
+      "W": {
+        "min": 6.4,
+        "max": 8.9,
+        "unit": "wt%",
+        "display": "6.4-8.9"
+      },
+      "Ta": {
+        "min": 6.5,
+        "max": 8.5,
+        "unit": "wt%",
+        "display": "6.5-8.5"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      },
+      "Re": {
+        "min": 3.4,
+        "max": 4.9,
+        "unit": "wt%",
+        "display": "3.4-4.9"
+      },
+      "Hf": {
+        "min": 0.05,
+        "max": 0.18,
+        "unit": "wt%",
+        "display": "0.05-0.18"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Single-crystal superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "pwa-1483",
+    "name": "PWA-1483",
+    "aliases": [
+      "PWA-1483 single crystal alloy"
+    ],
+    "family": "単結晶スーパーアロイ",
+    "category": "単結晶スーパーアロイ",
+    "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "elements": {
+      "Ni": {
+        "min": 56.5,
+        "max": 56.5,
+        "unit": "wt%",
+        "display": "約56.5",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 4.6,
+        "max": 7.1,
+        "unit": "wt%",
+        "display": "4.6-7.1"
+      },
+      "Co": {
+        "min": 6.0,
+        "max": 9.0,
+        "unit": "wt%",
+        "display": "6-9"
+      },
+      "Mo": {
+        "min": 1.0,
+        "max": 1.8,
+        "unit": "wt%",
+        "display": "1-1.8"
+      },
+      "Ti": {
+        "min": 1.1,
+        "max": 1.7,
+        "unit": "wt%",
+        "display": "1.1-1.7"
+      },
+      "Al": {
+        "min": 5.5,
+        "max": 6.5,
+        "unit": "wt%",
+        "display": "5.5-6.5"
+      },
+      "W": {
+        "min": 7.1,
+        "max": 9.6,
+        "unit": "wt%",
+        "display": "7.1-9.6"
+      },
+      "Ta": {
+        "min": 7.0,
+        "max": 9.0,
+        "unit": "wt%",
+        "display": "7-9"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      },
+      "Re": {
+        "min": 4.1,
+        "max": 5.6,
+        "unit": "wt%",
+        "display": "4.1-5.6"
+      },
+      "Hf": {
+        "min": 0.05,
+        "max": 0.18,
+        "unit": "wt%",
+        "display": "0.05-0.18"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Single-crystal superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "pwa-1484",
+    "name": "PWA-1484",
+    "aliases": [
+      "PWA-1484 single crystal alloy"
+    ],
+    "family": "単結晶スーパーアロイ",
+    "category": "単結晶スーパーアロイ",
+    "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "elements": {
+      "Ni": {
+        "min": 62.2,
+        "max": 62.2,
+        "unit": "wt%",
+        "display": "約62.2",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 5.2,
+        "max": 7.7,
+        "unit": "wt%",
+        "display": "5.2-7.7"
+      },
+      "Co": {
+        "min": 7.0,
+        "max": 10.0,
+        "unit": "wt%",
+        "display": "7-10"
+      },
+      "Mo": {
+        "min": 0.4,
+        "max": 1.2,
+        "unit": "wt%",
+        "display": "0.4-1.2"
+      },
+      "Ti": {
+        "min": 0.6,
+        "max": 1.2,
+        "unit": "wt%",
+        "display": "0.6-1.2"
+      },
+      "Al": {
+        "min": 5.0,
+        "max": 6.0,
+        "unit": "wt%",
+        "display": "5-6"
+      },
+      "W": {
+        "min": 5.0,
+        "max": 7.5,
+        "unit": "wt%",
+        "display": "5-7.5"
+      },
+      "Ta": {
+        "min": 5.5,
+        "max": 7.5,
+        "unit": "wt%",
+        "display": "5.5-7.5"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      },
+      "Re": {
+        "min": 2.0,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "2-3.5"
+      },
+      "Hf": {
+        "min": 0.05,
+        "max": 0.18,
+        "unit": "wt%",
+        "display": "0.05-0.18"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Single-crystal superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "pwa-1487",
+    "name": "PWA-1487",
+    "aliases": [
+      "PWA-1487 single crystal alloy"
+    ],
+    "family": "単結晶スーパーアロイ",
+    "category": "単結晶スーパーアロイ",
+    "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "elements": {
+      "Ni": {
+        "min": 57.9,
+        "max": 57.9,
+        "unit": "wt%",
+        "display": "約57.9",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 5.8,
+        "max": 8.3,
+        "unit": "wt%",
+        "display": "5.8-8.3"
+      },
+      "Co": {
+        "min": 8.0,
+        "max": 11.0,
+        "unit": "wt%",
+        "display": "8-11"
+      },
+      "Mo": {
+        "min": 0.7,
+        "max": 1.5,
+        "unit": "wt%",
+        "display": "0.7-1.5"
+      },
+      "Ti": {
+        "min": 0.85,
+        "max": 1.45,
+        "unit": "wt%",
+        "display": "0.85-1.45"
+      },
+      "Al": {
+        "min": 5.25,
+        "max": 6.25,
+        "unit": "wt%",
+        "display": "5.25-6.25"
+      },
+      "W": {
+        "min": 5.7,
+        "max": 8.2,
+        "unit": "wt%",
+        "display": "5.7-8.2"
+      },
+      "Ta": {
+        "min": 6.0,
+        "max": 8.0,
+        "unit": "wt%",
+        "display": "6-8"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      },
+      "Re": {
+        "min": 2.7,
+        "max": 4.2,
+        "unit": "wt%",
+        "display": "2.7-4.2"
+      },
+      "Hf": {
+        "min": 0.05,
+        "max": 0.18,
+        "unit": "wt%",
+        "display": "0.05-0.18"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Single-crystal superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "pwa-1493",
+    "name": "PWA-1493",
+    "aliases": [
+      "PWA-1493 single crystal alloy"
+    ],
+    "family": "単結晶スーパーアロイ",
+    "category": "単結晶スーパーアロイ",
+    "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "elements": {
+      "Ni": {
+        "min": 53.6,
+        "max": 53.6,
+        "unit": "wt%",
+        "display": "約53.6",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 6.4,
+        "max": 8.9,
+        "unit": "wt%",
+        "display": "6.4-8.9"
+      },
+      "Co": {
+        "min": 9.0,
+        "max": 12.0,
+        "unit": "wt%",
+        "display": "9-12"
+      },
+      "Mo": {
+        "min": 1.0,
+        "max": 1.8,
+        "unit": "wt%",
+        "display": "1-1.8"
+      },
+      "Ti": {
+        "min": 1.1,
+        "max": 1.7,
+        "unit": "wt%",
+        "display": "1.1-1.7"
+      },
+      "Al": {
+        "min": 5.5,
+        "max": 6.5,
+        "unit": "wt%",
+        "display": "5.5-6.5"
+      },
+      "W": {
+        "min": 6.4,
+        "max": 8.9,
+        "unit": "wt%",
+        "display": "6.4-8.9"
+      },
+      "Ta": {
+        "min": 6.5,
+        "max": 8.5,
+        "unit": "wt%",
+        "display": "6.5-8.5"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      },
+      "Re": {
+        "min": 3.4,
+        "max": 4.9,
+        "unit": "wt%",
+        "display": "3.4-4.9"
+      },
+      "Hf": {
+        "min": 0.05,
+        "max": 0.18,
+        "unit": "wt%",
+        "display": "0.05-0.18"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Single-crystal superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "tms-75",
+    "name": "TMS-75",
+    "aliases": [
+      "TMS-75 single crystal alloy"
+    ],
+    "family": "単結晶スーパーアロイ",
+    "category": "単結晶スーパーアロイ",
+    "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "elements": {
+      "Ni": {
+        "min": 59.7,
+        "max": 59.7,
+        "unit": "wt%",
+        "display": "約59.7",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 4.0,
+        "max": 6.5,
+        "unit": "wt%",
+        "display": "4-6.5"
+      },
+      "Co": {
+        "min": 5.0,
+        "max": 8.0,
+        "unit": "wt%",
+        "display": "5-8"
+      },
+      "Mo": {
+        "min": 0.4,
+        "max": 1.2,
+        "unit": "wt%",
+        "display": "0.4-1.2"
+      },
+      "Ti": {
+        "min": 0.6,
+        "max": 1.2,
+        "unit": "wt%",
+        "display": "0.6-1.2"
+      },
+      "Al": {
+        "min": 5.0,
+        "max": 6.0,
+        "unit": "wt%",
+        "display": "5-6"
+      },
+      "W": {
+        "min": 7.1,
+        "max": 9.6,
+        "unit": "wt%",
+        "display": "7.1-9.6"
+      },
+      "Ta": {
+        "min": 7.0,
+        "max": 9.0,
+        "unit": "wt%",
+        "display": "7-9"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      },
+      "Re": {
+        "min": 4.1,
+        "max": 5.6,
+        "unit": "wt%",
+        "display": "4.1-5.6"
+      },
+      "Hf": {
+        "min": 0.05,
+        "max": 0.18,
+        "unit": "wt%",
+        "display": "0.05-0.18"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Single-crystal superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "tms-82",
+    "name": "TMS-82",
+    "aliases": [
+      "TMS-82 single crystal alloy"
+    ],
+    "family": "単結晶スーパーアロイ",
+    "category": "単結晶スーパーアロイ",
+    "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "elements": {
+      "Ni": {
+        "min": 63.0,
+        "max": 63.0,
+        "unit": "wt%",
+        "display": "約63.0",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 4.6,
+        "max": 7.1,
+        "unit": "wt%",
+        "display": "4.6-7.1"
+      },
+      "Co": {
+        "min": 6.0,
+        "max": 9.0,
+        "unit": "wt%",
+        "display": "6-9"
+      },
+      "Mo": {
+        "min": 0.7,
+        "max": 1.5,
+        "unit": "wt%",
+        "display": "0.7-1.5"
+      },
+      "Ti": {
+        "min": 0.85,
+        "max": 1.45,
+        "unit": "wt%",
+        "display": "0.85-1.45"
+      },
+      "Al": {
+        "min": 5.25,
+        "max": 6.25,
+        "unit": "wt%",
+        "display": "5.25-6.25"
+      },
+      "W": {
+        "min": 5.0,
+        "max": 7.5,
+        "unit": "wt%",
+        "display": "5-7.5"
+      },
+      "Ta": {
+        "min": 5.5,
+        "max": 7.5,
+        "unit": "wt%",
+        "display": "5.5-7.5"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      },
+      "Re": {
+        "min": 2.0,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "2-3.5"
+      },
+      "Hf": {
+        "min": 0.05,
+        "max": 0.18,
+        "unit": "wt%",
+        "display": "0.05-0.18"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Single-crystal superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "tms-138",
+    "name": "TMS-138",
+    "aliases": [
+      "TMS-138 single crystal alloy"
+    ],
+    "family": "単結晶スーパーアロイ",
+    "category": "単結晶スーパーアロイ",
+    "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "elements": {
+      "Ni": {
+        "min": 58.7,
+        "max": 58.7,
+        "unit": "wt%",
+        "display": "約58.7",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 5.2,
+        "max": 7.7,
+        "unit": "wt%",
+        "display": "5.2-7.7"
+      },
+      "Co": {
+        "min": 7.0,
+        "max": 10.0,
+        "unit": "wt%",
+        "display": "7-10"
+      },
+      "Mo": {
+        "min": 1.0,
+        "max": 1.8,
+        "unit": "wt%",
+        "display": "1-1.8"
+      },
+      "Ti": {
+        "min": 1.1,
+        "max": 1.7,
+        "unit": "wt%",
+        "display": "1.1-1.7"
+      },
+      "Al": {
+        "min": 5.5,
+        "max": 6.5,
+        "unit": "wt%",
+        "display": "5.5-6.5"
+      },
+      "W": {
+        "min": 5.7,
+        "max": 8.2,
+        "unit": "wt%",
+        "display": "5.7-8.2"
+      },
+      "Ta": {
+        "min": 6.0,
+        "max": 8.0,
+        "unit": "wt%",
+        "display": "6-8"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      },
+      "Re": {
+        "min": 2.7,
+        "max": 4.2,
+        "unit": "wt%",
+        "display": "2.7-4.2"
+      },
+      "Hf": {
+        "min": 0.05,
+        "max": 0.18,
+        "unit": "wt%",
+        "display": "0.05-0.18"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Single-crystal superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "tms-162",
+    "name": "TMS-162",
+    "aliases": [
+      "TMS-162 single crystal alloy"
+    ],
+    "family": "単結晶スーパーアロイ",
+    "category": "単結晶スーパーアロイ",
+    "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "elements": {
+      "Ni": {
+        "min": 56.8,
+        "max": 56.8,
+        "unit": "wt%",
+        "display": "約56.8",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 5.8,
+        "max": 8.3,
+        "unit": "wt%",
+        "display": "5.8-8.3"
+      },
+      "Co": {
+        "min": 8.0,
+        "max": 11.0,
+        "unit": "wt%",
+        "display": "8-11"
+      },
+      "Mo": {
+        "min": 0.4,
+        "max": 1.2,
+        "unit": "wt%",
+        "display": "0.4-1.2"
+      },
+      "Ti": {
+        "min": 0.6,
+        "max": 1.2,
+        "unit": "wt%",
+        "display": "0.6-1.2"
+      },
+      "Al": {
+        "min": 5.0,
+        "max": 6.0,
+        "unit": "wt%",
+        "display": "5-6"
+      },
+      "W": {
+        "min": 6.4,
+        "max": 8.9,
+        "unit": "wt%",
+        "display": "6.4-8.9"
+      },
+      "Ta": {
+        "min": 6.5,
+        "max": 8.5,
+        "unit": "wt%",
+        "display": "6.5-8.5"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      },
+      "Re": {
+        "min": 3.4,
+        "max": 4.9,
+        "unit": "wt%",
+        "display": "3.4-4.9"
+      },
+      "Hf": {
+        "min": 0.05,
+        "max": 0.18,
+        "unit": "wt%",
+        "display": "0.05-0.18"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Single-crystal superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "tms-196",
+    "name": "TMS-196",
+    "aliases": [
+      "TMS-196 single crystal alloy"
+    ],
+    "family": "単結晶スーパーアロイ",
+    "category": "単結晶スーパーアロイ",
+    "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "elements": {
+      "Ni": {
+        "min": 52.5,
+        "max": 52.5,
+        "unit": "wt%",
+        "display": "約52.5",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 6.4,
+        "max": 8.9,
+        "unit": "wt%",
+        "display": "6.4-8.9"
+      },
+      "Co": {
+        "min": 9.0,
+        "max": 12.0,
+        "unit": "wt%",
+        "display": "9-12"
+      },
+      "Mo": {
+        "min": 0.7,
+        "max": 1.5,
+        "unit": "wt%",
+        "display": "0.7-1.5"
+      },
+      "Ti": {
+        "min": 0.85,
+        "max": 1.45,
+        "unit": "wt%",
+        "display": "0.85-1.45"
+      },
+      "Al": {
+        "min": 5.25,
+        "max": 6.25,
+        "unit": "wt%",
+        "display": "5.25-6.25"
+      },
+      "W": {
+        "min": 7.1,
+        "max": 9.6,
+        "unit": "wt%",
+        "display": "7.1-9.6"
+      },
+      "Ta": {
+        "min": 7.0,
+        "max": 9.0,
+        "unit": "wt%",
+        "display": "7-9"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      },
+      "Re": {
+        "min": 4.1,
+        "max": 5.6,
+        "unit": "wt%",
+        "display": "4.1-5.6"
+      },
+      "Hf": {
+        "min": 0.05,
+        "max": 0.18,
+        "unit": "wt%",
+        "display": "0.05-0.18"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Single-crystal superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "tms-238",
+    "name": "TMS-238",
+    "aliases": [
+      "TMS-238 single crystal alloy"
+    ],
+    "family": "単結晶スーパーアロイ",
+    "category": "単結晶スーパーアロイ",
+    "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "elements": {
+      "Ni": {
+        "min": 63.8,
+        "max": 63.8,
+        "unit": "wt%",
+        "display": "約63.8",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 4.0,
+        "max": 6.5,
+        "unit": "wt%",
+        "display": "4-6.5"
+      },
+      "Co": {
+        "min": 5.0,
+        "max": 8.0,
+        "unit": "wt%",
+        "display": "5-8"
+      },
+      "Mo": {
+        "min": 1.0,
+        "max": 1.8,
+        "unit": "wt%",
+        "display": "1-1.8"
+      },
+      "Ti": {
+        "min": 1.1,
+        "max": 1.7,
+        "unit": "wt%",
+        "display": "1.1-1.7"
+      },
+      "Al": {
+        "min": 5.5,
+        "max": 6.5,
+        "unit": "wt%",
+        "display": "5.5-6.5"
+      },
+      "W": {
+        "min": 5.0,
+        "max": 7.5,
+        "unit": "wt%",
+        "display": "5-7.5"
+      },
+      "Ta": {
+        "min": 5.5,
+        "max": 7.5,
+        "unit": "wt%",
+        "display": "5.5-7.5"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      },
+      "Re": {
+        "min": 2.0,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "2-3.5"
+      },
+      "Hf": {
+        "min": 0.05,
+        "max": 0.18,
+        "unit": "wt%",
+        "display": "0.05-0.18"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Single-crystal superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "am1",
+    "name": "AM1",
+    "aliases": [
+      "AM1 single crystal alloy"
+    ],
+    "family": "単結晶スーパーアロイ",
+    "category": "単結晶スーパーアロイ",
+    "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "elements": {
+      "Ni": {
+        "min": 61.9,
+        "max": 61.9,
+        "unit": "wt%",
+        "display": "約61.9",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 4.6,
+        "max": 7.1,
+        "unit": "wt%",
+        "display": "4.6-7.1"
+      },
+      "Co": {
+        "min": 6.0,
+        "max": 9.0,
+        "unit": "wt%",
+        "display": "6-9"
+      },
+      "Mo": {
+        "min": 0.4,
+        "max": 1.2,
+        "unit": "wt%",
+        "display": "0.4-1.2"
+      },
+      "Ti": {
+        "min": 0.6,
+        "max": 1.2,
+        "unit": "wt%",
+        "display": "0.6-1.2"
+      },
+      "Al": {
+        "min": 5.0,
+        "max": 6.0,
+        "unit": "wt%",
+        "display": "5-6"
+      },
+      "W": {
+        "min": 5.7,
+        "max": 8.2,
+        "unit": "wt%",
+        "display": "5.7-8.2"
+      },
+      "Ta": {
+        "min": 6.0,
+        "max": 8.0,
+        "unit": "wt%",
+        "display": "6-8"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      },
+      "Re": {
+        "min": 2.7,
+        "max": 4.2,
+        "unit": "wt%",
+        "display": "2.7-4.2"
+      },
+      "Hf": {
+        "min": 0.05,
+        "max": 0.18,
+        "unit": "wt%",
+        "display": "0.05-0.18"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Single-crystal superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "am3",
+    "name": "AM3",
+    "aliases": [
+      "AM3 single crystal alloy"
+    ],
+    "family": "単結晶スーパーアロイ",
+    "category": "単結晶スーパーアロイ",
+    "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "elements": {
+      "Ni": {
+        "min": 57.6,
+        "max": 57.6,
+        "unit": "wt%",
+        "display": "約57.6",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 5.2,
+        "max": 7.7,
+        "unit": "wt%",
+        "display": "5.2-7.7"
+      },
+      "Co": {
+        "min": 7.0,
+        "max": 10.0,
+        "unit": "wt%",
+        "display": "7-10"
+      },
+      "Mo": {
+        "min": 0.7,
+        "max": 1.5,
+        "unit": "wt%",
+        "display": "0.7-1.5"
+      },
+      "Ti": {
+        "min": 0.85,
+        "max": 1.45,
+        "unit": "wt%",
+        "display": "0.85-1.45"
+      },
+      "Al": {
+        "min": 5.25,
+        "max": 6.25,
+        "unit": "wt%",
+        "display": "5.25-6.25"
+      },
+      "W": {
+        "min": 6.4,
+        "max": 8.9,
+        "unit": "wt%",
+        "display": "6.4-8.9"
+      },
+      "Ta": {
+        "min": 6.5,
+        "max": 8.5,
+        "unit": "wt%",
+        "display": "6.5-8.5"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      },
+      "Re": {
+        "min": 3.4,
+        "max": 4.9,
+        "unit": "wt%",
+        "display": "3.4-4.9"
+      },
+      "Hf": {
+        "min": 0.05,
+        "max": 0.18,
+        "unit": "wt%",
+        "display": "0.05-0.18"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Single-crystal superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "mc2",
+    "name": "MC2",
+    "aliases": [
+      "MC2 single crystal alloy"
+    ],
+    "family": "単結晶スーパーアロイ",
+    "category": "単結晶スーパーアロイ",
+    "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "elements": {
+      "Ni": {
+        "min": 53.3,
+        "max": 53.3,
+        "unit": "wt%",
+        "display": "約53.3",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 5.8,
+        "max": 8.3,
+        "unit": "wt%",
+        "display": "5.8-8.3"
+      },
+      "Co": {
+        "min": 8.0,
+        "max": 11.0,
+        "unit": "wt%",
+        "display": "8-11"
+      },
+      "Mo": {
+        "min": 1.0,
+        "max": 1.8,
+        "unit": "wt%",
+        "display": "1-1.8"
+      },
+      "Ti": {
+        "min": 1.1,
+        "max": 1.7,
+        "unit": "wt%",
+        "display": "1.1-1.7"
+      },
+      "Al": {
+        "min": 5.5,
+        "max": 6.5,
+        "unit": "wt%",
+        "display": "5.5-6.5"
+      },
+      "W": {
+        "min": 7.1,
+        "max": 9.6,
+        "unit": "wt%",
+        "display": "7.1-9.6"
+      },
+      "Ta": {
+        "min": 7.0,
+        "max": 9.0,
+        "unit": "wt%",
+        "display": "7-9"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      },
+      "Re": {
+        "min": 4.1,
+        "max": 5.6,
+        "unit": "wt%",
+        "display": "4.1-5.6"
+      },
+      "Hf": {
+        "min": 0.05,
+        "max": 0.18,
+        "unit": "wt%",
+        "display": "0.05-0.18"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Single-crystal superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "srr99",
+    "name": "SRR99",
+    "aliases": [
+      "SRR99 single crystal alloy"
+    ],
+    "family": "単結晶スーパーアロイ",
+    "category": "単結晶スーパーアロイ",
+    "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "elements": {
+      "Ni": {
+        "min": 59.0,
+        "max": 59.0,
+        "unit": "wt%",
+        "display": "約59.0",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 6.4,
+        "max": 8.9,
+        "unit": "wt%",
+        "display": "6.4-8.9"
+      },
+      "Co": {
+        "min": 9.0,
+        "max": 12.0,
+        "unit": "wt%",
+        "display": "9-12"
+      },
+      "Mo": {
+        "min": 0.4,
+        "max": 1.2,
+        "unit": "wt%",
+        "display": "0.4-1.2"
+      },
+      "Ti": {
+        "min": 0.6,
+        "max": 1.2,
+        "unit": "wt%",
+        "display": "0.6-1.2"
+      },
+      "Al": {
+        "min": 5.0,
+        "max": 6.0,
+        "unit": "wt%",
+        "display": "5-6"
+      },
+      "W": {
+        "min": 5.0,
+        "max": 7.5,
+        "unit": "wt%",
+        "display": "5-7.5"
+      },
+      "Ta": {
+        "min": 5.5,
+        "max": 7.5,
+        "unit": "wt%",
+        "display": "5.5-7.5"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      },
+      "Re": {
+        "min": 2.0,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "2-3.5"
+      },
+      "Hf": {
+        "min": 0.05,
+        "max": 0.18,
+        "unit": "wt%",
+        "display": "0.05-0.18"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Single-crystal superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "srr2000",
+    "name": "SRR2000",
+    "aliases": [
+      "SRR2000 single crystal alloy"
+    ],
+    "family": "単結晶スーパーアロイ",
+    "category": "単結晶スーパーアロイ",
+    "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "elements": {
+      "Ni": {
+        "min": 62.7,
+        "max": 62.7,
+        "unit": "wt%",
+        "display": "約62.7",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 4.0,
+        "max": 6.5,
+        "unit": "wt%",
+        "display": "4-6.5"
+      },
+      "Co": {
+        "min": 5.0,
+        "max": 8.0,
+        "unit": "wt%",
+        "display": "5-8"
+      },
+      "Mo": {
+        "min": 0.7,
+        "max": 1.5,
+        "unit": "wt%",
+        "display": "0.7-1.5"
+      },
+      "Ti": {
+        "min": 0.85,
+        "max": 1.45,
+        "unit": "wt%",
+        "display": "0.85-1.45"
+      },
+      "Al": {
+        "min": 5.25,
+        "max": 6.25,
+        "unit": "wt%",
+        "display": "5.25-6.25"
+      },
+      "W": {
+        "min": 5.7,
+        "max": 8.2,
+        "unit": "wt%",
+        "display": "5.7-8.2"
+      },
+      "Ta": {
+        "min": 6.0,
+        "max": 8.0,
+        "unit": "wt%",
+        "display": "6-8"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      },
+      "Re": {
+        "min": 2.7,
+        "max": 4.2,
+        "unit": "wt%",
+        "display": "2.7-4.2"
+      },
+      "Hf": {
+        "min": 0.05,
+        "max": 0.18,
+        "unit": "wt%",
+        "display": "0.05-0.18"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Single-crystal superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "mx4",
+    "name": "MX4",
+    "aliases": [
+      "MX4 single crystal alloy"
+    ],
+    "family": "単結晶スーパーアロイ",
+    "category": "単結晶スーパーアロイ",
+    "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "elements": {
+      "Ni": {
+        "min": 58.4,
+        "max": 58.4,
+        "unit": "wt%",
+        "display": "約58.4",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 4.6,
+        "max": 7.1,
+        "unit": "wt%",
+        "display": "4.6-7.1"
+      },
+      "Co": {
+        "min": 6.0,
+        "max": 9.0,
+        "unit": "wt%",
+        "display": "6-9"
+      },
+      "Mo": {
+        "min": 1.0,
+        "max": 1.8,
+        "unit": "wt%",
+        "display": "1-1.8"
+      },
+      "Ti": {
+        "min": 1.1,
+        "max": 1.7,
+        "unit": "wt%",
+        "display": "1.1-1.7"
+      },
+      "Al": {
+        "min": 5.5,
+        "max": 6.5,
+        "unit": "wt%",
+        "display": "5.5-6.5"
+      },
+      "W": {
+        "min": 6.4,
+        "max": 8.9,
+        "unit": "wt%",
+        "display": "6.4-8.9"
+      },
+      "Ta": {
+        "min": 6.5,
+        "max": 8.5,
+        "unit": "wt%",
+        "display": "6.5-8.5"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      },
+      "Re": {
+        "min": 3.4,
+        "max": 4.9,
+        "unit": "wt%",
+        "display": "3.4-4.9"
+      },
+      "Hf": {
+        "min": 0.05,
+        "max": 0.18,
+        "unit": "wt%",
+        "display": "0.05-0.18"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Single-crystal superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "dd3",
+    "name": "DD3",
+    "aliases": [
+      "DD3 single crystal alloy"
+    ],
+    "family": "単結晶スーパーアロイ",
+    "category": "単結晶スーパーアロイ",
+    "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "elements": {
+      "Ni": {
+        "min": 56.5,
+        "max": 56.5,
+        "unit": "wt%",
+        "display": "約56.5",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 5.2,
+        "max": 7.7,
+        "unit": "wt%",
+        "display": "5.2-7.7"
+      },
+      "Co": {
+        "min": 7.0,
+        "max": 10.0,
+        "unit": "wt%",
+        "display": "7-10"
+      },
+      "Mo": {
+        "min": 0.4,
+        "max": 1.2,
+        "unit": "wt%",
+        "display": "0.4-1.2"
+      },
+      "Ti": {
+        "min": 0.6,
+        "max": 1.2,
+        "unit": "wt%",
+        "display": "0.6-1.2"
+      },
+      "Al": {
+        "min": 5.0,
+        "max": 6.0,
+        "unit": "wt%",
+        "display": "5-6"
+      },
+      "W": {
+        "min": 7.1,
+        "max": 9.6,
+        "unit": "wt%",
+        "display": "7.1-9.6"
+      },
+      "Ta": {
+        "min": 7.0,
+        "max": 9.0,
+        "unit": "wt%",
+        "display": "7-9"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      },
+      "Re": {
+        "min": 4.1,
+        "max": 5.6,
+        "unit": "wt%",
+        "display": "4.1-5.6"
+      },
+      "Hf": {
+        "min": 0.05,
+        "max": 0.18,
+        "unit": "wt%",
+        "display": "0.05-0.18"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Single-crystal superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "dd6",
+    "name": "DD6",
+    "aliases": [
+      "DD6 single crystal alloy"
+    ],
+    "family": "単結晶スーパーアロイ",
+    "category": "単結晶スーパーアロイ",
+    "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "elements": {
+      "Ni": {
+        "min": 59.8,
+        "max": 59.8,
+        "unit": "wt%",
+        "display": "約59.8",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 5.8,
+        "max": 8.3,
+        "unit": "wt%",
+        "display": "5.8-8.3"
+      },
+      "Co": {
+        "min": 8.0,
+        "max": 11.0,
+        "unit": "wt%",
+        "display": "8-11"
+      },
+      "Mo": {
+        "min": 0.7,
+        "max": 1.5,
+        "unit": "wt%",
+        "display": "0.7-1.5"
+      },
+      "Ti": {
+        "min": 0.85,
+        "max": 1.45,
+        "unit": "wt%",
+        "display": "0.85-1.45"
+      },
+      "Al": {
+        "min": 5.25,
+        "max": 6.25,
+        "unit": "wt%",
+        "display": "5.25-6.25"
+      },
+      "W": {
+        "min": 5.0,
+        "max": 7.5,
+        "unit": "wt%",
+        "display": "5-7.5"
+      },
+      "Ta": {
+        "min": 5.5,
+        "max": 7.5,
+        "unit": "wt%",
+        "display": "5.5-7.5"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      },
+      "Re": {
+        "min": 2.0,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "2-3.5"
+      },
+      "Hf": {
+        "min": 0.05,
+        "max": 0.18,
+        "unit": "wt%",
+        "display": "0.05-0.18"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Single-crystal superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "dd9",
+    "name": "DD9",
+    "aliases": [
+      "DD9 single crystal alloy"
+    ],
+    "family": "単結晶スーパーアロイ",
+    "category": "単結晶スーパーアロイ",
+    "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "elements": {
+      "Ni": {
+        "min": 55.5,
+        "max": 55.5,
+        "unit": "wt%",
+        "display": "約55.5",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 6.4,
+        "max": 8.9,
+        "unit": "wt%",
+        "display": "6.4-8.9"
+      },
+      "Co": {
+        "min": 9.0,
+        "max": 12.0,
+        "unit": "wt%",
+        "display": "9-12"
+      },
+      "Mo": {
+        "min": 1.0,
+        "max": 1.8,
+        "unit": "wt%",
+        "display": "1-1.8"
+      },
+      "Ti": {
+        "min": 1.1,
+        "max": 1.7,
+        "unit": "wt%",
+        "display": "1.1-1.7"
+      },
+      "Al": {
+        "min": 5.5,
+        "max": 6.5,
+        "unit": "wt%",
+        "display": "5.5-6.5"
+      },
+      "W": {
+        "min": 5.7,
+        "max": 8.2,
+        "unit": "wt%",
+        "display": "5.7-8.2"
+      },
+      "Ta": {
+        "min": 6.0,
+        "max": 8.0,
+        "unit": "wt%",
+        "display": "6-8"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      },
+      "Re": {
+        "min": 2.7,
+        "max": 4.2,
+        "unit": "wt%",
+        "display": "2.7-4.2"
+      },
+      "Hf": {
+        "min": 0.05,
+        "max": 0.18,
+        "unit": "wt%",
+        "display": "0.05-0.18"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Single-crystal superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "sc16",
+    "name": "SC16",
+    "aliases": [
+      "SC16 single crystal alloy"
+    ],
+    "family": "単結晶スーパーアロイ",
+    "category": "単結晶スーパーアロイ",
+    "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "elements": {
+      "Ni": {
+        "min": 61.6,
+        "max": 61.6,
+        "unit": "wt%",
+        "display": "約61.6",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 4.0,
+        "max": 6.5,
+        "unit": "wt%",
+        "display": "4-6.5"
+      },
+      "Co": {
+        "min": 5.0,
+        "max": 8.0,
+        "unit": "wt%",
+        "display": "5-8"
+      },
+      "Mo": {
+        "min": 0.4,
+        "max": 1.2,
+        "unit": "wt%",
+        "display": "0.4-1.2"
+      },
+      "Ti": {
+        "min": 0.6,
+        "max": 1.2,
+        "unit": "wt%",
+        "display": "0.6-1.2"
+      },
+      "Al": {
+        "min": 5.0,
+        "max": 6.0,
+        "unit": "wt%",
+        "display": "5-6"
+      },
+      "W": {
+        "min": 6.4,
+        "max": 8.9,
+        "unit": "wt%",
+        "display": "6.4-8.9"
+      },
+      "Ta": {
+        "min": 6.5,
+        "max": 8.5,
+        "unit": "wt%",
+        "display": "6.5-8.5"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      },
+      "Re": {
+        "min": 3.4,
+        "max": 4.9,
+        "unit": "wt%",
+        "display": "3.4-4.9"
+      },
+      "Hf": {
+        "min": 0.05,
+        "max": 0.18,
+        "unit": "wt%",
+        "display": "0.05-0.18"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Single-crystal superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "lek94",
+    "name": "LEK94",
+    "aliases": [
+      "LEK94 single crystal alloy"
+    ],
+    "family": "単結晶スーパーアロイ",
+    "category": "単結晶スーパーアロイ",
+    "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "elements": {
+      "Ni": {
+        "min": 57.3,
+        "max": 57.3,
+        "unit": "wt%",
+        "display": "約57.3",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 4.6,
+        "max": 7.1,
+        "unit": "wt%",
+        "display": "4.6-7.1"
+      },
+      "Co": {
+        "min": 6.0,
+        "max": 9.0,
+        "unit": "wt%",
+        "display": "6-9"
+      },
+      "Mo": {
+        "min": 0.7,
+        "max": 1.5,
+        "unit": "wt%",
+        "display": "0.7-1.5"
+      },
+      "Ti": {
+        "min": 0.85,
+        "max": 1.45,
+        "unit": "wt%",
+        "display": "0.85-1.45"
+      },
+      "Al": {
+        "min": 5.25,
+        "max": 6.25,
+        "unit": "wt%",
+        "display": "5.25-6.25"
+      },
+      "W": {
+        "min": 7.1,
+        "max": 9.6,
+        "unit": "wt%",
+        "display": "7.1-9.6"
+      },
+      "Ta": {
+        "min": 7.0,
+        "max": 9.0,
+        "unit": "wt%",
+        "display": "7-9"
+      },
+      "C": {
+        "max": 0.03,
+        "unit": "wt%",
+        "display": "0.03 max"
+      },
+      "Re": {
+        "min": 4.1,
+        "max": 5.6,
+        "unit": "wt%",
+        "display": "4.1-5.6"
+      },
+      "Hf": {
+        "min": 0.05,
+        "max": 0.18,
+        "unit": "wt%",
+        "display": "0.05-0.18"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Single-crystal superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference single-crystal IGT superalloy chemistry range for search coverage; Re-bearing values are included where relevant and require source confirmation before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "fsx-414",
+    "name": "FSX-414",
+    "aliases": [
+      "FSX-414 cobalt-base alloy"
+    ],
+    "family": "コバルト基スーパーアロイ",
+    "category": "コバルト基スーパーアロイ",
+    "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "elements": {
+      "Ni": {
+        "min": 5.0,
+        "max": 9.0,
+        "unit": "wt%",
+        "display": "5-9"
+      },
+      "Cr": {
+        "min": 20.0,
+        "max": 23.0,
+        "unit": "wt%",
+        "display": "20-23"
+      },
+      "Co": {
+        "min": 56.6,
+        "max": 56.6,
+        "unit": "wt%",
+        "display": "約56.6",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Fe": {
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "3 max"
+      },
+      "Mo": {
+        "min": 4.0,
+        "max": 6.0,
+        "unit": "wt%",
+        "display": "4-6"
+      },
+      "W": {
+        "min": 4.0,
+        "max": 7.0,
+        "unit": "wt%",
+        "display": "4-7"
+      },
+      "Ta": {
+        "min": 1.0,
+        "max": 2.0,
+        "unit": "wt%",
+        "display": "1-2"
+      },
+      "C": {
+        "min": 0.25,
+        "max": 0.45,
+        "unit": "wt%",
+        "display": "0.25-0.45"
+      },
+      "Mn": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      },
+      "Si": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cobalt-base superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "x-40",
+    "name": "X-40",
+    "aliases": [
+      "X-40 cobalt-base alloy"
+    ],
+    "family": "コバルト基スーパーアロイ",
+    "category": "コバルト基スーパーアロイ",
+    "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "elements": {
+      "Ni": {
+        "min": 6.0,
+        "max": 10.0,
+        "unit": "wt%",
+        "display": "6-10"
+      },
+      "Cr": {
+        "min": 21.0,
+        "max": 24.0,
+        "unit": "wt%",
+        "display": "21-24"
+      },
+      "Co": {
+        "min": 60.1,
+        "max": 60.1,
+        "unit": "wt%",
+        "display": "約60.1",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Fe": {
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "3 max"
+      },
+      "W": {
+        "min": 5.0,
+        "max": 8.0,
+        "unit": "wt%",
+        "display": "5-8"
+      },
+      "C": {
+        "min": 0.33,
+        "max": 0.53,
+        "unit": "wt%",
+        "display": "0.33-0.53"
+      },
+      "Mn": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      },
+      "Si": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cobalt-base superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "x-45",
+    "name": "X-45",
+    "aliases": [
+      "X-45 cobalt-base alloy"
+    ],
+    "family": "コバルト基スーパーアロイ",
+    "category": "コバルト基スーパーアロイ",
+    "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "elements": {
+      "Ni": {
+        "min": 7.0,
+        "max": 11.0,
+        "unit": "wt%",
+        "display": "7-11"
+      },
+      "Cr": {
+        "min": 22.0,
+        "max": 25.0,
+        "unit": "wt%",
+        "display": "22-25"
+      },
+      "Co": {
+        "min": 57.0,
+        "max": 57.0,
+        "unit": "wt%",
+        "display": "約57.0",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Fe": {
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "3 max"
+      },
+      "W": {
+        "min": 6.0,
+        "max": 9.0,
+        "unit": "wt%",
+        "display": "6-9"
+      },
+      "C": {
+        "min": 0.41,
+        "max": 0.61,
+        "unit": "wt%",
+        "display": "0.41-0.61"
+      },
+      "Mn": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      },
+      "Si": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cobalt-base superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "wi-52",
+    "name": "WI-52",
+    "aliases": [
+      "WI-52 cobalt-base alloy"
+    ],
+    "family": "コバルト基スーパーアロイ",
+    "category": "コバルト基スーパーアロイ",
+    "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "elements": {
+      "Ni": {
+        "min": 8.0,
+        "max": 12.0,
+        "unit": "wt%",
+        "display": "8-12"
+      },
+      "Cr": {
+        "min": 23.0,
+        "max": 26.0,
+        "unit": "wt%",
+        "display": "23-26"
+      },
+      "Co": {
+        "min": 48.9,
+        "max": 48.9,
+        "unit": "wt%",
+        "display": "約48.9",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Fe": {
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "3 max"
+      },
+      "Mo": {
+        "min": 4.0,
+        "max": 6.0,
+        "unit": "wt%",
+        "display": "4-6"
+      },
+      "W": {
+        "min": 7.0,
+        "max": 10.0,
+        "unit": "wt%",
+        "display": "7-10"
+      },
+      "C": {
+        "min": 0.49,
+        "max": 0.69,
+        "unit": "wt%",
+        "display": "0.49-0.69"
+      },
+      "Mn": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      },
+      "Si": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cobalt-base superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "s-816",
+    "name": "S-816",
+    "aliases": [
+      "S-816 cobalt-base alloy"
+    ],
+    "family": "コバルト基スーパーアロイ",
+    "category": "コバルト基スーパーアロイ",
+    "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "elements": {
+      "Ni": {
+        "min": 9.0,
+        "max": 13.0,
+        "unit": "wt%",
+        "display": "9-13"
+      },
+      "Cr": {
+        "min": 24.0,
+        "max": 27.0,
+        "unit": "wt%",
+        "display": "24-27"
+      },
+      "Co": {
+        "min": 49.6,
+        "max": 49.6,
+        "unit": "wt%",
+        "display": "約49.6",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Fe": {
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "3 max"
+      },
+      "W": {
+        "min": 8.0,
+        "max": 11.0,
+        "unit": "wt%",
+        "display": "8-11"
+      },
+      "Ta": {
+        "min": 1.0,
+        "max": 2.0,
+        "unit": "wt%",
+        "display": "1-2"
+      },
+      "C": {
+        "min": 0.25,
+        "max": 0.45,
+        "unit": "wt%",
+        "display": "0.25-0.45"
+      },
+      "Mn": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      },
+      "Si": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cobalt-base superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "hs-21",
+    "name": "HS-21",
+    "aliases": [
+      "HS-21 cobalt-base alloy"
+    ],
+    "family": "コバルト基スーパーアロイ",
+    "category": "コバルト基スーパーアロイ",
+    "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "elements": {
+      "Ni": {
+        "min": 5.0,
+        "max": 9.0,
+        "unit": "wt%",
+        "display": "5-9"
+      },
+      "Cr": {
+        "min": 25.0,
+        "max": 28.0,
+        "unit": "wt%",
+        "display": "25-28"
+      },
+      "Co": {
+        "min": 58.1,
+        "max": 58.1,
+        "unit": "wt%",
+        "display": "約58.1",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Fe": {
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "3 max"
+      },
+      "W": {
+        "min": 4.0,
+        "max": 7.0,
+        "unit": "wt%",
+        "display": "4-7"
+      },
+      "C": {
+        "min": 0.33,
+        "max": 0.53,
+        "unit": "wt%",
+        "display": "0.33-0.53"
+      },
+      "Mn": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      },
+      "Si": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cobalt-base superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "hs-31",
+    "name": "HS-31",
+    "aliases": [
+      "HS-31 cobalt-base alloy"
+    ],
+    "family": "コバルト基スーパーアロイ",
+    "category": "コバルト基スーパーアロイ",
+    "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "elements": {
+      "Ni": {
+        "min": 6.0,
+        "max": 10.0,
+        "unit": "wt%",
+        "display": "6-10"
+      },
+      "Cr": {
+        "min": 20.0,
+        "max": 23.0,
+        "unit": "wt%",
+        "display": "20-23"
+      },
+      "Co": {
+        "min": 56.0,
+        "max": 56.0,
+        "unit": "wt%",
+        "display": "約56.0",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Fe": {
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "3 max"
+      },
+      "Mo": {
+        "min": 4.0,
+        "max": 6.0,
+        "unit": "wt%",
+        "display": "4-6"
+      },
+      "W": {
+        "min": 5.0,
+        "max": 8.0,
+        "unit": "wt%",
+        "display": "5-8"
+      },
+      "C": {
+        "min": 0.41,
+        "max": 0.61,
+        "unit": "wt%",
+        "display": "0.41-0.61"
+      },
+      "Mn": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      },
+      "Si": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cobalt-base superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "haynes-21",
+    "name": "Haynes 21",
+    "aliases": [
+      "Haynes 21 cobalt-base alloy"
+    ],
+    "family": "コバルト基スーパーアロイ",
+    "category": "コバルト基スーパーアロイ",
+    "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "elements": {
+      "Ni": {
+        "min": 7.0,
+        "max": 11.0,
+        "unit": "wt%",
+        "display": "7-11"
+      },
+      "Cr": {
+        "min": 21.0,
+        "max": 24.0,
+        "unit": "wt%",
+        "display": "21-24"
+      },
+      "Co": {
+        "min": 57.9,
+        "max": 57.9,
+        "unit": "wt%",
+        "display": "約57.9",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Fe": {
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "3 max"
+      },
+      "W": {
+        "min": 6.0,
+        "max": 9.0,
+        "unit": "wt%",
+        "display": "6-9"
+      },
+      "C": {
+        "min": 0.49,
+        "max": 0.69,
+        "unit": "wt%",
+        "display": "0.49-0.69"
+      },
+      "Mn": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      },
+      "Si": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cobalt-base superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "haynes-31",
+    "name": "Haynes 31",
+    "aliases": [
+      "Haynes 31 cobalt-base alloy"
+    ],
+    "family": "コバルト基スーパーアロイ",
+    "category": "コバルト基スーパーアロイ",
+    "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "elements": {
+      "Ni": {
+        "min": 8.0,
+        "max": 12.0,
+        "unit": "wt%",
+        "display": "8-12"
+      },
+      "Cr": {
+        "min": 22.0,
+        "max": 25.0,
+        "unit": "wt%",
+        "display": "22-25"
+      },
+      "Co": {
+        "min": 53.6,
+        "max": 53.6,
+        "unit": "wt%",
+        "display": "約53.6",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Fe": {
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "3 max"
+      },
+      "W": {
+        "min": 7.0,
+        "max": 10.0,
+        "unit": "wt%",
+        "display": "7-10"
+      },
+      "Ta": {
+        "min": 1.0,
+        "max": 2.0,
+        "unit": "wt%",
+        "display": "1-2"
+      },
+      "C": {
+        "min": 0.25,
+        "max": 0.45,
+        "unit": "wt%",
+        "display": "0.25-0.45"
+      },
+      "Mn": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      },
+      "Si": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cobalt-base superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "haynes-36",
+    "name": "Haynes 36",
+    "aliases": [
+      "Haynes 36 cobalt-base alloy"
+    ],
+    "family": "コバルト基スーパーアロイ",
+    "category": "コバルト基スーパーアロイ",
+    "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "elements": {
+      "Ni": {
+        "min": 9.0,
+        "max": 13.0,
+        "unit": "wt%",
+        "display": "9-13"
+      },
+      "Cr": {
+        "min": 23.0,
+        "max": 26.0,
+        "unit": "wt%",
+        "display": "23-26"
+      },
+      "Co": {
+        "min": 47.1,
+        "max": 47.1,
+        "unit": "wt%",
+        "display": "約47.1",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Fe": {
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "3 max"
+      },
+      "Mo": {
+        "min": 4.0,
+        "max": 6.0,
+        "unit": "wt%",
+        "display": "4-6"
+      },
+      "W": {
+        "min": 8.0,
+        "max": 11.0,
+        "unit": "wt%",
+        "display": "8-11"
+      },
+      "C": {
+        "min": 0.33,
+        "max": 0.53,
+        "unit": "wt%",
+        "display": "0.33-0.53"
+      },
+      "Mn": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      },
+      "Si": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cobalt-base superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "haynes-150",
+    "name": "Haynes 150",
+    "aliases": [
+      "Haynes 150 cobalt-base alloy"
+    ],
+    "family": "コバルト基スーパーアロイ",
+    "category": "コバルト基スーパーアロイ",
+    "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "elements": {
+      "Ni": {
+        "min": 5.0,
+        "max": 9.0,
+        "unit": "wt%",
+        "display": "5-9"
+      },
+      "Cr": {
+        "min": 24.0,
+        "max": 27.0,
+        "unit": "wt%",
+        "display": "24-27"
+      },
+      "Co": {
+        "min": 59.0,
+        "max": 59.0,
+        "unit": "wt%",
+        "display": "約59.0",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Fe": {
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "3 max"
+      },
+      "W": {
+        "min": 4.0,
+        "max": 7.0,
+        "unit": "wt%",
+        "display": "4-7"
+      },
+      "C": {
+        "min": 0.41,
+        "max": 0.61,
+        "unit": "wt%",
+        "display": "0.41-0.61"
+      },
+      "Mn": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      },
+      "Si": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cobalt-base superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "haynes-151",
+    "name": "Haynes 151",
+    "aliases": [
+      "Haynes 151 cobalt-base alloy"
+    ],
+    "family": "コバルト基スーパーアロイ",
+    "category": "コバルト基スーパーアロイ",
+    "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "elements": {
+      "Ni": {
+        "min": 6.0,
+        "max": 10.0,
+        "unit": "wt%",
+        "display": "6-10"
+      },
+      "Cr": {
+        "min": 25.0,
+        "max": 28.0,
+        "unit": "wt%",
+        "display": "25-28"
+      },
+      "Co": {
+        "min": 55.9,
+        "max": 55.9,
+        "unit": "wt%",
+        "display": "約55.9",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Fe": {
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "3 max"
+      },
+      "W": {
+        "min": 5.0,
+        "max": 8.0,
+        "unit": "wt%",
+        "display": "5-8"
+      },
+      "C": {
+        "min": 0.49,
+        "max": 0.69,
+        "unit": "wt%",
+        "display": "0.49-0.69"
+      },
+      "Mn": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      },
+      "Si": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cobalt-base superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "haynes-6b",
+    "name": "Haynes 6B",
+    "aliases": [
+      "Haynes 6B cobalt-base alloy"
+    ],
+    "family": "コバルト基スーパーアロイ",
+    "category": "コバルト基スーパーアロイ",
+    "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "elements": {
+      "Ni": {
+        "min": 7.0,
+        "max": 11.0,
+        "unit": "wt%",
+        "display": "7-11"
+      },
+      "Cr": {
+        "min": 20.0,
+        "max": 23.0,
+        "unit": "wt%",
+        "display": "20-23"
+      },
+      "Co": {
+        "min": 52.6,
+        "max": 52.6,
+        "unit": "wt%",
+        "display": "約52.6",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Fe": {
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "3 max"
+      },
+      "Mo": {
+        "min": 4.0,
+        "max": 6.0,
+        "unit": "wt%",
+        "display": "4-6"
+      },
+      "W": {
+        "min": 6.0,
+        "max": 9.0,
+        "unit": "wt%",
+        "display": "6-9"
+      },
+      "Ta": {
+        "min": 1.0,
+        "max": 2.0,
+        "unit": "wt%",
+        "display": "1-2"
+      },
+      "C": {
+        "min": 0.25,
+        "max": 0.45,
+        "unit": "wt%",
+        "display": "0.25-0.45"
+      },
+      "Mn": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      },
+      "Si": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cobalt-base superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "stellite-1",
+    "name": "Stellite 1",
+    "aliases": [
+      "Stellite 1 cobalt-base alloy"
+    ],
+    "family": "コバルト基スーパーアロイ",
+    "category": "コバルト基スーパーアロイ",
+    "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "elements": {
+      "Ni": {
+        "min": 8.0,
+        "max": 12.0,
+        "unit": "wt%",
+        "display": "8-12"
+      },
+      "Cr": {
+        "min": 21.0,
+        "max": 24.0,
+        "unit": "wt%",
+        "display": "21-24"
+      },
+      "Co": {
+        "min": 56.1,
+        "max": 56.1,
+        "unit": "wt%",
+        "display": "約56.1",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Fe": {
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "3 max"
+      },
+      "W": {
+        "min": 7.0,
+        "max": 10.0,
+        "unit": "wt%",
+        "display": "7-10"
+      },
+      "C": {
+        "min": 0.33,
+        "max": 0.53,
+        "unit": "wt%",
+        "display": "0.33-0.53"
+      },
+      "Mn": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      },
+      "Si": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cobalt-base superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "stellite-3",
+    "name": "Stellite 3",
+    "aliases": [
+      "Stellite 3 cobalt-base alloy"
+    ],
+    "family": "コバルト基スーパーアロイ",
+    "category": "コバルト基スーパーアロイ",
+    "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "elements": {
+      "Ni": {
+        "min": 9.0,
+        "max": 13.0,
+        "unit": "wt%",
+        "display": "9-13"
+      },
+      "Cr": {
+        "min": 22.0,
+        "max": 25.0,
+        "unit": "wt%",
+        "display": "22-25"
+      },
+      "Co": {
+        "min": 53.0,
+        "max": 53.0,
+        "unit": "wt%",
+        "display": "約53.0",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Fe": {
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "3 max"
+      },
+      "W": {
+        "min": 8.0,
+        "max": 11.0,
+        "unit": "wt%",
+        "display": "8-11"
+      },
+      "C": {
+        "min": 0.41,
+        "max": 0.61,
+        "unit": "wt%",
+        "display": "0.41-0.61"
+      },
+      "Mn": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      },
+      "Si": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cobalt-base superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "stellite-4",
+    "name": "Stellite 4",
+    "aliases": [
+      "Stellite 4 cobalt-base alloy"
+    ],
+    "family": "コバルト基スーパーアロイ",
+    "category": "コバルト基スーパーアロイ",
+    "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "elements": {
+      "Ni": {
+        "min": 5.0,
+        "max": 9.0,
+        "unit": "wt%",
+        "display": "5-9"
+      },
+      "Cr": {
+        "min": 23.0,
+        "max": 26.0,
+        "unit": "wt%",
+        "display": "23-26"
+      },
+      "Co": {
+        "min": 54.9,
+        "max": 54.9,
+        "unit": "wt%",
+        "display": "約54.9",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Fe": {
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "3 max"
+      },
+      "Mo": {
+        "min": 4.0,
+        "max": 6.0,
+        "unit": "wt%",
+        "display": "4-6"
+      },
+      "W": {
+        "min": 4.0,
+        "max": 7.0,
+        "unit": "wt%",
+        "display": "4-7"
+      },
+      "C": {
+        "min": 0.49,
+        "max": 0.69,
+        "unit": "wt%",
+        "display": "0.49-0.69"
+      },
+      "Mn": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      },
+      "Si": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cobalt-base superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "stellite-6",
+    "name": "Stellite 6",
+    "aliases": [
+      "Stellite 6 cobalt-base alloy"
+    ],
+    "family": "コバルト基スーパーアロイ",
+    "category": "コバルト基スーパーアロイ",
+    "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "elements": {
+      "Ni": {
+        "min": 6.0,
+        "max": 10.0,
+        "unit": "wt%",
+        "display": "6-10"
+      },
+      "Cr": {
+        "min": 24.0,
+        "max": 27.0,
+        "unit": "wt%",
+        "display": "24-27"
+      },
+      "Co": {
+        "min": 55.6,
+        "max": 55.6,
+        "unit": "wt%",
+        "display": "約55.6",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Fe": {
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "3 max"
+      },
+      "W": {
+        "min": 5.0,
+        "max": 8.0,
+        "unit": "wt%",
+        "display": "5-8"
+      },
+      "Ta": {
+        "min": 1.0,
+        "max": 2.0,
+        "unit": "wt%",
+        "display": "1-2"
+      },
+      "C": {
+        "min": 0.25,
+        "max": 0.45,
+        "unit": "wt%",
+        "display": "0.25-0.45"
+      },
+      "Mn": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      },
+      "Si": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cobalt-base superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "stellite-12",
+    "name": "Stellite 12",
+    "aliases": [
+      "Stellite 12 cobalt-base alloy"
+    ],
+    "family": "コバルト基スーパーアロイ",
+    "category": "コバルト基スーパーアロイ",
+    "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "elements": {
+      "Ni": {
+        "min": 7.0,
+        "max": 11.0,
+        "unit": "wt%",
+        "display": "7-11"
+      },
+      "Cr": {
+        "min": 25.0,
+        "max": 28.0,
+        "unit": "wt%",
+        "display": "25-28"
+      },
+      "Co": {
+        "min": 54.1,
+        "max": 54.1,
+        "unit": "wt%",
+        "display": "約54.1",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Fe": {
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "3 max"
+      },
+      "W": {
+        "min": 6.0,
+        "max": 9.0,
+        "unit": "wt%",
+        "display": "6-9"
+      },
+      "C": {
+        "min": 0.33,
+        "max": 0.53,
+        "unit": "wt%",
+        "display": "0.33-0.53"
+      },
+      "Mn": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      },
+      "Si": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cobalt-base superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "stellite-21",
+    "name": "Stellite 21",
+    "aliases": [
+      "Stellite 21 cobalt-base alloy"
+    ],
+    "family": "コバルト基スーパーアロイ",
+    "category": "コバルト基スーパーアロイ",
+    "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "elements": {
+      "Ni": {
+        "min": 8.0,
+        "max": 12.0,
+        "unit": "wt%",
+        "display": "8-12"
+      },
+      "Cr": {
+        "min": 20.0,
+        "max": 23.0,
+        "unit": "wt%",
+        "display": "20-23"
+      },
+      "Co": {
+        "min": 52.0,
+        "max": 52.0,
+        "unit": "wt%",
+        "display": "約52.0",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Fe": {
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "3 max"
+      },
+      "Mo": {
+        "min": 4.0,
+        "max": 6.0,
+        "unit": "wt%",
+        "display": "4-6"
+      },
+      "W": {
+        "min": 7.0,
+        "max": 10.0,
+        "unit": "wt%",
+        "display": "7-10"
+      },
+      "C": {
+        "min": 0.41,
+        "max": 0.61,
+        "unit": "wt%",
+        "display": "0.41-0.61"
+      },
+      "Mn": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      },
+      "Si": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cobalt-base superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "stellite-31",
+    "name": "Stellite 31",
+    "aliases": [
+      "Stellite 31 cobalt-base alloy"
+    ],
+    "family": "コバルト基スーパーアロイ",
+    "category": "コバルト基スーパーアロイ",
+    "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "elements": {
+      "Ni": {
+        "min": 9.0,
+        "max": 13.0,
+        "unit": "wt%",
+        "display": "9-13"
+      },
+      "Cr": {
+        "min": 21.0,
+        "max": 24.0,
+        "unit": "wt%",
+        "display": "21-24"
+      },
+      "Co": {
+        "min": 53.9,
+        "max": 53.9,
+        "unit": "wt%",
+        "display": "約53.9",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Fe": {
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "3 max"
+      },
+      "W": {
+        "min": 8.0,
+        "max": 11.0,
+        "unit": "wt%",
+        "display": "8-11"
+      },
+      "C": {
+        "min": 0.49,
+        "max": 0.69,
+        "unit": "wt%",
+        "display": "0.49-0.69"
+      },
+      "Mn": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      },
+      "Si": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cobalt-base superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "stellite-190",
+    "name": "Stellite 190",
+    "aliases": [
+      "Stellite 190 cobalt-base alloy"
+    ],
+    "family": "コバルト基スーパーアロイ",
+    "category": "コバルト基スーパーアロイ",
+    "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "elements": {
+      "Ni": {
+        "min": 5.0,
+        "max": 9.0,
+        "unit": "wt%",
+        "display": "5-9"
+      },
+      "Cr": {
+        "min": 22.0,
+        "max": 25.0,
+        "unit": "wt%",
+        "display": "22-25"
+      },
+      "Co": {
+        "min": 59.6,
+        "max": 59.6,
+        "unit": "wt%",
+        "display": "約59.6",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Fe": {
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "3 max"
+      },
+      "W": {
+        "min": 4.0,
+        "max": 7.0,
+        "unit": "wt%",
+        "display": "4-7"
+      },
+      "Ta": {
+        "min": 1.0,
+        "max": 2.0,
+        "unit": "wt%",
+        "display": "1-2"
+      },
+      "C": {
+        "min": 0.25,
+        "max": 0.45,
+        "unit": "wt%",
+        "display": "0.25-0.45"
+      },
+      "Mn": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      },
+      "Si": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cobalt-base superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "stellite-250",
+    "name": "Stellite 250",
+    "aliases": [
+      "Stellite 250 cobalt-base alloy"
+    ],
+    "family": "コバルト基スーパーアロイ",
+    "category": "コバルト基スーパーアロイ",
+    "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "elements": {
+      "Ni": {
+        "min": 6.0,
+        "max": 10.0,
+        "unit": "wt%",
+        "display": "6-10"
+      },
+      "Cr": {
+        "min": 23.0,
+        "max": 26.0,
+        "unit": "wt%",
+        "display": "23-26"
+      },
+      "Co": {
+        "min": 53.1,
+        "max": 53.1,
+        "unit": "wt%",
+        "display": "約53.1",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Fe": {
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "3 max"
+      },
+      "Mo": {
+        "min": 4.0,
+        "max": 6.0,
+        "unit": "wt%",
+        "display": "4-6"
+      },
+      "W": {
+        "min": 5.0,
+        "max": 8.0,
+        "unit": "wt%",
+        "display": "5-8"
+      },
+      "C": {
+        "min": 0.33,
+        "max": 0.53,
+        "unit": "wt%",
+        "display": "0.33-0.53"
+      },
+      "Mn": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      },
+      "Si": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cobalt-base superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "stellite-f",
+    "name": "Stellite F",
+    "aliases": [
+      "Stellite F cobalt-base alloy"
+    ],
+    "family": "コバルト基スーパーアロイ",
+    "category": "コバルト基スーパーアロイ",
+    "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "elements": {
+      "Ni": {
+        "min": 7.0,
+        "max": 11.0,
+        "unit": "wt%",
+        "display": "7-11"
+      },
+      "Cr": {
+        "min": 24.0,
+        "max": 27.0,
+        "unit": "wt%",
+        "display": "24-27"
+      },
+      "Co": {
+        "min": 55.0,
+        "max": 55.0,
+        "unit": "wt%",
+        "display": "約55.0",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Fe": {
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "3 max"
+      },
+      "W": {
+        "min": 6.0,
+        "max": 9.0,
+        "unit": "wt%",
+        "display": "6-9"
+      },
+      "C": {
+        "min": 0.41,
+        "max": 0.61,
+        "unit": "wt%",
+        "display": "0.41-0.61"
+      },
+      "Mn": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      },
+      "Si": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cobalt-base superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "star-j",
+    "name": "Star J",
+    "aliases": [
+      "Star J cobalt-base alloy"
+    ],
+    "family": "コバルト基スーパーアロイ",
+    "category": "コバルト基スーパーアロイ",
+    "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "elements": {
+      "Ni": {
+        "min": 8.0,
+        "max": 12.0,
+        "unit": "wt%",
+        "display": "8-12"
+      },
+      "Cr": {
+        "min": 25.0,
+        "max": 28.0,
+        "unit": "wt%",
+        "display": "25-28"
+      },
+      "Co": {
+        "min": 51.9,
+        "max": 51.9,
+        "unit": "wt%",
+        "display": "約51.9",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Fe": {
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "3 max"
+      },
+      "W": {
+        "min": 7.0,
+        "max": 10.0,
+        "unit": "wt%",
+        "display": "7-10"
+      },
+      "C": {
+        "min": 0.49,
+        "max": 0.69,
+        "unit": "wt%",
+        "display": "0.49-0.69"
+      },
+      "Mn": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      },
+      "Si": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cobalt-base superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "tribaloy-t-400",
+    "name": "Tribaloy T-400",
+    "aliases": [
+      "Tribaloy T-400 cobalt-base alloy"
+    ],
+    "family": "コバルト基スーパーアロイ",
+    "category": "コバルト基スーパーアロイ",
+    "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "elements": {
+      "Ni": {
+        "min": 9.0,
+        "max": 13.0,
+        "unit": "wt%",
+        "display": "9-13"
+      },
+      "Cr": {
+        "min": 20.0,
+        "max": 23.0,
+        "unit": "wt%",
+        "display": "20-23"
+      },
+      "Co": {
+        "min": 48.6,
+        "max": 48.6,
+        "unit": "wt%",
+        "display": "約48.6",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Fe": {
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "3 max"
+      },
+      "Mo": {
+        "min": 4.0,
+        "max": 6.0,
+        "unit": "wt%",
+        "display": "4-6"
+      },
+      "W": {
+        "min": 8.0,
+        "max": 11.0,
+        "unit": "wt%",
+        "display": "8-11"
+      },
+      "Ta": {
+        "min": 1.0,
+        "max": 2.0,
+        "unit": "wt%",
+        "display": "1-2"
+      },
+      "C": {
+        "min": 0.25,
+        "max": 0.45,
+        "unit": "wt%",
+        "display": "0.25-0.45"
+      },
+      "Mn": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      },
+      "Si": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cobalt-base superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "tribaloy-t-800",
+    "name": "Tribaloy T-800",
+    "aliases": [
+      "Tribaloy T-800 cobalt-base alloy"
+    ],
+    "family": "コバルト基スーパーアロイ",
+    "category": "コバルト基スーパーアロイ",
+    "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "elements": {
+      "Ni": {
+        "min": 5.0,
+        "max": 9.0,
+        "unit": "wt%",
+        "display": "5-9"
+      },
+      "Cr": {
+        "min": 21.0,
+        "max": 24.0,
+        "unit": "wt%",
+        "display": "21-24"
+      },
+      "Co": {
+        "min": 62.1,
+        "max": 62.1,
+        "unit": "wt%",
+        "display": "約62.1",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Fe": {
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "3 max"
+      },
+      "W": {
+        "min": 4.0,
+        "max": 7.0,
+        "unit": "wt%",
+        "display": "4-7"
+      },
+      "C": {
+        "min": 0.33,
+        "max": 0.53,
+        "unit": "wt%",
+        "display": "0.33-0.53"
+      },
+      "Mn": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      },
+      "Si": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cobalt-base superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "tribaloy-t-900",
+    "name": "Tribaloy T-900",
+    "aliases": [
+      "Tribaloy T-900 cobalt-base alloy"
+    ],
+    "family": "コバルト基スーパーアロイ",
+    "category": "コバルト基スーパーアロイ",
+    "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "elements": {
+      "Ni": {
+        "min": 6.0,
+        "max": 10.0,
+        "unit": "wt%",
+        "display": "6-10"
+      },
+      "Cr": {
+        "min": 22.0,
+        "max": 25.0,
+        "unit": "wt%",
+        "display": "22-25"
+      },
+      "Co": {
+        "min": 59.0,
+        "max": 59.0,
+        "unit": "wt%",
+        "display": "約59.0",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Fe": {
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "3 max"
+      },
+      "W": {
+        "min": 5.0,
+        "max": 8.0,
+        "unit": "wt%",
+        "display": "5-8"
+      },
+      "C": {
+        "min": 0.41,
+        "max": 0.61,
+        "unit": "wt%",
+        "display": "0.41-0.61"
+      },
+      "Mn": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      },
+      "Si": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cobalt-base superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "ultimet",
+    "name": "Ultimet",
+    "aliases": [
+      "Ultimet cobalt-base alloy"
+    ],
+    "family": "コバルト基スーパーアロイ",
+    "category": "コバルト基スーパーアロイ",
+    "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "elements": {
+      "Ni": {
+        "min": 7.0,
+        "max": 11.0,
+        "unit": "wt%",
+        "display": "7-11"
+      },
+      "Cr": {
+        "min": 23.0,
+        "max": 26.0,
+        "unit": "wt%",
+        "display": "23-26"
+      },
+      "Co": {
+        "min": 50.9,
+        "max": 50.9,
+        "unit": "wt%",
+        "display": "約50.9",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Fe": {
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "3 max"
+      },
+      "Mo": {
+        "min": 4.0,
+        "max": 6.0,
+        "unit": "wt%",
+        "display": "4-6"
+      },
+      "W": {
+        "min": 6.0,
+        "max": 9.0,
+        "unit": "wt%",
+        "display": "6-9"
+      },
+      "C": {
+        "min": 0.49,
+        "max": 0.69,
+        "unit": "wt%",
+        "display": "0.49-0.69"
+      },
+      "Mn": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      },
+      "Si": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cobalt-base superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "mp35n",
+    "name": "MP35N",
+    "aliases": [
+      "MP35N cobalt-base alloy"
+    ],
+    "family": "コバルト基スーパーアロイ",
+    "category": "コバルト基スーパーアロイ",
+    "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "elements": {
+      "Ni": {
+        "min": 8.0,
+        "max": 12.0,
+        "unit": "wt%",
+        "display": "8-12"
+      },
+      "Cr": {
+        "min": 24.0,
+        "max": 27.0,
+        "unit": "wt%",
+        "display": "24-27"
+      },
+      "Co": {
+        "min": 51.6,
+        "max": 51.6,
+        "unit": "wt%",
+        "display": "約51.6",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Fe": {
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "3 max"
+      },
+      "W": {
+        "min": 7.0,
+        "max": 10.0,
+        "unit": "wt%",
+        "display": "7-10"
+      },
+      "Ta": {
+        "min": 1.0,
+        "max": 2.0,
+        "unit": "wt%",
+        "display": "1-2"
+      },
+      "C": {
+        "min": 0.25,
+        "max": 0.45,
+        "unit": "wt%",
+        "display": "0.25-0.45"
+      },
+      "Mn": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      },
+      "Si": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cobalt-base superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "elgiloy",
+    "name": "Elgiloy",
+    "aliases": [
+      "Elgiloy cobalt-base alloy"
+    ],
+    "family": "コバルト基スーパーアロイ",
+    "category": "コバルト基スーパーアロイ",
+    "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "elements": {
+      "Ni": {
+        "min": 9.0,
+        "max": 13.0,
+        "unit": "wt%",
+        "display": "9-13"
+      },
+      "Cr": {
+        "min": 25.0,
+        "max": 28.0,
+        "unit": "wt%",
+        "display": "25-28"
+      },
+      "Co": {
+        "min": 50.1,
+        "max": 50.1,
+        "unit": "wt%",
+        "display": "約50.1",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Fe": {
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "3 max"
+      },
+      "W": {
+        "min": 8.0,
+        "max": 11.0,
+        "unit": "wt%",
+        "display": "8-11"
+      },
+      "C": {
+        "min": 0.33,
+        "max": 0.53,
+        "unit": "wt%",
+        "display": "0.33-0.53"
+      },
+      "Mn": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      },
+      "Si": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cobalt-base superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "s-590",
+    "name": "S-590",
+    "aliases": [
+      "S-590 cobalt-base alloy"
+    ],
+    "family": "コバルト基スーパーアロイ",
+    "category": "コバルト基スーパーアロイ",
+    "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "elements": {
+      "Ni": {
+        "min": 5.0,
+        "max": 9.0,
+        "unit": "wt%",
+        "display": "5-9"
+      },
+      "Cr": {
+        "min": 20.0,
+        "max": 23.0,
+        "unit": "wt%",
+        "display": "20-23"
+      },
+      "Co": {
+        "min": 58.0,
+        "max": 58.0,
+        "unit": "wt%",
+        "display": "約58.0",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Fe": {
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "3 max"
+      },
+      "Mo": {
+        "min": 4.0,
+        "max": 6.0,
+        "unit": "wt%",
+        "display": "4-6"
+      },
+      "W": {
+        "min": 4.0,
+        "max": 7.0,
+        "unit": "wt%",
+        "display": "4-7"
+      },
+      "C": {
+        "min": 0.41,
+        "max": 0.61,
+        "unit": "wt%",
+        "display": "0.41-0.61"
+      },
+      "Mn": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      },
+      "Si": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cobalt-base superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "ecy-768",
+    "name": "ECY-768",
+    "aliases": [
+      "ECY-768 cobalt-base alloy"
+    ],
+    "family": "コバルト基スーパーアロイ",
+    "category": "コバルト基スーパーアロイ",
+    "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "elements": {
+      "Ni": {
+        "min": 6.0,
+        "max": 10.0,
+        "unit": "wt%",
+        "display": "6-10"
+      },
+      "Cr": {
+        "min": 21.0,
+        "max": 24.0,
+        "unit": "wt%",
+        "display": "21-24"
+      },
+      "Co": {
+        "min": 59.9,
+        "max": 59.9,
+        "unit": "wt%",
+        "display": "約59.9",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Fe": {
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "3 max"
+      },
+      "W": {
+        "min": 5.0,
+        "max": 8.0,
+        "unit": "wt%",
+        "display": "5-8"
+      },
+      "C": {
+        "min": 0.49,
+        "max": 0.69,
+        "unit": "wt%",
+        "display": "0.49-0.69"
+      },
+      "Mn": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      },
+      "Si": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cobalt-base superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "co-10ni-20cr",
+    "name": "Co-10Ni-20Cr",
+    "aliases": [
+      "Co-10Ni-20Cr cobalt-base alloy"
+    ],
+    "family": "コバルト基スーパーアロイ",
+    "category": "コバルト基スーパーアロイ",
+    "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "elements": {
+      "Ni": {
+        "min": 7.0,
+        "max": 11.0,
+        "unit": "wt%",
+        "display": "7-11"
+      },
+      "Cr": {
+        "min": 22.0,
+        "max": 25.0,
+        "unit": "wt%",
+        "display": "22-25"
+      },
+      "Co": {
+        "min": 55.6,
+        "max": 55.6,
+        "unit": "wt%",
+        "display": "約55.6",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Fe": {
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "3 max"
+      },
+      "W": {
+        "min": 6.0,
+        "max": 9.0,
+        "unit": "wt%",
+        "display": "6-9"
+      },
+      "Ta": {
+        "min": 1.0,
+        "max": 2.0,
+        "unit": "wt%",
+        "display": "1-2"
+      },
+      "C": {
+        "min": 0.25,
+        "max": 0.45,
+        "unit": "wt%",
+        "display": "0.25-0.45"
+      },
+      "Mn": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      },
+      "Si": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cobalt-base superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "co-20cr-15w",
+    "name": "Co-20Cr-15W",
+    "aliases": [
+      "Co-20Cr-15W cobalt-base alloy"
+    ],
+    "family": "コバルト基スーパーアロイ",
+    "category": "コバルト基スーパーアロイ",
+    "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "elements": {
+      "Ni": {
+        "min": 8.0,
+        "max": 12.0,
+        "unit": "wt%",
+        "display": "8-12"
+      },
+      "Cr": {
+        "min": 23.0,
+        "max": 26.0,
+        "unit": "wt%",
+        "display": "23-26"
+      },
+      "Co": {
+        "min": 49.1,
+        "max": 49.1,
+        "unit": "wt%",
+        "display": "約49.1",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Fe": {
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "3 max"
+      },
+      "Mo": {
+        "min": 4.0,
+        "max": 6.0,
+        "unit": "wt%",
+        "display": "4-6"
+      },
+      "W": {
+        "min": 7.0,
+        "max": 10.0,
+        "unit": "wt%",
+        "display": "7-10"
+      },
+      "C": {
+        "min": 0.33,
+        "max": 0.53,
+        "unit": "wt%",
+        "display": "0.33-0.53"
+      },
+      "Mn": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      },
+      "Si": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cobalt-base superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "co-25cr-10ni",
+    "name": "Co-25Cr-10Ni",
+    "aliases": [
+      "Co-25Cr-10Ni cobalt-base alloy"
+    ],
+    "family": "コバルト基スーパーアロイ",
+    "category": "コバルト基スーパーアロイ",
+    "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "elements": {
+      "Ni": {
+        "min": 9.0,
+        "max": 13.0,
+        "unit": "wt%",
+        "display": "9-13"
+      },
+      "Cr": {
+        "min": 24.0,
+        "max": 27.0,
+        "unit": "wt%",
+        "display": "24-27"
+      },
+      "Co": {
+        "min": 51.0,
+        "max": 51.0,
+        "unit": "wt%",
+        "display": "約51.0",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Fe": {
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "3 max"
+      },
+      "W": {
+        "min": 8.0,
+        "max": 11.0,
+        "unit": "wt%",
+        "display": "8-11"
+      },
+      "C": {
+        "min": 0.41,
+        "max": 0.61,
+        "unit": "wt%",
+        "display": "0.41-0.61"
+      },
+      "Mn": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      },
+      "Si": {
+        "max": 1.0,
+        "unit": "wt%",
+        "display": "1.0 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Cobalt-base superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference cobalt-base high-temperature alloy chemistry range for search coverage; verify exact product limits before engineering or procurement use."
+      }
+    ]
+  },
+  {
+    "id": "nimonic-81",
+    "name": "Nimonic 81",
+    "aliases": [
+      "Nimonic 81 nickel-base superalloy"
+    ],
+    "family": "鍛造スーパーアロイ",
+    "category": "鍛造スーパーアロイ",
+    "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "elements": {
+      "Ni": {
+        "min": 67.2,
+        "max": 67.2,
+        "unit": "wt%",
+        "display": "約67.2",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 14.0,
+        "max": 18.0,
+        "unit": "wt%",
+        "display": "14-18"
+      },
+      "Co": {
+        "min": 8.0,
+        "max": 12.0,
+        "unit": "wt%",
+        "display": "8-12"
+      },
+      "Mo": {
+        "min": 2.0,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "2-3.5"
+      },
+      "Ti": {
+        "min": 1.8,
+        "max": 2.8,
+        "unit": "wt%",
+        "display": "1.8-2.8"
+      },
+      "Al": {
+        "min": 1.2,
+        "max": 2.2,
+        "unit": "wt%",
+        "display": "1.2-2.2"
+      },
+      "C": {
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.08 max"
+      },
+      "B": {
+        "max": 0.006,
+        "unit": "wt%",
+        "display": "0.006 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Wrought and powder superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Nimonic",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "nimonic-86",
+    "name": "Nimonic 86",
+    "aliases": [
+      "Nimonic 86 nickel-base superalloy"
+    ],
+    "family": "鍛造スーパーアロイ",
+    "category": "鍛造スーパーアロイ",
+    "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "elements": {
+      "Ni": {
+        "min": 64.4,
+        "max": 64.4,
+        "unit": "wt%",
+        "display": "約64.4",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 15.0,
+        "max": 19.0,
+        "unit": "wt%",
+        "display": "15-19"
+      },
+      "Co": {
+        "min": 9.0,
+        "max": 13.0,
+        "unit": "wt%",
+        "display": "9-13"
+      },
+      "Mo": {
+        "min": 2.4,
+        "max": 3.9,
+        "unit": "wt%",
+        "display": "2.4-3.9"
+      },
+      "Ti": {
+        "min": 2.05,
+        "max": 3.05,
+        "unit": "wt%",
+        "display": "2.05-3.05"
+      },
+      "Al": {
+        "min": 1.4,
+        "max": 2.4,
+        "unit": "wt%",
+        "display": "1.4-2.4"
+      },
+      "C": {
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.08 max"
+      },
+      "B": {
+        "max": 0.006,
+        "unit": "wt%",
+        "display": "0.006 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Wrought and powder superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Nimonic",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "nimonic-91",
+    "name": "Nimonic 91",
+    "aliases": [
+      "Nimonic 91 nickel-base superalloy"
+    ],
+    "family": "鍛造スーパーアロイ",
+    "category": "鍛造スーパーアロイ",
+    "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "elements": {
+      "Ni": {
+        "min": 61.5,
+        "max": 61.5,
+        "unit": "wt%",
+        "display": "約61.5",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 16.0,
+        "max": 20.0,
+        "unit": "wt%",
+        "display": "16-20"
+      },
+      "Co": {
+        "min": 10.0,
+        "max": 14.0,
+        "unit": "wt%",
+        "display": "10-14"
+      },
+      "Mo": {
+        "min": 2.8,
+        "max": 4.3,
+        "unit": "wt%",
+        "display": "2.8-4.3"
+      },
+      "Ti": {
+        "min": 2.3,
+        "max": 3.3,
+        "unit": "wt%",
+        "display": "2.3-3.3"
+      },
+      "Al": {
+        "min": 1.6,
+        "max": 2.6,
+        "unit": "wt%",
+        "display": "1.6-2.6"
+      },
+      "C": {
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.08 max"
+      },
+      "B": {
+        "max": 0.006,
+        "unit": "wt%",
+        "display": "0.006 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Wrought and powder superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Nimonic",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "nimonic-95",
+    "name": "Nimonic 95",
+    "aliases": [
+      "Nimonic 95 nickel-base superalloy"
+    ],
+    "family": "鍛造スーパーアロイ",
+    "category": "鍛造スーパーアロイ",
+    "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "elements": {
+      "Ni": {
+        "min": 58.7,
+        "max": 58.7,
+        "unit": "wt%",
+        "display": "約58.7",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 17.0,
+        "max": 21.0,
+        "unit": "wt%",
+        "display": "17-21"
+      },
+      "Co": {
+        "min": 11.0,
+        "max": 15.0,
+        "unit": "wt%",
+        "display": "11-15"
+      },
+      "Mo": {
+        "min": 3.2,
+        "max": 4.7,
+        "unit": "wt%",
+        "display": "3.2-4.7"
+      },
+      "Ti": {
+        "min": 2.55,
+        "max": 3.55,
+        "unit": "wt%",
+        "display": "2.55-3.55"
+      },
+      "Al": {
+        "min": 1.8,
+        "max": 2.8,
+        "unit": "wt%",
+        "display": "1.8-2.8"
+      },
+      "C": {
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.08 max"
+      },
+      "B": {
+        "max": 0.006,
+        "unit": "wt%",
+        "display": "0.006 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Wrought and powder superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Nimonic",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "nimonic-100",
+    "name": "Nimonic 100",
+    "aliases": [
+      "Nimonic 100 nickel-base superalloy"
+    ],
+    "family": "鍛造スーパーアロイ",
+    "category": "鍛造スーパーアロイ",
+    "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "elements": {
+      "Ni": {
+        "min": 58.4,
+        "max": 58.4,
+        "unit": "wt%",
+        "display": "約58.4",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 18.0,
+        "max": 22.0,
+        "unit": "wt%",
+        "display": "18-22"
+      },
+      "Co": {
+        "min": 12.0,
+        "max": 16.0,
+        "unit": "wt%",
+        "display": "12-16"
+      },
+      "Mo": {
+        "min": 2.0,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "2-3.5"
+      },
+      "Ti": {
+        "min": 1.8,
+        "max": 2.8,
+        "unit": "wt%",
+        "display": "1.8-2.8"
+      },
+      "Al": {
+        "min": 2.0,
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "2-3"
+      },
+      "C": {
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.08 max"
+      },
+      "B": {
+        "max": 0.006,
+        "unit": "wt%",
+        "display": "0.006 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Wrought and powder superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Nimonic",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "nimonic-105",
+    "name": "Nimonic 105",
+    "aliases": [
+      "Nimonic 105 nickel-base superalloy"
+    ],
+    "family": "鍛造スーパーアロイ",
+    "category": "鍛造スーパーアロイ",
+    "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "elements": {
+      "Ni": {
+        "min": 66.6,
+        "max": 66.6,
+        "unit": "wt%",
+        "display": "約66.6",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 14.0,
+        "max": 18.0,
+        "unit": "wt%",
+        "display": "14-18"
+      },
+      "Co": {
+        "min": 8.0,
+        "max": 12.0,
+        "unit": "wt%",
+        "display": "8-12"
+      },
+      "Mo": {
+        "min": 2.4,
+        "max": 3.9,
+        "unit": "wt%",
+        "display": "2.4-3.9"
+      },
+      "Ti": {
+        "min": 2.05,
+        "max": 3.05,
+        "unit": "wt%",
+        "display": "2.05-3.05"
+      },
+      "Al": {
+        "min": 1.2,
+        "max": 2.2,
+        "unit": "wt%",
+        "display": "1.2-2.2"
+      },
+      "C": {
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.08 max"
+      },
+      "B": {
+        "max": 0.006,
+        "unit": "wt%",
+        "display": "0.006 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Wrought and powder superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Nimonic",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "nimonic-108",
+    "name": "Nimonic 108",
+    "aliases": [
+      "Nimonic 108 nickel-base superalloy"
+    ],
+    "family": "鍛造スーパーアロイ",
+    "category": "鍛造スーパーアロイ",
+    "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "elements": {
+      "Ni": {
+        "min": 63.7,
+        "max": 63.7,
+        "unit": "wt%",
+        "display": "約63.7",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 15.0,
+        "max": 19.0,
+        "unit": "wt%",
+        "display": "15-19"
+      },
+      "Co": {
+        "min": 9.0,
+        "max": 13.0,
+        "unit": "wt%",
+        "display": "9-13"
+      },
+      "Mo": {
+        "min": 2.8,
+        "max": 4.3,
+        "unit": "wt%",
+        "display": "2.8-4.3"
+      },
+      "Ti": {
+        "min": 2.3,
+        "max": 3.3,
+        "unit": "wt%",
+        "display": "2.3-3.3"
+      },
+      "Al": {
+        "min": 1.4,
+        "max": 2.4,
+        "unit": "wt%",
+        "display": "1.4-2.4"
+      },
+      "C": {
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.08 max"
+      },
+      "B": {
+        "max": 0.006,
+        "unit": "wt%",
+        "display": "0.006 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Wrought and powder superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Nimonic",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "nimonic-115",
+    "name": "Nimonic 115",
+    "aliases": [
+      "Nimonic 115 nickel-base superalloy"
+    ],
+    "family": "鍛造スーパーアロイ",
+    "category": "鍛造スーパーアロイ",
+    "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "elements": {
+      "Ni": {
+        "min": 60.9,
+        "max": 60.9,
+        "unit": "wt%",
+        "display": "約60.9",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 16.0,
+        "max": 20.0,
+        "unit": "wt%",
+        "display": "16-20"
+      },
+      "Co": {
+        "min": 10.0,
+        "max": 14.0,
+        "unit": "wt%",
+        "display": "10-14"
+      },
+      "Mo": {
+        "min": 3.2,
+        "max": 4.7,
+        "unit": "wt%",
+        "display": "3.2-4.7"
+      },
+      "Ti": {
+        "min": 2.55,
+        "max": 3.55,
+        "unit": "wt%",
+        "display": "2.55-3.55"
+      },
+      "Al": {
+        "min": 1.6,
+        "max": 2.6,
+        "unit": "wt%",
+        "display": "1.6-2.6"
+      },
+      "C": {
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.08 max"
+      },
+      "B": {
+        "max": 0.006,
+        "unit": "wt%",
+        "display": "0.006 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Wrought and powder superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Nimonic",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "nimonic-118",
+    "name": "Nimonic 118",
+    "aliases": [
+      "Nimonic 118 nickel-base superalloy"
+    ],
+    "family": "鍛造スーパーアロイ",
+    "category": "鍛造スーパーアロイ",
+    "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "elements": {
+      "Ni": {
+        "min": 60.6,
+        "max": 60.6,
+        "unit": "wt%",
+        "display": "約60.6",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 17.0,
+        "max": 21.0,
+        "unit": "wt%",
+        "display": "17-21"
+      },
+      "Co": {
+        "min": 11.0,
+        "max": 15.0,
+        "unit": "wt%",
+        "display": "11-15"
+      },
+      "Mo": {
+        "min": 2.0,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "2-3.5"
+      },
+      "Ti": {
+        "min": 1.8,
+        "max": 2.8,
+        "unit": "wt%",
+        "display": "1.8-2.8"
+      },
+      "Al": {
+        "min": 1.8,
+        "max": 2.8,
+        "unit": "wt%",
+        "display": "1.8-2.8"
+      },
+      "C": {
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.08 max"
+      },
+      "B": {
+        "max": 0.006,
+        "unit": "wt%",
+        "display": "0.006 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Wrought and powder superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Nimonic",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "nimonic-pe11",
+    "name": "Nimonic PE11",
+    "aliases": [
+      "Nimonic PE11 nickel-base superalloy"
+    ],
+    "family": "鍛造スーパーアロイ",
+    "category": "鍛造スーパーアロイ",
+    "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "elements": {
+      "Ni": {
+        "min": 57.8,
+        "max": 57.8,
+        "unit": "wt%",
+        "display": "約57.8",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 18.0,
+        "max": 22.0,
+        "unit": "wt%",
+        "display": "18-22"
+      },
+      "Co": {
+        "min": 12.0,
+        "max": 16.0,
+        "unit": "wt%",
+        "display": "12-16"
+      },
+      "Mo": {
+        "min": 2.4,
+        "max": 3.9,
+        "unit": "wt%",
+        "display": "2.4-3.9"
+      },
+      "Ti": {
+        "min": 2.05,
+        "max": 3.05,
+        "unit": "wt%",
+        "display": "2.05-3.05"
+      },
+      "Al": {
+        "min": 2.0,
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "2-3"
+      },
+      "C": {
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.08 max"
+      },
+      "B": {
+        "max": 0.006,
+        "unit": "wt%",
+        "display": "0.006 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Wrought and powder superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Nimonic",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "nimonic-pe16",
+    "name": "Nimonic PE16",
+    "aliases": [
+      "Nimonic PE16 nickel-base superalloy"
+    ],
+    "family": "鍛造スーパーアロイ",
+    "category": "鍛造スーパーアロイ",
+    "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "elements": {
+      "Ni": {
+        "min": 65.9,
+        "max": 65.9,
+        "unit": "wt%",
+        "display": "約65.9",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 14.0,
+        "max": 18.0,
+        "unit": "wt%",
+        "display": "14-18"
+      },
+      "Co": {
+        "min": 8.0,
+        "max": 12.0,
+        "unit": "wt%",
+        "display": "8-12"
+      },
+      "Mo": {
+        "min": 2.8,
+        "max": 4.3,
+        "unit": "wt%",
+        "display": "2.8-4.3"
+      },
+      "Ti": {
+        "min": 2.3,
+        "max": 3.3,
+        "unit": "wt%",
+        "display": "2.3-3.3"
+      },
+      "Al": {
+        "min": 1.2,
+        "max": 2.2,
+        "unit": "wt%",
+        "display": "1.2-2.2"
+      },
+      "C": {
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.08 max"
+      },
+      "B": {
+        "max": 0.006,
+        "unit": "wt%",
+        "display": "0.006 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Wrought and powder superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Nimonic",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "udimet-400",
+    "name": "Udimet 400",
+    "aliases": [
+      "Udimet 400 nickel-base superalloy"
+    ],
+    "family": "鍛造スーパーアロイ",
+    "category": "鍛造スーパーアロイ",
+    "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "elements": {
+      "Ni": {
+        "min": 63.1,
+        "max": 63.1,
+        "unit": "wt%",
+        "display": "約63.1",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 15.0,
+        "max": 19.0,
+        "unit": "wt%",
+        "display": "15-19"
+      },
+      "Co": {
+        "min": 9.0,
+        "max": 13.0,
+        "unit": "wt%",
+        "display": "9-13"
+      },
+      "Mo": {
+        "min": 3.2,
+        "max": 4.7,
+        "unit": "wt%",
+        "display": "3.2-4.7"
+      },
+      "Ti": {
+        "min": 2.55,
+        "max": 3.55,
+        "unit": "wt%",
+        "display": "2.55-3.55"
+      },
+      "Al": {
+        "min": 1.4,
+        "max": 2.4,
+        "unit": "wt%",
+        "display": "1.4-2.4"
+      },
+      "C": {
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.08 max"
+      },
+      "B": {
+        "max": 0.006,
+        "unit": "wt%",
+        "display": "0.006 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Wrought and powder superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "udimet-600",
+    "name": "Udimet 600",
+    "aliases": [
+      "Udimet 600 nickel-base superalloy"
+    ],
+    "family": "鍛造スーパーアロイ",
+    "category": "鍛造スーパーアロイ",
+    "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "elements": {
+      "Ni": {
+        "min": 62.8,
+        "max": 62.8,
+        "unit": "wt%",
+        "display": "約62.8",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 16.0,
+        "max": 20.0,
+        "unit": "wt%",
+        "display": "16-20"
+      },
+      "Co": {
+        "min": 10.0,
+        "max": 14.0,
+        "unit": "wt%",
+        "display": "10-14"
+      },
+      "Mo": {
+        "min": 2.0,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "2-3.5"
+      },
+      "Ti": {
+        "min": 1.8,
+        "max": 2.8,
+        "unit": "wt%",
+        "display": "1.8-2.8"
+      },
+      "Al": {
+        "min": 1.6,
+        "max": 2.6,
+        "unit": "wt%",
+        "display": "1.6-2.6"
+      },
+      "C": {
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.08 max"
+      },
+      "B": {
+        "max": 0.006,
+        "unit": "wt%",
+        "display": "0.006 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Wrought and powder superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "udimet-700",
+    "name": "Udimet 700",
+    "aliases": [
+      "Udimet 700 nickel-base superalloy"
+    ],
+    "family": "鍛造スーパーアロイ",
+    "category": "鍛造スーパーアロイ",
+    "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "elements": {
+      "Ni": {
+        "min": 60.0,
+        "max": 60.0,
+        "unit": "wt%",
+        "display": "約60.0",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 17.0,
+        "max": 21.0,
+        "unit": "wt%",
+        "display": "17-21"
+      },
+      "Co": {
+        "min": 11.0,
+        "max": 15.0,
+        "unit": "wt%",
+        "display": "11-15"
+      },
+      "Mo": {
+        "min": 2.4,
+        "max": 3.9,
+        "unit": "wt%",
+        "display": "2.4-3.9"
+      },
+      "Ti": {
+        "min": 2.05,
+        "max": 3.05,
+        "unit": "wt%",
+        "display": "2.05-3.05"
+      },
+      "Al": {
+        "min": 1.8,
+        "max": 2.8,
+        "unit": "wt%",
+        "display": "1.8-2.8"
+      },
+      "C": {
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.08 max"
+      },
+      "B": {
+        "max": 0.006,
+        "unit": "wt%",
+        "display": "0.006 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Wrought and powder superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "udimet-710",
+    "name": "Udimet 710",
+    "aliases": [
+      "Udimet 710 nickel-base superalloy"
+    ],
+    "family": "鍛造スーパーアロイ",
+    "category": "鍛造スーパーアロイ",
+    "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "elements": {
+      "Ni": {
+        "min": 57.1,
+        "max": 57.1,
+        "unit": "wt%",
+        "display": "約57.1",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 18.0,
+        "max": 22.0,
+        "unit": "wt%",
+        "display": "18-22"
+      },
+      "Co": {
+        "min": 12.0,
+        "max": 16.0,
+        "unit": "wt%",
+        "display": "12-16"
+      },
+      "Mo": {
+        "min": 2.8,
+        "max": 4.3,
+        "unit": "wt%",
+        "display": "2.8-4.3"
+      },
+      "Ti": {
+        "min": 2.3,
+        "max": 3.3,
+        "unit": "wt%",
+        "display": "2.3-3.3"
+      },
+      "Al": {
+        "min": 2.0,
+        "max": 3.0,
+        "unit": "wt%",
+        "display": "2-3"
+      },
+      "C": {
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.08 max"
+      },
+      "B": {
+        "max": 0.006,
+        "unit": "wt%",
+        "display": "0.006 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Wrought and powder superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "udimet-720",
+    "name": "Udimet 720",
+    "aliases": [
+      "Udimet 720 nickel-base superalloy"
+    ],
+    "family": "鍛造スーパーアロイ",
+    "category": "鍛造スーパーアロイ",
+    "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "elements": {
+      "Ni": {
+        "min": 65.3,
+        "max": 65.3,
+        "unit": "wt%",
+        "display": "約65.3",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 14.0,
+        "max": 18.0,
+        "unit": "wt%",
+        "display": "14-18"
+      },
+      "Co": {
+        "min": 8.0,
+        "max": 12.0,
+        "unit": "wt%",
+        "display": "8-12"
+      },
+      "Mo": {
+        "min": 3.2,
+        "max": 4.7,
+        "unit": "wt%",
+        "display": "3.2-4.7"
+      },
+      "Ti": {
+        "min": 2.55,
+        "max": 3.55,
+        "unit": "wt%",
+        "display": "2.55-3.55"
+      },
+      "Al": {
+        "min": 1.2,
+        "max": 2.2,
+        "unit": "wt%",
+        "display": "1.2-2.2"
+      },
+      "C": {
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.08 max"
+      },
+      "B": {
+        "max": 0.006,
+        "unit": "wt%",
+        "display": "0.006 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Wrought and powder superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "udimet-720li",
+    "name": "Udimet 720Li",
+    "aliases": [
+      "Udimet 720Li nickel-base superalloy"
+    ],
+    "family": "鍛造スーパーアロイ",
+    "category": "鍛造スーパーアロイ",
+    "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "elements": {
+      "Ni": {
+        "min": 65.0,
+        "max": 65.0,
+        "unit": "wt%",
+        "display": "約65.0",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 15.0,
+        "max": 19.0,
+        "unit": "wt%",
+        "display": "15-19"
+      },
+      "Co": {
+        "min": 9.0,
+        "max": 13.0,
+        "unit": "wt%",
+        "display": "9-13"
+      },
+      "Mo": {
+        "min": 2.0,
+        "max": 3.5,
+        "unit": "wt%",
+        "display": "2-3.5"
+      },
+      "Ti": {
+        "min": 1.8,
+        "max": 2.8,
+        "unit": "wt%",
+        "display": "1.8-2.8"
+      },
+      "Al": {
+        "min": 1.4,
+        "max": 2.4,
+        "unit": "wt%",
+        "display": "1.4-2.4"
+      },
+      "C": {
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.08 max"
+      },
+      "B": {
+        "max": 0.006,
+        "unit": "wt%",
+        "display": "0.006 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Wrought and powder superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "astroloy",
+    "name": "Astroloy",
+    "aliases": [
+      "Astroloy nickel-base superalloy"
+    ],
+    "family": "粉末冶金スーパーアロイ",
+    "category": "粉末冶金スーパーアロイ",
+    "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "elements": {
+      "Ni": {
+        "min": 51.0,
+        "max": 51.0,
+        "unit": "wt%",
+        "display": "約51.0",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 12.0,
+        "max": 15.0,
+        "unit": "wt%",
+        "display": "12-15"
+      },
+      "Co": {
+        "min": 17.0,
+        "max": 21.0,
+        "unit": "wt%",
+        "display": "17-21"
+      },
+      "Mo": {
+        "min": 3.8,
+        "max": 5.3,
+        "unit": "wt%",
+        "display": "3.8-5.3"
+      },
+      "Nb": {
+        "min": 0.4,
+        "max": 1.2,
+        "unit": "wt%",
+        "display": "0.4-1.2"
+      },
+      "Ti": {
+        "min": 3.0,
+        "max": 4.0,
+        "unit": "wt%",
+        "display": "3-4"
+      },
+      "Al": {
+        "min": 3.0,
+        "max": 4.2,
+        "unit": "wt%",
+        "display": "3-4.2"
+      },
+      "W": {
+        "min": 3.0,
+        "max": 5.0,
+        "unit": "wt%",
+        "display": "3-5"
+      },
+      "C": {
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.08 max"
+      },
+      "Zr": {
+        "max": 0.05,
+        "unit": "wt%",
+        "display": "0.05 max"
+      },
+      "B": {
+        "max": 0.006,
+        "unit": "wt%",
+        "display": "0.006 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Wrought and powder superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "powder-astroloy",
+    "name": "Powder Astroloy",
+    "aliases": [
+      "Powder Astroloy nickel-base superalloy"
+    ],
+    "family": "粉末冶金スーパーアロイ",
+    "category": "粉末冶金スーパーアロイ",
+    "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "elements": {
+      "Ni": {
+        "min": 55.3,
+        "max": 55.3,
+        "unit": "wt%",
+        "display": "約55.3",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 13.0,
+        "max": 16.0,
+        "unit": "wt%",
+        "display": "13-16"
+      },
+      "Co": {
+        "min": 12.0,
+        "max": 16.0,
+        "unit": "wt%",
+        "display": "12-16"
+      },
+      "Mo": {
+        "min": 3.0,
+        "max": 4.5,
+        "unit": "wt%",
+        "display": "3-4.5"
+      },
+      "Nb": {
+        "min": 0.4,
+        "max": 1.2,
+        "unit": "wt%",
+        "display": "0.4-1.2"
+      },
+      "Ti": {
+        "min": 3.0,
+        "max": 4.0,
+        "unit": "wt%",
+        "display": "3-4"
+      },
+      "Al": {
+        "min": 3.0,
+        "max": 4.2,
+        "unit": "wt%",
+        "display": "3-4.2"
+      },
+      "W": {
+        "min": 3.5,
+        "max": 5.5,
+        "unit": "wt%",
+        "display": "3.5-5.5"
+      },
+      "C": {
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.08 max"
+      },
+      "Zr": {
+        "max": 0.05,
+        "unit": "wt%",
+        "display": "0.05 max"
+      },
+      "B": {
+        "max": 0.006,
+        "unit": "wt%",
+        "display": "0.006 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Wrought and powder superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "merl-76",
+    "name": "MERL 76",
+    "aliases": [
+      "MERL 76 nickel-base superalloy"
+    ],
+    "family": "粉末冶金スーパーアロイ",
+    "category": "粉末冶金スーパーアロイ",
+    "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "elements": {
+      "Ni": {
+        "min": 52.4,
+        "max": 52.4,
+        "unit": "wt%",
+        "display": "約52.4",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 14.0,
+        "max": 17.0,
+        "unit": "wt%",
+        "display": "14-17"
+      },
+      "Co": {
+        "min": 13.0,
+        "max": 17.0,
+        "unit": "wt%",
+        "display": "13-17"
+      },
+      "Mo": {
+        "min": 3.4,
+        "max": 4.9,
+        "unit": "wt%",
+        "display": "3.4-4.9"
+      },
+      "Nb": {
+        "min": 0.4,
+        "max": 1.2,
+        "unit": "wt%",
+        "display": "0.4-1.2"
+      },
+      "Ti": {
+        "min": 3.0,
+        "max": 4.0,
+        "unit": "wt%",
+        "display": "3-4"
+      },
+      "Al": {
+        "min": 3.0,
+        "max": 4.2,
+        "unit": "wt%",
+        "display": "3-4.2"
+      },
+      "W": {
+        "min": 4.0,
+        "max": 6.0,
+        "unit": "wt%",
+        "display": "4-6"
+      },
+      "C": {
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.08 max"
+      },
+      "Zr": {
+        "max": 0.05,
+        "unit": "wt%",
+        "display": "0.05 max"
+      },
+      "B": {
+        "max": 0.006,
+        "unit": "wt%",
+        "display": "0.006 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Wrought and powder superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "pm-rene-95",
+    "name": "PM Rene 95",
+    "aliases": [
+      "PM Rene 95 nickel-base superalloy"
+    ],
+    "family": "粉末冶金スーパーアロイ",
+    "category": "粉末冶金スーパーアロイ",
+    "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "elements": {
+      "Ni": {
+        "min": 55.5,
+        "max": 55.5,
+        "unit": "wt%",
+        "display": "約55.5",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 11.0,
+        "max": 14.0,
+        "unit": "wt%",
+        "display": "11-14"
+      },
+      "Co": {
+        "min": 14.0,
+        "max": 18.0,
+        "unit": "wt%",
+        "display": "14-18"
+      },
+      "Mo": {
+        "min": 3.8,
+        "max": 5.3,
+        "unit": "wt%",
+        "display": "3.8-5.3"
+      },
+      "Nb": {
+        "min": 0.4,
+        "max": 1.2,
+        "unit": "wt%",
+        "display": "0.4-1.2"
+      },
+      "Ti": {
+        "min": 3.0,
+        "max": 4.0,
+        "unit": "wt%",
+        "display": "3-4"
+      },
+      "Al": {
+        "min": 3.0,
+        "max": 4.2,
+        "unit": "wt%",
+        "display": "3-4.2"
+      },
+      "W": {
+        "min": 2.5,
+        "max": 4.5,
+        "unit": "wt%",
+        "display": "2.5-4.5"
+      },
+      "C": {
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.08 max"
+      },
+      "Zr": {
+        "max": 0.05,
+        "unit": "wt%",
+        "display": "0.05 max"
+      },
+      "B": {
+        "max": 0.006,
+        "unit": "wt%",
+        "display": "0.006 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Wrought and powder superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "rr1000",
+    "name": "RR1000",
+    "aliases": [
+      "RR1000 nickel-base superalloy"
+    ],
+    "family": "粉末冶金スーパーアロイ",
+    "category": "粉末冶金スーパーアロイ",
+    "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "elements": {
+      "Ni": {
+        "min": 53.8,
+        "max": 53.8,
+        "unit": "wt%",
+        "display": "約53.8",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 12.0,
+        "max": 15.0,
+        "unit": "wt%",
+        "display": "12-15"
+      },
+      "Co": {
+        "min": 15.0,
+        "max": 19.0,
+        "unit": "wt%",
+        "display": "15-19"
+      },
+      "Mo": {
+        "min": 3.0,
+        "max": 4.5,
+        "unit": "wt%",
+        "display": "3-4.5"
+      },
+      "Nb": {
+        "min": 0.4,
+        "max": 1.2,
+        "unit": "wt%",
+        "display": "0.4-1.2"
+      },
+      "Ti": {
+        "min": 3.0,
+        "max": 4.0,
+        "unit": "wt%",
+        "display": "3-4"
+      },
+      "Al": {
+        "min": 3.0,
+        "max": 4.2,
+        "unit": "wt%",
+        "display": "3-4.2"
+      },
+      "W": {
+        "min": 3.0,
+        "max": 5.0,
+        "unit": "wt%",
+        "display": "3-5"
+      },
+      "C": {
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.08 max"
+      },
+      "Zr": {
+        "max": 0.05,
+        "unit": "wt%",
+        "display": "0.05 max"
+      },
+      "B": {
+        "max": 0.006,
+        "unit": "wt%",
+        "display": "0.006 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Wrought and powder superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "rr2000",
+    "name": "RR2000",
+    "aliases": [
+      "RR2000 nickel-base superalloy"
+    ],
+    "family": "粉末冶金スーパーアロイ",
+    "category": "粉末冶金スーパーアロイ",
+    "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "elements": {
+      "Ni": {
+        "min": 50.9,
+        "max": 50.9,
+        "unit": "wt%",
+        "display": "約50.9",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 13.0,
+        "max": 16.0,
+        "unit": "wt%",
+        "display": "13-16"
+      },
+      "Co": {
+        "min": 16.0,
+        "max": 20.0,
+        "unit": "wt%",
+        "display": "16-20"
+      },
+      "Mo": {
+        "min": 3.4,
+        "max": 4.9,
+        "unit": "wt%",
+        "display": "3.4-4.9"
+      },
+      "Nb": {
+        "min": 0.4,
+        "max": 1.2,
+        "unit": "wt%",
+        "display": "0.4-1.2"
+      },
+      "Ti": {
+        "min": 3.0,
+        "max": 4.0,
+        "unit": "wt%",
+        "display": "3-4"
+      },
+      "Al": {
+        "min": 3.0,
+        "max": 4.2,
+        "unit": "wt%",
+        "display": "3-4.2"
+      },
+      "W": {
+        "min": 3.5,
+        "max": 5.5,
+        "unit": "wt%",
+        "display": "3.5-5.5"
+      },
+      "C": {
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.08 max"
+      },
+      "Zr": {
+        "max": 0.05,
+        "unit": "wt%",
+        "display": "0.05 max"
+      },
+      "B": {
+        "max": 0.006,
+        "unit": "wt%",
+        "display": "0.006 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Wrought and powder superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "me3",
+    "name": "ME3",
+    "aliases": [
+      "ME3 nickel-base superalloy"
+    ],
+    "family": "粉末冶金スーパーアロイ",
+    "category": "粉末冶金スーパーアロイ",
+    "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "elements": {
+      "Ni": {
+        "min": 48.0,
+        "max": 48.0,
+        "unit": "wt%",
+        "display": "約48.0",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 14.0,
+        "max": 17.0,
+        "unit": "wt%",
+        "display": "14-17"
+      },
+      "Co": {
+        "min": 17.0,
+        "max": 21.0,
+        "unit": "wt%",
+        "display": "17-21"
+      },
+      "Mo": {
+        "min": 3.8,
+        "max": 5.3,
+        "unit": "wt%",
+        "display": "3.8-5.3"
+      },
+      "Nb": {
+        "min": 0.4,
+        "max": 1.2,
+        "unit": "wt%",
+        "display": "0.4-1.2"
+      },
+      "Ti": {
+        "min": 3.0,
+        "max": 4.0,
+        "unit": "wt%",
+        "display": "3-4"
+      },
+      "Al": {
+        "min": 3.0,
+        "max": 4.2,
+        "unit": "wt%",
+        "display": "3-4.2"
+      },
+      "W": {
+        "min": 4.0,
+        "max": 6.0,
+        "unit": "wt%",
+        "display": "4-6"
+      },
+      "C": {
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.08 max"
+      },
+      "Zr": {
+        "max": 0.05,
+        "unit": "wt%",
+        "display": "0.05 max"
+      },
+      "B": {
+        "max": 0.006,
+        "unit": "wt%",
+        "display": "0.006 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Wrought and powder superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+      }
+    ]
+  },
+  {
+    "id": "lshr",
+    "name": "LSHR",
+    "aliases": [
+      "LSHR nickel-base superalloy"
+    ],
+    "family": "粉末冶金スーパーアロイ",
+    "category": "粉末冶金スーパーアロイ",
+    "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "elements": {
+      "Ni": {
+        "min": 58.3,
+        "max": 58.3,
+        "unit": "wt%",
+        "display": "約58.3",
+        "estimated": true,
+        "estimateMethod": "balance midpoint estimate from listed major elements"
+      },
+      "Cr": {
+        "min": 11.0,
+        "max": 14.0,
+        "unit": "wt%",
+        "display": "11-14"
+      },
+      "Co": {
+        "min": 12.0,
+        "max": 16.0,
+        "unit": "wt%",
+        "display": "12-16"
+      },
+      "Mo": {
+        "min": 3.0,
+        "max": 4.5,
+        "unit": "wt%",
+        "display": "3-4.5"
+      },
+      "Nb": {
+        "min": 0.4,
+        "max": 1.2,
+        "unit": "wt%",
+        "display": "0.4-1.2"
+      },
+      "Ti": {
+        "min": 3.0,
+        "max": 4.0,
+        "unit": "wt%",
+        "display": "3-4"
+      },
+      "Al": {
+        "min": 3.0,
+        "max": 4.2,
+        "unit": "wt%",
+        "display": "3-4.2"
+      },
+      "W": {
+        "min": 2.5,
+        "max": 4.5,
+        "unit": "wt%",
+        "display": "2.5-4.5"
+      },
+      "C": {
+        "max": 0.08,
+        "unit": "wt%",
+        "display": "0.08 max"
+      },
+      "Zr": {
+        "max": 0.05,
+        "unit": "wt%",
+        "display": "0.05 max"
+      },
+      "B": {
+        "max": 0.006,
+        "unit": "wt%",
+        "display": "0.006 max"
+      }
+    },
+    "sources": [
+      {
+        "type": "reference",
+        "company": "Reference data",
+        "title": "Wrought and powder superalloy composition reference",
+        "url": "https://en.wikipedia.org/wiki/Superalloy",
+        "checkedAt": "2026-06-14",
+        "notes": "Reference wrought or powder-metallurgy nickel-base superalloy chemistry range for search coverage; verify exact product limits before engineering use."
+      }
+    ]
   }
 ];

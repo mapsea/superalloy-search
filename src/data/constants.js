@@ -24,6 +24,7 @@ export const ELEMENT_COLUMNS = [
   "H",
   "Pd",
   "Ru",
+  "Re",
   "Be",
   "Hf"
 ];

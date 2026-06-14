@@ -1,4 +1,4 @@
-import { ELEMENT_COLUMNS, SOURCE_LABELS } from "./data/alloys.js?v=20260614d";
+import { ELEMENT_COLUMNS, SOURCE_LABELS } from "./data/alloys.js?v=20260614f";
 
 function escapeHtml(value) {
   return String(value ?? "").replace(/[&<>"']/g, (char) => ({
