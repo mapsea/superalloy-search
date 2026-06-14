@@ -2,6 +2,12 @@
 
 Checked at: 2026-06-14
 
+## Source of Truth
+
+The human-editable source of truth is `data/alloys.csv`.
+
+Run `python3 scripts/build-data.py` after editing the CSV. The script validates the rows and regenerates `src/data/generated/alloys.js`, which is committed for GitHub Pages.
+
 This file tracks the first 20 alloys in the static database. Source confidence is intentionally explicit:
 
 - `official`: manufacturer or producer technical bulletin confirmed.
