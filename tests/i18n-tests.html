@@ -21,6 +21,7 @@
       localizedAlloy,
       localizedSourceNotes
     } from "../src/i18n.js";
+    import { renderDetail, renderTableBody, renderTableHead } from "../src/render.js";
 
     const output = document.querySelector("#output");
     const lines = [];
@@ -134,6 +135,93 @@
     test("returns localized source notes with fallback", () => {
       assertEqual(localizedSourceNotes(alloy, "en"), "Verified.");
       assertEqual(localizedSourceNotes(alloy, "zh"), "確認済み。");
+    });
+
+    test("renders localized table and detail content", () => {
+      const head = document.createElement("tr");
+      renderTableHead(head, "en");
+      assert(head.textContent.includes("Alloy"), "English table header missing");
+      assert(head.textContent.includes("Source"), "English source header missing");
+
+      const body = document.createElement("tbody");
+      renderTableBody(body, [{
+        id: "example",
+        name: "日本語合金",
+        aliases: [],
+        category: "スーパーアロイ",
+        usage: "熱処理炉",
+        elements: { Ni: { min: 50, max: 55, display: "50-55" } },
+        sources: [{ type: "official" }],
+        localized: {
+          ja: {
+            name: "日本語合金",
+            category: "スーパーアロイ",
+            family: "スーパーアロイ",
+            usage: "熱処理炉",
+            properties: "高温環境向け合金。",
+            representativeMakers: "大同特殊鋼",
+            japaneseMakers: "大同特殊鋼",
+            sourceNotes: "確認済み。"
+          },
+          en: {
+            name: "Japanese Alloy",
+            category: "Superalloy",
+            family: "Superalloy",
+            usage: "Heat-treatment furnaces",
+            properties: "Alloy for high-temperature environments.",
+            representativeMakers: "Daido Steel",
+            japaneseMakers: "Daido Steel",
+            sourceNotes: "Verified."
+          }
+        }
+      }], () => {}, "en");
+      assert(body.textContent.includes("Japanese Alloy"), "English alloy name missing");
+      assert(body.textContent.includes("Official"), "English source label missing");
+
+      const detail = document.createElement("div");
+      renderDetail(detail, {
+        id: "example",
+        name: "日本語合金",
+        aliases: [],
+        category: "スーパーアロイ",
+        usage: "熱処理炉",
+        properties: "高温環境向け合金。",
+        representativeMakers: "大同特殊鋼",
+        japaneseMakers: "大同特殊鋼",
+        elements: { Ni: { min: 50, max: 55, display: "50-55" } },
+        sources: [{
+          type: "official",
+          company: "Example Maker",
+          title: "Example source",
+          url: "https://example.com",
+          checkedAt: "2026-06-14",
+          notes: "確認済み。"
+        }],
+        localized: {
+          ja: {
+            name: "日本語合金",
+            category: "スーパーアロイ",
+            family: "スーパーアロイ",
+            usage: "熱処理炉",
+            properties: "高温環境向け合金。",
+            representativeMakers: "大同特殊鋼",
+            japaneseMakers: "大同特殊鋼",
+            sourceNotes: "確認済み。"
+          },
+          en: {
+            name: "Japanese Alloy",
+            category: "Superalloy",
+            family: "Superalloy",
+            usage: "Heat-treatment furnaces",
+            properties: "Alloy for high-temperature environments.",
+            representativeMakers: "Daido Steel",
+            japaneseMakers: "Daido Steel",
+            sourceNotes: "Verified."
+          }
+        }
+      }, "en");
+      assert(detail.textContent.includes("Properties"), "English detail heading missing");
+      assert(detail.textContent.includes("Verified."), "English source note missing");
     });
 
     output.textContent = lines.join("\n");

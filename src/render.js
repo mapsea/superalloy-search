@@ -1,4 +1,7 @@
-import { ELEMENT_COLUMNS, SOURCE_LABELS } from "./data/alloys.js?v=20260614h";
+import { ELEMENT_COLUMNS } from "./data/alloys.js?v=20260614h";
+import { localizedAlloy, localizedSourceNotes, sourceLabel, t } from "./i18n.js";
+
+const SOURCE_TYPES = new Set(["official", "standard", "reference", "unverified"]);
 
 function escapeHtml(value) {
   return String(value ?? "").replace(/[&<>"']/g, (char) => ({
@@ -11,7 +14,7 @@ function escapeHtml(value) {
 }
 
 function normalizeSourceType(type) {
-  return Object.prototype.hasOwnProperty.call(SOURCE_LABELS, type) ? type : "unverified";
+  return SOURCE_TYPES.has(type) ? type : "unverified";
 }
 
 function safeSourceUrl(value) {
@@ -42,25 +45,26 @@ export function formatElement(alloy, symbol) {
   return value ? value.display : "-";
 }
 
-export function renderTableHead(container) {
+export function renderTableHead(container, language = "ja") {
   container.innerHTML = [
-    '<th scope="col">合金</th>',
-    '<th scope="col">用途</th>',
+    `<th scope="col">${escapeHtml(t(language, "tableAlloy"))}</th>`,
+    `<th scope="col">${escapeHtml(t(language, "tableUsage"))}</th>`,
     ...ELEMENT_COLUMNS.map((symbol) => `<th scope="col">${escapeHtml(symbol)}</th>`),
-    '<th scope="col">出典</th>'
+    `<th scope="col">${escapeHtml(t(language, "tableSource"))}</th>`
   ].join("");
 }
 
-export function renderTableBody(container, alloys, onSelect) {
+export function renderTableBody(container, alloys, onSelect, language = "ja") {
   container.innerHTML = alloys.map((alloy) => {
     const rank = sourceRank(alloy);
+    const localized = localizedAlloy(alloy, language);
     const cells = ELEMENT_COLUMNS.map((symbol) => `<td>${escapeHtml(formatElement(alloy, symbol))}</td>`).join("");
     return `
       <tr>
-        <td><button class="link-button" type="button" data-alloy-id="${escapeHtml(alloy.id)}">${escapeHtml(alloy.name)}</button></td>
-        <td>${escapeHtml(alloy.usage)}</td>
+        <td><button class="link-button" type="button" data-alloy-id="${escapeHtml(alloy.id)}">${escapeHtml(localized.name)}</button></td>
+        <td>${escapeHtml(localized.usage)}</td>
         ${cells}
-        <td><span class="source-badge ${rank}">${escapeHtml(SOURCE_LABELS[rank])}</span></td>
+        <td><span class="source-badge ${rank}">${escapeHtml(sourceLabel(language, rank))}</span></td>
       </tr>
     `;
   }).join("");
@@ -70,9 +74,10 @@ export function renderTableBody(container, alloys, onSelect) {
   });
 }
 
-export function renderCards(container, alloys, onSelect) {
+export function renderCards(container, alloys, onSelect, language = "ja") {
   container.innerHTML = alloys.map((alloy) => {
     const rank = sourceRank(alloy);
+    const localized = localizedAlloy(alloy, language);
     const keyElements = ELEMENT_COLUMNS
       .filter((symbol) => alloy.elements[symbol])
       .slice(0, 5)
@@ -83,13 +88,13 @@ export function renderCards(container, alloys, onSelect) {
       <article class="alloy-card">
         <div class="card-title-row">
           <div>
-            <h3>${escapeHtml(alloy.name)}</h3>
-            <p>${escapeHtml(alloy.usage)}</p>
+            <h3>${escapeHtml(localized.name)}</h3>
+            <p>${escapeHtml(localized.usage)}</p>
           </div>
-          <span class="source-badge ${rank}">${escapeHtml(SOURCE_LABELS[rank])}</span>
+          <span class="source-badge ${rank}">${escapeHtml(sourceLabel(language, rank))}</span>
         </div>
         <div class="element-pills">${keyElements}</div>
-        <button type="button" data-alloy-id="${escapeHtml(alloy.id)}">詳細を見る</button>
+        <button type="button" data-alloy-id="${escapeHtml(alloy.id)}">${escapeHtml(t(language, "detailsButton"))}</button>
       </article>
     `;
   }).join("");
@@ -99,9 +104,10 @@ export function renderCards(container, alloys, onSelect) {
   });
 }
 
-export function renderDetail(container, alloy) {
+export function renderDetail(container, alloy, language = "ja") {
+  const localized = localizedAlloy(alloy, language);
   const aliases = (alloy.aliases || []).join(", ");
-  const detailMeta = [alloy.usage, alloy.category, aliases]
+  const detailMeta = [localized.usage, localized.category, aliases]
     .filter(Boolean)
     .join(" / ");
 
@@ -109,37 +115,38 @@ export function renderDetail(container, alloy) {
     .filter((symbol) => alloy.elements[symbol])
     .map((symbol) => {
       const value = alloy.elements[symbol];
-      const note = value.includes ? ` (${escapeHtml(value.includes)}含む)` : "";
-      const estimateNote = value.estimated ? "（参考計算）" : "";
+      const note = value.includes ? escapeHtml(t(language, "includedElements", { value: value.includes })) : "";
+      const estimateNote = value.estimated ? escapeHtml(t(language, "estimatedNote")) : "";
       return `<tr><th scope="row">${escapeHtml(symbol)}</th><td>${escapeHtml(value.display)}${estimateNote}${note}</td></tr>`;
     })
     .join("");
 
   const sourceRows = (alloy.sources || []).map((source) => {
     const type = normalizeSourceType(source.type);
+    const notes = localizedSourceNotes(alloy, language) || source.notes;
     return `
       <li>
-        <span class="source-badge ${type}">${escapeHtml(SOURCE_LABELS[type])}</span>
+        <span class="source-badge ${type}">${escapeHtml(sourceLabel(language, type))}</span>
         ${renderSourceTitle(source)}
-        <p>${escapeHtml(source.company)} / 確認日: ${escapeHtml(source.checkedAt)}</p>
-        <p>${escapeHtml(source.notes)}</p>
+        <p>${escapeHtml(source.company)} / ${escapeHtml(t(language, "checkedAt"))}: ${escapeHtml(source.checkedAt)}</p>
+        <p>${escapeHtml(notes)}</p>
       </li>
     `;
   }).join("");
 
   container.innerHTML = `
     <div class="detail-body">
-      <h2>${escapeHtml(alloy.name)}</h2>
+      <h2>${escapeHtml(localized.name)}</h2>
       <p class="muted">${escapeHtml(detailMeta)}</p>
-      <h3>特性</h3>
-      <p class="detail-text">${escapeHtml(alloy.properties)}</p>
-      <h3>代表メーカー</h3>
-      <p class="detail-text">${escapeHtml(alloy.representativeMakers)}</p>
-      <h3>日本の代表メーカー</h3>
-      <p class="detail-text">${escapeHtml(alloy.japaneseMakers)}</p>
-      <h3>成分</h3>
+      <h3>${escapeHtml(t(language, "propertiesHeading"))}</h3>
+      <p class="detail-text">${escapeHtml(localized.properties)}</p>
+      <h3>${escapeHtml(t(language, "representativeMakersHeading"))}</h3>
+      <p class="detail-text">${escapeHtml(localized.representativeMakers)}</p>
+      <h3>${escapeHtml(t(language, "japaneseMakersHeading"))}</h3>
+      <p class="detail-text">${escapeHtml(localized.japaneseMakers)}</p>
+      <h3>${escapeHtml(t(language, "compositionHeading"))}</h3>
       <table class="detail-table"><tbody>${elementRows}</tbody></table>
-      <h3>出典</h3>
+      <h3>${escapeHtml(t(language, "sourcesHeading"))}</h3>
       <ul class="source-list">${sourceRows}</ul>
     </div>
   `;
