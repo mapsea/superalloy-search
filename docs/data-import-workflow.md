@@ -6,7 +6,7 @@ This project keeps alloy data in a human-editable CSV and generates the JavaScri
 
 The editable master file is `data/alloys.csv`. Make alloy additions and corrections there first.
 
-Do not edit generated data files by hand. After CSV changes, regenerate the site data with:
+Do not edit `src/data/generated/alloys.js` by hand. It is generated from the CSV. After CSV changes, regenerate the site data with:
 
 ```bash
 python3 scripts/build-data.py
@@ -71,6 +71,15 @@ Source types must be one of:
 - `unverified`
 
 Use `official` for manufacturer or producer technical bulletins, `standard` for recognized specifications, `reference` for secondary public references, and `unverified` for placeholder data that needs replacement before production-grade use.
+
+Validation rules enforced by the importer:
+
+- `id` must be unique.
+- Required identity, display, and source fields cannot be blank.
+- `checked_at` must use ISO date format, for example `2026-06-14`.
+- `source_url` must start with `http://` or `https://`.
+- Element ranges must have the smaller value first, for example `50-55`.
+- Include metadata such as `Nb_includes` can only reference supported element symbols.
 
 ## Generate Data
 

@@ -4,6 +4,16 @@
 
 ## データ追加
 
-合金データの正本は `data/alloys.csv` です。CSV を編集した後は、リポジトリルートで `python3 scripts/build-data.py` を実行してサイト用データを再生成してください。
+合金データの正本は `data/alloys.csv` です。Excel、Numbers、Google Sheets などでこのCSVを編集してデータを追加します。
 
-詳しい列定義、入力形式、検証手順は [Data Import Workflow](docs/data-import-workflow.md) を参照してください。
+`src/data/generated/alloys.js` はサイト表示用に自動生成されるファイルなので、手で編集しません。
+
+CSVを編集した後は、このプロジェクトのフォルダで以下を実行してサイト用データを再生成します。
+
+```bash
+python3 scripts/build-data.py
+```
+
+成功すると `Generated src/data/generated/alloys.js from ... records.` と表示されます。その後、テストページでPASSを確認してから公開します。
+
+詳しい列定義、入力形式、検証手順は [データ取り込み手順](docs/data-import-workflow.md) を参照してください。
