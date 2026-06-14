@@ -81,6 +81,72 @@
       assert(matchesAlloy(alloy, { query: "インプラント" }), "usage should be searchable");
     });
 
+    test("active language query matches localized usage", () => {
+      const alloy = {
+        name: "Example Alloy",
+        aliases: [],
+        category: "スーパーアロイ",
+        usage: "熱処理炉",
+        elements: {},
+        sources: [{ type: "official" }],
+        localized: {
+          ja: {
+            name: "Example Alloy",
+            category: "スーパーアロイ",
+            family: "スーパーアロイ",
+            usage: "熱処理炉",
+            properties: "高温環境向け合金。"
+          },
+          en: {
+            name: "Example Alloy",
+            category: "Superalloy",
+            family: "Superalloy",
+            usage: "heat-treatment furnaces",
+            properties: "Alloy for high-temperature environments."
+          },
+          zh: {
+            name: "Example Alloy",
+            category: "高温合金",
+            family: "高温合金",
+            usage: "热处理炉",
+            properties: "面向高温环境的合金。"
+          }
+        }
+      };
+
+      assert(matchesAlloy(alloy, { query: "heat-treatment", language: "en" }), "English usage should be searchable");
+      assert(matchesAlloy(alloy, { query: "热处理", language: "zh" }), "Chinese usage should be searchable");
+    });
+
+    test("Japanese fallback query still works in another active language", () => {
+      const alloy = {
+        name: "Example Alloy",
+        aliases: [],
+        category: "スーパーアロイ",
+        usage: "熱処理炉",
+        elements: {},
+        sources: [{ type: "official" }],
+        localized: {
+          ja: {
+            name: "Example Alloy",
+            category: "スーパーアロイ",
+            family: "スーパーアロイ",
+            usage: "熱処理炉",
+            properties: "高温環境向け合金。"
+          },
+          en: {
+            name: "Example Alloy",
+            category: "Superalloy",
+            family: "Superalloy",
+            usage: "heat-treatment furnaces",
+            properties: "Alloy for high-temperature environments."
+          }
+        }
+      };
+
+      assert(matchesAlloy(alloy, { query: "熱処理", language: "en" }), "Japanese fallback should remain searchable");
+    });
+
     test("alloy text query matches category", () => {
       const alloy = {
         name: "Example Alloy",

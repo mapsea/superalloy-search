@@ -1,3 +1,5 @@
+import { localizedAlloy } from "./i18n.js";
+
 function normalize(value) {
   return String(value || "").trim().toLowerCase();
 }
@@ -32,7 +34,27 @@ export function matchesAlloy(alloy, criteria) {
   const elementFilters = criteria.elementFilters || [];
 
   if (query) {
-    const haystack = [alloy.name, alloy.family, alloy.category, alloy.usage, ...(alloy.aliases || [])]
+    const language = criteria.language || "ja";
+    const active = localizedAlloy(alloy, language);
+    const fallback = localizedAlloy(alloy, "ja");
+    const haystack = [
+      alloy.id,
+      alloy.name,
+      alloy.family,
+      alloy.category,
+      alloy.usage,
+      active.name,
+      active.family,
+      active.category,
+      active.usage,
+      active.properties,
+      fallback.name,
+      fallback.family,
+      fallback.category,
+      fallback.usage,
+      fallback.properties,
+      ...(alloy.aliases || [])
+    ]
       .map(normalize)
       .join(" ");
     if (!haystack.includes(query)) return false;
