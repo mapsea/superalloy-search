@@ -1,6 +1,6 @@
-import { alloys, ELEMENT_COLUMNS } from "./data/alloys.js?v=20260614f";
-import { filterAlloys } from "./search.js?v=20260614f";
-import { renderCards, renderDetail, renderTableBody, renderTableHead } from "./render.js?v=20260614f";
+import { alloys, ELEMENT_COLUMNS } from "./data/alloys.js?v=20260614g";
+import { filterAlloys } from "./search.js?v=20260614g";
+import { renderCards, renderDetail, renderTableBody, renderTableHead } from "./render.js?v=20260614g";
 
 const state = {
   query: "",

@@ -21,6 +21,10 @@ Every row must include these identity and display columns:
 - `aliases`
 - `category`
 - `usage`
+- `properties`
+- `representative_makers`
+
+`properties` and `representative_makers` may be left blank when adding rows in bulk. The generator fills safe category/family defaults for blank values. Fill these fields directly when a specific alloy has known characteristics or producer names that should override the default text.
 
 Every row must include the source columns:
 
@@ -44,6 +48,23 @@ Every row must include the element columns supported by the importer:
 - `W`
 - `Ta`
 - `C`
+- `Mn`
+- `Si`
+- `Cu`
+- `V`
+- `Sn`
+- `Zr`
+- `B`
+- `P`
+- `S`
+- `N`
+- `O`
+- `H`
+- `Pd`
+- `Ru`
+- `Re`
+- `Be`
+- `Hf`
 
 Optional include metadata columns may be added for supported elements by using the `_includes` suffix. Current examples include `Ni_includes` and `Nb_includes`. Use these when a reported composition value includes related elements, such as nickel including cobalt or niobium including tantalum.
 

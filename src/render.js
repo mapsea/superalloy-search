@@ -1,4 +1,4 @@
-import { ELEMENT_COLUMNS, SOURCE_LABELS } from "./data/alloys.js?v=20260614f";
+import { ELEMENT_COLUMNS, SOURCE_LABELS } from "./data/alloys.js?v=20260614g";
 
 function escapeHtml(value) {
   return String(value ?? "").replace(/[&<>"']/g, (char) => ({
@@ -131,6 +131,10 @@ export function renderDetail(container, alloy) {
     <div class="detail-body">
       <h2>${escapeHtml(alloy.name)}</h2>
       <p class="muted">${escapeHtml(detailMeta)}</p>
+      <h3>特性</h3>
+      <p class="detail-text">${escapeHtml(alloy.properties)}</p>
+      <h3>代表メーカー</h3>
+      <p class="detail-text">${escapeHtml(alloy.representativeMakers)}</p>
       <h3>成分</h3>
       <table class="detail-table"><tbody>${elementRows}</tbody></table>
       <h3>出典</h3>

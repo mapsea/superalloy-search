@@ -107,9 +107,21 @@
         assert(typeof alloy.family === "string" && alloy.family.length > 0, `${alloy.id} family missing`);
         assert(typeof alloy.category === "string" && alloy.category.length > 0, `${alloy.id} category missing`);
         assert(typeof alloy.usage === "string" && alloy.usage.length > 0, `${alloy.id} usage missing`);
+        assert(typeof alloy.properties === "string" && alloy.properties.length > 0, `${alloy.id} properties missing`);
+        assert(typeof alloy.representativeMakers === "string" && alloy.representativeMakers.length > 0, `${alloy.id} representative makers missing`);
         assert(alloy.elements && typeof alloy.elements === "object", `${alloy.id} elements missing`);
         assert(Array.isArray(alloy.sources) && alloy.sources.length > 0, `${alloy.id} sources missing`);
       });
+    });
+
+    test("representative detail metadata is present for key alloys", () => {
+      const inconel600 = alloys.find((alloy) => alloy.id === "inconel-600");
+      const cmsx4 = alloys.find((alloy) => alloy.id === "cmsx-4");
+
+      assert(inconel600.properties.includes("耐酸化"), "Inconel 600 properties should mention oxidation resistance");
+      assert(inconel600.representativeMakers.includes("Special Metals"), "Inconel 600 makers should mention Special Metals");
+      assert(cmsx4.properties.includes("単結晶"), "CMSX-4 properties should mention single crystal use");
+      assert(cmsx4.representativeMakers.includes("Cannon-Muskegon"), "CMSX-4 makers should mention Cannon-Muskegon");
     });
 
     test("all element entries have display and unit or balance kind", () => {

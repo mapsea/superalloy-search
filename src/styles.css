@@ -272,8 +272,18 @@ button {
   padding: 22px;
 }
 
+.detail-body h3 {
+  margin: 22px 0 10px;
+}
+
 .muted {
   color: var(--muted);
+}
+
+.detail-text {
+  margin: 0 0 6px;
+  color: #354454;
+  line-height: 1.65;
 }
 
 .detail-table {

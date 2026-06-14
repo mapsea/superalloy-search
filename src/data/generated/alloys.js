@@ -14,6 +14,8 @@ export const alloys = [
     "family": "Ni-Cr-Fe耐熱耐食合金",
     "category": "スーパーアロイ",
     "usage": "熱処理炉・化学装置",
+    "properties": "Ni-Cr-Fe系の耐熱耐食合金。高温での耐酸化性、塩化物応力腐食割れへの抵抗、化学装置向けの汎用性が特長。",
+    "representativeMakers": "Special Metals, VDM Metals, Haynes International, ATI",
     "elements": {
       "Ni": {
         "min": 72.0,
@@ -61,6 +63,8 @@ export const alloys = [
     "family": "Ni-Cr-Fe耐酸化合金",
     "category": "スーパーアロイ",
     "usage": "高温酸化環境・工業炉",
+    "properties": "高Cr-Ni系の耐酸化合金。高温酸化、浸炭、熱衝撃環境で使いやすい。",
+    "representativeMakers": "Special Metals, VDM Metals, Haynes International, ATI",
     "elements": {
       "Ni": {
         "min": 58.0,
@@ -116,6 +120,8 @@ export const alloys = [
     "family": "Ni-Cr-Co-Mo高温合金",
     "category": "スーパーアロイ",
     "usage": "ガスタービン・高温機器",
+    "properties": "Ni-Cr-Co-Mo系の固溶強化合金。高温強度、酸化抵抗、ガスタービン周辺部材への適性が特長。",
+    "representativeMakers": "Special Metals, VDM Metals, Haynes International, ATI",
     "elements": {
       "Ni": {
         "min": 44.5,
@@ -185,6 +191,8 @@ export const alloys = [
     "family": "Ni基耐食耐熱合金",
     "category": "スーパーアロイ",
     "usage": "海洋・化学プラント・耐食部材",
+    "properties": "Mo-Nb添加Ni基耐食合金。海水、塩化物、酸性環境での耐食性と溶接性が特長。",
+    "representativeMakers": "Special Metals, VDM Metals, Haynes International, ATI",
     "elements": {
       "Ni": {
         "min": 58.0,
@@ -257,6 +265,8 @@ export const alloys = [
     "family": "高Cr Ni基耐食合金",
     "category": "スーパーアロイ",
     "usage": "原子力・高温水環境",
+    "properties": "高温環境向け合金。耐酸化性、高温強度、クリープ抵抗を重視し、熱処理炉・ガスタービン・高温装置に使われる。",
+    "representativeMakers": "Special Metals, VDM Metals, ATI, Carpenter Technology",
     "elements": {
       "Ni": {
         "min": 58.0,
@@ -303,6 +313,8 @@ export const alloys = [
     "family": "Ni基スーパーアロイ",
     "category": "スーパーアロイ",
     "usage": "航空エンジン・ガスタービン",
+    "properties": "Nbを含む析出強化Ni基合金。高強度、耐クリープ性、鍛造・AM部材への適用範囲の広さが特長。",
+    "representativeMakers": "Special Metals, Carpenter Technology, ATI, VDM Metals",
     "elements": {
       "Ni": {
         "min": 50.0,
@@ -381,6 +393,8 @@ export const alloys = [
     "family": "Ni基析出強化合金",
     "category": "スーパーアロイ",
     "usage": "ばね・高温締結部品",
+    "properties": "高温環境向け合金。耐酸化性、高温強度、クリープ抵抗を重視し、熱処理炉・ガスタービン・高温装置に使われる。",
+    "representativeMakers": "Special Metals, ATI, VDM Metals, Carpenter Technology",
     "elements": {
       "Ni": {
         "min": 70.0,
@@ -445,6 +459,8 @@ export const alloys = [
     "family": "Ni-Mo耐食合金",
     "category": "耐食合金",
     "usage": "還元性酸・化学プラント",
+    "properties": "耐食性を重視した特殊合金。酸、塩化物、海水、化学プラント環境での腐食抵抗を主な特長とする。",
+    "representativeMakers": "Haynes International, VDM Metals, ATI, Special Metals",
     "elements": {
       "Ni": {
         "min": 70.0,
@@ -502,6 +518,8 @@ export const alloys = [
     "family": "Ni-Cr-Mo-W耐食合金",
     "category": "耐食合金",
     "usage": "酸化性・還元性混酸環境",
+    "properties": "耐食性を重視した特殊合金。酸、塩化物、海水、化学プラント環境での腐食抵抗を主な特長とする。",
+    "representativeMakers": "Haynes International, VDM Metals, ATI, Special Metals",
     "elements": {
       "Ni": {
         "min": 56.0,
@@ -568,6 +586,8 @@ export const alloys = [
     "family": "Ni-Cr-Mo-W耐食合金",
     "category": "耐食合金",
     "usage": "化学プラント・排煙脱硫",
+    "properties": "耐食性を重視した特殊合金。酸、塩化物、海水、化学プラント環境での腐食抵抗を主な特長とする。",
+    "representativeMakers": "Haynes International, VDM Metals, ATI, Special Metals",
     "elements": {
       "Ni": {
         "min": 58.0,
@@ -633,6 +653,8 @@ export const alloys = [
     "family": "Co-Ni-Cr-W高温合金",
     "category": "コバルト合金",
     "usage": "燃焼器・高温ガス部材",
+    "properties": "コバルト合金に分類される特殊金属材料。用途は燃焼器・高温ガス部材で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Haynes International, ATI, VDM Metals, Special Metals",
     "elements": {
       "Ni": {
         "min": 20.0,
@@ -693,6 +715,8 @@ export const alloys = [
     "family": "Ni-Cr-W-Mo高温合金",
     "category": "スーパーアロイ",
     "usage": "高温炉・ガスタービン部材",
+    "properties": "高温環境向け合金。耐酸化性、高温強度、クリープ抵抗を重視し、熱処理炉・ガスタービン・高温装置に使われる。",
+    "representativeMakers": "Haynes International, ATI, VDM Metals, Special Metals",
     "elements": {
       "Ni": {
         "min": 47.0,
@@ -757,6 +781,8 @@ export const alloys = [
     "family": "Ni-Cr-Co-Mo析出強化合金",
     "category": "スーパーアロイ",
     "usage": "航空エンジン・高温構造材",
+    "properties": "高温環境向け合金。耐酸化性、高温強度、クリープ抵抗を重視し、熱処理炉・ガスタービン・高温装置に使われる。",
+    "representativeMakers": "Haynes International, ATI, Carpenter Technology, Special Metals",
     "elements": {
       "Ni": {
         "min": 57.6,
@@ -828,6 +854,8 @@ export const alloys = [
     "family": "Ni基スーパーアロイ",
     "category": "スーパーアロイ",
     "usage": "航空エンジンディスク・シャフト",
+    "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
+    "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
     "elements": {
       "Ni": {
         "min": 57.3,
@@ -900,6 +928,8 @@ export const alloys = [
     "family": "Ni-Cr耐熱合金",
     "category": "スーパーアロイ",
     "usage": "高温板材・熱処理治具",
+    "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
+    "representativeMakers": "Special Metals, ATI, VDM Metals, Doncasters",
     "elements": {
       "Ni": {
         "min": 76.9,
@@ -955,6 +985,8 @@ export const alloys = [
     "family": "Ni-Cr析出強化合金",
     "category": "スーパーアロイ",
     "usage": "高温ボルト・バルブ部品",
+    "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
+    "representativeMakers": "Special Metals, ATI, VDM Metals, Doncasters",
     "elements": {
       "Ni": {
         "min": 75.3,
@@ -1020,6 +1052,8 @@ export const alloys = [
     "family": "Ni-Cr-Co析出強化合金",
     "category": "スーパーアロイ",
     "usage": "タービンブレード・高温ばね",
+    "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
+    "representativeMakers": "Special Metals, ATI, VDM Metals, Doncasters",
     "elements": {
       "Ni": {
         "min": 56.4,
@@ -1079,6 +1113,8 @@ export const alloys = [
     "family": "Ni-Co-Cr-Mo析出強化合金",
     "category": "スーパーアロイ",
     "usage": "タービンブレード・高温部材",
+    "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
+    "representativeMakers": "Special Metals, ATI, Howmet Aerospace, Carpenter Technology",
     "elements": {
       "Ni": {
         "min": 53.0,
@@ -1142,6 +1178,8 @@ export const alloys = [
     "family": "Ni-Co-Cr-Mo析出強化合金",
     "category": "スーパーアロイ",
     "usage": "タービンブレード・高温回転部材",
+    "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
+    "representativeMakers": "Special Metals, ATI, Howmet Aerospace, Carpenter Technology",
     "elements": {
       "Ni": {
         "min": 52.0,
@@ -1214,6 +1252,8 @@ export const alloys = [
     "family": "Ni-Cr-Co-Mo高強度合金",
     "category": "スーパーアロイ",
     "usage": "航空機高温構造材・ロケット部材",
+    "properties": "Ni-Cr-Co-Mo系の析出強化高温合金。高温引張強度と酸化抵抗に優れ、航空宇宙の高温構造材に使われる。",
+    "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 51.7,
@@ -1286,6 +1326,8 @@ export const alloys = [
     "family": "チタン合金",
     "category": "チタン合金",
     "usage": "化学装置・熱交換器・耐食部材",
+    "properties": "軽量で比強度と耐食性に優れるチタン合金。化学装置、航空構造、医療用途に使われる。",
+    "representativeMakers": "ATI, TIMET, Kobe Steel, Toho Titanium",
     "elements": {
       "Fe": {
         "max": 0.2,
@@ -1342,6 +1384,8 @@ export const alloys = [
     "family": "チタン合金",
     "category": "チタン合金",
     "usage": "化学装置・海水熱交換器・医療部材",
+    "properties": "軽量で比強度と耐食性に優れるチタン合金。化学装置、航空構造、医療用途に使われる。",
+    "representativeMakers": "ATI, TIMET, Kobe Steel, Toho Titanium",
     "elements": {
       "Fe": {
         "max": 0.3,
@@ -1399,6 +1443,8 @@ export const alloys = [
     "family": "チタン合金",
     "category": "チタン合金",
     "usage": "航空機構造・医療インプラント・AM造形",
+    "properties": "軽量で比強度と耐食性に優れるチタン合金。化学装置、航空構造、医療用途に使われる。",
+    "representativeMakers": "ATI, TIMET, Kobe Steel, Toho Titanium",
     "elements": {
       "Fe": {
         "max": 0.3,
@@ -1467,6 +1513,8 @@ export const alloys = [
     "family": "チタン合金",
     "category": "チタン合金",
     "usage": "医療インプラント・低温靭性部材",
+    "properties": "軽量で比強度と耐食性に優れるチタン合金。化学装置、航空構造、医療用途に使われる。",
+    "representativeMakers": "ATI, TIMET, Kobe Steel, Toho Titanium",
     "elements": {
       "Fe": {
         "max": 0.25,
@@ -1535,6 +1583,8 @@ export const alloys = [
     "family": "チタン合金",
     "category": "チタン合金",
     "usage": "還元性酸環境・化学プラント",
+    "properties": "軽量で比強度と耐食性に優れるチタン合金。化学装置、航空構造、医療用途に使われる。",
+    "representativeMakers": "ATI, TIMET, Kobe Steel, Toho Titanium",
     "elements": {
       "Fe": {
         "max": 0.3,
@@ -1597,6 +1647,8 @@ export const alloys = [
     "family": "チタン合金",
     "category": "チタン合金",
     "usage": "航空配管・自転車フレーム・圧力容器",
+    "properties": "軽量で比強度と耐食性に優れるチタン合金。化学装置、航空構造、医療用途に使われる。",
+    "representativeMakers": "ATI, TIMET, Kobe Steel, Toho Titanium",
     "elements": {
       "Fe": {
         "max": 0.25,
@@ -1665,6 +1717,8 @@ export const alloys = [
     "family": "チタン合金",
     "category": "チタン合金",
     "usage": "化学装置・熱交換器・耐隙間腐食部材",
+    "properties": "軽量で比強度と耐食性に優れるチタン合金。化学装置、航空構造、医療用途に使われる。",
+    "representativeMakers": "ATI, TIMET, Kobe Steel, Toho Titanium",
     "elements": {
       "Ni": {
         "min": 0.6,
@@ -1733,6 +1787,8 @@ export const alloys = [
     "family": "チタン合金",
     "category": "チタン合金",
     "usage": "防衛・航空・薄板構造材",
+    "properties": "軽量で比強度と耐食性に優れるチタン合金。化学装置、航空構造、医療用途に使われる。",
+    "representativeMakers": "ATI, TIMET, Kobe Steel, Toho Titanium",
     "elements": {
       "Fe": {
         "min": 1.2,
@@ -1804,6 +1860,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "食品設備・建築・一般耐食部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 8.0,
@@ -1877,6 +1935,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "溶接構造・タンク・配管",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 8.0,
@@ -1950,6 +2010,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "海水周辺・化学設備・耐孔食部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 10.0,
@@ -2029,6 +2091,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "溶接配管・医療・化学設備",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 10.0,
@@ -2108,6 +2172,8 @@ export const alloys = [
     "family": "耐熱ステンレス鋼",
     "category": "耐熱ステンレス鋼",
     "usage": "炉内部品・熱処理治具・高温酸化環境",
+    "properties": "高温環境向け合金。耐酸化性、高温強度、クリープ抵抗を重視し、熱処理炉・ガスタービン・高温装置に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 19.0,
@@ -2176,6 +2242,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "高温配管・溶接熱影響部耐粒界腐食",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 9.0,
@@ -2254,6 +2322,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "高温溶接部・ボイラー部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 9.0,
@@ -2335,6 +2405,8 @@ export const alloys = [
     "family": "析出硬化ステンレス鋼",
     "category": "析出硬化ステンレス鋼",
     "usage": "航空・シャフト・高強度耐食部品",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 3.0,
@@ -2416,6 +2488,8 @@ export const alloys = [
     "family": "析出硬化ステンレス鋼",
     "category": "析出硬化ステンレス鋼",
     "usage": "航空機構造・高強度精密部品",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 3.5,
@@ -2497,6 +2571,8 @@ export const alloys = [
     "family": "高耐食ステンレス鋼",
     "category": "高耐食ステンレス鋼",
     "usage": "硫酸環境・化学プラント",
+    "properties": "耐食性を重視した特殊合金。酸、塩化物、海水、化学プラント環境での腐食抵抗を主な特長とする。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 23.0,
@@ -2577,6 +2653,8 @@ export const alloys = [
     "family": "二相ステンレス鋼",
     "category": "二相ステンレス鋼",
     "usage": "海水・化学配管・高強度耐食部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 4.5,
@@ -2657,6 +2735,8 @@ export const alloys = [
     "family": "二相ステンレス鋼",
     "category": "二相ステンレス鋼",
     "usage": "海洋・油ガス・高塩化物環境",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 6.0,
@@ -2743,6 +2823,8 @@ export const alloys = [
     "family": "工具鋼",
     "category": "工具鋼",
     "usage": "冷間金型・せん断刃・耐摩耗部品",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 11.0,
@@ -2821,6 +2903,8 @@ export const alloys = [
     "family": "工具鋼",
     "category": "工具鋼",
     "usage": "ダイカスト金型・熱間工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 5.4,
@@ -2883,6 +2967,8 @@ export const alloys = [
     "family": "高速度工具鋼",
     "category": "高速度工具鋼",
     "usage": "ドリル・タップ・切削工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 4.0,
@@ -2944,6 +3030,8 @@ export const alloys = [
     "family": "高速度工具鋼",
     "category": "高速度工具鋼",
     "usage": "難削材切削工具・高温切削",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 3.75,
@@ -3011,6 +3099,8 @@ export const alloys = [
     "family": "高速度工具鋼",
     "category": "高速度工具鋼",
     "usage": "コバルト高速度工具・切削工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 4.3,
@@ -3084,6 +3174,8 @@ export const alloys = [
     "family": "ニッケル銅合金",
     "category": "ニッケル銅合金",
     "usage": "海水・化学装置・熱交換器",
+    "properties": "耐食性を重視した特殊合金。酸、塩化物、海水、化学プラント環境での腐食抵抗を主な特長とする。",
+    "representativeMakers": "Mitsubishi Materials, Wieland, Materion, KME",
     "elements": {
       "Ni": {
         "min": 63.0,
@@ -3138,6 +3230,8 @@ export const alloys = [
     "family": "ニッケル銅合金",
     "category": "ニッケル銅合金",
     "usage": "ポンプシャフト・海洋高強度部品",
+    "properties": "耐食性を重視した特殊合金。酸、塩化物、海水、化学プラント環境での腐食抵抗を主な特長とする。",
+    "representativeMakers": "Mitsubishi Materials, Wieland, Materion, KME",
     "elements": {
       "Ni": {
         "min": 63.0,
@@ -3205,6 +3299,8 @@ export const alloys = [
     "family": "高耐食合金",
     "category": "高耐食合金",
     "usage": "硫酸・化学プラント・耐応力腐食割れ",
+    "properties": "耐食性を重視した特殊合金。酸、塩化物、海水、化学プラント環境での腐食抵抗を主な特長とする。",
+    "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
     "elements": {
       "Ni": {
         "min": 32.0,
@@ -3278,6 +3374,8 @@ export const alloys = [
     "family": "鉄ニッケルクロム合金",
     "category": "鉄ニッケルクロム合金",
     "usage": "高温炉・熱交換器・酸化環境",
+    "properties": "耐食性を重視した特殊合金。酸、塩化物、海水、化学プラント環境での腐食抵抗を主な特長とする。",
+    "representativeMakers": "Special Metals, VDM Metals, ATI, Carpenter Technology",
     "elements": {
       "Ni": {
         "min": 30.0,
@@ -3323,6 +3421,8 @@ export const alloys = [
     "family": "ニッケル鉄クロム合金",
     "category": "ニッケル鉄クロム合金",
     "usage": "硫酸・リン酸・海水環境",
+    "properties": "耐食性を重視した特殊合金。酸、塩化物、海水、化学プラント環境での腐食抵抗を主な特長とする。",
+    "representativeMakers": "Special Metals, VDM Metals, ATI, Carpenter Technology",
     "elements": {
       "Ni": {
         "min": 38.0,
@@ -3406,6 +3506,8 @@ export const alloys = [
     "family": "耐熱耐食ニッケル合金",
     "category": "耐熱耐食ニッケル合金",
     "usage": "ガスタービン燃焼器・高温炉部材",
+    "properties": "高温環境向け合金。耐酸化性、高温強度、クリープ抵抗を重視し、熱処理炉・ガスタービン・高温装置に使われる。",
+    "representativeMakers": "Haynes International, VDM Metals, ATI, Special Metals",
     "elements": {
       "Ni": {
         "min": 47.3,
@@ -3479,6 +3581,8 @@ export const alloys = [
     "family": "耐食ニッケル合金",
     "category": "耐食ニッケル合金",
     "usage": "リン酸・硝酸混酸・化学装置",
+    "properties": "耐食性を重視した特殊合金。酸、塩化物、海水、化学プラント環境での腐食抵抗を主な特長とする。",
+    "representativeMakers": "Haynes International, VDM Metals, ATI, Special Metals",
     "elements": {
       "Ni": {
         "min": 39.7,
@@ -3565,6 +3669,8 @@ export const alloys = [
     "family": "高融点金属",
     "category": "高融点金属",
     "usage": "電極・高温炉・放射線遮蔽",
+    "properties": "高融点金属に分類される特殊金属材料。用途は電極・高温炉・放射線遮蔽で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "H.C. Starck Solutions, ATI, Plansee, AMG",
     "elements": {
       "W": {
         "min": 99.95,
@@ -3593,6 +3699,8 @@ export const alloys = [
     "family": "高融点金属",
     "category": "高融点金属",
     "usage": "高温炉部材・電極・真空部品",
+    "properties": "高融点金属に分類される特殊金属材料。用途は高温炉部材・電極・真空部品で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "H.C. Starck Solutions, ATI, Plansee, AMG",
     "elements": {
       "Mo": {
         "min": 99.95,
@@ -3621,6 +3729,8 @@ export const alloys = [
     "family": "高融点合金",
     "category": "高融点合金",
     "usage": "ロケットノズル・高温金型・真空炉部材",
+    "properties": "高融点合金に分類される特殊金属材料。用途はロケットノズル・高温金型・真空炉部材で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "H.C. Starck Solutions, ATI, Plansee, AMG",
     "elements": {
       "Mo": {
         "min": 99.4,
@@ -3670,6 +3780,8 @@ export const alloys = [
     "family": "高融点金属",
     "category": "高融点金属",
     "usage": "耐食化学装置・電子部品・医療",
+    "properties": "高融点金属に分類される特殊金属材料。用途は耐食化学装置・電子部品・医療で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "H.C. Starck Solutions, ATI, Plansee, AMG",
     "elements": {
       "Ta": {
         "min": 99.9,
@@ -3698,6 +3810,8 @@ export const alloys = [
     "family": "高融点金属",
     "category": "高融点金属",
     "usage": "超電導・化学装置・高温部材",
+    "properties": "高融点金属に分類される特殊金属材料。用途は超電導・化学装置・高温部材で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "H.C. Starck Solutions, ATI, Plansee, AMG",
     "elements": {
       "Nb": {
         "min": 99.8,
@@ -3726,6 +3840,8 @@ export const alloys = [
     "family": "ジルコニウム合金",
     "category": "ジルコニウム合金",
     "usage": "原子炉燃料被覆管・構造部材",
+    "properties": "ジルコニウム合金に分類される特殊金属材料。用途は原子炉燃料被覆管・構造部材で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "H.C. Starck Solutions, ATI, Plansee, AMG",
     "elements": {
       "Ni": {
         "max": 0.08,
@@ -3784,6 +3900,8 @@ export const alloys = [
     "family": "ジルコニウム合金",
     "category": "ジルコニウム合金",
     "usage": "CANDU圧力管・原子力部材",
+    "properties": "ジルコニウム合金に分類される特殊金属材料。用途はCANDU圧力管・原子力部材で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "H.C. Starck Solutions, ATI, Plansee, AMG",
     "elements": {
       "Nb": {
         "min": 2.4,
@@ -3827,6 +3945,8 @@ export const alloys = [
     "family": "銅合金",
     "category": "銅合金",
     "usage": "ばね接点・非火花工具・精密部品",
+    "properties": "銅合金に分類される特殊金属材料。用途はばね接点・非火花工具・精密部品で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Mitsubishi Materials, Wieland, Materion, KME",
     "elements": {
       "Co": {
         "max": 0.3,
@@ -3868,6 +3988,8 @@ export const alloys = [
     "family": "銅合金",
     "category": "銅合金",
     "usage": "高導電ばね・抵抗溶接電極",
+    "properties": "銅合金に分類される特殊金属材料。用途は高導電ばね・抵抗溶接電極で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Mitsubishi Materials, Wieland, Materion, KME",
     "elements": {
       "Ni": {
         "min": 1.4,
@@ -3911,6 +4033,8 @@ export const alloys = [
     "family": "銅ニッケル合金",
     "category": "銅ニッケル合金",
     "usage": "海水配管・復水器・船舶部材",
+    "properties": "耐食性を重視した特殊合金。酸、塩化物、海水、化学プラント環境での腐食抵抗を主な特長とする。",
+    "representativeMakers": "Mitsubishi Materials, Wieland, Materion, KME",
     "elements": {
       "Ni": {
         "min": 29.0,
@@ -3956,6 +4080,8 @@ export const alloys = [
     "family": "炭素鋼",
     "category": "炭素鋼",
     "usage": "機械部品・シャフト・一般構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 99.0,
@@ -4014,6 +4140,8 @@ export const alloys = [
     "family": "炭素鋼",
     "category": "炭素鋼",
     "usage": "機械部品・シャフト・一般構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 99.0,
@@ -4072,6 +4200,8 @@ export const alloys = [
     "family": "炭素鋼",
     "category": "炭素鋼",
     "usage": "機械部品・シャフト・一般構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 99.0,
@@ -4130,6 +4260,8 @@ export const alloys = [
     "family": "炭素鋼",
     "category": "炭素鋼",
     "usage": "機械部品・シャフト・一般構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.9,
@@ -4188,6 +4320,8 @@ export const alloys = [
     "family": "炭素鋼",
     "category": "炭素鋼",
     "usage": "機械部品・シャフト・一般構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.9,
@@ -4246,6 +4380,8 @@ export const alloys = [
     "family": "炭素鋼",
     "category": "炭素鋼",
     "usage": "機械部品・シャフト・一般構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.9,
@@ -4304,6 +4440,8 @@ export const alloys = [
     "family": "炭素鋼",
     "category": "炭素鋼",
     "usage": "機械部品・シャフト・一般構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.9,
@@ -4362,6 +4500,8 @@ export const alloys = [
     "family": "炭素鋼",
     "category": "炭素鋼",
     "usage": "機械部品・シャフト・一般構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.8,
@@ -4420,6 +4560,8 @@ export const alloys = [
     "family": "炭素鋼",
     "category": "炭素鋼",
     "usage": "機械部品・シャフト・一般構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.8,
@@ -4478,6 +4620,8 @@ export const alloys = [
     "family": "炭素鋼",
     "category": "炭素鋼",
     "usage": "機械部品・シャフト・一般構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.8,
@@ -4536,6 +4680,8 @@ export const alloys = [
     "family": "炭素鋼",
     "category": "炭素鋼",
     "usage": "機械部品・シャフト・一般構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.8,
@@ -4594,6 +4740,8 @@ export const alloys = [
     "family": "炭素鋼",
     "category": "炭素鋼",
     "usage": "機械部品・シャフト・一般構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.7,
@@ -4652,6 +4800,8 @@ export const alloys = [
     "family": "炭素鋼",
     "category": "炭素鋼",
     "usage": "機械部品・シャフト・一般構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.7,
@@ -4710,6 +4860,8 @@ export const alloys = [
     "family": "炭素鋼",
     "category": "炭素鋼",
     "usage": "機械部品・シャフト・一般構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.7,
@@ -4768,6 +4920,8 @@ export const alloys = [
     "family": "炭素鋼",
     "category": "炭素鋼",
     "usage": "機械部品・シャフト・一般構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.7,
@@ -4826,6 +4980,8 @@ export const alloys = [
     "family": "炭素鋼",
     "category": "炭素鋼",
     "usage": "機械部品・シャフト・一般構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.6,
@@ -4884,6 +5040,8 @@ export const alloys = [
     "family": "炭素鋼",
     "category": "炭素鋼",
     "usage": "機械部品・シャフト・一般構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.6,
@@ -4942,6 +5100,8 @@ export const alloys = [
     "family": "炭素鋼",
     "category": "炭素鋼",
     "usage": "機械部品・シャフト・一般構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.6,
@@ -5000,6 +5160,8 @@ export const alloys = [
     "family": "炭素鋼",
     "category": "炭素鋼",
     "usage": "機械部品・シャフト・一般構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.6,
@@ -5058,6 +5220,8 @@ export const alloys = [
     "family": "炭素鋼",
     "category": "炭素鋼",
     "usage": "機械部品・シャフト・一般構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.5,
@@ -5116,6 +5280,8 @@ export const alloys = [
     "family": "普通鋼",
     "category": "普通鋼",
     "usage": "機械部品・冷間成形・一般用途",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 99.0,
@@ -5174,6 +5340,8 @@ export const alloys = [
     "family": "普通鋼",
     "category": "普通鋼",
     "usage": "機械部品・冷間成形・一般用途",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 99.0,
@@ -5232,6 +5400,8 @@ export const alloys = [
     "family": "普通鋼",
     "category": "普通鋼",
     "usage": "機械部品・冷間成形・一般用途",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 99.0,
@@ -5290,6 +5460,8 @@ export const alloys = [
     "family": "普通鋼",
     "category": "普通鋼",
     "usage": "機械部品・冷間成形・一般用途",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 99.0,
@@ -5348,6 +5520,8 @@ export const alloys = [
     "family": "普通鋼",
     "category": "普通鋼",
     "usage": "機械部品・冷間成形・一般用途",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 99.0,
@@ -5406,6 +5580,8 @@ export const alloys = [
     "family": "普通鋼",
     "category": "普通鋼",
     "usage": "機械部品・冷間成形・一般用途",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.9,
@@ -5464,6 +5640,8 @@ export const alloys = [
     "family": "普通鋼",
     "category": "普通鋼",
     "usage": "機械部品・冷間成形・一般用途",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.9,
@@ -5522,6 +5700,8 @@ export const alloys = [
     "family": "普通鋼",
     "category": "普通鋼",
     "usage": "機械部品・冷間成形・一般用途",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.9,
@@ -5580,6 +5760,8 @@ export const alloys = [
     "family": "普通鋼",
     "category": "普通鋼",
     "usage": "機械部品・冷間成形・一般用途",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.9,
@@ -5638,6 +5820,8 @@ export const alloys = [
     "family": "普通鋼",
     "category": "普通鋼",
     "usage": "機械部品・冷間成形・一般用途",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.8,
@@ -5696,6 +5880,8 @@ export const alloys = [
     "family": "普通鋼",
     "category": "普通鋼",
     "usage": "機械部品・冷間成形・一般用途",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.8,
@@ -5754,6 +5940,8 @@ export const alloys = [
     "family": "普通鋼",
     "category": "普通鋼",
     "usage": "機械部品・冷間成形・一般用途",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.7,
@@ -5812,6 +6000,8 @@ export const alloys = [
     "family": "普通鋼",
     "category": "普通鋼",
     "usage": "機械部品・冷間成形・一般用途",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.7,
@@ -5870,6 +6060,8 @@ export const alloys = [
     "family": "普通鋼",
     "category": "普通鋼",
     "usage": "機械部品・冷間成形・一般用途",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.7,
@@ -5928,6 +6120,8 @@ export const alloys = [
     "family": "普通鋼",
     "category": "普通鋼",
     "usage": "機械部品・冷間成形・一般用途",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.6,
@@ -5986,6 +6180,8 @@ export const alloys = [
     "family": "普通鋼",
     "category": "普通鋼",
     "usage": "機械部品・冷間成形・一般用途",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.6,
@@ -6044,6 +6240,8 @@ export const alloys = [
     "family": "普通鋼",
     "category": "普通鋼",
     "usage": "機械部品・冷間成形・一般用途",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.5,
@@ -6102,6 +6300,8 @@ export const alloys = [
     "family": "普通鋼",
     "category": "普通鋼",
     "usage": "機械部品・冷間成形・一般用途",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.5,
@@ -6160,6 +6360,8 @@ export const alloys = [
     "family": "普通鋼",
     "category": "普通鋼",
     "usage": "機械部品・冷間成形・一般用途",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.4,
@@ -6218,6 +6420,8 @@ export const alloys = [
     "family": "普通鋼",
     "category": "普通鋼",
     "usage": "機械部品・冷間成形・一般用途",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.4,
@@ -6276,6 +6480,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "歯車・シャフト・航空機部品・機械構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.4,
@@ -6340,6 +6546,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "歯車・シャフト・航空機部品・機械構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.4,
@@ -6404,6 +6612,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "歯車・シャフト・航空機部品・機械構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.3,
@@ -6468,6 +6678,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "歯車・シャフト・航空機部品・機械構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.2,
@@ -6532,6 +6744,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "歯車・シャフト・航空機部品・機械構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.4,
@@ -6602,6 +6816,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "歯車・シャフト・航空機部品・機械構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.4,
@@ -6672,6 +6888,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "歯車・シャフト・航空機部品・機械構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.45,
@@ -6743,6 +6961,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "歯車・シャフト・航空機部品・機械構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.8,
@@ -6813,6 +7033,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "歯車・シャフト・航空機部品・機械構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.8,
@@ -6884,6 +7106,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "歯車・シャフト・航空機部品・機械構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.8,
@@ -6954,6 +7178,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "歯車・シャフト・航空機部品・機械構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.8,
@@ -7024,6 +7250,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "歯車・シャフト・航空機部品・機械構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.8,
@@ -7094,6 +7322,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "歯車・シャフト・航空機部品・機械構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.8,
@@ -7164,6 +7394,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "歯車・シャフト・航空機部品・機械構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 1.65,
@@ -7240,6 +7472,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "歯車・シャフト・航空機部品・機械構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 1.65,
@@ -7317,6 +7551,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "歯車・シャフト・航空機部品・機械構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 1.65,
@@ -7393,6 +7629,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "歯車・シャフト・航空機部品・機械構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 1.65,
@@ -7476,6 +7714,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "歯車・シャフト・航空機部品・機械構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 1.65,
@@ -7558,6 +7798,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "歯車・シャフト・航空機部品・機械構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 1.65,
@@ -7628,6 +7870,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "歯車・シャフト・航空機部品・機械構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 1.65,
@@ -7698,6 +7942,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "歯車・シャフト・航空機部品・機械構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 1.65,
@@ -7768,6 +8014,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "歯車・シャフト・航空機部品・機械構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 3.25,
@@ -7838,6 +8086,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "歯車・シャフト・航空機部品・機械構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.3,
@@ -7902,6 +8152,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "歯車・シャフト・航空機部品・機械構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.2,
@@ -7966,6 +8218,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "歯車・シャフト・航空機部品・機械構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.7,
@@ -8030,6 +8284,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "歯車・シャフト・航空機部品・機械構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.7,
@@ -8094,6 +8350,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "歯車・シャフト・航空機部品・機械構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.8,
@@ -8158,6 +8416,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "歯車・シャフト・航空機部品・機械構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.7,
@@ -8222,6 +8482,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "歯車・シャフト・航空機部品・機械構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.7,
@@ -8286,6 +8548,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "歯車・シャフト・航空機部品・機械構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 0.4,
@@ -8362,6 +8626,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "歯車・シャフト・航空機部品・機械構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 0.4,
@@ -8438,6 +8704,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "歯車・シャフト・航空機部品・機械構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 0.4,
@@ -8514,6 +8782,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "歯車・シャフト・航空機部品・機械構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 0.4,
@@ -8590,6 +8860,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "歯車・シャフト・航空機部品・機械構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 0.4,
@@ -8666,6 +8938,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "歯車・シャフト・航空機部品・機械構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 0.4,
@@ -8742,6 +9016,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "歯車・シャフト・航空機部品・機械構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 0.4,
@@ -8818,6 +9094,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "歯車・シャフト・航空機部品・機械構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 0.4,
@@ -8894,6 +9172,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "歯車・シャフト・航空機部品・機械構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 0.4,
@@ -8970,6 +9250,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "歯車・シャフト・航空機部品・機械構造部材",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 3.0,
@@ -9046,6 +9328,8 @@ export const alloys = [
     "family": "機械構造用鋼",
     "category": "機械構造用鋼",
     "usage": "歯車・軸・浸炭部品・窒化部品",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.9,
@@ -9116,6 +9400,8 @@ export const alloys = [
     "family": "機械構造用鋼",
     "category": "機械構造用鋼",
     "usage": "歯車・軸・浸炭部品・窒化部品",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.9,
@@ -9186,6 +9472,8 @@ export const alloys = [
     "family": "機械構造用鋼",
     "category": "機械構造用鋼",
     "usage": "歯車・軸・浸炭部品・窒化部品",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.9,
@@ -9257,6 +9545,8 @@ export const alloys = [
     "family": "機械構造用鋼",
     "category": "機械構造用鋼",
     "usage": "歯車・軸・浸炭部品・窒化部品",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.9,
@@ -9327,6 +9617,8 @@ export const alloys = [
     "family": "機械構造用鋼",
     "category": "機械構造用鋼",
     "usage": "歯車・軸・浸炭部品・窒化部品",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.9,
@@ -9397,6 +9689,8 @@ export const alloys = [
     "family": "機械構造用鋼",
     "category": "機械構造用鋼",
     "usage": "歯車・軸・浸炭部品・窒化部品",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 0.4,
@@ -9473,6 +9767,8 @@ export const alloys = [
     "family": "機械構造用鋼",
     "category": "機械構造用鋼",
     "usage": "歯車・軸・浸炭部品・窒化部品",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 1.6,
@@ -9550,6 +9846,8 @@ export const alloys = [
     "family": "機械構造用鋼",
     "category": "機械構造用鋼",
     "usage": "歯車・軸・浸炭部品・窒化部品",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 1.6,
@@ -9626,6 +9924,8 @@ export const alloys = [
     "family": "機械構造用鋼",
     "category": "機械構造用鋼",
     "usage": "歯車・軸・浸炭部品・窒化部品",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.9,
@@ -9690,6 +9990,8 @@ export const alloys = [
     "family": "機械構造用鋼",
     "category": "機械構造用鋼",
     "usage": "歯車・軸・浸炭部品・窒化部品",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.9,
@@ -9754,6 +10056,8 @@ export const alloys = [
     "family": "機械構造用鋼",
     "category": "機械構造用鋼",
     "usage": "歯車・軸・浸炭部品・窒化部品",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 2.5,
@@ -9824,6 +10128,8 @@ export const alloys = [
     "family": "機械構造用鋼",
     "category": "機械構造用鋼",
     "usage": "歯車・軸・浸炭部品・窒化部品",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 3.0,
@@ -9894,6 +10200,8 @@ export const alloys = [
     "family": "機械構造用鋼",
     "category": "機械構造用鋼",
     "usage": "歯車・軸・浸炭部品・窒化部品",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 1.3,
@@ -9969,6 +10277,8 @@ export const alloys = [
     "family": "機械構造用鋼",
     "category": "機械構造用鋼",
     "usage": "歯車・軸・浸炭部品・窒化部品",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 97.5,
@@ -10028,6 +10338,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 3.5,
@@ -10101,6 +10413,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 4.0,
@@ -10174,6 +10488,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 1.0,
@@ -10249,6 +10565,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 17.5,
@@ -10334,6 +10652,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 6.0,
@@ -10401,6 +10721,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 8.0,
@@ -10473,6 +10795,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 8.0,
@@ -10541,6 +10865,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 8.0,
@@ -10614,6 +10940,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 8.0,
@@ -10687,6 +11015,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 10.5,
@@ -10754,6 +11084,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 10.0,
@@ -10821,6 +11153,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 12.0,
@@ -10888,6 +11222,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 12.0,
@@ -10955,6 +11291,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 10.0,
@@ -11034,6 +11372,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 10.0,
@@ -11113,6 +11453,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 11.0,
@@ -11186,6 +11528,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 11.0,
@@ -11259,6 +11603,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 9.0,
@@ -11332,6 +11678,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 9.0,
@@ -11406,6 +11754,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 11.5,
@@ -11473,6 +11823,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 10.5,
@@ -11540,6 +11892,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 11.5,
@@ -11602,6 +11956,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 1.25,
@@ -11669,6 +12025,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 12.0,
@@ -11730,6 +12088,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 12.0,
@@ -11791,6 +12151,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 0.5,
@@ -11867,6 +12229,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 14.0,
@@ -11928,6 +12292,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 16.0,
@@ -11989,6 +12355,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 16.0,
@@ -12050,6 +12418,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 1.25,
@@ -12117,6 +12487,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 16.0,
@@ -12184,6 +12556,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 16.0,
@@ -12257,6 +12631,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 17.0,
@@ -12324,6 +12700,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 16.0,
@@ -12391,6 +12769,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 16.0,
@@ -12458,6 +12838,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 16.0,
@@ -12525,6 +12907,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 17.5,
@@ -12598,6 +12982,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 18.0,
@@ -12659,6 +13045,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 17.5,
@@ -12731,6 +13119,8 @@ export const alloys = [
     "family": "ステンレス鋼",
     "category": "ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 23.0,
@@ -12798,6 +13188,8 @@ export const alloys = [
     "family": "析出硬化ステンレス鋼",
     "category": "析出硬化ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 7.5,
@@ -12877,6 +13269,8 @@ export const alloys = [
     "family": "析出硬化ステンレス鋼",
     "category": "析出硬化ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 6.5,
@@ -12950,6 +13344,8 @@ export const alloys = [
     "family": "二相ステンレス鋼",
     "category": "二相ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 3.0,
@@ -13029,6 +13425,8 @@ export const alloys = [
     "family": "二相ステンレス鋼",
     "category": "二相ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 1.35,
@@ -13109,6 +13507,8 @@ export const alloys = [
     "family": "二相ステンレス鋼",
     "category": "二相ステンレス鋼",
     "usage": "耐食部材・配管・締結部品・高温部材",
+    "properties": "Crを主成分に含む耐食鋼。耐食性、加工性、溶接性、耐熱性のバランスで設備・構造部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 4.5,
@@ -13194,6 +13594,8 @@ export const alloys = [
     "family": "工具鋼",
     "category": "工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "max": 0.15,
@@ -13262,6 +13664,8 @@ export const alloys = [
     "family": "工具鋼",
     "category": "工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "max": 0.15,
@@ -13331,6 +13735,8 @@ export const alloys = [
     "family": "工具鋼",
     "category": "工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "max": 0.5,
@@ -13400,6 +13806,8 @@ export const alloys = [
     "family": "工具鋼",
     "category": "工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.4,
@@ -13474,6 +13882,8 @@ export const alloys = [
     "family": "工具鋼",
     "category": "工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "max": 0.3,
@@ -13541,6 +13951,8 @@ export const alloys = [
     "family": "工具鋼",
     "category": "工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "max": 0.3,
@@ -13609,6 +14021,8 @@ export const alloys = [
     "family": "工具鋼",
     "category": "工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 4.75,
@@ -13683,6 +14097,8 @@ export const alloys = [
     "family": "工具鋼",
     "category": "工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.9,
@@ -13752,6 +14168,8 @@ export const alloys = [
     "family": "工具鋼",
     "category": "工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 4.75,
@@ -13826,6 +14244,8 @@ export const alloys = [
     "family": "工具鋼",
     "category": "工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 4.75,
@@ -13901,6 +14321,8 @@ export const alloys = [
     "family": "工具鋼",
     "category": "工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 1.55,
@@ -13976,6 +14398,8 @@ export const alloys = [
     "family": "工具鋼",
     "category": "工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 11.0,
@@ -14043,6 +14467,8 @@ export const alloys = [
     "family": "工具鋼",
     "category": "工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 11.0,
@@ -14116,6 +14542,8 @@ export const alloys = [
     "family": "工具鋼",
     "category": "工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 11.0,
@@ -14195,6 +14623,8 @@ export const alloys = [
     "family": "工具鋼",
     "category": "工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 11.5,
@@ -14269,6 +14699,8 @@ export const alloys = [
     "family": "工具鋼",
     "category": "工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 3.0,
@@ -14345,6 +14777,8 @@ export const alloys = [
     "family": "工具鋼",
     "category": "工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 4.75,
@@ -14421,6 +14855,8 @@ export const alloys = [
     "family": "工具鋼",
     "category": "工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 4.75,
@@ -14503,6 +14939,8 @@ export const alloys = [
     "family": "工具鋼",
     "category": "工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 4.75,
@@ -14579,6 +15017,8 @@ export const alloys = [
     "family": "工具鋼",
     "category": "工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 4.0,
@@ -14667,6 +15107,8 @@ export const alloys = [
     "family": "工具鋼",
     "category": "工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 3.0,
@@ -14743,6 +15185,8 @@ export const alloys = [
     "family": "工具鋼",
     "category": "工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 3.75,
@@ -14819,6 +15263,8 @@ export const alloys = [
     "family": "工具鋼",
     "category": "工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 1.0,
@@ -14889,6 +15335,8 @@ export const alloys = [
     "family": "工具鋼",
     "category": "工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.3,
@@ -14965,6 +15413,8 @@ export const alloys = [
     "family": "工具鋼",
     "category": "工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.5,
@@ -15035,6 +15485,8 @@ export const alloys = [
     "family": "工具鋼",
     "category": "工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 3.0,
@@ -15105,6 +15557,8 @@ export const alloys = [
     "family": "工具鋼",
     "category": "工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 0.25,
@@ -15174,6 +15628,8 @@ export const alloys = [
     "family": "工具鋼",
     "category": "工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 1.25,
@@ -15248,6 +15704,8 @@ export const alloys = [
     "family": "工具鋼",
     "category": "工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "max": 0.5,
@@ -15322,6 +15780,8 @@ export const alloys = [
     "family": "高速度工具鋼",
     "category": "高速度工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 3.5,
@@ -15402,6 +15862,8 @@ export const alloys = [
     "family": "高速度工具鋼",
     "category": "高速度工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 3.75,
@@ -15482,6 +15944,8 @@ export const alloys = [
     "family": "高速度工具鋼",
     "category": "高速度工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 3.75,
@@ -15562,6 +16026,8 @@ export const alloys = [
     "family": "高速度工具鋼",
     "category": "高速度工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 3.5,
@@ -15642,6 +16108,8 @@ export const alloys = [
     "family": "高速度工具鋼",
     "category": "高速度工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 3.75,
@@ -15722,6 +16190,8 @@ export const alloys = [
     "family": "高速度工具鋼",
     "category": "高速度工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 3.75,
@@ -15798,6 +16268,8 @@ export const alloys = [
     "family": "高速度工具鋼",
     "category": "高速度工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 3.75,
@@ -15874,6 +16346,8 @@ export const alloys = [
     "family": "高速度工具鋼",
     "category": "高速度工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 3.75,
@@ -15950,6 +16424,8 @@ export const alloys = [
     "family": "高速度工具鋼",
     "category": "高速度工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 3.75,
@@ -16026,6 +16502,8 @@ export const alloys = [
     "family": "高速度工具鋼",
     "category": "高速度工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 3.75,
@@ -16103,6 +16581,8 @@ export const alloys = [
     "family": "高速度工具鋼",
     "category": "高速度工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 3.75,
@@ -16177,6 +16657,8 @@ export const alloys = [
     "family": "高速度工具鋼",
     "category": "高速度工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 3.75,
@@ -16247,6 +16729,8 @@ export const alloys = [
     "family": "高速度工具鋼",
     "category": "高速度工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 3.75,
@@ -16317,6 +16801,8 @@ export const alloys = [
     "family": "高速度工具鋼",
     "category": "高速度工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 3.75,
@@ -16387,6 +16873,8 @@ export const alloys = [
     "family": "高速度工具鋼",
     "category": "高速度工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 3.75,
@@ -16457,6 +16945,8 @@ export const alloys = [
     "family": "高速度工具鋼",
     "category": "高速度工具鋼",
     "usage": "金型・切削工具・耐摩耗工具",
+    "properties": "硬さ、耐摩耗性、焼入れ性を重視した工具用鋼。金型、切削工具、耐摩耗部品に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 3.75,
@@ -16528,6 +17018,8 @@ export const alloys = [
     "family": "軸受鋼",
     "category": "軸受鋼",
     "usage": "軸受・ばね・耐摩耗ライナー・建設機械部材",
+    "properties": "軸受鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 1.3,
@@ -16591,6 +17083,8 @@ export const alloys = [
     "family": "軸受鋼",
     "category": "軸受鋼",
     "usage": "軸受・ばね・耐摩耗ライナー・建設機械部材",
+    "properties": "軸受鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.9,
@@ -16656,6 +17150,8 @@ export const alloys = [
     "family": "軸受鋼",
     "category": "軸受鋼",
     "usage": "軸受・ばね・耐摩耗ライナー・建設機械部材",
+    "properties": "軸受鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 1.3,
@@ -16720,6 +17216,8 @@ export const alloys = [
     "family": "軸受鋼",
     "category": "軸受鋼",
     "usage": "軸受・ばね・耐摩耗ライナー・建設機械部材",
+    "properties": "軸受鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.9,
@@ -16784,6 +17282,8 @@ export const alloys = [
     "family": "軸受鋼",
     "category": "軸受鋼",
     "usage": "軸受・ばね・耐摩耗ライナー・建設機械部材",
+    "properties": "軸受鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 1.2,
@@ -16848,6 +17348,8 @@ export const alloys = [
     "family": "ばね鋼",
     "category": "ばね鋼",
     "usage": "軸受・ばね・耐摩耗ライナー・建設機械部材",
+    "properties": "ばね鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.4,
@@ -16906,6 +17408,8 @@ export const alloys = [
     "family": "ばね鋼",
     "category": "ばね鋼",
     "usage": "軸受・ばね・耐摩耗ライナー・建設機械部材",
+    "properties": "ばね鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 96.9,
@@ -16964,6 +17468,8 @@ export const alloys = [
     "family": "ばね鋼",
     "category": "ばね鋼",
     "usage": "軸受・ばね・耐摩耗ライナー・建設機械部材",
+    "properties": "ばね鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 96.5,
@@ -17022,6 +17528,8 @@ export const alloys = [
     "family": "ばね鋼",
     "category": "ばね鋼",
     "usage": "軸受・ばね・耐摩耗ライナー・建設機械部材",
+    "properties": "ばね鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.65,
@@ -17086,6 +17594,8 @@ export const alloys = [
     "family": "ばね鋼",
     "category": "ばね鋼",
     "usage": "軸受・ばね・耐摩耗ライナー・建設機械部材",
+    "properties": "ばね鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.7,
@@ -17150,6 +17660,8 @@ export const alloys = [
     "family": "ばね鋼",
     "category": "ばね鋼",
     "usage": "軸受・ばね・耐摩耗ライナー・建設機械部材",
+    "properties": "ばね鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.8,
@@ -17220,6 +17732,8 @@ export const alloys = [
     "family": "ばね鋼",
     "category": "ばね鋼",
     "usage": "軸受・ばね・耐摩耗ライナー・建設機械部材",
+    "properties": "ばね鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.7,
@@ -17290,6 +17804,8 @@ export const alloys = [
     "family": "ばね鋼",
     "category": "ばね鋼",
     "usage": "軸受・ばね・耐摩耗ライナー・建設機械部材",
+    "properties": "ばね鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.7,
@@ -17354,6 +17870,8 @@ export const alloys = [
     "family": "ばね鋼",
     "category": "ばね鋼",
     "usage": "軸受・ばね・耐摩耗ライナー・建設機械部材",
+    "properties": "ばね鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.7,
@@ -17424,6 +17942,8 @@ export const alloys = [
     "family": "ばね鋼",
     "category": "ばね鋼",
     "usage": "軸受・ばね・耐摩耗ライナー・建設機械部材",
+    "properties": "ばね鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.7,
@@ -17488,6 +18008,8 @@ export const alloys = [
     "family": "ばね鋼",
     "category": "ばね鋼",
     "usage": "軸受・ばね・耐摩耗ライナー・建設機械部材",
+    "properties": "ばね鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.8,
@@ -17557,6 +18079,8 @@ export const alloys = [
     "family": "ばね鋼",
     "category": "ばね鋼",
     "usage": "軸受・ばね・耐摩耗ライナー・建設機械部材",
+    "properties": "ばね鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.6,
@@ -17621,6 +18145,8 @@ export const alloys = [
     "family": "ばね鋼",
     "category": "ばね鋼",
     "usage": "軸受・ばね・耐摩耗ライナー・建設機械部材",
+    "properties": "ばね鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.6,
@@ -17673,6 +18199,8 @@ export const alloys = [
     "family": "ばね鋼",
     "category": "ばね鋼",
     "usage": "軸受・ばね・耐摩耗ライナー・建設機械部材",
+    "properties": "ばね鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.6,
@@ -17725,6 +18253,8 @@ export const alloys = [
     "family": "耐摩耗鋼",
     "category": "耐摩耗鋼",
     "usage": "軸受・ばね・耐摩耗ライナー・建設機械部材",
+    "properties": "耐摩耗鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "max": 0.5,
@@ -17800,6 +18330,8 @@ export const alloys = [
     "family": "耐摩耗鋼",
     "category": "耐摩耗鋼",
     "usage": "軸受・ばね・耐摩耗ライナー・建設機械部材",
+    "properties": "耐摩耗鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "max": 0.5,
@@ -17875,6 +18407,8 @@ export const alloys = [
     "family": "耐摩耗鋼",
     "category": "耐摩耗鋼",
     "usage": "軸受・ばね・耐摩耗ライナー・建設機械部材",
+    "properties": "耐摩耗鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "max": 0.5,
@@ -17950,6 +18484,8 @@ export const alloys = [
     "family": "耐摩耗鋼",
     "category": "耐摩耗鋼",
     "usage": "軸受・ばね・耐摩耗ライナー・建設機械部材",
+    "properties": "耐摩耗鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "max": 0.5,
@@ -18025,6 +18561,8 @@ export const alloys = [
     "family": "耐摩耗鋼",
     "category": "耐摩耗鋼",
     "usage": "軸受・ばね・耐摩耗ライナー・建設機械部材",
+    "properties": "耐摩耗鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "max": 0.5,
@@ -18101,6 +18639,8 @@ export const alloys = [
     "family": "耐摩耗鋼",
     "category": "耐摩耗鋼",
     "usage": "軸受・ばね・耐摩耗ライナー・建設機械部材",
+    "properties": "耐摩耗鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 85.8,
@@ -18158,6 +18698,8 @@ export const alloys = [
     "family": "耐摩耗鋼",
     "category": "耐摩耗鋼",
     "usage": "軸受・ばね・耐摩耗ライナー・建設機械部材",
+    "properties": "耐摩耗鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 85.7,
@@ -18215,6 +18757,8 @@ export const alloys = [
     "family": "耐摩耗鋼",
     "category": "耐摩耗鋼",
     "usage": "軸受・ばね・耐摩耗ライナー・建設機械部材",
+    "properties": "耐摩耗鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "max": 0.5,
@@ -18290,6 +18834,8 @@ export const alloys = [
     "family": "耐摩耗鋼",
     "category": "耐摩耗鋼",
     "usage": "軸受・ばね・耐摩耗ライナー・建設機械部材",
+    "properties": "耐摩耗鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "max": 0.5,
@@ -18365,6 +18911,8 @@ export const alloys = [
     "family": "耐摩耗鋼",
     "category": "耐摩耗鋼",
     "usage": "軸受・ばね・耐摩耗ライナー・建設機械部材",
+    "properties": "耐摩耗鋼に分類される特殊金属材料。用途は軸受・ばね・耐摩耗ライナー・建設機械部材で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "max": 0.5,
@@ -18440,6 +18988,8 @@ export const alloys = [
     "family": "耐摩耗鋼",
     "category": "耐摩耗鋼",
     "usage": "軸受・ばね・耐摩耗ライナー・建設機械部材",
+    "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
+    "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
     "elements": {
       "Ni": {
         "max": 1.5,
@@ -18516,6 +19066,8 @@ export const alloys = [
     "family": "耐熱鋼",
     "category": "耐熱鋼",
     "usage": "高温配管・屋外構造・モーター鉄心・変圧器",
+    "properties": "高温環境向け合金。耐酸化性、高温強度、クリープ抵抗を重視し、熱処理炉・ガスタービン・高温装置に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 1.0,
@@ -18587,6 +19139,8 @@ export const alloys = [
     "family": "耐熱鋼",
     "category": "耐熱鋼",
     "usage": "高温配管・屋外構造・モーター鉄心・変圧器",
+    "properties": "高温環境向け合金。耐酸化性、高温強度、クリープ抵抗を重視し、熱処理炉・ガスタービン・高温装置に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 1.9,
@@ -18657,6 +19211,8 @@ export const alloys = [
     "family": "耐熱鋼",
     "category": "耐熱鋼",
     "usage": "高温配管・屋外構造・モーター鉄心・変圧器",
+    "properties": "高温環境向け合金。耐酸化性、高温強度、クリープ抵抗を重視し、熱処理炉・ガスタービン・高温装置に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 4.0,
@@ -18726,6 +19282,8 @@ export const alloys = [
     "family": "耐熱鋼",
     "category": "耐熱鋼",
     "usage": "高温配管・屋外構造・モーター鉄心・変圧器",
+    "properties": "高温環境向け合金。耐酸化性、高温強度、クリープ抵抗を重視し、熱処理炉・ガスタービン・高温装置に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 8.0,
@@ -18796,6 +19354,8 @@ export const alloys = [
     "family": "耐熱鋼",
     "category": "耐熱鋼",
     "usage": "高温配管・屋外構造・モーター鉄心・変圧器",
+    "properties": "高温環境向け合金。耐酸化性、高温強度、クリープ抵抗を重視し、熱処理炉・ガスタービン・高温装置に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 8.0,
@@ -18885,6 +19445,8 @@ export const alloys = [
     "family": "耐熱鋼",
     "category": "耐熱鋼",
     "usage": "高温配管・屋外構造・モーター鉄心・変圧器",
+    "properties": "高温環境向け合金。耐酸化性、高温強度、クリープ抵抗を重視し、熱処理炉・ガスタービン・高温装置に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 8.5,
@@ -18974,6 +19536,8 @@ export const alloys = [
     "family": "耐熱鋼",
     "category": "耐熱鋼",
     "usage": "高温配管・屋外構造・モーター鉄心・変圧器",
+    "properties": "高温環境向け合金。耐酸化性、高温強度、クリープ抵抗を重視し、熱処理炉・ガスタービン・高温装置に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 1.0,
@@ -19044,6 +19608,8 @@ export const alloys = [
     "family": "耐熱鋼",
     "category": "耐熱鋼",
     "usage": "高温配管・屋外構造・モーター鉄心・変圧器",
+    "properties": "高温環境向け合金。耐酸化性、高温強度、クリープ抵抗を重視し、熱処理炉・ガスタービン・高温装置に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 1.9,
@@ -19113,6 +19679,8 @@ export const alloys = [
     "family": "耐熱鋼",
     "category": "耐熱鋼",
     "usage": "高温配管・屋外構造・モーター鉄心・変圧器",
+    "properties": "高温環境向け合金。耐酸化性、高温強度、クリープ抵抗を重視し、熱処理炉・ガスタービン・高温装置に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 1.9,
@@ -19196,6 +19764,8 @@ export const alloys = [
     "family": "耐熱鋼",
     "category": "耐熱鋼",
     "usage": "高温配管・屋外構造・モーター鉄心・変圧器",
+    "properties": "高温環境向け合金。耐酸化性、高温強度、クリープ抵抗を重視し、熱処理炉・ガスタービン・高温装置に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 2.2,
@@ -19268,6 +19838,8 @@ export const alloys = [
     "family": "耐候性鋼",
     "category": "耐候性鋼",
     "usage": "高温配管・屋外構造・モーター鉄心・変圧器",
+    "properties": "大気腐食環境で保護性さびを形成しやすい鋼。橋梁、屋外構造物、車両部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "max": 0.65,
@@ -19343,6 +19915,8 @@ export const alloys = [
     "family": "耐候性鋼",
     "category": "耐候性鋼",
     "usage": "高温配管・屋外構造・モーター鉄心・変圧器",
+    "properties": "大気腐食環境で保護性さびを形成しやすい鋼。橋梁、屋外構造物、車両部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "max": 0.4,
@@ -19417,6 +19991,8 @@ export const alloys = [
     "family": "耐候性鋼",
     "category": "耐候性鋼",
     "usage": "高温配管・屋外構造・モーター鉄心・変圧器",
+    "properties": "大気腐食環境で保護性さびを形成しやすい鋼。橋梁、屋外構造物、車両部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "max": 0.4,
@@ -19491,6 +20067,8 @@ export const alloys = [
     "family": "耐候性鋼",
     "category": "耐候性鋼",
     "usage": "高温配管・屋外構造・モーター鉄心・変圧器",
+    "properties": "大気腐食環境で保護性さびを形成しやすい鋼。橋梁、屋外構造物、車両部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "max": 0.5,
@@ -19565,6 +20143,8 @@ export const alloys = [
     "family": "耐候性鋼",
     "category": "耐候性鋼",
     "usage": "高温配管・屋外構造・モーター鉄心・変圧器",
+    "properties": "大気腐食環境で保護性さびを形成しやすい鋼。橋梁、屋外構造物、車両部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "max": 0.65,
@@ -19639,6 +20219,8 @@ export const alloys = [
     "family": "耐候性鋼",
     "category": "耐候性鋼",
     "usage": "高温配管・屋外構造・モーター鉄心・変圧器",
+    "properties": "大気腐食環境で保護性さびを形成しやすい鋼。橋梁、屋外構造物、車両部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 0.05,
@@ -19713,6 +20295,8 @@ export const alloys = [
     "family": "耐候性鋼",
     "category": "耐候性鋼",
     "usage": "高温配管・屋外構造・モーター鉄心・変圧器",
+    "properties": "大気腐食環境で保護性さびを形成しやすい鋼。橋梁、屋外構造物、車両部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 0.05,
@@ -19787,6 +20371,8 @@ export const alloys = [
     "family": "電磁鋼",
     "category": "電磁鋼",
     "usage": "高温配管・屋外構造・モーター鉄心・変圧器",
+    "properties": "磁気特性を重視した電磁用鋼。モーター鉄心、変圧器、発電機部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 96.2,
@@ -19850,6 +20436,8 @@ export const alloys = [
     "family": "電磁鋼",
     "category": "電磁鋼",
     "usage": "高温配管・屋外構造・モーター鉄心・変圧器",
+    "properties": "磁気特性を重視した電磁用鋼。モーター鉄心、変圧器、発電機部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 96.6,
@@ -19913,6 +20501,8 @@ export const alloys = [
     "family": "電磁鋼",
     "category": "電磁鋼",
     "usage": "高温配管・屋外構造・モーター鉄心・変圧器",
+    "properties": "磁気特性を重視した電磁用鋼。モーター鉄心、変圧器、発電機部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 97.1,
@@ -19976,6 +20566,8 @@ export const alloys = [
     "family": "電磁鋼",
     "category": "電磁鋼",
     "usage": "高温配管・屋外構造・モーター鉄心・変圧器",
+    "properties": "磁気特性を重視した電磁用鋼。モーター鉄心、変圧器、発電機部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 96.6,
@@ -20039,6 +20631,8 @@ export const alloys = [
     "family": "電磁鋼",
     "category": "電磁鋼",
     "usage": "高温配管・屋外構造・モーター鉄心・変圧器",
+    "properties": "磁気特性を重視した電磁用鋼。モーター鉄心、変圧器、発電機部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 97.1,
@@ -20102,6 +20696,8 @@ export const alloys = [
     "family": "電磁鋼",
     "category": "電磁鋼",
     "usage": "高温配管・屋外構造・モーター鉄心・変圧器",
+    "properties": "磁気特性を重視した電磁用鋼。モーター鉄心、変圧器、発電機部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 96.2,
@@ -20165,6 +20761,8 @@ export const alloys = [
     "family": "電磁鋼",
     "category": "電磁鋼",
     "usage": "高温配管・屋外構造・モーター鉄心・変圧器",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 96.7,
@@ -20228,6 +20826,8 @@ export const alloys = [
     "family": "電磁鋼",
     "category": "電磁鋼",
     "usage": "高温配管・屋外構造・モーター鉄心・変圧器",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 96.7,
@@ -20291,6 +20891,8 @@ export const alloys = [
     "family": "炭素鋼",
     "category": "炭素鋼",
     "usage": "刃物・ばね・高炭素鋼部品",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.3,
@@ -20343,6 +20945,8 @@ export const alloys = [
     "family": "炭素鋼",
     "category": "炭素鋼",
     "usage": "刃物・ばね・高炭素鋼部品",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.2,
@@ -20395,6 +20999,8 @@ export const alloys = [
     "family": "炭素鋼",
     "category": "炭素鋼",
     "usage": "刃物・ばね・高炭素鋼部品",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.3,
@@ -20447,6 +21053,8 @@ export const alloys = [
     "family": "快削鋼",
     "category": "快削鋼",
     "usage": "切削加工部品・シャフト・ねじ部品",
+    "properties": "快削鋼に分類される特殊金属材料。用途は切削加工部品・シャフト・ねじ部品で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.6,
@@ -20500,6 +21108,8 @@ export const alloys = [
     "family": "快削鋼",
     "category": "快削鋼",
     "usage": "切削加工部品・シャフト・ねじ部品",
+    "properties": "快削鋼に分類される特殊金属材料。用途は切削加工部品・シャフト・ねじ部品で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.3,
@@ -20553,6 +21163,8 @@ export const alloys = [
     "family": "快削鋼",
     "category": "快削鋼",
     "usage": "切削加工部品・シャフト・ねじ部品",
+    "properties": "快削鋼に分類される特殊金属材料。用途は切削加工部品・シャフト・ねじ部品で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.0,
@@ -20606,6 +21218,8 @@ export const alloys = [
     "family": "快削鋼",
     "category": "快削鋼",
     "usage": "切削加工部品・シャフト・ねじ部品",
+    "properties": "快削鋼に分類される特殊金属材料。用途は切削加工部品・シャフト・ねじ部品で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.0,
@@ -20659,6 +21273,8 @@ export const alloys = [
     "family": "快削鋼",
     "category": "快削鋼",
     "usage": "切削加工部品・シャフト・ねじ部品",
+    "properties": "快削鋼に分類される特殊金属材料。用途は切削加工部品・シャフト・ねじ部品で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 97.8,
@@ -20712,6 +21328,8 @@ export const alloys = [
     "family": "快削鋼",
     "category": "快削鋼",
     "usage": "自動盤加工・小ねじ・精密切削部品",
+    "properties": "快削鋼に分類される特殊金属材料。用途は自動盤加工・小ねじ・精密切削部品で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.9,
@@ -20765,6 +21383,8 @@ export const alloys = [
     "family": "快削鋼",
     "category": "快削鋼",
     "usage": "自動盤加工・小ねじ・精密切削部品",
+    "properties": "快削鋼に分類される特殊金属材料。用途は自動盤加工・小ねじ・精密切削部品で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.8,
@@ -20818,6 +21438,8 @@ export const alloys = [
     "family": "快削鋼",
     "category": "快削鋼",
     "usage": "自動盤加工・小ねじ・精密切削部品",
+    "properties": "快削鋼に分類される特殊金属材料。用途は自動盤加工・小ねじ・精密切削部品で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.7,
@@ -20871,6 +21493,8 @@ export const alloys = [
     "family": "快削鋼",
     "category": "快削鋼",
     "usage": "自動盤加工・小ねじ・精密切削部品",
+    "properties": "快削鋼に分類される特殊金属材料。用途は自動盤加工・小ねじ・精密切削部品で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.7,
@@ -20924,6 +21548,8 @@ export const alloys = [
     "family": "合金鋼",
     "category": "合金鋼",
     "usage": "歯車・軸・機械構造部品",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 97.9,
@@ -20976,6 +21602,8 @@ export const alloys = [
     "family": "合金鋼",
     "category": "合金鋼",
     "usage": "歯車・軸・機械構造部品",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 97.8,
@@ -21028,6 +21656,8 @@ export const alloys = [
     "family": "合金鋼",
     "category": "合金鋼",
     "usage": "歯車・軸・機械構造部品",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 97.8,
@@ -21080,6 +21710,8 @@ export const alloys = [
     "family": "合金鋼",
     "category": "合金鋼",
     "usage": "高強度軸・歯車・機械構造部品",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 1.1,
@@ -21144,6 +21776,8 @@ export const alloys = [
     "family": "浸炭鋼",
     "category": "浸炭鋼",
     "usage": "浸炭歯車・シャフト・高靭性部品",
+    "properties": "浸炭鋼に分類される特殊金属材料。用途は浸炭歯車・シャフト・高靭性部品で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 3.25,
@@ -21208,6 +21842,8 @@ export const alloys = [
     "family": "浸炭鋼",
     "category": "浸炭鋼",
     "usage": "浸炭歯車・シャフト・高靭性部品",
+    "properties": "浸炭鋼に分類される特殊金属材料。用途は浸炭歯車・シャフト・高靭性部品で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 3.25,
@@ -21272,6 +21908,8 @@ export const alloys = [
     "family": "浸炭鋼",
     "category": "浸炭鋼",
     "usage": "浸炭歯車・シャフト・高靭性部品",
+    "properties": "浸炭鋼に分類される特殊金属材料。用途は浸炭歯車・シャフト・高靭性部品で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 3.25,
@@ -21336,6 +21974,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "機械構造部品・ボルト・シャフト",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 98.5,
@@ -21394,6 +22034,8 @@ export const alloys = [
     "family": "クロムモリブデン鋼",
     "category": "クロムモリブデン鋼",
     "usage": "ボルト・シャフト・機械構造部品",
+    "properties": "クロムモリブデン鋼に分類される特殊金属材料。用途はボルト・シャフト・機械構造部品で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.8,
@@ -21458,6 +22100,8 @@ export const alloys = [
     "family": "クロムモリブデン鋼",
     "category": "クロムモリブデン鋼",
     "usage": "高強度シャフト・工具部材・機械構造部品",
+    "properties": "クロムモリブデン鋼に分類される特殊金属材料。用途は高強度シャフト・工具部材・機械構造部品で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.8,
@@ -21522,6 +22166,8 @@ export const alloys = [
     "family": "浸炭鋼",
     "category": "浸炭鋼",
     "usage": "浸炭歯車・高靭性機械部品",
+    "properties": "浸炭鋼に分類される特殊金属材料。用途は浸炭歯車・高靭性機械部品で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 1.65,
@@ -21592,6 +22238,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "浸炭歯車・高靭性部品",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 3.25,
@@ -21656,6 +22304,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "浸炭歯車・高靭性部品",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 3.25,
@@ -21720,6 +22370,8 @@ export const alloys = [
     "family": "低合金鋼",
     "category": "低合金鋼",
     "usage": "浸炭歯車・高靭性部品",
+    "properties": "鉄を主成分とする構造用鋼。強度、靭性、熱処理性、加工性のバランスで機械部品や構造材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 3.25,
@@ -21784,6 +22436,8 @@ export const alloys = [
     "family": "軸受鋼",
     "category": "軸受鋼",
     "usage": "軸受・転動部品・耐摩耗部品",
+    "properties": "軸受鋼に分類される特殊金属材料。用途は軸受・転動部品・耐摩耗部品で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.4,
@@ -21848,6 +22502,8 @@ export const alloys = [
     "family": "軸受鋼",
     "category": "軸受鋼",
     "usage": "軸受・転動部品・耐摩耗部品",
+    "properties": "軸受鋼に分類される特殊金属材料。用途は軸受・転動部品・耐摩耗部品で、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Cr": {
         "min": 0.9,
@@ -21912,6 +22568,8 @@ export const alloys = [
     "family": "鋳鉄",
     "category": "鋳鉄",
     "usage": "鋳物・機械ベース・ポンプハウジング",
+    "properties": "鋳造性、減衰性、耐摩耗性を活かす鉄系鋳造材料。機械ベース、ハウジング、耐摩耗部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 93.6,
@@ -21970,6 +22628,8 @@ export const alloys = [
     "family": "鋳鉄",
     "category": "鋳鉄",
     "usage": "鋳物・機械ベース・ポンプハウジング",
+    "properties": "鋳造性、減衰性、耐摩耗性を活かす鉄系鋳造材料。機械ベース、ハウジング、耐摩耗部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 93.8,
@@ -22028,6 +22688,8 @@ export const alloys = [
     "family": "鋳鉄",
     "category": "鋳鉄",
     "usage": "鋳物・機械ベース・ポンプハウジング",
+    "properties": "鋳造性、減衰性、耐摩耗性を活かす鉄系鋳造材料。機械ベース、ハウジング、耐摩耗部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 94.0,
@@ -22086,6 +22748,8 @@ export const alloys = [
     "family": "鋳鉄",
     "category": "鋳鉄",
     "usage": "鋳物・工作機械部品・ブレーキ部品",
+    "properties": "鋳造性、減衰性、耐摩耗性を活かす鉄系鋳造材料。機械ベース、ハウジング、耐摩耗部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 94.2,
@@ -22144,6 +22808,8 @@ export const alloys = [
     "family": "鋳鉄",
     "category": "鋳鉄",
     "usage": "鋳物・工作機械部品・ブレーキ部品",
+    "properties": "鋳造性、減衰性、耐摩耗性を活かす鉄系鋳造材料。機械ベース、ハウジング、耐摩耗部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 94.4,
@@ -22202,6 +22868,8 @@ export const alloys = [
     "family": "球状黒鉛鋳鉄",
     "category": "球状黒鉛鋳鉄",
     "usage": "鋳物・配管継手・機械構造鋳物",
+    "properties": "鋳造性、減衰性、耐摩耗性を活かす鉄系鋳造材料。機械ベース、ハウジング、耐摩耗部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 93.6,
@@ -22260,6 +22928,8 @@ export const alloys = [
     "family": "球状黒鉛鋳鉄",
     "category": "球状黒鉛鋳鉄",
     "usage": "鋳物・配管継手・機械構造鋳物",
+    "properties": "鋳造性、減衰性、耐摩耗性を活かす鉄系鋳造材料。機械ベース、ハウジング、耐摩耗部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 93.5,
@@ -22318,6 +22988,8 @@ export const alloys = [
     "family": "球状黒鉛鋳鉄",
     "category": "球状黒鉛鋳鉄",
     "usage": "鋳物・歯車箱・高強度鋳物",
+    "properties": "鋳造性、減衰性、耐摩耗性を活かす鉄系鋳造材料。機械ベース、ハウジング、耐摩耗部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 93.4,
@@ -22376,6 +23048,8 @@ export const alloys = [
     "family": "球状黒鉛鋳鉄",
     "category": "球状黒鉛鋳鉄",
     "usage": "鋳物・高強度機械部品・ギヤケース",
+    "properties": "鋳造性、減衰性、耐摩耗性を活かす鉄系鋳造材料。機械ベース、ハウジング、耐摩耗部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 93.5,
@@ -22434,6 +23108,8 @@ export const alloys = [
     "family": "鋳鉄",
     "category": "鋳鉄",
     "usage": "耐摩耗ライナー・粉砕部品・ロール",
+    "properties": "鋳造性、減衰性、耐摩耗性を活かす鉄系鋳造材料。機械ベース、ハウジング、耐摩耗部材に使われる。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Fe": {
         "min": 95.1,
@@ -22493,6 +23169,8 @@ export const alloys = [
     "family": "マレージング鋼",
     "category": "マレージング鋼",
     "usage": "航空宇宙・高強度金型・シャフト",
+    "properties": "マレージング鋼に分類される特殊金属材料。用途は航空宇宙・高強度金型・シャフトで、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 17.0,
@@ -22559,6 +23237,8 @@ export const alloys = [
     "family": "マレージング鋼",
     "category": "マレージング鋼",
     "usage": "航空宇宙・高強度金型・シャフト",
+    "properties": "マレージング鋼に分類される特殊金属材料。用途は航空宇宙・高強度金型・シャフトで、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 17.0,
@@ -22625,6 +23305,8 @@ export const alloys = [
     "family": "マレージング鋼",
     "category": "マレージング鋼",
     "usage": "航空宇宙・高強度金型・シャフト",
+    "properties": "マレージング鋼に分類される特殊金属材料。用途は航空宇宙・高強度金型・シャフトで、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 17.0,
@@ -22691,6 +23373,8 @@ export const alloys = [
     "family": "マレージング鋼",
     "category": "マレージング鋼",
     "usage": "航空宇宙・高強度金型・シャフト",
+    "properties": "マレージング鋼に分類される特殊金属材料。用途は航空宇宙・高強度金型・シャフトで、成分範囲から候補材の比較に使える。",
+    "representativeMakers": "Nippon Steel, JFE Steel, Daido Steel, Aichi Steel",
     "elements": {
       "Ni": {
         "min": 17.0,
@@ -22757,6 +23441,8 @@ export const alloys = [
     "family": "スーパーアロイ",
     "category": "スーパーアロイ",
     "usage": "タービンディスク・高温締結部品",
+    "properties": "高温環境向け合金。耐酸化性、高温強度、クリープ抵抗を重視し、熱処理炉・ガスタービン・高温装置に使われる。",
+    "representativeMakers": "Special Metals, VDM Metals, ATI, Carpenter Technology",
     "elements": {
       "Ni": {
         "min": 39.0,
@@ -22831,6 +23517,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "タービンホイール・高温鋳造部品",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "Special Metals, VDM Metals, ATI, Carpenter Technology",
     "elements": {
       "Ni": {
         "min": 73.2,
@@ -22909,6 +23597,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "ガスタービンブレード・高温鋳造部品",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "Special Metals, VDM Metals, ATI, Carpenter Technology",
     "elements": {
       "Ni": {
         "min": 61.5,
@@ -23006,6 +23696,8 @@ export const alloys = [
     "family": "耐熱耐食合金",
     "category": "耐熱耐食合金",
     "usage": "燃焼器・高温ダクト・熱処理炉部品",
+    "properties": "高温環境向け合金。耐酸化性、高温強度、クリープ抵抗を重視し、熱処理炉・ガスタービン・高温装置に使われる。",
+    "representativeMakers": "Haynes International, VDM Metals, ATI, Special Metals",
     "elements": {
       "Ni": {
         "min": 20.0,
@@ -23091,6 +23783,8 @@ export const alloys = [
     "family": "コバルト合金",
     "category": "コバルト合金",
     "usage": "タービン部品・高温ばね・燃焼器",
+    "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
+    "representativeMakers": "Haynes International, VDM Metals, ATI, Special Metals",
     "elements": {
       "Ni": {
         "min": 9.0,
@@ -23162,6 +23856,8 @@ export const alloys = [
     "family": "耐酸化ニッケル合金",
     "category": "耐酸化ニッケル合金",
     "usage": "高温酸化環境・炉部品・熱処理治具",
+    "properties": "耐食性を重視した特殊合金。酸、塩化物、海水、化学プラント環境での腐食抵抗を主な特長とする。",
+    "representativeMakers": "Haynes International, VDM Metals, ATI, Special Metals",
     "elements": {
       "Ni": {
         "min": 77.6,
@@ -23229,6 +23925,8 @@ export const alloys = [
     "family": "耐食ニッケル合金",
     "category": "耐食ニッケル合金",
     "usage": "化学プラント・リン酸・硫酸環境",
+    "properties": "耐食性を重視した特殊合金。酸、塩化物、海水、化学プラント環境での腐食抵抗を主な特長とする。",
+    "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
     "elements": {
       "Ni": {
         "min": 30.0,
@@ -23304,6 +24002,8 @@ export const alloys = [
     "family": "耐食ニッケル合金",
     "category": "耐食ニッケル合金",
     "usage": "塩化物・酸性環境・化学プラント",
+    "properties": "耐食性を重視した特殊合金。酸、塩化物、海水、化学プラント環境での腐食抵抗を主な特長とする。",
+    "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
     "elements": {
       "Ni": {
         "min": 60.0,
@@ -23372,6 +24072,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 67.0,
@@ -23463,6 +24165,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 63.0,
@@ -23554,6 +24258,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 58.9,
@@ -23645,6 +24351,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 56.1,
@@ -23736,6 +24444,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 55.6,
@@ -23827,6 +24537,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 60.3,
@@ -23918,6 +24630,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 63.5,
@@ -24009,6 +24723,8 @@ export const alloys = [
     "family": "単結晶スーパーアロイ",
     "category": "単結晶スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
+    "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 55.7,
@@ -24099,6 +24815,8 @@ export const alloys = [
     "family": "単結晶スーパーアロイ",
     "category": "単結晶スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
+    "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 59.0,
@@ -24189,6 +24907,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 56.1,
@@ -24280,6 +25000,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 60.8,
@@ -24371,6 +25093,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 56.8,
@@ -24462,6 +25186,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 63.5,
@@ -24553,6 +25279,8 @@ export const alloys = [
     "family": "単結晶スーパーアロイ",
     "category": "単結晶スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
+    "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 57.9,
@@ -24643,6 +25371,8 @@ export const alloys = [
     "family": "単結晶スーパーアロイ",
     "category": "単結晶スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "properties": "Reを含む単結晶Ni基スーパーアロイ。IGT・航空エンジンブレード向けの高温クリープ強度と組織安定性が特長。",
+    "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 53.6,
@@ -24733,6 +25463,8 @@ export const alloys = [
     "family": "単結晶スーパーアロイ",
     "category": "単結晶スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
+    "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 59.7,
@@ -24823,6 +25555,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 60.9,
@@ -24914,6 +25648,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 56.8,
@@ -25005,6 +25741,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 60.0,
@@ -25096,6 +25834,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 55.9,
@@ -25187,6 +25927,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 64.2,
@@ -25278,6 +26020,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 61.4,
@@ -25369,6 +26113,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 57.3,
@@ -25460,6 +26206,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 53.3,
@@ -25551,6 +26299,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 60.0,
@@ -25642,6 +26392,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 64.7,
@@ -25733,6 +26485,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 60.7,
@@ -25824,6 +26578,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・高温回転部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 57.8,
@@ -25914,6 +26670,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
     "elements": {
       "Ni": {
         "min": 65.2,
@@ -26004,6 +26762,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
     "elements": {
       "Ni": {
         "min": 61.2,
@@ -26094,6 +26854,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "properties": "Ta、W、Al、Tiを含む鋳造Ni基スーパーアロイ。タービンブレードやベーン向けの高温強度と鋳造性が特長。",
+    "representativeMakers": "Howmet Aerospace, Cannon-Muskegon, PCC Structurals, Doncasters",
     "elements": {
       "Ni": {
         "min": 60.7,
@@ -26184,6 +26946,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
     "elements": {
       "Ni": {
         "min": 57.9,
@@ -26274,6 +27038,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
     "elements": {
       "Ni": {
         "min": 53.8,
@@ -26364,6 +27130,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
     "elements": {
       "Ni": {
         "min": 58.5,
@@ -26454,6 +27222,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
     "elements": {
       "Ni": {
         "min": 65.3,
@@ -26544,6 +27314,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
     "elements": {
       "Ni": {
         "min": 61.2,
@@ -26634,6 +27406,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
     "elements": {
       "Ni": {
         "min": 57.2,
@@ -26724,6 +27498,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
     "elements": {
       "Ni": {
         "min": 54.3,
@@ -26814,6 +27590,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
     "elements": {
       "Ni": {
         "min": 62.6,
@@ -26904,6 +27682,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
     "elements": {
       "Ni": {
         "min": 58.6,
@@ -26994,6 +27774,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
     "elements": {
       "Ni": {
         "min": 61.7,
@@ -27084,6 +27866,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
     "elements": {
       "Ni": {
         "min": 57.7,
@@ -27174,6 +27958,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
     "elements": {
       "Ni": {
         "min": 57.2,
@@ -27264,6 +28050,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
     "elements": {
       "Ni": {
         "min": 63.1,
@@ -27354,6 +28142,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
     "elements": {
       "Ni": {
         "min": 59.1,
@@ -27444,6 +28234,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
     "elements": {
       "Ni": {
         "min": 55.0,
@@ -27534,6 +28326,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
     "elements": {
       "Ni": {
         "min": 61.8,
@@ -27624,6 +28418,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
     "elements": {
       "Ni": {
         "min": 57.7,
@@ -27714,6 +28510,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
     "elements": {
       "Ni": {
         "min": 62.4,
@@ -27804,6 +28602,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "Pratt & Whitney, GE Aerospace, Howmet Aerospace, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 59.6,
@@ -27894,6 +28694,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "Pratt & Whitney, GE Aerospace, Howmet Aerospace, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 59.1,
@@ -27984,6 +28786,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "Pratt & Whitney, GE Aerospace, Howmet Aerospace, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 55.1,
@@ -28074,6 +28878,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
     "elements": {
       "Ni": {
         "min": 58.2,
@@ -28164,6 +28970,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
     "elements": {
       "Ni": {
         "min": 62.9,
@@ -28254,6 +29062,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
     "elements": {
       "Ni": {
         "min": 62.5,
@@ -28344,6 +29154,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
     "elements": {
       "Ni": {
         "min": 59.6,
@@ -28434,6 +29246,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
     "elements": {
       "Ni": {
         "min": 55.6,
@@ -28524,6 +29338,8 @@ export const alloys = [
     "family": "鋳造スーパーアロイ",
     "category": "鋳造スーパーアロイ",
     "usage": "IGTタービンブレード・ベーン・燃焼器周辺部材",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
     "elements": {
       "Ni": {
         "min": 51.5,
@@ -28614,6 +29430,8 @@ export const alloys = [
     "family": "単結晶スーパーアロイ",
     "category": "単結晶スーパーアロイ",
     "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
+    "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
     "elements": {
       "Ni": {
         "min": 65.4,
@@ -28703,6 +29521,8 @@ export const alloys = [
     "family": "単結晶スーパーアロイ",
     "category": "単結晶スーパーアロイ",
     "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
+    "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
     "elements": {
       "Ni": {
         "min": 61.1,
@@ -28792,6 +29612,8 @@ export const alloys = [
     "family": "単結晶スーパーアロイ",
     "category": "単結晶スーパーアロイ",
     "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "properties": "Reを含む第2世代単結晶Ni基スーパーアロイ。単結晶タービンブレード向けに高温クリープ強度と耐酸化性を重視した合金。",
+    "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
     "elements": {
       "Ni": {
         "min": 56.8,
@@ -28881,6 +29703,8 @@ export const alloys = [
     "family": "単結晶スーパーアロイ",
     "category": "単結晶スーパーアロイ",
     "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
+    "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
     "elements": {
       "Ni": {
         "min": 54.9,
@@ -28970,6 +29794,8 @@ export const alloys = [
     "family": "単結晶スーパーアロイ",
     "category": "単結晶スーパーアロイ",
     "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
+    "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
     "elements": {
       "Ni": {
         "min": 58.2,
@@ -29059,6 +29885,8 @@ export const alloys = [
     "family": "単結晶スーパーアロイ",
     "category": "単結晶スーパーアロイ",
     "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
+    "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
     "elements": {
       "Ni": {
         "min": 61.9,
@@ -29148,6 +29976,8 @@ export const alloys = [
     "family": "単結晶スーパーアロイ",
     "category": "単結晶スーパーアロイ",
     "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
+    "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
     "elements": {
       "Ni": {
         "min": 60.0,
@@ -29237,6 +30067,8 @@ export const alloys = [
     "family": "単結晶スーパーアロイ",
     "category": "単結晶スーパーアロイ",
     "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
+    "representativeMakers": "Cannon-Muskegon, Howmet Aerospace, PCC Structurals, Doncasters",
     "elements": {
       "Ni": {
         "min": 55.7,
@@ -29326,6 +30158,8 @@ export const alloys = [
     "family": "単結晶スーパーアロイ",
     "category": "単結晶スーパーアロイ",
     "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
+    "representativeMakers": "Pratt & Whitney, GE Aerospace, Howmet Aerospace, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 59.0,
@@ -29415,6 +30249,8 @@ export const alloys = [
     "family": "単結晶スーパーアロイ",
     "category": "単結晶スーパーアロイ",
     "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
+    "representativeMakers": "Pratt & Whitney, GE Aerospace, Howmet Aerospace, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 57.1,
@@ -29504,6 +30340,8 @@ export const alloys = [
     "family": "単結晶スーパーアロイ",
     "category": "単結晶スーパーアロイ",
     "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
+    "representativeMakers": "Pratt & Whitney, GE Aerospace, Howmet Aerospace, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 60.8,
@@ -29593,6 +30431,8 @@ export const alloys = [
     "family": "単結晶スーパーアロイ",
     "category": "単結晶スーパーアロイ",
     "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
+    "representativeMakers": "Pratt & Whitney, GE Aerospace, Howmet Aerospace, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 56.5,
@@ -29682,6 +30522,8 @@ export const alloys = [
     "family": "単結晶スーパーアロイ",
     "category": "単結晶スーパーアロイ",
     "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
+    "representativeMakers": "Pratt & Whitney, GE Aerospace, Howmet Aerospace, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 62.2,
@@ -29771,6 +30613,8 @@ export const alloys = [
     "family": "単結晶スーパーアロイ",
     "category": "単結晶スーパーアロイ",
     "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
+    "representativeMakers": "Pratt & Whitney, GE Aerospace, Howmet Aerospace, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 57.9,
@@ -29860,6 +30704,8 @@ export const alloys = [
     "family": "単結晶スーパーアロイ",
     "category": "単結晶スーパーアロイ",
     "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
+    "representativeMakers": "Pratt & Whitney, GE Aerospace, Howmet Aerospace, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 53.6,
@@ -29949,6 +30795,8 @@ export const alloys = [
     "family": "単結晶スーパーアロイ",
     "category": "単結晶スーパーアロイ",
     "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
+    "representativeMakers": "Pratt & Whitney, GE Aerospace, Howmet Aerospace, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 59.7,
@@ -30038,6 +30886,8 @@ export const alloys = [
     "family": "単結晶スーパーアロイ",
     "category": "単結晶スーパーアロイ",
     "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
+    "representativeMakers": "Pratt & Whitney, GE Aerospace, Howmet Aerospace, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 63.0,
@@ -30127,6 +30977,8 @@ export const alloys = [
     "family": "単結晶スーパーアロイ",
     "category": "単結晶スーパーアロイ",
     "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
+    "representativeMakers": "Pratt & Whitney, GE Aerospace, Howmet Aerospace, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 58.7,
@@ -30216,6 +31068,8 @@ export const alloys = [
     "family": "単結晶スーパーアロイ",
     "category": "単結晶スーパーアロイ",
     "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
+    "representativeMakers": "Pratt & Whitney, GE Aerospace, Howmet Aerospace, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 56.8,
@@ -30305,6 +31159,8 @@ export const alloys = [
     "family": "単結晶スーパーアロイ",
     "category": "単結晶スーパーアロイ",
     "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
+    "representativeMakers": "Pratt & Whitney, GE Aerospace, Howmet Aerospace, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 52.5,
@@ -30394,6 +31250,8 @@ export const alloys = [
     "family": "単結晶スーパーアロイ",
     "category": "単結晶スーパーアロイ",
     "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
+    "representativeMakers": "Pratt & Whitney, GE Aerospace, Howmet Aerospace, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 63.8,
@@ -30483,6 +31341,8 @@ export const alloys = [
     "family": "単結晶スーパーアロイ",
     "category": "単結晶スーパーアロイ",
     "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
+    "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
     "elements": {
       "Ni": {
         "min": 61.9,
@@ -30572,6 +31432,8 @@ export const alloys = [
     "family": "単結晶スーパーアロイ",
     "category": "単結晶スーパーアロイ",
     "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
+    "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
     "elements": {
       "Ni": {
         "min": 57.6,
@@ -30661,6 +31523,8 @@ export const alloys = [
     "family": "単結晶スーパーアロイ",
     "category": "単結晶スーパーアロイ",
     "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
+    "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
     "elements": {
       "Ni": {
         "min": 53.3,
@@ -30750,6 +31614,8 @@ export const alloys = [
     "family": "単結晶スーパーアロイ",
     "category": "単結晶スーパーアロイ",
     "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
+    "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
     "elements": {
       "Ni": {
         "min": 59.0,
@@ -30839,6 +31705,8 @@ export const alloys = [
     "family": "単結晶スーパーアロイ",
     "category": "単結晶スーパーアロイ",
     "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
+    "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
     "elements": {
       "Ni": {
         "min": 62.7,
@@ -30928,6 +31796,8 @@ export const alloys = [
     "family": "単結晶スーパーアロイ",
     "category": "単結晶スーパーアロイ",
     "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
+    "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
     "elements": {
       "Ni": {
         "min": 58.4,
@@ -31017,6 +31887,8 @@ export const alloys = [
     "family": "単結晶スーパーアロイ",
     "category": "単結晶スーパーアロイ",
     "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
+    "representativeMakers": "Pratt & Whitney, GE Aerospace, Howmet Aerospace, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 56.5,
@@ -31106,6 +31978,8 @@ export const alloys = [
     "family": "単結晶スーパーアロイ",
     "category": "単結晶スーパーアロイ",
     "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
+    "representativeMakers": "Pratt & Whitney, GE Aerospace, Howmet Aerospace, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 59.8,
@@ -31195,6 +32069,8 @@ export const alloys = [
     "family": "単結晶スーパーアロイ",
     "category": "単結晶スーパーアロイ",
     "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
+    "representativeMakers": "Pratt & Whitney, GE Aerospace, Howmet Aerospace, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 55.5,
@@ -31284,6 +32160,8 @@ export const alloys = [
     "family": "単結晶スーパーアロイ",
     "category": "単結晶スーパーアロイ",
     "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
+    "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
     "elements": {
       "Ni": {
         "min": 61.6,
@@ -31373,6 +32251,8 @@ export const alloys = [
     "family": "単結晶スーパーアロイ",
     "category": "単結晶スーパーアロイ",
     "usage": "IGT・航空エンジン単結晶タービンブレード",
+    "properties": "単結晶Ni基スーパーアロイ。高温クリープ強度、耐酸化性、タービンブレード用途での組織安定性を重視した合金。",
+    "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
     "elements": {
       "Ni": {
         "min": 57.3,
@@ -31462,6 +32342,8 @@ export const alloys = [
     "family": "コバルト基スーパーアロイ",
     "category": "コバルト基スーパーアロイ",
     "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "properties": "Co-Cr-Ni-W系の鋳造コバルト基スーパーアロイ。高温耐食性、熱疲労抵抗、IGTベーン用途への適性が特長。",
+    "representativeMakers": "Howmet Aerospace, Doncasters, PCC Structurals, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 5.0,
@@ -31543,6 +32425,8 @@ export const alloys = [
     "family": "コバルト基スーパーアロイ",
     "category": "コバルト基スーパーアロイ",
     "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
+    "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
     "elements": {
       "Ni": {
         "min": 6.0,
@@ -31612,6 +32496,8 @@ export const alloys = [
     "family": "コバルト基スーパーアロイ",
     "category": "コバルト基スーパーアロイ",
     "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
+    "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
     "elements": {
       "Ni": {
         "min": 7.0,
@@ -31681,6 +32567,8 @@ export const alloys = [
     "family": "コバルト基スーパーアロイ",
     "category": "コバルト基スーパーアロイ",
     "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
+    "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
     "elements": {
       "Ni": {
         "min": 8.0,
@@ -31756,6 +32644,8 @@ export const alloys = [
     "family": "コバルト基スーパーアロイ",
     "category": "コバルト基スーパーアロイ",
     "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
+    "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
     "elements": {
       "Ni": {
         "min": 9.0,
@@ -31831,6 +32721,8 @@ export const alloys = [
     "family": "コバルト基スーパーアロイ",
     "category": "コバルト基スーパーアロイ",
     "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
+    "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
     "elements": {
       "Ni": {
         "min": 5.0,
@@ -31900,6 +32792,8 @@ export const alloys = [
     "family": "コバルト基スーパーアロイ",
     "category": "コバルト基スーパーアロイ",
     "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
+    "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
     "elements": {
       "Ni": {
         "min": 6.0,
@@ -31975,6 +32869,8 @@ export const alloys = [
     "family": "コバルト基スーパーアロイ",
     "category": "コバルト基スーパーアロイ",
     "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
+    "representativeMakers": "Haynes International, VDM Metals, ATI, Special Metals",
     "elements": {
       "Ni": {
         "min": 7.0,
@@ -32044,6 +32940,8 @@ export const alloys = [
     "family": "コバルト基スーパーアロイ",
     "category": "コバルト基スーパーアロイ",
     "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
+    "representativeMakers": "Haynes International, VDM Metals, ATI, Special Metals",
     "elements": {
       "Ni": {
         "min": 8.0,
@@ -32119,6 +33017,8 @@ export const alloys = [
     "family": "コバルト基スーパーアロイ",
     "category": "コバルト基スーパーアロイ",
     "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
+    "representativeMakers": "Haynes International, VDM Metals, ATI, Special Metals",
     "elements": {
       "Ni": {
         "min": 9.0,
@@ -32194,6 +33094,8 @@ export const alloys = [
     "family": "コバルト基スーパーアロイ",
     "category": "コバルト基スーパーアロイ",
     "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
+    "representativeMakers": "Haynes International, VDM Metals, ATI, Special Metals",
     "elements": {
       "Ni": {
         "min": 5.0,
@@ -32263,6 +33165,8 @@ export const alloys = [
     "family": "コバルト基スーパーアロイ",
     "category": "コバルト基スーパーアロイ",
     "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
+    "representativeMakers": "Haynes International, VDM Metals, ATI, Special Metals",
     "elements": {
       "Ni": {
         "min": 6.0,
@@ -32332,6 +33236,8 @@ export const alloys = [
     "family": "コバルト基スーパーアロイ",
     "category": "コバルト基スーパーアロイ",
     "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
+    "representativeMakers": "Haynes International, VDM Metals, ATI, Special Metals",
     "elements": {
       "Ni": {
         "min": 7.0,
@@ -32413,6 +33319,8 @@ export const alloys = [
     "family": "コバルト基スーパーアロイ",
     "category": "コバルト基スーパーアロイ",
     "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
+    "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
     "elements": {
       "Ni": {
         "min": 8.0,
@@ -32482,6 +33390,8 @@ export const alloys = [
     "family": "コバルト基スーパーアロイ",
     "category": "コバルト基スーパーアロイ",
     "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
+    "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
     "elements": {
       "Ni": {
         "min": 9.0,
@@ -32551,6 +33461,8 @@ export const alloys = [
     "family": "コバルト基スーパーアロイ",
     "category": "コバルト基スーパーアロイ",
     "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
+    "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
     "elements": {
       "Ni": {
         "min": 5.0,
@@ -32626,6 +33538,8 @@ export const alloys = [
     "family": "コバルト基スーパーアロイ",
     "category": "コバルト基スーパーアロイ",
     "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "properties": "Co-Cr-W-C系の耐摩耗コバルト合金。高温硬さ、かじり抵抗、耐食性を兼ねる表面・摺動部材向け合金。",
+    "representativeMakers": "Kennametal Stellite, Deloro, Wall Colmonoy, Höganäs",
     "elements": {
       "Ni": {
         "min": 6.0,
@@ -32701,6 +33615,8 @@ export const alloys = [
     "family": "コバルト基スーパーアロイ",
     "category": "コバルト基スーパーアロイ",
     "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
+    "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
     "elements": {
       "Ni": {
         "min": 7.0,
@@ -32770,6 +33686,8 @@ export const alloys = [
     "family": "コバルト基スーパーアロイ",
     "category": "コバルト基スーパーアロイ",
     "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
+    "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
     "elements": {
       "Ni": {
         "min": 8.0,
@@ -32845,6 +33763,8 @@ export const alloys = [
     "family": "コバルト基スーパーアロイ",
     "category": "コバルト基スーパーアロイ",
     "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
+    "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
     "elements": {
       "Ni": {
         "min": 9.0,
@@ -32914,6 +33834,8 @@ export const alloys = [
     "family": "コバルト基スーパーアロイ",
     "category": "コバルト基スーパーアロイ",
     "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
+    "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
     "elements": {
       "Ni": {
         "min": 5.0,
@@ -32989,6 +33911,8 @@ export const alloys = [
     "family": "コバルト基スーパーアロイ",
     "category": "コバルト基スーパーアロイ",
     "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
+    "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
     "elements": {
       "Ni": {
         "min": 6.0,
@@ -33064,6 +33988,8 @@ export const alloys = [
     "family": "コバルト基スーパーアロイ",
     "category": "コバルト基スーパーアロイ",
     "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
+    "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
     "elements": {
       "Ni": {
         "min": 7.0,
@@ -33133,6 +34059,8 @@ export const alloys = [
     "family": "コバルト基スーパーアロイ",
     "category": "コバルト基スーパーアロイ",
     "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
+    "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
     "elements": {
       "Ni": {
         "min": 8.0,
@@ -33202,6 +34130,8 @@ export const alloys = [
     "family": "コバルト基スーパーアロイ",
     "category": "コバルト基スーパーアロイ",
     "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
+    "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
     "elements": {
       "Ni": {
         "min": 9.0,
@@ -33283,6 +34213,8 @@ export const alloys = [
     "family": "コバルト基スーパーアロイ",
     "category": "コバルト基スーパーアロイ",
     "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
+    "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
     "elements": {
       "Ni": {
         "min": 5.0,
@@ -33352,6 +34284,8 @@ export const alloys = [
     "family": "コバルト基スーパーアロイ",
     "category": "コバルト基スーパーアロイ",
     "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
+    "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
     "elements": {
       "Ni": {
         "min": 6.0,
@@ -33421,6 +34355,8 @@ export const alloys = [
     "family": "コバルト基スーパーアロイ",
     "category": "コバルト基スーパーアロイ",
     "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
+    "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
     "elements": {
       "Ni": {
         "min": 7.0,
@@ -33496,6 +34432,8 @@ export const alloys = [
     "family": "コバルト基スーパーアロイ",
     "category": "コバルト基スーパーアロイ",
     "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
+    "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
     "elements": {
       "Ni": {
         "min": 8.0,
@@ -33571,6 +34509,8 @@ export const alloys = [
     "family": "コバルト基スーパーアロイ",
     "category": "コバルト基スーパーアロイ",
     "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
+    "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
     "elements": {
       "Ni": {
         "min": 9.0,
@@ -33640,6 +34580,8 @@ export const alloys = [
     "family": "コバルト基スーパーアロイ",
     "category": "コバルト基スーパーアロイ",
     "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
+    "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
     "elements": {
       "Ni": {
         "min": 5.0,
@@ -33715,6 +34657,8 @@ export const alloys = [
     "family": "コバルト基スーパーアロイ",
     "category": "コバルト基スーパーアロイ",
     "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
+    "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
     "elements": {
       "Ni": {
         "min": 6.0,
@@ -33784,6 +34728,8 @@ export const alloys = [
     "family": "コバルト基スーパーアロイ",
     "category": "コバルト基スーパーアロイ",
     "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
+    "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
     "elements": {
       "Ni": {
         "min": 7.0,
@@ -33859,6 +34805,8 @@ export const alloys = [
     "family": "コバルト基スーパーアロイ",
     "category": "コバルト基スーパーアロイ",
     "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
+    "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
     "elements": {
       "Ni": {
         "min": 8.0,
@@ -33934,6 +34882,8 @@ export const alloys = [
     "family": "コバルト基スーパーアロイ",
     "category": "コバルト基スーパーアロイ",
     "usage": "IGTベーン・燃焼器・耐摩耗高温部材",
+    "properties": "コバルト基高温合金。高温耐食性、耐摩耗性、熱疲労抵抗に優れ、ベーン・燃焼器・摺動部材に使われる。",
+    "representativeMakers": "Kennametal Stellite, Haynes International, Deloro, Wall Colmonoy",
     "elements": {
       "Ni": {
         "min": 9.0,
@@ -34003,6 +34953,8 @@ export const alloys = [
     "family": "鍛造スーパーアロイ",
     "category": "鍛造スーパーアロイ",
     "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
+    "representativeMakers": "Special Metals, ATI, VDM Metals, Doncasters",
     "elements": {
       "Ni": {
         "min": 67.2,
@@ -34073,6 +35025,8 @@ export const alloys = [
     "family": "鍛造スーパーアロイ",
     "category": "鍛造スーパーアロイ",
     "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
+    "representativeMakers": "Special Metals, ATI, VDM Metals, Doncasters",
     "elements": {
       "Ni": {
         "min": 64.4,
@@ -34143,6 +35097,8 @@ export const alloys = [
     "family": "鍛造スーパーアロイ",
     "category": "鍛造スーパーアロイ",
     "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
+    "representativeMakers": "Special Metals, ATI, VDM Metals, Doncasters",
     "elements": {
       "Ni": {
         "min": 61.5,
@@ -34213,6 +35169,8 @@ export const alloys = [
     "family": "鍛造スーパーアロイ",
     "category": "鍛造スーパーアロイ",
     "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
+    "representativeMakers": "Special Metals, ATI, VDM Metals, Doncasters",
     "elements": {
       "Ni": {
         "min": 58.7,
@@ -34283,6 +35241,8 @@ export const alloys = [
     "family": "鍛造スーパーアロイ",
     "category": "鍛造スーパーアロイ",
     "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
+    "representativeMakers": "Special Metals, ATI, VDM Metals, Doncasters",
     "elements": {
       "Ni": {
         "min": 58.4,
@@ -34353,6 +35313,8 @@ export const alloys = [
     "family": "鍛造スーパーアロイ",
     "category": "鍛造スーパーアロイ",
     "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
+    "representativeMakers": "Special Metals, ATI, VDM Metals, Doncasters",
     "elements": {
       "Ni": {
         "min": 66.6,
@@ -34423,6 +35385,8 @@ export const alloys = [
     "family": "鍛造スーパーアロイ",
     "category": "鍛造スーパーアロイ",
     "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
+    "representativeMakers": "Special Metals, ATI, VDM Metals, Doncasters",
     "elements": {
       "Ni": {
         "min": 63.7,
@@ -34493,6 +35457,8 @@ export const alloys = [
     "family": "鍛造スーパーアロイ",
     "category": "鍛造スーパーアロイ",
     "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
+    "representativeMakers": "Special Metals, ATI, VDM Metals, Doncasters",
     "elements": {
       "Ni": {
         "min": 60.9,
@@ -34563,6 +35529,8 @@ export const alloys = [
     "family": "鍛造スーパーアロイ",
     "category": "鍛造スーパーアロイ",
     "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
+    "representativeMakers": "Special Metals, ATI, VDM Metals, Doncasters",
     "elements": {
       "Ni": {
         "min": 60.6,
@@ -34633,6 +35601,8 @@ export const alloys = [
     "family": "鍛造スーパーアロイ",
     "category": "鍛造スーパーアロイ",
     "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
+    "representativeMakers": "Special Metals, ATI, VDM Metals, Doncasters",
     "elements": {
       "Ni": {
         "min": 57.8,
@@ -34703,6 +35673,8 @@ export const alloys = [
     "family": "鍛造スーパーアロイ",
     "category": "鍛造スーパーアロイ",
     "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
+    "representativeMakers": "Special Metals, ATI, VDM Metals, Doncasters",
     "elements": {
       "Ni": {
         "min": 65.9,
@@ -34773,6 +35745,8 @@ export const alloys = [
     "family": "鍛造スーパーアロイ",
     "category": "鍛造スーパーアロイ",
     "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
+    "representativeMakers": "Special Metals, ATI, Howmet Aerospace, Carpenter Technology",
     "elements": {
       "Ni": {
         "min": 63.1,
@@ -34843,6 +35817,8 @@ export const alloys = [
     "family": "鍛造スーパーアロイ",
     "category": "鍛造スーパーアロイ",
     "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
+    "representativeMakers": "Special Metals, ATI, Howmet Aerospace, Carpenter Technology",
     "elements": {
       "Ni": {
         "min": 62.8,
@@ -34913,6 +35889,8 @@ export const alloys = [
     "family": "鍛造スーパーアロイ",
     "category": "鍛造スーパーアロイ",
     "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
+    "representativeMakers": "Special Metals, ATI, Howmet Aerospace, Carpenter Technology",
     "elements": {
       "Ni": {
         "min": 60.0,
@@ -34983,6 +35961,8 @@ export const alloys = [
     "family": "鍛造スーパーアロイ",
     "category": "鍛造スーパーアロイ",
     "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
+    "representativeMakers": "Special Metals, ATI, Howmet Aerospace, Carpenter Technology",
     "elements": {
       "Ni": {
         "min": 57.1,
@@ -35053,6 +36033,8 @@ export const alloys = [
     "family": "鍛造スーパーアロイ",
     "category": "鍛造スーパーアロイ",
     "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
+    "representativeMakers": "Special Metals, ATI, Howmet Aerospace, Carpenter Technology",
     "elements": {
       "Ni": {
         "min": 65.3,
@@ -35123,6 +36105,8 @@ export const alloys = [
     "family": "鍛造スーパーアロイ",
     "category": "鍛造スーパーアロイ",
     "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "properties": "鍛造Ni基スーパーアロイ。高温強度、耐酸化性、ディスク・シャフト・締結部品への加工適性が特長。",
+    "representativeMakers": "Special Metals, ATI, Howmet Aerospace, Carpenter Technology",
     "elements": {
       "Ni": {
         "min": 65.0,
@@ -35193,6 +36177,8 @@ export const alloys = [
     "family": "粉末冶金スーパーアロイ",
     "category": "粉末冶金スーパーアロイ",
     "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "properties": "粉末冶金Ni基スーパーアロイ。高温ディスク用途に必要な高強度、疲労抵抗、組織均一性を重視した合金。",
+    "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
     "elements": {
       "Ni": {
         "min": 51.0,
@@ -35280,6 +36266,8 @@ export const alloys = [
     "family": "粉末冶金スーパーアロイ",
     "category": "粉末冶金スーパーアロイ",
     "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "properties": "粉末冶金Ni基スーパーアロイ。高温ディスク用途に必要な高強度、疲労抵抗、組織均一性を重視した合金。",
+    "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
     "elements": {
       "Ni": {
         "min": 55.3,
@@ -35367,6 +36355,8 @@ export const alloys = [
     "family": "粉末冶金スーパーアロイ",
     "category": "粉末冶金スーパーアロイ",
     "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "properties": "粉末冶金Ni基スーパーアロイ。高温ディスク用途に必要な高強度、疲労抵抗、組織均一性を重視した合金。",
+    "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
     "elements": {
       "Ni": {
         "min": 52.4,
@@ -35454,6 +36444,8 @@ export const alloys = [
     "family": "粉末冶金スーパーアロイ",
     "category": "粉末冶金スーパーアロイ",
     "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "properties": "鋳造Ni基スーパーアロイ。高温強度、耐酸化性、鋳造タービンブレード・ベーン用途への適性が特長。",
+    "representativeMakers": "GE Aerospace, Howmet Aerospace, PCC Structurals, Cannon-Muskegon",
     "elements": {
       "Ni": {
         "min": 55.5,
@@ -35541,6 +36533,8 @@ export const alloys = [
     "family": "粉末冶金スーパーアロイ",
     "category": "粉末冶金スーパーアロイ",
     "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "properties": "粉末冶金Ni基スーパーアロイ。高温ディスク用途に必要な高強度、疲労抵抗、組織均一性を重視した合金。",
+    "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
     "elements": {
       "Ni": {
         "min": 53.8,
@@ -35628,6 +36622,8 @@ export const alloys = [
     "family": "粉末冶金スーパーアロイ",
     "category": "粉末冶金スーパーアロイ",
     "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "properties": "粉末冶金Ni基スーパーアロイ。高温ディスク用途に必要な高強度、疲労抵抗、組織均一性を重視した合金。",
+    "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
     "elements": {
       "Ni": {
         "min": 50.9,
@@ -35715,6 +36711,8 @@ export const alloys = [
     "family": "粉末冶金スーパーアロイ",
     "category": "粉末冶金スーパーアロイ",
     "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "properties": "粉末冶金Ni基スーパーアロイ。高温ディスク用途に必要な高強度、疲労抵抗、組織均一性を重視した合金。",
+    "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
     "elements": {
       "Ni": {
         "min": 48.0,
@@ -35802,6 +36800,8 @@ export const alloys = [
     "family": "粉末冶金スーパーアロイ",
     "category": "粉末冶金スーパーアロイ",
     "usage": "IGT・航空エンジンディスク・シャフト・高温締結部品",
+    "properties": "粉末冶金Ni基スーパーアロイ。高温ディスク用途に必要な高強度、疲労抵抗、組織均一性を重視した合金。",
+    "representativeMakers": "Special Metals, ATI, Carpenter Technology, Haynes International",
     "elements": {
       "Ni": {
         "min": 58.3,
