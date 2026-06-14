@@ -216,6 +216,11 @@ button {
   color: #0f6f6b;
 }
 
+.source-badge.standard {
+  background: #eaf1fb;
+  color: #23568f;
+}
+
 .source-badge.reference {
   background: #fff4d8;
   color: #8a620d;
