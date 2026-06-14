@@ -1,14 +1,23 @@
 import { alloys, ELEMENT_COLUMNS } from "./data/alloys.js?v=20260614h";
 import { filterAlloys } from "./search.js?v=20260614h";
+import {
+  DEFAULT_LANGUAGE,
+  SUPPORTED_LANGUAGES,
+  normalizeLanguage,
+  sourceLabel,
+  t
+} from "./i18n.js";
 import { renderCards, renderDetail, renderTableBody, renderTableHead } from "./render.js?v=20260614h";
 
 const state = {
+  language: normalizeLanguage(localStorage.getItem("superalloy-language") || DEFAULT_LANGUAGE),
   query: "",
   sourceTypes: ["official", "standard", "reference", "unverified"],
   elementFilters: []
 };
 
 const queryInput = document.querySelector("#queryInput");
+const languageSelect = document.querySelector("#languageSelect");
 const elementSelect = document.querySelector("#elementSelect");
 const addElementFilter = document.querySelector("#addElementFilter");
 const elementFilters = document.querySelector("#elementFilters");
@@ -19,6 +28,35 @@ const resultCount = document.querySelector("#resultCount");
 const dialog = document.querySelector("#alloyDialog");
 const closeDialog = document.querySelector("#closeDialog");
 const dialogContent = document.querySelector("#dialogContent");
+
+function initLanguageOptions() {
+  languageSelect.innerHTML = SUPPORTED_LANGUAGES
+    .map((language) => `<option value="${language.code}">${language.label}</option>`)
+    .join("");
+  languageSelect.value = state.language;
+}
+
+function applyStaticTranslations() {
+  document.documentElement.lang = SUPPORTED_LANGUAGES.find((language) => language.code === state.language)?.htmlLang || "ja";
+
+  document.querySelectorAll("[data-i18n]").forEach((element) => {
+    element.textContent = t(state.language, element.dataset.i18n);
+  });
+
+  document.querySelectorAll("[data-i18n-placeholder]").forEach((element) => {
+    element.placeholder = t(state.language, element.dataset.i18nPlaceholder);
+  });
+
+  document.querySelectorAll("[data-i18n-aria-label]").forEach((element) => {
+    element.setAttribute("aria-label", t(state.language, element.dataset.i18nAriaLabel));
+  });
+
+  document.querySelectorAll("[data-source-type-label]").forEach((element) => {
+    element.textContent = sourceLabel(state.language, element.dataset.sourceTypeLabel);
+  });
+
+  closeDialog.setAttribute("aria-label", t(state.language, "closeDialog"));
+}
 
 function initElementOptions() {
   elementSelect.innerHTML = ELEMENT_COLUMNS
@@ -47,15 +85,15 @@ function renderElementFilters() {
     <div class="range-filter" data-index="${index}">
       <div class="range-filter-header">
         <strong>${filter.symbol}</strong>
-        <button type="button" data-remove="${index}">削除</button>
+        <button type="button" data-remove="${index}">${t(state.language, "removeFilter")}</button>
       </div>
       <div class="range-values">
-        <label><span>最小%</span><input type="number" min="0" max="100" step="0.1" value="${filter.min}" data-min="${index}"></label>
-        <label><span>最大%</span><input type="number" min="0" max="100" step="0.1" value="${filter.max}" data-max="${index}"></label>
+        <label><span>${t(state.language, "minPercent")}</span><input type="number" min="0" max="100" step="0.1" value="${filter.min}" data-min="${index}"></label>
+        <label><span>${t(state.language, "maxPercent")}</span><input type="number" min="0" max="100" step="0.1" value="${filter.max}" data-max="${index}"></label>
       </div>
       <div class="dual-range" style="--min:${filter.min}; --max:${filter.max}">
-        <input type="range" min="0" max="100" step="0.1" value="${filter.min}" data-min-range="${index}" aria-label="${filter.symbol} 最小値">
-        <input type="range" min="0" max="100" step="0.1" value="${filter.max}" data-max-range="${index}" aria-label="${filter.symbol} 最大値">
+        <input type="range" min="0" max="100" step="0.1" value="${filter.min}" data-min-range="${index}" aria-label="${t(state.language, "minAria", { symbol: filter.symbol })}">
+        <input type="range" min="0" max="100" step="0.1" value="${filter.max}" data-max-range="${index}" aria-label="${t(state.language, "maxAria", { symbol: filter.symbol })}">
       </div>
     </div>
   `).join("");
@@ -86,22 +124,28 @@ function syncFilterRow(index, activeKey) {
 function readCriteria() {
   state.query = queryInput.value;
   state.sourceTypes = selectedSourceTypes();
-  return state;
+  return {
+    language: state.language,
+    query: state.query,
+    sourceTypes: [...state.sourceTypes],
+    elementFilters: state.elementFilters.map((filter) => ({ ...filter }))
+  };
 }
 
 function showDetail(alloyId) {
   const alloy = alloys.find((item) => item.id === alloyId);
   if (!alloy) return;
-  renderDetail(dialogContent, alloy);
+  renderDetail(dialogContent, alloy, state.language);
   dialog.showModal();
 }
 
 function render() {
   const criteria = readCriteria();
   const filtered = criteria.sourceTypes.length === 0 ? [] : filterAlloys(alloys, criteria);
-  resultCount.textContent = `${filtered.length}件`;
-  renderTableBody(tableBody, filtered, showDetail);
-  renderCards(cardResults, filtered, showDetail);
+  resultCount.textContent = t(state.language, "resultCount", { count: filtered.length });
+  renderTableHead(tableHead, state.language);
+  renderTableBody(tableBody, filtered, showDetail, state.language);
+  renderCards(cardResults, filtered, showDetail, state.language);
 }
 
 function updateFilter(index, key, value) {
@@ -138,6 +182,15 @@ document.querySelectorAll("input[name='sourceType']").forEach((input) => {
   input.addEventListener("change", render);
 });
 
+languageSelect.addEventListener("change", () => {
+  state.language = normalizeLanguage(languageSelect.value);
+  localStorage.setItem("superalloy-language", state.language);
+  applyStaticTranslations();
+  renderElementFilters();
+  bindRangeEvents();
+  render();
+});
+
 addElementFilter.addEventListener("click", () => {
   const symbol = elementSelect.value;
   if (state.elementFilters.some((filter) => filter.symbol === symbol)) return;
@@ -149,6 +202,9 @@ addElementFilter.addEventListener("click", () => {
 
 closeDialog.addEventListener("click", () => dialog.close());
 
+initLanguageOptions();
+applyStaticTranslations();
 initElementOptions();
-renderTableHead(tableHead);
+renderElementFilters();
+bindRangeEvents();
 render();

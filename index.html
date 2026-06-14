@@ -9,41 +9,45 @@
 <body>
   <header class="site-header">
     <div>
-      <p class="eyebrow">Superalloy Composition Finder</p>
-      <h1>スーパーアロイ成分検索</h1>
-      <p class="lead">合金名、元素、成分レンジから特殊金属・スーパーアロイを比較できます。</p>
+      <p class="eyebrow" data-i18n="siteEyebrow">Superalloy Composition Finder</p>
+      <h1 data-i18n="siteTitle">スーパーアロイ成分検索</h1>
+      <p class="lead" data-i18n="siteLead">合金名、元素、成分レンジから特殊金属・スーパーアロイを比較できます。</p>
     </div>
+    <label class="language-switcher">
+      <span data-i18n="languageLabel">表示言語</span>
+      <select id="languageSelect"></select>
+    </label>
   </header>
 
   <main class="app-shell">
-    <section class="filters" aria-label="検索条件">
+    <section class="filters" aria-label="検索条件" data-i18n-aria-label="filtersAriaLabel">
       <label class="search-field">
-        <span>合金名・別名</span>
-        <input id="queryInput" type="search" placeholder="例: Inconel 718, UNS N07718">
+        <span data-i18n="searchLabel">合金名・別名</span>
+        <input id="queryInput" type="search" placeholder="例: Inconel 718, UNS N07718" data-i18n-placeholder="searchPlaceholder">
       </label>
 
       <div class="filter-row">
         <label>
-          <span>元素</span>
+          <span data-i18n="elementLabel">元素</span>
           <select id="elementSelect"></select>
         </label>
-        <button id="addElementFilter" type="button">元素条件を追加</button>
+        <button id="addElementFilter" type="button" data-i18n="addElementFilter">元素条件を追加</button>
       </div>
 
       <div id="elementFilters" class="element-filters"></div>
 
       <fieldset class="source-filter">
-        <legend>出典</legend>
-        <label><input type="checkbox" name="sourceType" value="official" checked> 公式</label>
-        <label><input type="checkbox" name="sourceType" value="standard" checked> 規格</label>
-        <label><input type="checkbox" name="sourceType" value="reference" checked> 参考</label>
-        <label><input type="checkbox" name="sourceType" value="unverified" checked> 未確認</label>
+        <legend data-i18n="sourceLegend">出典</legend>
+        <label><input type="checkbox" name="sourceType" value="official" checked> <span data-source-type-label="official">公式</span></label>
+        <label><input type="checkbox" name="sourceType" value="standard" checked> <span data-source-type-label="standard">規格</span></label>
+        <label><input type="checkbox" name="sourceType" value="reference" checked> <span data-source-type-label="reference">参考</span></label>
+        <label><input type="checkbox" name="sourceType" value="unverified" checked> <span data-source-type-label="unverified">未確認</span></label>
       </fieldset>
     </section>
 
     <section class="results" aria-live="polite">
       <div class="results-header">
-        <h2>比較結果</h2>
+        <h2 data-i18n="resultsHeading">比較結果</h2>
         <p id="resultCount">0件</p>
       </div>
       <div class="table-wrap">

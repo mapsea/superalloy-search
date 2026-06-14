@@ -224,6 +224,13 @@
       assert(detail.textContent.includes("Verified."), "English source note missing");
     });
 
+    test("translation templates format result counts and aria labels", () => {
+      assertEqual(t("ja", "resultCount", { count: 3 }), "3件");
+      assertEqual(t("zh", "resultCount", { count: 3 }), "3项");
+      assertEqual(t("en", "resultCount", { count: 3 }), "3 results");
+      assertEqual(t("en", "minAria", { symbol: "Ni" }), "Ni minimum");
+    });
+
     output.textContent = lines.join("\n");
     output.className = lines.some((line) => line.startsWith("FAIL")) ? "fail" : "pass";
   </script>

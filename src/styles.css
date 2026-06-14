@@ -19,6 +19,10 @@ body {
 }
 
 .site-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: flex-start;
   padding: 28px clamp(18px, 4vw, 48px);
   background: #fff;
   border-bottom: 1px solid var(--line);
@@ -42,6 +46,18 @@ h1 {
   margin: 0;
   color: var(--muted);
   max-width: 760px;
+}
+
+.language-switcher {
+  display: grid;
+  gap: 6px;
+  min-width: 150px;
+  color: var(--ink);
+  font-size: 0.85rem;
+}
+
+.language-switcher select {
+  min-height: 40px;
 }
 
 .app-shell {
@@ -427,6 +443,16 @@ select:focus-visible {
 
 .comparison-table tbody tr:hover td {
   background: #fbfcfd;
+}
+
+@media (max-width: 680px) {
+  .site-header {
+    flex-direction: column;
+  }
+
+  .language-switcher {
+    width: 100%;
+  }
 }
 
 @media (max-width: 560px) {
