@@ -70,6 +70,35 @@
       assert(SOURCE_LABELS.unverified === "未確認", "unverified label missing");
     });
 
+    test("exports localized source labels", () => {
+      const expectedLabels = {
+        ja: {
+          official: "公式",
+          standard: "規格",
+          reference: "参考",
+          unverified: "未確認"
+        },
+        zh: {
+          official: "官方",
+          standard: "标准",
+          reference: "参考",
+          unverified: "未确认"
+        },
+        en: {
+          official: "Official",
+          standard: "Standard",
+          reference: "Reference",
+          unverified: "Unverified"
+        }
+      };
+
+      Object.entries(expectedLabels).forEach(([language, labels]) => {
+        Object.entries(labels).forEach(([type, label]) => {
+          assert(SOURCE_LABELS[language][type] === label, `${language}.${type} label missing`);
+        });
+      });
+    });
+
     test("keeps original 20 target alloy ids and allows expansion", () => {
       const ids = alloys.map((alloy) => alloy.id);
       TARGET_IDS.forEach((id) => assert(ids.includes(id), `${id} missing`));
@@ -112,6 +141,24 @@
         assert(typeof alloy.japaneseMakers === "string" && alloy.japaneseMakers.length > 0, `${alloy.id} Japanese makers missing`);
         assert(alloy.elements && typeof alloy.elements === "object", `${alloy.id} elements missing`);
         assert(Array.isArray(alloy.sources) && alloy.sources.length > 0, `${alloy.id} sources missing`);
+      });
+    });
+
+    test("all alloys have complete localized display fields", () => {
+      const languages = ["ja", "zh", "en"];
+      const fields = ["name", "category", "family", "usage", "properties", "representativeMakers", "japaneseMakers", "sourceNotes"];
+
+      alloys.forEach((alloy) => {
+        assert(alloy.localized && typeof alloy.localized === "object", `${alloy.id} localized missing`);
+        languages.forEach((language) => {
+          assert(alloy.localized[language] && typeof alloy.localized[language] === "object", `${alloy.id}.${language} localized missing`);
+          fields.forEach((field) => {
+            assert(
+              typeof alloy.localized[language][field] === "string" && alloy.localized[language][field].length > 0,
+              `${alloy.id}.${language}.${field} missing`
+            );
+          });
+        });
       });
     });
 

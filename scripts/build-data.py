@@ -47,6 +47,27 @@ SOURCE_LABELS = {
     "reference": "参考",
     "unverified": "未確認",
 }
+LANGUAGES = ["ja", "zh", "en"]
+LOCALIZED_FIELD_COLUMNS = {
+    "en": {
+        "name": "name_en",
+        "category": "category_en",
+        "usage": "usage_en",
+        "properties": "properties_en",
+        "representativeMakers": "representative_makers_en",
+        "japaneseMakers": "japanese_makers_en",
+        "sourceNotes": "source_notes_en",
+    },
+    "zh": {
+        "name": "name_zh",
+        "category": "category_zh",
+        "usage": "usage_zh",
+        "properties": "properties_zh",
+        "representativeMakers": "representative_makers_zh",
+        "japaneseMakers": "japanese_makers_zh",
+        "sourceNotes": "source_notes_zh",
+    },
+}
 LEGACY_FAMILIES = {
     "inconel-600": "Ni-Cr-Fe耐熱耐食合金",
     "inconel-601": "Ni-Cr-Fe耐酸化合金",
@@ -84,6 +105,20 @@ REQUIRED_COLUMNS = [
     "source_url",
     "checked_at",
     "source_notes",
+    "name_en",
+    "name_zh",
+    "category_en",
+    "category_zh",
+    "usage_en",
+    "usage_zh",
+    "properties_en",
+    "properties_zh",
+    "representative_makers_en",
+    "representative_makers_zh",
+    "japanese_makers_en",
+    "japanese_makers_zh",
+    "source_notes_en",
+    "source_notes_zh",
     *ELEMENT_COLUMNS,
 ]
 REQUIRED_FIELDS = [
@@ -361,6 +396,41 @@ def infer_japanese_makers(alloy_id, name, category):
     return "大同特殊鋼, プロテリアル, 日本冶金工業, 三菱マテリアル"
 
 
+def localized_value(row, language, field, fallback):
+    if language == "ja":
+        return fallback.strip()
+    column = LOCALIZED_FIELD_COLUMNS[language][field]
+    return (row.get(column) or "").strip() or fallback.strip()
+
+
+def localized_family(language, alloy_id, category_value):
+    if language == "ja":
+        return LEGACY_FAMILIES.get(alloy_id, category_value)
+    return category_value
+
+
+def build_localized(row, alloy_id, base_values):
+    localized = {}
+    for language in LANGUAGES:
+        category = localized_value(row, language, "category", base_values["category"])
+        localized[language] = {
+            "name": localized_value(row, language, "name", base_values["name"]),
+            "category": category,
+            "family": localized_family(language, alloy_id, category),
+            "usage": localized_value(row, language, "usage", base_values["usage"]),
+            "properties": localized_value(row, language, "properties", base_values["properties"]),
+            "representativeMakers": localized_value(row, language, "representativeMakers", base_values["representativeMakers"]),
+            "japaneseMakers": localized_value(row, language, "japaneseMakers", base_values["japaneseMakers"]),
+            "sourceNotes": localized_value(row, language, "sourceNotes", base_values["sourceNotes"]),
+        }
+
+    for language, fields in localized.items():
+        for field, value in fields.items():
+            if not value:
+                fail(f"{alloy_id}: localized.{language}.{field} is required")
+    return localized
+
+
 def parse_row(row, row_number, include_columns, estimate_columns):
     validate_required_fields(row, row_number)
 
@@ -416,6 +486,16 @@ def parse_row(row, row_number, include_columns, estimate_columns):
     properties = (row.get("properties") or "").strip() or infer_properties(alloy_id, name, category, usage)
     representative_makers = (row.get("representative_makers") or "").strip() or infer_representative_makers(alloy_id, name, category, source_company)
     japanese_makers = (row.get("japanese_makers") or "").strip() or infer_japanese_makers(alloy_id, name, category)
+    base_values = {
+        "name": name,
+        "category": category,
+        "usage": usage,
+        "properties": properties,
+        "representativeMakers": representative_makers,
+        "japaneseMakers": japanese_makers,
+        "sourceNotes": row["source_notes"].strip(),
+    }
+    localized = build_localized(row, alloy_id, base_values)
 
     return {
         "id": alloy_id,
@@ -427,6 +507,7 @@ def parse_row(row, row_number, include_columns, estimate_columns):
         "properties": properties,
         "representativeMakers": representative_makers,
         "japaneseMakers": japanese_makers,
+        "localized": localized,
         "elements": elements,
         "sources": [
             {
