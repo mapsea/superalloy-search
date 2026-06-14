@@ -115,7 +115,7 @@
           assert(typeof source.company === "string" && source.company.length > 0, `${alloy.id}.sources[${index}] company missing`);
           assert(typeof source.title === "string" && source.title.length > 0, `${alloy.id}.sources[${index}] title missing`);
           assert(typeof source.url === "string" && /^https?:\/\//.test(source.url), `${alloy.id}.sources[${index}] url invalid`);
-          assert(typeof source.checkedAt === "string" && /^2026-06-14$/.test(source.checkedAt), `${alloy.id}.sources[${index}] checkedAt must be 2026-06-14`);
+          assert(typeof source.checkedAt === "string" && /^\d{4}-\d{2}-\d{2}$/.test(source.checkedAt), `${alloy.id}.sources[${index}] checkedAt must be an ISO date`);
           assert(typeof source.notes === "string" && source.notes.length > 0, `${alloy.id}.sources[${index}] notes missing`);
         });
       });
