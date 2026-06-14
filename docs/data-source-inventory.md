@@ -55,6 +55,21 @@ This batch expands the database from 20 to 62 records and broadens coverage beyo
 
 Balance estimates use the method documented in `docs/superpowers/specs/2026-06-14-special-metals-data-expansion-batch-design.md`: midpoint of listed ranges, half of `max` values, and no use of unbounded `min` values unless a practical bound is available. These values are display aids, not official chemistry limits.
 
+## 2026-06-14 300-Record Steel Grade Batch
+
+This batch expands the database from 62 to 300 total records. The added rows focus on steel grades: carbon steels, low-alloy machinery steels, stainless steels, tool steels, high-speed steels, bearing steels, spring steels, wear-resistant steels, heat-resistant steels, weathering steels, and electrical steels.
+
+Most new rows use `standard` or `reference` source confidence. Balance Fe values are displayed as `約xx.x` and marked as reference calculations when calculated from listed major elements.
+
+| Group | Added records | Primary source type | Source examples |
+| --- | ---: | --- | --- |
+| Carbon and plain steels | 40 | standard | SAE/JIS-derived carbon steel grade tables |
+| Low-alloy and machinery steels | 53 | standard | SAE alloy steel and JIS machinery steel grade references |
+| Stainless steels | 45 | standard | SAE/UNS stainless designation tables |
+| Tool and high-speed steels | 45 | reference | Public tool steel and high-speed steel composition references |
+| Bearing, spring, and wear-resistant steels | 30 | reference | Public bearing, spring, and wear-resistant steel references |
+| Heat-resistant, weathering, and electrical steels | 25 | reference | Public Cr-Mo, weathering steel, and electrical steel references |
+
 ## Data Quality Notes
 
 - The app is a search and comparison aid, not a substitute for purchase specifications, AMS/ASTM standards, or mill certificates.

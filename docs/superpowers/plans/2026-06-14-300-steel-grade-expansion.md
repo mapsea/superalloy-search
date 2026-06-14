@@ -193,9 +193,9 @@ AISI 1006, 1008, 1010, 1015, 1018, 1020, 1022, 1030, 1035, 1040, 1045, 1050, 106
 
 Use `standard` when the row is based on standards-derived public composition tables. Use `Fe` as `約xx.x` with `Fe_estimated=1` and `Fe_estimate_method=balance midpoint estimate from listed major elements` when Fe is calculated.
 
-- [ ] **Step 3: Collect 55 low-alloy and machinery steels**
+- [ ] **Step 3: Collect 53 low-alloy and machinery steels**
 
-Add exactly 55 rows with categories containing `合金鋼`, `機械構造用鋼`, or `低合金鋼`.
+Add exactly 53 rows with categories containing `合金鋼`, `機械構造用鋼`, or `低合金鋼`.
 
 Required seed grades:
 
@@ -229,11 +229,11 @@ SKD11, SKD61, SKD62, SKH51, SKH55, SKH57, SKS3,
 A2, A6, D3, H10, H11, M4, M7, O1, O2, S1, S2, S7, T1, W1
 ```
 
-- [ ] **Step 6: Collect 53 bearing, spring, wear-resistant, heat-resistant, weathering, and electrical steels**
+- [ ] **Step 6: Collect 55 bearing, spring, wear-resistant, heat-resistant, weathering, and electrical steels**
 
 Add exactly 30 rows in categories containing `軸受鋼`, `ばね鋼`, or `耐摩耗鋼`.
 
-Add exactly 23 rows in categories containing `耐熱鋼`, `耐候性鋼`, or `電磁鋼`.
+Add exactly 25 rows in categories containing `耐熱鋼`, `耐候性鋼`, or `電磁鋼`.
 
 Required seed grades:
 
@@ -245,7 +245,7 @@ COR-TEN A, COR-TEN B, ASTM A588, SPA-H
 
 - [ ] **Step 7: Verify exactly 238 import rows**
 
-The import CSV must contain exactly 238 rows from Steps 2-6: 40 carbon/plain, 55 low-alloy/machinery, 45 stainless, 45 tool/high-speed, 30 bearing/spring/wear-resistant, and 23 heat-resistant/weathering/electrical rows.
+The import CSV must contain exactly 238 rows from Steps 2-6: 40 carbon/plain, 53 low-alloy/machinery, 45 stainless, 45 tool/high-speed, 30 bearing/spring/wear-resistant, and 25 heat-resistant/weathering/electrical rows.
 
 Verify import row count:
 
