@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>I18n Tests</title>
+  <style>
+    body { font-family: system-ui, sans-serif; padding: 24px; }
+    .pass { color: #0f7f7a; }
+    .fail { color: #b94c35; }
+  </style>
+</head>
+<body>
+  <h1>I18n Tests</h1>
+  <pre id="output"></pre>
+  <script type="module">
+    import {
+      DEFAULT_LANGUAGE,
+      SUPPORTED_LANGUAGES,
+      sourceLabel,
+      t,
+      localizedAlloy,
+      localizedSourceNotes
+    } from "../src/i18n.js";
+
+    const output = document.querySelector("#output");
+    const lines = [];
+
+    function test(name, fn) {
+      try {
+        fn();
+        lines.push(`PASS ${name}`);
+      } catch (error) {
+        lines.push(`FAIL ${name}: ${error.message}`);
+      }
+    }
+
+    function assertEqual(actual, expected) {
+      if (actual !== expected) {
+        throw new Error(`expected ${expected}, got ${actual}`);
+      }
+    }
+
+    function assert(condition, message) {
+      if (!condition) throw new Error(message);
+    }
+
+    const alloy = {
+      name: "日本語合金",
+      category: "スーパーアロイ",
+      usage: "熱処理炉",
+      properties: "高温環境向け合金。",
+      representativeMakers: "大同特殊鋼",
+      japaneseMakers: "大同特殊鋼",
+      localized: {
+        ja: {
+          name: "日本語合金",
+          category: "スーパーアロイ",
+          family: "スーパーアロイ",
+          usage: "熱処理炉",
+          properties: "高温環境向け合金。",
+          representativeMakers: "大同特殊鋼",
+          japaneseMakers: "大同特殊鋼",
+          sourceNotes: "確認済み。"
+        },
+        en: {
+          name: "Japanese Alloy",
+          category: "Superalloy",
+          family: "Superalloy",
+          usage: "Heat-treatment furnaces",
+          properties: "Alloy for high-temperature environments.",
+          representativeMakers: "Daido Steel",
+          japaneseMakers: "Daido Steel",
+          sourceNotes: "Verified."
+        }
+      }
+    };
+
+    const topLevelOnlyAlloy = {
+      name: "トップレベル合金",
+      category: "特殊金属",
+      family: "タングステン合金",
+      usage: "放電加工電極",
+      properties: "高密度で耐摩耗性に優れる。",
+      representativeMakers: "日本タングステン",
+      japaneseMakers: "日本タングステン"
+    };
+
+    test("exports supported languages", () => {
+      assertEqual(DEFAULT_LANGUAGE, "ja");
+      assertEqual(SUPPORTED_LANGUAGES.length, 3);
+      assertEqual(SUPPORTED_LANGUAGES[0].code, "ja");
+      assertEqual(SUPPORTED_LANGUAGES[0].label, "日本語");
+      assertEqual(SUPPORTED_LANGUAGES[0].htmlLang, "ja");
+      assertEqual(SUPPORTED_LANGUAGES[1].code, "zh");
+      assertEqual(SUPPORTED_LANGUAGES[1].label, "简体中文");
+      assertEqual(SUPPORTED_LANGUAGES[1].htmlLang, "zh-Hans");
+      assertEqual(SUPPORTED_LANGUAGES[2].code, "en");
+      assertEqual(SUPPORTED_LANGUAGES[2].label, "English");
+      assertEqual(SUPPORTED_LANGUAGES[2].htmlLang, "en");
+    });
+
+    test("translates UI strings", () => {
+      assertEqual(t("ja", "siteTitle"), "スーパーアロイ成分検索");
+      assertEqual(t("zh", "siteTitle"), "高温合金成分搜索");
+      assertEqual(t("en", "siteTitle"), "Superalloy Composition Search");
+      assertEqual(t("en", "missing.key"), "missing.key");
+    });
+
+    test("translates source labels", () => {
+      assertEqual(sourceLabel("ja", "official"), "公式");
+      assertEqual(sourceLabel("zh", "standard"), "标准");
+      assertEqual(sourceLabel("en", "reference"), "Reference");
+      assertEqual(sourceLabel("en", "unknown"), "Unverified");
+    });
+
+    test("returns localized alloy fields with Japanese fallback", () => {
+      assertEqual(localizedAlloy(alloy, "en").name, "Japanese Alloy");
+      assertEqual(localizedAlloy(alloy, "zh").name, "日本語合金");
+      assertEqual(localizedAlloy(alloy, "invalid").usage, "熱処理炉");
+    });
+
+    test("returns top-level alloy fields when Japanese localization is absent", () => {
+      const localized = localizedAlloy(topLevelOnlyAlloy, "zh");
+      assertEqual(localized.name, "トップレベル合金");
+      assertEqual(localized.category, "特殊金属");
+      assertEqual(localized.family, "タングステン合金");
+      assertEqual(localized.usage, "放電加工電極");
+      assertEqual(localized.properties, "高密度で耐摩耗性に優れる。");
+      assertEqual(localized.representativeMakers, "日本タングステン");
+      assertEqual(localized.japaneseMakers, "日本タングステン");
+      assertEqual(localized.sourceNotes, "");
+    });
+
+    test("returns localized source notes with fallback", () => {
+      assertEqual(localizedSourceNotes(alloy, "en"), "Verified.");
+      assertEqual(localizedSourceNotes(alloy, "zh"), "確認済み。");
+    });
+
+    output.textContent = lines.join("\n");
+    output.className = lines.some((line) => line.startsWith("FAIL")) ? "fail" : "pass";
+  </script>
+</body>
+</html>
