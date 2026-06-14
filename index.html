@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>スーパーアロイ成分検索</title>
-  <link rel="stylesheet" href="src/styles.css?v=20260614h">
+  <link rel="stylesheet" href="src/styles.css?v=20260614i">
 </head>
 <body>
   <header class="site-header">
@@ -13,10 +13,21 @@
       <h1 data-i18n="siteTitle">スーパーアロイ成分検索</h1>
       <p class="lead" data-i18n="siteLead">合金名、元素、成分レンジから特殊金属・スーパーアロイを比較できます。</p>
     </div>
-    <label class="language-switcher">
-      <span data-i18n="languageLabel">表示言語</span>
-      <select id="languageSelect"></select>
-    </label>
+    <div class="language-switcher">
+      <button id="languageToggle" class="language-toggle" type="button" aria-label="表示言語" aria-haspopup="true" aria-expanded="false">
+        <svg class="language-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="12" cy="12" r="9"></circle>
+          <path d="M3 12h18"></path>
+          <path d="M12 3c2.4 2.5 3.6 5.5 3.6 9s-1.2 6.5-3.6 9"></path>
+          <path d="M12 3c-2.4 2.5-3.6 5.5-3.6 9s1.2 6.5 3.6 9"></path>
+        </svg>
+      </button>
+      <div id="languageMenu" class="language-menu" hidden>
+        <button type="button" data-language-option="ja">JP</button>
+        <button type="button" data-language-option="zh">CH</button>
+        <button type="button" data-language-option="en">EN</button>
+      </div>
+    </div>
   </header>
 
   <main class="app-shell">
@@ -67,6 +78,6 @@
     <div id="dialogContent"></div>
   </dialog>
 
-  <script type="module" src="src/app.js?v=20260614h"></script>
+  <script type="module" src="src/app.js?v=20260614i"></script>
 </body>
 </html>

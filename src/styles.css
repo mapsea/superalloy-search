@@ -28,6 +28,10 @@ body {
   border-bottom: 1px solid var(--line);
 }
 
+.site-header > div {
+  min-width: 0;
+}
+
 .eyebrow {
   margin: 0 0 6px;
   color: var(--accent);
@@ -49,15 +53,69 @@ h1 {
 }
 
 .language-switcher {
-  display: grid;
-  gap: 6px;
-  min-width: 150px;
-  color: var(--ink);
-  font-size: 0.85rem;
+  position: relative;
+  flex: 0 0 auto;
 }
 
-.language-switcher select {
-  min-height: 40px;
+.language-toggle {
+  display: inline-grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--accent);
+}
+
+.language-toggle:hover,
+.language-toggle:focus-visible {
+  border-color: var(--accent);
+  outline: none;
+}
+
+.language-icon {
+  width: 22px;
+  height: 22px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.language-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  z-index: 10;
+  display: grid;
+  min-width: 76px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 12px 26px rgba(27, 42, 55, 0.16);
+}
+
+.language-menu[hidden] {
+  display: none;
+}
+
+.language-menu button {
+  border-radius: 0;
+  padding: 9px 14px;
+  background: #fff;
+  color: var(--ink);
+  text-align: left;
+}
+
+.language-menu button:hover,
+.language-menu button:focus-visible,
+.language-menu button.active {
+  background: #e7f5f3;
+  color: #0f6f6b;
 }
 
 .app-shell {
@@ -447,11 +505,8 @@ select:focus-visible {
 
 @media (max-width: 680px) {
   .site-header {
-    flex-direction: column;
-  }
-
-  .language-switcher {
-    width: 100%;
+    align-items: flex-start;
+    gap: 14px;
   }
 }
 

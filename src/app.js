@@ -1,5 +1,5 @@
-import { alloys, ELEMENT_COLUMNS } from "./data/alloys.js?v=20260614h";
-import { filterAlloys } from "./search.js?v=20260614h";
+import { alloys, ELEMENT_COLUMNS } from "./data/alloys.js?v=20260614i";
+import { filterAlloys } from "./search.js?v=20260614i";
 import {
   DEFAULT_LANGUAGE,
   SUPPORTED_LANGUAGES,
@@ -7,7 +7,7 @@ import {
   sourceLabel,
   t
 } from "./i18n.js";
-import { renderCards, renderDetail, renderTableBody, renderTableHead } from "./render.js?v=20260614h";
+import { renderCards, renderDetail, renderTableBody, renderTableHead } from "./render.js?v=20260614i";
 
 function storedLanguage() {
   try {
@@ -27,13 +27,15 @@ function persistLanguage(language) {
 
 const state = {
   language: normalizeLanguage(storedLanguage() || DEFAULT_LANGUAGE),
+  languageMenuOpen: false,
   query: "",
   sourceTypes: ["official", "standard", "reference", "unverified"],
   elementFilters: []
 };
 
 const queryInput = document.querySelector("#queryInput");
-const languageSelect = document.querySelector("#languageSelect");
+const languageToggle = document.querySelector("#languageToggle");
+const languageMenu = document.querySelector("#languageMenu");
 const elementSelect = document.querySelector("#elementSelect");
 const addElementFilter = document.querySelector("#addElementFilter");
 const elementFilters = document.querySelector("#elementFilters");
@@ -44,12 +46,21 @@ const resultCount = document.querySelector("#resultCount");
 const dialog = document.querySelector("#alloyDialog");
 const closeDialog = document.querySelector("#closeDialog");
 const dialogContent = document.querySelector("#dialogContent");
+const languageOptionButtons = [...document.querySelectorAll("[data-language-option]")];
 
-function initLanguageOptions() {
-  languageSelect.innerHTML = SUPPORTED_LANGUAGES
-    .map((language) => `<option value="${language.code}">${language.label}</option>`)
-    .join("");
-  languageSelect.value = state.language;
+function setLanguageMenuOpen(isOpen) {
+  state.languageMenuOpen = isOpen;
+  languageMenu.hidden = !isOpen;
+  languageToggle.setAttribute("aria-expanded", String(isOpen));
+}
+
+function updateLanguageMenu() {
+  languageToggle.setAttribute("aria-label", t(state.language, "languageLabel"));
+  languageOptionButtons.forEach((button) => {
+    const isActive = button.dataset.languageOption === state.language;
+    button.classList.toggle("active", isActive);
+    button.setAttribute("aria-pressed", String(isActive));
+  });
 }
 
 function applyStaticTranslations() {
@@ -72,6 +83,7 @@ function applyStaticTranslations() {
   });
 
   closeDialog.setAttribute("aria-label", t(state.language, "closeDialog"));
+  updateLanguageMenu();
 }
 
 function initElementOptions() {
@@ -198,13 +210,32 @@ document.querySelectorAll("input[name='sourceType']").forEach((input) => {
   input.addEventListener("change", render);
 });
 
-languageSelect.addEventListener("change", () => {
-  state.language = normalizeLanguage(languageSelect.value);
-  persistLanguage(state.language);
-  applyStaticTranslations();
-  renderElementFilters();
-  bindRangeEvents();
-  render();
+languageToggle.addEventListener("click", () => {
+  setLanguageMenuOpen(!state.languageMenuOpen);
+});
+
+languageOptionButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    state.language = normalizeLanguage(button.dataset.languageOption);
+    persistLanguage(state.language);
+    setLanguageMenuOpen(false);
+    applyStaticTranslations();
+    renderElementFilters();
+    bindRangeEvents();
+    render();
+  });
+});
+
+document.addEventListener("click", (event) => {
+  if (!state.languageMenuOpen) return;
+  if (languageToggle.contains(event.target) || languageMenu.contains(event.target)) return;
+  setLanguageMenuOpen(false);
+});
+
+document.addEventListener("keydown", (event) => {
+  if (event.key !== "Escape" || !state.languageMenuOpen) return;
+  setLanguageMenuOpen(false);
+  languageToggle.focus();
 });
 
 addElementFilter.addEventListener("click", () => {
@@ -218,7 +249,7 @@ addElementFilter.addEventListener("click", () => {
 
 closeDialog.addEventListener("click", () => dialog.close());
 
-initLanguageOptions();
+setLanguageMenuOpen(false);
 applyStaticTranslations();
 initElementOptions();
 renderElementFilters();
