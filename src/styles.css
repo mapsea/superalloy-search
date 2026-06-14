@@ -176,8 +176,7 @@ button {
 }
 
 .search-field,
-.filter-row,
-.source-filter {
+.filter-row {
   display: block;
   margin-bottom: 16px;
 }

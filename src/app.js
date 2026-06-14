@@ -1,13 +1,12 @@
-import { alloys, ELEMENT_COLUMNS } from "./data/alloys.js?v=20260614i";
-import { filterAlloys } from "./search.js?v=20260614i";
+import { alloys, ELEMENT_COLUMNS } from "./data/alloys.js?v=20260614j";
+import { filterAlloys } from "./search.js?v=20260614j";
 import {
   DEFAULT_LANGUAGE,
   SUPPORTED_LANGUAGES,
   normalizeLanguage,
-  sourceLabel,
   t
 } from "./i18n.js";
-import { renderCards, renderDetail, renderTableBody, renderTableHead } from "./render.js?v=20260614i";
+import { renderCards, renderDetail, renderTableBody, renderTableHead } from "./render.js?v=20260614j";
 
 function storedLanguage() {
   try {
@@ -29,7 +28,6 @@ const state = {
   language: normalizeLanguage(storedLanguage() || DEFAULT_LANGUAGE),
   languageMenuOpen: false,
   query: "",
-  sourceTypes: ["official", "standard", "reference", "unverified"],
   elementFilters: []
 };
 
@@ -78,10 +76,6 @@ function applyStaticTranslations() {
     element.setAttribute("aria-label", t(state.language, element.dataset.i18nAriaLabel));
   });
 
-  document.querySelectorAll("[data-source-type-label]").forEach((element) => {
-    element.textContent = sourceLabel(state.language, element.dataset.sourceTypeLabel);
-  });
-
   closeDialog.setAttribute("aria-label", t(state.language, "closeDialog"));
   updateLanguageMenu();
 }
@@ -90,10 +84,6 @@ function initElementOptions() {
   elementSelect.innerHTML = ELEMENT_COLUMNS
     .map((symbol) => `<option value="${symbol}">${symbol}</option>`)
     .join("");
-}
-
-function selectedSourceTypes() {
-  return [...document.querySelectorAll("input[name='sourceType']:checked")].map((input) => input.value);
 }
 
 function clampRange(filter, updatedKey) {
@@ -151,11 +141,9 @@ function syncFilterRow(index, activeKey) {
 
 function readCriteria() {
   state.query = queryInput.value;
-  state.sourceTypes = selectedSourceTypes();
   return {
     language: state.language,
     query: state.query,
-    sourceTypes: [...state.sourceTypes],
     elementFilters: state.elementFilters.map((filter) => ({ ...filter }))
   };
 }
@@ -169,7 +157,7 @@ function showDetail(alloyId) {
 
 function render() {
   const criteria = readCriteria();
-  const filtered = criteria.sourceTypes.length === 0 ? [] : filterAlloys(alloys, criteria);
+  const filtered = filterAlloys(alloys, criteria);
   resultCount.textContent = t(state.language, "resultCount", { count: filtered.length });
   renderTableHead(tableHead, state.language);
   renderTableBody(tableBody, filtered, showDetail, state.language);
@@ -205,10 +193,6 @@ function bindRangeEvents() {
 }
 
 queryInput.addEventListener("input", render);
-
-document.querySelectorAll("input[name='sourceType']").forEach((input) => {
-  input.addEventListener("change", render);
-});
 
 languageToggle.addEventListener("click", () => {
   setLanguageMenuOpen(!state.languageMenuOpen);
