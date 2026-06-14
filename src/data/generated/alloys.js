@@ -18,7 +18,8 @@ export const alloys = [
       "Ni": {
         "min": 72.0,
         "unit": "wt%",
-        "display": "72 min"
+        "display": "72 min",
+        "includes": "Co"
       },
       "Cr": {
         "min": 14.0,
@@ -213,7 +214,8 @@ export const alloys = [
         "min": 3.15,
         "max": 4.15,
         "unit": "wt%",
-        "display": "3.15-4.15"
+        "display": "3.15-4.15",
+        "includes": "Ta"
       },
       "Ti": {
         "max": 0.4,
@@ -331,7 +333,8 @@ export const alloys = [
         "min": 4.75,
         "max": 5.5,
         "unit": "wt%",
-        "display": "4.75-5.5"
+        "display": "4.75-5.5",
+        "includes": "Ta"
       },
       "Ti": {
         "min": 0.65,
@@ -394,7 +397,8 @@ export const alloys = [
         "min": 0.7,
         "max": 1.2,
         "unit": "wt%",
-        "display": "0.70-1.20"
+        "display": "0.70-1.20",
+        "includes": "Ta"
       },
       "Ti": {
         "min": 2.25,

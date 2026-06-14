@@ -3,9 +3,11 @@ import csv
 import json
 import re
 import sys
+from datetime import date
 from pathlib import Path
 
 ELEMENT_COLUMNS = ["Ni", "Cr", "Co", "Fe", "Mo", "Nb", "Ti", "Al", "W", "Ta", "C"]
+INCLUDES_COLUMN_SUFFIX = "_includes"
 SOURCE_LABELS = {
     "official": "公式",
     "standard": "規格",
@@ -99,10 +101,45 @@ def validate_columns(fieldnames):
         fail(f"missing required columns: {', '.join(missing)}")
 
 
+def discover_include_columns(fieldnames):
+    include_columns = {}
+    for column in fieldnames:
+        if not column.endswith(INCLUDES_COLUMN_SUFFIX):
+            continue
+        symbol = column[: -len(INCLUDES_COLUMN_SUFFIX)]
+        if symbol not in ELEMENT_COLUMNS:
+            fail(f"{column}: include metadata base element is not supported")
+        include_columns[column] = symbol
+    return include_columns
+
+
+def validate_row_shape(row, row_number, fieldnames):
+    if None in row:
+        fail(f"row {row_number}: extra cells beyond declared columns")
+    for field in fieldnames:
+        if row[field] is None:
+            fail(f"row {row_number}: missing cell for declared column {field}")
+
+
 def validate_required_fields(row, row_number):
     for field in REQUIRED_FIELDS:
         if not (row.get(field) or "").strip():
             fail(f"row {row_number}: {field} is required")
+
+
+def validate_checked_at(row, alloy_id):
+    checked_at = row["checked_at"].strip()
+    try:
+        date.fromisoformat(checked_at)
+    except ValueError:
+        fail(f"{alloy_id}: checked_at must be an ISO date: {checked_at}")
+    return checked_at
+
+
+def validate_include_symbols(value, alloy_id, column):
+    for token in re.split(r"[+/,\s]+", value):
+        if token and token not in ELEMENT_COLUMNS:
+            fail(f"{alloy_id}.{column}: unsupported include symbol: {token}")
 
 
 def parse_aliases(value):
@@ -112,10 +149,11 @@ def parse_aliases(value):
     return [alias.strip() for alias in text.split("|") if alias.strip()]
 
 
-def parse_row(row, row_number):
+def parse_row(row, row_number, include_columns):
     validate_required_fields(row, row_number)
 
     alloy_id = row["id"].strip()
+    checked_at = validate_checked_at(row, alloy_id)
     source_type = row["source_type"].strip()
     if source_type not in SOURCE_LABELS:
         fail(f"{alloy_id}: unsupported source_type: {source_type}")
@@ -129,6 +167,15 @@ def parse_row(row, row_number):
         parsed = parse_element(row.get(symbol), alloy_id, symbol)
         if parsed is not None:
             elements[symbol] = parsed
+
+    for column, symbol in include_columns.items():
+        includes = row[column].strip()
+        if not includes:
+            continue
+        if symbol not in elements:
+            fail(f"{alloy_id}.{column}: include metadata requires {symbol} value")
+        validate_include_symbols(includes, alloy_id, column)
+        elements[symbol]["includes"] = includes
 
     category = row["category"].strip()
     return {
@@ -145,7 +192,7 @@ def parse_row(row, row_number):
                 "company": row["source_company"].strip(),
                 "title": row["source_title"].strip(),
                 "url": source_url,
-                "checkedAt": row["checked_at"].strip(),
+                "checkedAt": checked_at,
                 "notes": row["source_notes"].strip(),
             }
         ],
@@ -158,12 +205,15 @@ def load_alloys(csv_path):
 
     with csv_path.open(newline="", encoding="utf-8") as csv_file:
         reader = csv.DictReader(csv_file)
-        validate_columns(reader.fieldnames or [])
+        fieldnames = reader.fieldnames or []
+        validate_columns(fieldnames)
+        include_columns = discover_include_columns(fieldnames)
 
         seen_ids = set()
         alloys = []
         for row_number, row in enumerate(reader, start=2):
-            alloy = parse_row(row, row_number)
+            validate_row_shape(row, row_number, fieldnames)
+            alloy = parse_row(row, row_number, include_columns)
             if alloy["id"] in seen_ids:
                 fail(f"duplicate id: {alloy['id']}")
             seen_ids.add(alloy["id"])
