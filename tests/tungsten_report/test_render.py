@@ -221,6 +221,33 @@ class RenderTests(unittest.TestCase):
         self.assertNotIn("](javascript:alert", markdown)
         self.assertIn("[来源](https://example.com/a%29%5Bevil%5D%28javascript%3Aalert%281%29%29)", markdown)
 
+    def test_render_markdown_rejects_link_delimiters_in_source_url_netloc(self):
+        report = Report(
+            report_type="daily",
+            period_start=date(2026, 6, 19),
+            period_end=date(2026, 6, 19),
+            generated_at=datetime(2026, 6, 19, 18, 30, tzinfo=timezone.utc),
+            prices=[
+                PriceObservation(
+                    "APT",
+                    "domestic",
+                    "50万元/吨",
+                    date(2026, 6, 19),
+                    "sample",
+                    "https://example.com) [evil](javascript:alert(1))/path",
+                )
+            ],
+            news=[],
+            forecast=Forecast("稳中偏强", "中", "矿端支撑。", ["矿端报价坚挺"], ["下游需求不足"]),
+        )
+
+        markdown = render_markdown(report)
+
+        self.assertNotIn("[来源](", markdown)
+        self.assertNotIn("[evil](javascript:alert(1))", markdown)
+        self.assertNotIn("](javascript:alert", markdown)
+        self.assertIn("https://example\\.com\\) \\[evil\\]\\(javascript:alert\\(1\\)\\)/path", markdown)
+
 
 if __name__ == "__main__":
     unittest.main()

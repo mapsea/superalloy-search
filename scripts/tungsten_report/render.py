@@ -5,9 +5,28 @@ from urllib.parse import quote, urlsplit, urlunsplit
 from scripts.tungsten_report.models import Report
 
 
+_UNSAFE_NETLOC_PATTERN = re.compile(r"[\s\[\]\(\)`]")
+
+
+def _safe_url_parts(url: str):
+    try:
+        parts = urlsplit(url.strip())
+        hostname = parts.hostname
+        port = parts.port
+    except ValueError:
+        return None
+    if parts.scheme.lower() not in ("http", "https") or not hostname:
+        return None
+    if _UNSAFE_NETLOC_PATTERN.search(parts.netloc):
+        return None
+    netloc = hostname.lower()
+    if port is not None:
+        netloc = f"{netloc}:{port}"
+    return parts, netloc
+
+
 def _is_safe_url(url: str) -> bool:
-    parts = urlsplit(url.strip())
-    return parts.scheme.lower() in ("http", "https") and bool(parts.netloc)
+    return _safe_url_parts(url) is not None
 
 
 def _markdown_text(text: str) -> str:
@@ -18,10 +37,13 @@ def _markdown_text(text: str) -> str:
 
 
 def _markdown_url(url: str) -> str:
-    parts = urlsplit(url.strip())
+    safe_parts = _safe_url_parts(url)
+    if safe_parts is None:
+        return _markdown_text(url)
+    parts, netloc = safe_parts
     return urlunsplit((
         parts.scheme.lower(),
-        parts.netloc,
+        netloc,
         quote(parts.path, safe="/%"),
         quote(parts.query, safe="%=&;:/?@,+$"),
         quote(parts.fragment, safe="%=&;:/?@,+$"),
