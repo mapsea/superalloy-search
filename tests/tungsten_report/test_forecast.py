@@ -102,9 +102,10 @@ class ForecastTests(unittest.TestCase):
         self.assertEqual(neutral_forecast.confidence, "低")
 
         no_data_forecast = build_forecast(prices=[], news=[])
-        self.assertEqual(no_data_forecast.direction, "横盘观望")
+        self.assertEqual(no_data_forecast.direction, "数据不足")
         self.assertEqual(no_data_forecast.confidence, "低")
-        self.assertIn("有效方向性信号不足。", no_data_forecast.evidence)
+        self.assertIn("数据不足", no_data_forecast.rationale)
+        self.assertTrue(any("信号不足" in evidence or "数据不足" in evidence for evidence in no_data_forecast.evidence))
 
     def test_evidence_includes_source_and_date_context(self):
         forecast = build_forecast(

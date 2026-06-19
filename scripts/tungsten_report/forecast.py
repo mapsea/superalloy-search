@@ -15,6 +15,15 @@ _BEARISH_TERMS = ("下调", "回落", "承压", "清淡")
 
 
 def build_forecast(prices: list[PriceObservation], news: list[NewsItem]) -> Forecast:
+    if not prices and not news:
+        return Forecast(
+            direction="数据不足",
+            confidence="低",
+            rationale="来源数据不足，无法判断短期钨市场方向。",
+            evidence=["价格与新闻来源均未提供可用观测，方向性信号不足。"],
+            risks=["需等待有效价格、成交或供需新闻更新后再判断。"],
+        )
+
     records: list[_EvidenceRecord] = []
 
     for price in prices:

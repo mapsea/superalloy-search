@@ -1,4 +1,5 @@
 from html import escape
+from urllib.parse import quote
 
 from scripts.tungsten_report.models import Report
 
@@ -7,10 +8,25 @@ def _is_safe_url(url: str) -> bool:
     return url.startswith(("http://", "https://"))
 
 
+def _markdown_text(text: str) -> str:
+    escaped = escape(text, quote=False)
+    return (
+        escaped
+        .replace("[", "\\[")
+        .replace("]", "\\]")
+        .replace("(", "\\(")
+        .replace(")", "\\)")
+    )
+
+
+def _markdown_url(url: str) -> str:
+    return quote(url, safe="%/:?&=#[]@!$'()*+,;")
+
+
 def _markdown_link(label: str, url: str) -> str:
     if _is_safe_url(url):
-        return f"[{label}]({url})"
-    return url
+        return f"[{label}]({_markdown_url(url)})"
+    return _markdown_text(url)
 
 
 def _html_link(label: str, url: str) -> str:
@@ -41,9 +57,9 @@ def render_markdown(report: Report) -> str:
     ]
     if forecast:
         lines.extend([
-            f"- 判断：{forecast.direction}",
-            f"- 置信度：{forecast.confidence}",
-            f"- 理由：{forecast.rationale}",
+            f"- 判断：{_markdown_text(forecast.direction)}",
+            f"- 置信度：{_markdown_text(forecast.confidence)}",
+            f"- 理由：{_markdown_text(forecast.rationale)}",
         ])
     else:
         lines.append("- 判断：暂无足够数据")
@@ -52,7 +68,8 @@ def render_markdown(report: Report) -> str:
     if report.prices:
         for price in report.prices:
             lines.append(
-                f"- {price.product}：{price.price_text}（{price.source_name}，{price.date.isoformat()}）"
+                f"- {_markdown_text(price.product)}：{_markdown_text(price.price_text)}"
+                f"（{_markdown_text(price.source_name)}，{price.date.isoformat()}）"
                 f"{_markdown_link('来源', price.source_url)}"
             )
     else:
@@ -61,29 +78,34 @@ def render_markdown(report: Report) -> str:
     lines.extend(["", "## 产业新闻"])
     if report.news:
         for item in report.news:
-            lines.append(f"- {item.title}（{item.source_name}，{item.published_at.isoformat()}）")
-            lines.append(f"  - 摘要：{item.summary}")
-            lines.append(f"  - 影响：{item.impact}，{item.impact_reason}")
+            lines.append(
+                f"- {_markdown_text(item.title)}"
+                f"（{_markdown_text(item.source_name)}，{item.published_at.isoformat()}）"
+            )
+            lines.append(f"  - 摘要：{_markdown_text(item.summary)}")
+            lines.append(f"  - 影响：{_markdown_text(item.impact)}，{_markdown_text(item.impact_reason)}")
             lines.append(f"  - 链接：{_markdown_link('来源', item.source_url)}")
     else:
         lines.append("- 暂无可用新闻。")
 
     lines.extend(["", "## 短期预测" if report.report_type == "daily" else "## 下周预测"])
     if forecast:
-        lines.append(f"- 方向：{forecast.direction}")
+        lines.append(f"- 方向：{_markdown_text(forecast.direction)}")
         lines.append("- 依据：")
         for evidence in forecast.evidence:
-            lines.append(f"  - {evidence}")
+            lines.append(f"  - {_markdown_text(evidence)}")
         lines.append("- 风险：")
         for risk in forecast.risks:
-            lines.append(f"  - {risk}")
+            lines.append(f"  - {_markdown_text(risk)}")
     else:
         lines.append("- 暂无足够数据形成判断。")
 
     lines.extend(["", "## 数据缺口"])
     if report.source_gaps:
         for gap in report.source_gaps:
-            lines.append(f"- {gap.source_name}：{gap.reason}，{gap.detail}")
+            lines.append(
+                f"- {_markdown_text(gap.source_name)}：{_markdown_text(gap.reason)}，{_markdown_text(gap.detail)}"
+            )
     else:
         lines.append("- 无。")
 

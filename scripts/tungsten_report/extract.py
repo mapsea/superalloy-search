@@ -72,6 +72,22 @@ def parse_chinese_month_day(text: str, year: int) -> date:
     return date(year, int(match.group(1)), int(match.group(2)))
 
 
+def extract_source_dates(html: str, fallback: date) -> list[date]:
+    dates: list[date] = []
+    pattern = re.compile(
+        r"(?P<iso>\d{4}-\d{1,2}-\d{1,2})|(?P<zh>\d{1,2}\s*月\s*\d{1,2}\s*日)"
+    )
+    for match in pattern.finditer(html):
+        try:
+            if match.group("iso"):
+                dates.append(date.fromisoformat(match.group("iso")))
+            else:
+                dates.append(parse_chinese_month_day(match.group("zh"), fallback.year))
+        except ValueError:
+            continue
+    return dates
+
+
 def is_price_title(title: str) -> bool:
     return any(keyword in title for keyword in PRICE_KEYWORDS)
 

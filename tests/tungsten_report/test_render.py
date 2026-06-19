@@ -95,6 +95,56 @@ class RenderTests(unittest.TestCase):
         self.assertIn("链接：javascript:alert(1)", html)
         self.assertNotIn('<a href="javascript:alert(1)">', html)
 
+    def test_render_markdown_escapes_source_text_and_encodes_url_spaces(self):
+        report = Report(
+            report_type="daily",
+            period_start=date(2026, 6, 19),
+            period_end=date(2026, 6, 19),
+            generated_at=datetime(2026, 6, 19, 18, 30, tzinfo=timezone.utc),
+            prices=[
+                PriceObservation(
+                    "APT [spot](bad) <script>",
+                    "domestic",
+                    "50 < 51 & [firm](bad)",
+                    date(2026, 6, 19),
+                    "sample [source](bad)",
+                    "https://example.com/price path?q=a b",
+                )
+            ],
+            news=[
+                NewsItem(
+                    "钨矿 [title](bad) <script>",
+                    "摘要 <script> & [summary](bad)",
+                    date(2026, 6, 19),
+                    "news [source](bad)",
+                    "https://example.com/news path",
+                    "industry",
+                    "bullish",
+                    "供应 [tight](bad) <reason>",
+                )
+            ],
+            forecast=Forecast(
+                "稳中偏强",
+                "中",
+                "矿端支撑。",
+                ["矿端报价坚挺"],
+                ["下游需求不足"],
+            ),
+            source_gaps=[SourceGap("gap [source](bad)", "parse_empty", "detail <tag> & [x](y)")],
+        )
+
+        markdown = render_markdown(report)
+
+        self.assertNotIn("<script>", markdown)
+        self.assertNotIn("[spot](bad)", markdown)
+        self.assertNotIn("[title](bad)", markdown)
+        self.assertNotIn("[summary](bad)", markdown)
+        self.assertIn("&lt;script&gt;", markdown)
+        self.assertIn("\\[spot\\]\\(bad\\)", markdown)
+        self.assertIn("\\[title\\]\\(bad\\)", markdown)
+        self.assertIn("[来源](https://example.com/price%20path?q=a%20b)", markdown)
+        self.assertIn("[来源](https://example.com/news%20path)", markdown)
+
 
 if __name__ == "__main__":
     unittest.main()
