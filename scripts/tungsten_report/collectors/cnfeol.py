@@ -18,9 +18,9 @@ def cnfeol_login_gap() -> SourceGap:
     )
 
 
-def collect_cnfeol_from_html(html: str, today: date) -> CollectorResult:
+def collect_cnfeol_from_html(html: str, today: date, base_url: str = BASE_URL) -> CollectorResult:
     result = CollectorResult()
-    for link in extract_links(html, BASE_URL)[:30]:
+    for link in extract_links(html, base_url)[:30]:
         impact = classify_impact(link["title"])
         if is_price_title(link["title"]):
             result.prices.append(
@@ -56,7 +56,7 @@ def collect_cnfeol(urls: list[str], today: date, include_login_gap: bool = True)
             request = Request(url, headers={"User-Agent": "Mozilla/5.0"})
             with urlopen(request, timeout=20) as response:
                 html = response.read().decode("utf-8", errors="replace")
-            partial = collect_cnfeol_from_html(html, today)
+            partial = collect_cnfeol_from_html(html, today, base_url=url)
             merged.prices.extend(partial.prices)
             merged.news.extend(partial.news)
         except Exception as exc:
