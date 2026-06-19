@@ -145,6 +145,82 @@ class RenderTests(unittest.TestCase):
         self.assertIn("[来源](https://example.com/price%20path?q=a%20b)", markdown)
         self.assertIn("[来源](https://example.com/news%20path)", markdown)
 
+    def test_render_markdown_escapes_markdown_controls_and_normalizes_source_text(self):
+        hostile_text = "<script>*bold* _em_ `code` # heading > quote\n[label](url)"
+        report = Report(
+            report_type="daily",
+            period_start=date(2026, 6, 19),
+            period_end=date(2026, 6, 19),
+            generated_at=datetime(2026, 6, 19, 18, 30, tzinfo=timezone.utc),
+            prices=[
+                PriceObservation(
+                    hostile_text,
+                    "domestic",
+                    hostile_text,
+                    date(2026, 6, 19),
+                    hostile_text,
+                    "https://example.com/price",
+                )
+            ],
+            news=[
+                NewsItem(
+                    hostile_text,
+                    hostile_text,
+                    date(2026, 6, 19),
+                    hostile_text,
+                    "https://example.com/news",
+                    "industry",
+                    "bullish",
+                    hostile_text,
+                )
+            ],
+            forecast=Forecast(hostile_text, hostile_text, hostile_text, [hostile_text], [hostile_text]),
+            source_gaps=[SourceGap(hostile_text, "parse_empty", hostile_text)],
+        )
+
+        markdown = render_markdown(report)
+
+        self.assertNotIn("<script>", markdown)
+        self.assertNotIn("*bold*", markdown)
+        self.assertNotIn("_em_", markdown)
+        self.assertNotIn("`code`", markdown)
+        self.assertNotIn("\n# heading", markdown)
+        self.assertNotIn("\n> quote", markdown)
+        self.assertNotIn("\n[label](url)", markdown)
+        self.assertNotIn("[label](url)", markdown)
+        self.assertIn("&lt;script&gt;", markdown)
+        self.assertIn("\\*bold\\*", markdown)
+        self.assertIn("\\_em\\_", markdown)
+        self.assertIn("\\`code\\`", markdown)
+        self.assertIn("\\# heading &gt; quote \\[label\\]\\(url\\)", markdown)
+
+    def test_render_markdown_percent_encodes_link_delimiters_in_source_urls(self):
+        report = Report(
+            report_type="daily",
+            period_start=date(2026, 6, 19),
+            period_end=date(2026, 6, 19),
+            generated_at=datetime(2026, 6, 19, 18, 30, tzinfo=timezone.utc),
+            prices=[
+                PriceObservation(
+                    "APT",
+                    "domestic",
+                    "50万元/吨",
+                    date(2026, 6, 19),
+                    "sample",
+                    "https://example.com/a)[evil](javascript:alert(1))",
+                )
+            ],
+            news=[],
+            forecast=Forecast("稳中偏强", "中", "矿端支撑。", ["矿端报价坚挺"], ["下游需求不足"]),
+        )
+
+        markdown = render_markdown(report)
+
+        self.assertEqual(markdown.count("[来源]("), 1)
+        self.assertNotIn("[evil](javascript:alert(1))", markdown)
+        self.assertNotIn("](javascript:alert", markdown)
+        self.assertIn("[来源](https://example.com/a%29%5Bevil%5D%28javascript%3Aalert%281%29%29)", markdown)
+
 
 if __name__ == "__main__":
     unittest.main()

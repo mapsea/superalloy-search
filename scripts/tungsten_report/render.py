@@ -1,26 +1,31 @@
 from html import escape
-from urllib.parse import quote
+import re
+from urllib.parse import quote, urlsplit, urlunsplit
 
 from scripts.tungsten_report.models import Report
 
 
 def _is_safe_url(url: str) -> bool:
-    return url.startswith(("http://", "https://"))
+    parts = urlsplit(url.strip())
+    return parts.scheme.lower() in ("http", "https") and bool(parts.netloc)
 
 
 def _markdown_text(text: str) -> str:
-    escaped = escape(text, quote=False)
-    return (
-        escaped
-        .replace("[", "\\[")
-        .replace("]", "\\]")
-        .replace("(", "\\(")
-        .replace(")", "\\)")
-    )
+    escaped = escape(re.sub(r"\s+", " ", text or "").strip(), quote=False)
+    for char in "\\`*_{}[]()#+-.!|":
+        escaped = escaped.replace(char, f"\\{char}")
+    return escaped
 
 
 def _markdown_url(url: str) -> str:
-    return quote(url, safe="%/:?&=#[]@!$'()*+,;")
+    parts = urlsplit(url.strip())
+    return urlunsplit((
+        parts.scheme.lower(),
+        parts.netloc,
+        quote(parts.path, safe="/%"),
+        quote(parts.query, safe="%=&;:/?@,+$"),
+        quote(parts.fragment, safe="%=&;:/?@,+$"),
+    ))
 
 
 def _markdown_link(label: str, url: str) -> str:
