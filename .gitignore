@@ -1,2 +1,12 @@
 .superpowers/
 .worktrees/
+
+# Tungsten report generator local/runtime files
+.env
+.env.*
+!.env.example
+.tungsten-session/
+reports/
+logs/
+__pycache__/
+*.pyc
