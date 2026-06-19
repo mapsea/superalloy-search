@@ -64,6 +64,22 @@ class ExtractTests(unittest.TestCase):
             ],
         )
 
+    def test_extract_links_accepts_same_host_http_absolute_urls(self):
+        html = """
+        <a href="http://news.chinatungsten.com/cn/http.html">HTTP same host</a>
+        <a href="http://evil.example/cn/off-domain.html">HTTP off domain</a>
+        """
+        links = extract_links(html, "https://news.chinatungsten.com")
+        self.assertEqual(
+            links,
+            [
+                {
+                    "title": "HTTP same host",
+                    "url": "http://news.chinatungsten.com/cn/http.html",
+                }
+            ],
+        )
+
     def test_extract_links_handles_malformed_nested_anchors(self):
         html = """
         <a href="/cn/outer.html">Outer
@@ -102,6 +118,11 @@ class ExtractTests(unittest.TestCase):
         result = classify_impact("供应偏紧，但成交清淡")
         self.assertEqual(result["impact"], "neutral")
         self.assertTrue("混合" in result["reason"] or "无明显" in result["reason"])
+
+    def test_classify_impact_treats_non_tie_mixed_signals_as_neutral(self):
+        result = classify_impact("供应偏紧，报价上调，但成交清淡")
+        self.assertEqual(result["impact"], "neutral")
+        self.assertIn("混合", result["reason"])
 
     def test_summarize_text_limits_length(self):
         summary = summarize_text("第一句。第二句。第三句。", max_chars=8)

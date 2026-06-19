@@ -1,6 +1,5 @@
 from datetime import date
 from html.parser import HTMLParser
-from typing import Optional, Tuple
 from urllib.parse import urljoin, urlparse
 import re
 
@@ -14,7 +13,7 @@ class LinkParser(HTMLParser):
     def __init__(self, base_url: str):
         super().__init__()
         self.base_url = base_url
-        self.base_origin = parse_origin(base_url)
+        self.base_hostname = parse_hostname(base_url)
         self.links: list[dict[str, str]] = []
         self._stack: list[dict[str, object]] = []
 
@@ -24,7 +23,7 @@ class LinkParser(HTMLParser):
         attributes = dict(attrs)
         href = attributes.get("href")
         resolved_url = urljoin(self.base_url, href) if href else None
-        if resolved_url and is_safe_url(resolved_url, self.base_origin):
+        if resolved_url and is_safe_url(resolved_url, self.base_hostname):
             self._stack.append({"url": resolved_url, "text": []})
             return
         self._stack.append({"url": None, "text": []})
@@ -47,23 +46,17 @@ def normalize_space(text: str) -> str:
     return re.sub(r"\s+", " ", text or "").strip()
 
 
-def default_port(scheme: str) -> Optional[int]:
-    return {"http": 80, "https": 443}.get(scheme)
+def parse_hostname(url: str) -> str:
+    return (urlparse(url).hostname or "").lower()
 
 
-def parse_origin(url: str) -> Tuple[str, str, Optional[int]]:
+def is_safe_url(url: str, base_hostname: str) -> bool:
     parsed = urlparse(url)
     scheme = parsed.scheme.lower()
     hostname = (parsed.hostname or "").lower()
-    return scheme, hostname, parsed.port or default_port(scheme)
-
-
-def is_safe_url(url: str, base_origin: Tuple[str, str, Optional[int]]) -> bool:
-    parsed_origin = parse_origin(url)
-    scheme, hostname, _port = parsed_origin
     if scheme not in ("http", "https") or not hostname:
         return False
-    return parsed_origin == base_origin
+    return hostname == base_hostname
 
 
 def extract_links(html: str, base_url: str) -> list[dict[str, str]]:
@@ -86,10 +79,6 @@ def is_price_title(title: str) -> bool:
 def classify_impact(text: str) -> dict[str, str]:
     bullish_hits = [keyword for keyword in BULLISH_KEYWORDS if keyword in text]
     bearish_hits = [keyword for keyword in BEARISH_KEYWORDS if keyword in text]
-    if len(bullish_hits) > len(bearish_hits):
-        return {"impact": "bullish", "reason": f"出现利多词：{'、'.join(bullish_hits[:3])}"}
-    if len(bearish_hits) > len(bullish_hits):
-        return {"impact": "bearish", "reason": f"出现利空词：{'、'.join(bearish_hits[:3])}"}
     if bullish_hits and bearish_hits:
         return {
             "impact": "neutral",
@@ -98,6 +87,10 @@ def classify_impact(text: str) -> dict[str, str]:
                 f"利空词 {'、'.join(bearish_hits[:3])}"
             ),
         }
+    if bullish_hits:
+        return {"impact": "bullish", "reason": f"出现利多词：{'、'.join(bullish_hits[:3])}"}
+    if bearish_hits:
+        return {"impact": "bearish", "reason": f"出现利空词：{'、'.join(bearish_hits[:3])}"}
     return {"impact": "neutral", "reason": "未发现明显方向性词汇"}
 
 
