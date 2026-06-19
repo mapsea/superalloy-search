@@ -43,6 +43,27 @@ class ExtractTests(unittest.TestCase):
             ],
         )
 
+    def test_extract_links_accepts_normalized_same_host_absolute_urls(self):
+        html = """
+        <a href="https://NEWS.CHINATUNGSTEN.COM/cn/uppercase.html">Uppercase host</a>
+        <a href="https://news.chinatungsten.com:443/cn/default-port.html">Default port</a>
+        <a href="https://evil.example/cn/off-domain.html">Off domain</a>
+        """
+        links = extract_links(html, "https://news.chinatungsten.com")
+        self.assertEqual(
+            links,
+            [
+                {
+                    "title": "Uppercase host",
+                    "url": "https://NEWS.CHINATUNGSTEN.COM/cn/uppercase.html",
+                },
+                {
+                    "title": "Default port",
+                    "url": "https://news.chinatungsten.com:443/cn/default-port.html",
+                },
+            ],
+        )
+
     def test_extract_links_handles_malformed_nested_anchors(self):
         html = """
         <a href="/cn/outer.html">Outer

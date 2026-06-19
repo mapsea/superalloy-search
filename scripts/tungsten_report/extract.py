@@ -1,5 +1,6 @@
 from datetime import date
 from html.parser import HTMLParser
+from typing import Optional, Tuple
 from urllib.parse import urljoin, urlparse
 import re
 
@@ -13,7 +14,7 @@ class LinkParser(HTMLParser):
     def __init__(self, base_url: str):
         super().__init__()
         self.base_url = base_url
-        self.base_netloc = urlparse(base_url).netloc
+        self.base_origin = parse_origin(base_url)
         self.links: list[dict[str, str]] = []
         self._stack: list[dict[str, object]] = []
 
@@ -23,7 +24,7 @@ class LinkParser(HTMLParser):
         attributes = dict(attrs)
         href = attributes.get("href")
         resolved_url = urljoin(self.base_url, href) if href else None
-        if resolved_url and is_safe_url(resolved_url, self.base_netloc):
+        if resolved_url and is_safe_url(resolved_url, self.base_origin):
             self._stack.append({"url": resolved_url, "text": []})
             return
         self._stack.append({"url": None, "text": []})
@@ -46,9 +47,23 @@ def normalize_space(text: str) -> str:
     return re.sub(r"\s+", " ", text or "").strip()
 
 
-def is_safe_url(url: str, base_netloc: str) -> bool:
+def default_port(scheme: str) -> Optional[int]:
+    return {"http": 80, "https": 443}.get(scheme)
+
+
+def parse_origin(url: str) -> Tuple[str, str, Optional[int]]:
     parsed = urlparse(url)
-    return parsed.scheme in ("http", "https") and parsed.netloc == base_netloc
+    scheme = parsed.scheme.lower()
+    hostname = (parsed.hostname or "").lower()
+    return scheme, hostname, parsed.port or default_port(scheme)
+
+
+def is_safe_url(url: str, base_origin: Tuple[str, str, Optional[int]]) -> bool:
+    parsed_origin = parse_origin(url)
+    scheme, hostname, _port = parsed_origin
+    if scheme not in ("http", "https") or not hostname:
+        return False
+    return parsed_origin == base_origin
 
 
 def extract_links(html: str, base_url: str) -> list[dict[str, str]]:
