@@ -1,6 +1,6 @@
 from datetime import date
 from html.parser import HTMLParser
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 import re
 
 
@@ -13,34 +13,42 @@ class LinkParser(HTMLParser):
     def __init__(self, base_url: str):
         super().__init__()
         self.base_url = base_url
+        self.base_netloc = urlparse(base_url).netloc
         self.links: list[dict[str, str]] = []
-        self._href: str | None = None
-        self._text: list[str] = []
+        self._stack: list[dict[str, object]] = []
 
     def handle_starttag(self, tag, attrs):
         if tag != "a":
             return
         attributes = dict(attrs)
         href = attributes.get("href")
-        if href:
-            self._href = urljoin(self.base_url, href)
-            self._text = []
+        resolved_url = urljoin(self.base_url, href) if href else None
+        if resolved_url and is_safe_url(resolved_url, self.base_netloc):
+            self._stack.append({"url": resolved_url, "text": []})
+            return
+        self._stack.append({"url": None, "text": []})
 
     def handle_data(self, data):
-        if self._href:
-            self._text.append(data)
+        if self._stack and self._stack[-1]["url"]:
+            self._stack[-1]["text"].append(data)
 
     def handle_endtag(self, tag):
-        if tag == "a" and self._href:
-            title = normalize_space("".join(self._text))
+        if tag != "a" or not self._stack:
+            return
+        current = self._stack.pop()
+        if current["url"]:
+            title = normalize_space("".join(current["text"]))
             if title:
-                self.links.append({"title": title, "url": self._href})
-            self._href = None
-            self._text = []
+                self.links.append({"title": title, "url": current["url"]})
 
 
 def normalize_space(text: str) -> str:
     return re.sub(r"\s+", " ", text or "").strip()
+
+
+def is_safe_url(url: str, base_netloc: str) -> bool:
+    parsed = urlparse(url)
+    return parsed.scheme in ("http", "https") and parsed.netloc == base_netloc
 
 
 def extract_links(html: str, base_url: str) -> list[dict[str, str]]:
@@ -63,10 +71,18 @@ def is_price_title(title: str) -> bool:
 def classify_impact(text: str) -> dict[str, str]:
     bullish_hits = [keyword for keyword in BULLISH_KEYWORDS if keyword in text]
     bearish_hits = [keyword for keyword in BEARISH_KEYWORDS if keyword in text]
-    if bullish_hits and len(bullish_hits) >= len(bearish_hits):
+    if len(bullish_hits) > len(bearish_hits):
         return {"impact": "bullish", "reason": f"出现利多词：{'、'.join(bullish_hits[:3])}"}
-    if bearish_hits:
+    if len(bearish_hits) > len(bullish_hits):
         return {"impact": "bearish", "reason": f"出现利空词：{'、'.join(bearish_hits[:3])}"}
+    if bullish_hits and bearish_hits:
+        return {
+            "impact": "neutral",
+            "reason": (
+                f"混合信号：利多词 {'、'.join(bullish_hits[:3])}；"
+                f"利空词 {'、'.join(bearish_hits[:3])}"
+            ),
+        }
     return {"impact": "neutral", "reason": "未发现明显方向性词汇"}
 
 
