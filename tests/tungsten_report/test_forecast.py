@@ -118,6 +118,50 @@ class ForecastTests(unittest.TestCase):
         self.assertIn("sample-source", evidence)
         self.assertIn("2026-06-19", evidence)
 
+    def test_distinct_price_rows_from_same_url_all_affect_scoring(self):
+        forecast = build_forecast(
+            prices=[
+                PriceObservation("钨精矿", "domestic", "报价上调", date(2026, 6, 19), "sample", "https://example.com/prices"),
+                PriceObservation("APT", "domestic", "成交清淡", date(2026, 6, 19), "sample", "https://example.com/prices"),
+            ],
+            news=[],
+        )
+        evidence = " ".join(forecast.evidence)
+        self.assertEqual(forecast.direction, "横盘观望")
+        self.assertIn("钨精矿价格信息偏强", evidence)
+        self.assertIn("APT价格信息偏弱", evidence)
+
+    def test_mixed_price_evidence_blocks_borderline_directional_forecast(self):
+        forecast = build_forecast(
+            prices=[
+                PriceObservation("钨精矿", "domestic", "报价上调但成交清淡", date(2026, 6, 19), "sample", "https://example.com/mixed"),
+            ],
+            news=[
+                self.news("矿端供应偏紧", "bullish", "供应偏紧", source_url="https://example.com/news-1"),
+                self.news("企业报价上调", "bullish", "报价上调", source_url="https://example.com/news-2"),
+            ],
+        )
+        evidence = " ".join(forecast.evidence)
+        self.assertEqual(forecast.direction, "横盘观望")
+        self.assertEqual(forecast.confidence, "低")
+        self.assertIn("价格信息多空混杂", evidence)
+
+    def test_strong_directional_forecast_with_mixed_evidence_keeps_mixed_context(self):
+        forecast = build_forecast(
+            prices=[
+                PriceObservation("钨精矿", "domestic", "报价上调但成交清淡", date(2026, 6, 19), "sample", "https://example.com/mixed"),
+            ],
+            news=[
+                self.news("矿端供应偏紧1", "bullish", "供应偏紧", source_url="https://example.com/news-1"),
+                self.news("矿端供应偏紧2", "bullish", "供应偏紧", source_url="https://example.com/news-2"),
+                self.news("企业报价上调", "bullish", "报价上调", source_url="https://example.com/news-3"),
+            ],
+        )
+        context = " ".join(forecast.evidence + forecast.risks)
+        self.assertEqual(forecast.direction, "稳中偏强")
+        self.assertEqual(forecast.confidence, "中")
+        self.assertIn("多空混杂", context)
+
 
 if __name__ == "__main__":
     unittest.main()
