@@ -37,6 +37,64 @@ class RenderTests(unittest.TestCase):
         self.assertIn("钨金属日报", html)
         self.assertIn("https://example.com/p", html)
 
+    def test_render_markdown_uses_valid_source_links(self):
+        markdown = render_markdown(self.sample_report())
+        self.assertIn("[来源](https://example.com/p)", markdown)
+        self.assertIn("[来源](https://example.com/n)", markdown)
+        self.assertNotIn("[https://example.com/p]", markdown)
+
+    def test_render_html_uses_clickable_safe_source_links(self):
+        html = render_html(self.sample_report())
+        self.assertIn('<a href="https://example.com/p">来源</a>', html)
+        self.assertIn('<a href="https://example.com/n">来源</a>', html)
+
+    def test_render_html_escapes_adversarial_text_and_keeps_safe_links(self):
+        report = Report(
+            report_type="daily",
+            period_start=date(2026, 6, 19),
+            period_end=date(2026, 6, 19),
+            generated_at=datetime(2026, 6, 19, 18, 30, tzinfo=timezone.utc),
+            prices=[
+                PriceObservation(
+                    'APT <script>alert("p")</script>',
+                    "domestic",
+                    '50 & "high" 万元/吨',
+                    date(2026, 6, 19),
+                    'sample & "quoted"',
+                    'https://example.com/p?x=1&y="bad"',
+                )
+            ],
+            news=[
+                NewsItem(
+                    '钨矿 <script>alert("n")</script>',
+                    '摘要含 & 和 "quotes" 以及 <script>alert("s")</script>。',
+                    date(2026, 6, 19),
+                    'news <source>',
+                    "javascript:alert(1)",
+                    "industry",
+                    "bullish",
+                    '供应 <script>alert("r")</script>',
+                )
+            ],
+            forecast=Forecast(
+                '稳中偏强 & <script>alert("f")</script>',
+                '中 "等"',
+                '矿端 <script>alert("rationale")</script> 支撑。',
+                ['矿端报价 & "坚挺"'],
+                ['下游 <script>alert("risk")</script>'],
+            ),
+        )
+
+        html = render_html(report)
+
+        self.assertNotIn("<script>", html)
+        self.assertIn("&lt;script&gt;", html)
+        self.assertIn("50 &amp; &quot;high&quot; 万元/吨", html)
+        self.assertIn("sample &amp; &quot;quoted&quot;", html)
+        self.assertIn('<a href="https://example.com/p?x=1&amp;y=&quot;bad&quot;">来源</a>', html)
+        self.assertIn("链接：javascript:alert(1)", html)
+        self.assertNotIn('<a href="javascript:alert(1)">', html)
+
 
 if __name__ == "__main__":
     unittest.main()
