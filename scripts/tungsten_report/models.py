@@ -58,11 +58,6 @@ class Report:
 
     @property
     def sources_succeeded(self) -> list[str]:
-        gap_names = {gap.source_name for gap in self.source_gaps}
         observed_names = {item.source_name for item in self.news}
         observed_names.update(price.source_name for price in self.prices)
-        return [
-            name
-            for name in self.sources_attempted
-            if name in observed_names and name not in gap_names
-        ]
+        return [name for name in self.sources_attempted if name in observed_names]
